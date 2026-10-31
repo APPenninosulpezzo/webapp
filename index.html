@@ -1,0 +1,1678 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>APPennino sul pezzo</title>
+<meta name="description" content="Gli eventi dell'Appennino bolognese, tutti in un posto solo.">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121211" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icona.svg" type="image/svg+xml">
+<link rel="icon" href="icona-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="icona-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* ===== Sienna: token, componenti e materiale, copiati dal kit Better Design ===== */
+:root {
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.173 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.173 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.173 0 0);
+  --primary: oklch(0.74 0.24 47);
+  --primary-from: oklch(0.76 0.22 54);
+  --primary-to: oklch(0.7 0.245 43);
+  --primary-hover: oklch(0.78 0.22 55);
+  --primary-hover-from: oklch(0.82 0.19 64);
+  --primary-hover-to: oklch(0.75 0.23 50);
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(1 0 0);
+  --secondary-foreground: oklch(0.173 0 0);
+  --muted: oklch(0.965 0.001 90);
+  --muted-foreground: oklch(0.52 0 0);
+  --accent: oklch(0.945 0.002 90);
+  --accent-foreground: oklch(0.173 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-from: oklch(0.577 0.245 27.325);
+  --destructive-to: oklch(0.505 0.213 27.518);
+  --destructive-hover: oklch(0.615 0.24 28);
+  --destructive-hover-from: oklch(0.64 0.23 29);
+  --destructive-hover-to: oklch(0.59 0.245 27);
+  --destructive-foreground: oklch(1 0 0);
+  --border: oklch(0.91 0.002 90);
+  --input: oklch(1 0 0);
+  --ring: oklch(0.74 0.24 47);
+  --radius: 0.75rem;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-serif: "Libre Baskerville", "Iowan Old Style", Baskerville, Georgia, serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --shadow-xs: 0 0 0 0.0625rem oklch(0 0 0 / 0.06), 0 0.0625rem 0.125rem -0.0625rem oklch(0 0 0 / 0.06);
+  --shadow-sm: 0 0 0 0.0625rem oklch(0 0 0 / 0.06), 0 0.0625rem 0.125rem -0.0625rem oklch(0 0 0 / 0.06), 0 0.125rem 0.25rem oklch(0 0 0 / 0.04);
+  --shadow-md: 0 0 0 0.0625rem oklch(0 0 0 / 0.07), 0 0.125rem 0.25rem -0.0625rem oklch(0 0 0 / 0.07), 0 0.375rem 0.875rem -0.375rem oklch(0 0 0 / 0.08);
+  --shadow-lg: 0 0 0 0.0625rem oklch(0 0 0 / 0.07), 0 0.25rem 0.5rem -0.125rem oklch(0 0 0 / 0.08), 0 0.875rem 2rem -0.625rem oklch(0 0 0 / 0.1);
+  --shadow-xl: 0 0 0 0.0625rem oklch(0 0 0 / 0.08), 0 0.625rem 1.5rem -0.5rem oklch(0 0 0 / 0.12), 0 1.5rem 3rem -1rem oklch(0 0 0 / 0.12);
+  --shadow-s: var(--shadow-sm);
+  --shadow-m: var(--shadow-md);
+  --shadow-l: var(--shadow-lg);
+  --shadow-panel: 0 0 0 0.0313rem oklch(0 0 0 / 0.08), 0 0.0625rem 0.125rem oklch(0 0 0 / 0.04);
+  --shadow-inset: inset 0 0 0 0.0625rem oklch(0 0 0 / 0.09), inset 0 0.0625rem 0.0625rem oklch(0 0 0 / 0.025);
+  --shadow-button: var(--shadow-sm);
+  --shadow-button-hover: 0 0 0 0.0625rem oklch(0 0 0 / 0.08), 0 0.125rem 0.3125rem oklch(0 0 0 / 0.08);
+  --shadow-primary: inset 0 0 0 62.4375rem rgba(255, 255, 255, 0), inset 0 0 0.0625rem 0.0625rem rgba(255, 255, 255, 0.06), 0 0.0938rem 0.125rem rgba(0, 0, 0, 0.1), 0 0 0 0.0625rem var(--primary-to);
+  --shadow-primary-hover: inset 0 0 0 62.4375rem rgba(255, 255, 255, 0.12), inset 0 0 0.0625rem 0.0625rem rgba(255, 255, 255, 0.12), 0 0.125rem 0.25rem rgba(0, 0, 0, 0.13), 0 0 0 0.0625rem var(--primary-hover-to);
+  --shadow-destructive: inset 0 0 0 62.4375rem rgba(255, 255, 255, 0), inset 0 0 0.0625rem 0.0625rem rgba(255, 255, 255, 0.06), 0 0.0938rem 0.125rem rgba(0, 0, 0, 0.1), 0 0 0 0.0625rem var(--destructive-to);
+  --shadow-destructive-hover: inset 0 0 0 62.4375rem rgba(255, 255, 255, 0.12), inset 0 0 0.0625rem 0.0625rem rgba(255, 255, 255, 0.12), 0 0.125rem 0.25rem rgba(0, 0, 0, 0.13), 0 0 0 0.0625rem var(--destructive-hover-to);
+  --chart-1: oklch(0.74 0.24 47);
+  --chart-2: oklch(0.66 0.22 39);
+  --chart-3: oklch(0.79 0.19 56);
+  --chart-4: oklch(0.58 0.18 34);
+  --chart-5: oklch(0.85 0.13 64);
+  --pop-blue: oklch(0.93 0.05 232.661);
+  --pop-blue-foreground: oklch(0.46 0.13 237.323);
+  --pop-green: oklch(0.93 0.06 163.223);
+  --pop-green-foreground: oklch(0.43 0.105 163.223);
+  --pop-orange: oklch(0.94 0.055 47.604);
+  --pop-orange-foreground: oklch(0.52 0.17 38.2);
+  --pop-yellow: oklch(0.96 0.07 95.1);
+  --pop-yellow-foreground: oklch(0.5 0.11 84.429);
+  --pop-purple: oklch(0.94 0.05 293.541);
+  --pop-purple-foreground: oklch(0.49 0.15 293.541);
+  --transition-duration-fast: 150ms;
+  --transition-duration-base: 200ms;
+  --transition-duration-slow: 280ms;
+  --ease-out: cubic-bezier(0.165, 0.84, 0.44, 1);
+  --ease-in-out: cubic-bezier(0.645, 0.045, 0.355, 1);
+  --ease-in: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  --default-transition-duration: var(--transition-duration-fast);
+  --default-transition-timing-function: var(--ease-out);
+  --ai-label: var(--muted);
+  --ai-label-foreground: var(--foreground);
+  --layout-density: comfortable;
+  --layout-density-source: design-system;
+  --layout-sidebar: calc(var(--spacing, 0.25rem) * 56);
+  --layout-inset: calc(var(--spacing, 0.25rem) * 6);
+  --layout-section-gap: calc(var(--spacing, 0.25rem) * 8);
+  --layout-column-gap: calc(var(--spacing, 0.25rem) * 4);
+  --layout-card-padding: calc(var(--spacing, 0.25rem) * 5);
+}
+.dark {
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.173 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.173 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.173 0 0);
+  --primary: oklch(0.74 0.24 47);
+  --primary-from: oklch(0.76 0.22 54);
+  --primary-to: oklch(0.7 0.245 43);
+  --primary-hover: oklch(0.78 0.22 55);
+  --primary-hover-from: oklch(0.82 0.19 64);
+  --primary-hover-to: oklch(0.75 0.23 50);
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(1 0 0);
+  --secondary-foreground: oklch(0.173 0 0);
+  --muted: oklch(0.965 0.001 90);
+  --muted-foreground: oklch(0.52 0 0);
+  --accent: oklch(0.945 0.002 90);
+  --accent-foreground: oklch(0.173 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-from: oklch(0.577 0.245 27.325);
+  --destructive-to: oklch(0.505 0.213 27.518);
+  --destructive-hover: oklch(0.615 0.24 28);
+  --destructive-hover-from: oklch(0.64 0.23 29);
+  --destructive-hover-to: oklch(0.59 0.245 27);
+  --destructive-foreground: oklch(1 0 0);
+  --border: oklch(0.91 0.002 90);
+  --input: oklch(1 0 0);
+  --ring: oklch(0.74 0.24 47);
+  --radius: 0.75rem;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-serif: "Libre Baskerville", "Iowan Old Style", Baskerville, Georgia, serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --shadow-xs: 0 0 0 0.0625rem oklch(0 0 0 / 0.06), 0 0.0625rem 0.125rem -0.0625rem oklch(0 0 0 / 0.06);
+  --shadow-sm: 0 0 0 0.0625rem oklch(0 0 0 / 0.06), 0 0.0625rem 0.125rem -0.0625rem oklch(0 0 0 / 0.06), 0 0.125rem 0.25rem oklch(0 0 0 / 0.04);
+  --shadow-md: 0 0 0 0.0625rem oklch(0 0 0 / 0.07), 0 0.125rem 0.25rem -0.0625rem oklch(0 0 0 / 0.07), 0 0.375rem 0.875rem -0.375rem oklch(0 0 0 / 0.08);
+  --shadow-lg: 0 0 0 0.0625rem oklch(0 0 0 / 0.07), 0 0.25rem 0.5rem -0.125rem oklch(0 0 0 / 0.08), 0 0.875rem 2rem -0.625rem oklch(0 0 0 / 0.1);
+  --shadow-xl: 0 0 0 0.0625rem oklch(0 0 0 / 0.08), 0 0.625rem 1.5rem -0.5rem oklch(0 0 0 / 0.12), 0 1.5rem 3rem -1rem oklch(0 0 0 / 0.12);
+  --shadow-s: var(--shadow-sm);
+  --shadow-m: var(--shadow-md);
+  --shadow-l: var(--shadow-lg);
+  --shadow-panel: 0 0 0 0.0313rem oklch(0 0 0 / 0.08), 0 0.0625rem 0.125rem oklch(0 0 0 / 0.04);
+  --shadow-inset: inset 0 0 0 0.0625rem oklch(0 0 0 / 0.09), inset 0 0.0625rem 0.0625rem oklch(0 0 0 / 0.025);
+  --shadow-button: var(--shadow-sm);
+  --shadow-button-hover: 0 0 0 0.0625rem oklch(0 0 0 / 0.08), 0 0.125rem 0.3125rem oklch(0 0 0 / 0.08);
+  --shadow-primary: inset 0 0 0 62.4375rem rgba(255, 255, 255, 0), inset 0 0 0.0625rem 0.0625rem rgba(255, 255, 255, 0.06), 0 0.0938rem 0.125rem rgba(0, 0, 0, 0.1), 0 0 0 0.0625rem var(--primary-to);
+  --shadow-primary-hover: inset 0 0 0 62.4375rem rgba(255, 255, 255, 0.12), inset 0 0 0.0625rem 0.0625rem rgba(255, 255, 255, 0.12), 0 0.125rem 0.25rem rgba(0, 0, 0, 0.13), 0 0 0 0.0625rem var(--primary-hover-to);
+  --shadow-destructive: inset 0 0 0 62.4375rem rgba(255, 255, 255, 0), inset 0 0 0.0625rem 0.0625rem rgba(255, 255, 255, 0.06), 0 0.0938rem 0.125rem rgba(0, 0, 0, 0.1), 0 0 0 0.0625rem var(--destructive-to);
+  --shadow-destructive-hover: inset 0 0 0 62.4375rem rgba(255, 255, 255, 0.12), inset 0 0 0.0625rem 0.0625rem rgba(255, 255, 255, 0.12), 0 0.125rem 0.25rem rgba(0, 0, 0, 0.13), 0 0 0 0.0625rem var(--destructive-hover-to);
+  --chart-1: oklch(0.74 0.24 47);
+  --chart-2: oklch(0.66 0.22 39);
+  --chart-3: oklch(0.79 0.19 56);
+  --chart-4: oklch(0.58 0.18 34);
+  --chart-5: oklch(0.85 0.13 64);
+  --pop-blue: oklch(0.93 0.05 232.661);
+  --pop-blue-foreground: oklch(0.46 0.13 237.323);
+  --pop-green: oklch(0.93 0.06 163.223);
+  --pop-green-foreground: oklch(0.43 0.105 163.223);
+  --pop-orange: oklch(0.94 0.055 47.604);
+  --pop-orange-foreground: oklch(0.52 0.17 38.2);
+  --pop-yellow: oklch(0.96 0.07 95.1);
+  --pop-yellow-foreground: oklch(0.5 0.11 84.429);
+  --pop-purple: oklch(0.94 0.05 293.541);
+  --pop-purple-foreground: oklch(0.49 0.15 293.541);
+  --transition-duration-fast: 150ms;
+  --transition-duration-base: 200ms;
+  --transition-duration-slow: 280ms;
+  --ease-out: cubic-bezier(0.165, 0.84, 0.44, 1);
+  --ease-in-out: cubic-bezier(0.645, 0.045, 0.355, 1);
+  --ease-in: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  --default-transition-duration: var(--transition-duration-fast);
+  --default-transition-timing-function: var(--ease-out);
+  --ai-label: var(--muted);
+  --ai-label-foreground: var(--foreground);
+  --layout-density: comfortable;
+  --layout-density-source: design-system;
+  --layout-sidebar: calc(var(--spacing, 0.25rem) * 56);
+  --layout-inset: calc(var(--spacing, 0.25rem) * 6);
+  --layout-section-gap: calc(var(--spacing, 0.25rem) * 8);
+  --layout-column-gap: calc(var(--spacing, 0.25rem) * 4);
+  --layout-card-padding: calc(var(--spacing, 0.25rem) * 5);
+}
+:root {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-serif: "Libre Baskerville", "Iowan Old Style", Baskerville,
+    Georgia, serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas,
+    "Liberation Mono", monospace;
+}
+:root {
+  --radius-sm: calc(var(--radius) - 0.375rem);
+  --radius-md: calc(var(--radius) - 0.25rem);
+  --radius-lg: calc(var(--radius) - 0.125rem);
+  --radius-xl: var(--radius);
+  --radius-2xl: calc(var(--radius) + 0.125rem);
+  --radius-3xl: calc(var(--radius) + 0.25rem);
+}
+:root {
+  --shadow-xs: 0 0 0 0.0625rem oklch(0 0 0 / 0.06),
+    0 0.0625rem 0.125rem -0.0625rem oklch(0 0 0 / 0.06);
+  --shadow-sm: 0 0 0 0.0625rem oklch(0 0 0 / 0.06),
+    0 0.0625rem 0.125rem -0.0625rem oklch(0 0 0 / 0.06),
+    0 0.125rem 0.25rem oklch(0 0 0 / 0.04);
+  --shadow-md: 0 0 0 0.0625rem oklch(0 0 0 / 0.07),
+    0 0.125rem 0.25rem -0.0625rem oklch(0 0 0 / 0.07),
+    0 0.375rem 0.875rem -0.375rem oklch(0 0 0 / 0.08);
+  --shadow-lg: 0 0 0 0.0625rem oklch(0 0 0 / 0.07),
+    0 0.25rem 0.5rem -0.125rem oklch(0 0 0 / 0.08),
+    0 0.875rem 2rem -0.625rem oklch(0 0 0 / 0.1);
+  --shadow-xl: 0 0 0 0.0625rem oklch(0 0 0 / 0.08),
+    0 0.625rem 1.5rem -0.5rem oklch(0 0 0 / 0.12),
+    0 1.5rem 3rem -1rem oklch(0 0 0 / 0.12);
+  --shadow-s: var(--shadow-sm);
+  --shadow-m: var(--shadow-md);
+  --shadow-l: var(--shadow-lg);
+  --shadow-panel: 0 0 0 0.0313rem oklch(0 0 0 / 0.08),
+    0 0.0625rem 0.125rem oklch(0 0 0 / 0.04);
+  --shadow-inset: inset 0 0 0 0.0625rem oklch(0 0 0 / 0.09),
+    inset 0 0.0625rem 0.0625rem oklch(0 0 0 / 0.025);
+  --shadow-button: var(--shadow-sm);
+  --shadow-button-hover: 0 0 0 0.0625rem oklch(0 0 0 / 0.08),
+    0 0.125rem 0.3125rem oklch(0 0 0 / 0.08);
+  --shadow-primary: inset 0 0 0 62.4375rem rgba(255, 255, 255, 0),
+    inset 0 0 0.0625rem 0.0625rem rgba(255, 255, 255, 0.06),
+    0 0.0938rem 0.125rem rgba(0, 0, 0, 0.1),
+    0 0 0 0.0625rem var(--primary-to);
+  --shadow-primary-hover: inset 0 0 0 62.4375rem rgba(255, 255, 255, 0.12),
+    inset 0 0 0.0625rem 0.0625rem rgba(255, 255, 255, 0.12),
+    0 0.125rem 0.25rem rgba(0, 0, 0, 0.13),
+    0 0 0 0.0625rem var(--primary-hover-to);
+  --shadow-destructive: inset 0 0 0 62.4375rem rgba(255, 255, 255, 0),
+    inset 0 0 0.0625rem 0.0625rem rgba(255, 255, 255, 0.06),
+    0 0.0938rem 0.125rem rgba(0, 0, 0, 0.1),
+    0 0 0 0.0625rem var(--destructive-to);
+  --shadow-destructive-hover: inset 0 0 0 62.4375rem rgba(255, 255, 255, 0.12),
+    inset 0 0 0.0625rem 0.0625rem rgba(255, 255, 255, 0.12),
+    0 0.125rem 0.25rem rgba(0, 0, 0, 0.13),
+    0 0 0 0.0625rem var(--destructive-hover-to);
+  --shadow-s: var(--shadow-s);
+  --shadow-m: var(--shadow-m);
+  --shadow-l: var(--shadow-l);
+  --shadow-inset: var(--shadow-inset);
+  --shadow-button: var(--shadow-button);
+  --shadow-button-hover: var(--shadow-button-hover);
+  --shadow-primary: var(--shadow-primary);
+  --shadow-primary-hover: var(--shadow-primary-hover);
+  --shadow-destructive: var(--shadow-destructive);
+  --shadow-destructive-hover: var(--shadow-destructive-hover);
+}
+.bd-btn, .bd-view, .ds-btn { border-radius: 9999px; }
+.bd-card, .ds-card { border-radius: var(--radius-xl, calc(var(--radius, 0.5rem) + 4px)); }
+.bd-btn-primary, .bd-view, .ds-btn-primary { box-shadow: var(--shadow-primary); }
+.bd-btn-primary, .bd-view, .ds-btn-primary { background-image: linear-gradient(to bottom,var(--primary-from),var(--primary-to)); }
+*,*::before,*::after{box-sizing:border-box}
+:where(.ds){font-family:var(--font-sans,ui-sans-serif,system-ui,sans-serif);color:var(--foreground,oklch(0.2 0 0));background:var(--background,oklch(1 0 0));line-height:1.5}
+.ds :where(h1,h2,h3,h4,h5,h6,p,strong,label,legend,li,dt,dd,small){color:inherit}
+.ds h1,.ds h2,.ds h3,.ds h4{font-family:inherit;font-weight:600;margin:0 0 .5em;color:var(--foreground,oklch(0.2 0 0))}
+.ds .ds-display{font-family:inherit;font-size:clamp(1.75rem,4vw,2.5rem);font-weight:700;line-height:1.05;letter-spacing:-.03em;margin:0;color:var(--foreground,oklch(0.2 0 0))}
+.ds .ds-section-title{font-family:inherit;font-size:1.25rem;font-weight:600;line-height:1.2;letter-spacing:-.01em;margin:0;color:var(--foreground,oklch(0.2 0 0))}
+.ds .ds-supporting{font-size:.875rem;font-weight:400;line-height:1.5;color:var(--muted-foreground,oklch(0.55 0 0));margin:0}
+/* A link styled as a button keeps the button's own label colour, so the link
+   colour skips .ds-btn. Resetting it with color:inherit outranked every button
+   variant and put the page's dark text on the dark primary fill. */
+.ds a:not(.ds-btn){color:var(--primary,oklch(0.45 0.15 264));text-decoration:none}
+.ds a.ds-btn:hover{text-decoration:none}
+.ds p{margin:0 0 1em}
+.ds-muted{color:var(--muted-foreground,oklch(0.55 0 0))}
+
+/* Button */
+.ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;font:inherit;font-size:.875rem;font-weight:500;line-height:1;padding:.6rem 1rem;border-radius:var(--radius-md,calc(var(--radius,0.5rem) - 2px));border:1px solid transparent;cursor:pointer;touch-action:manipulation;transition:opacity var(--transition-duration-fast,150ms) var(--ease-out,cubic-bezier(0.165, 0.84, 0.44, 1)),background var(--transition-duration-fast,150ms) var(--ease-out,cubic-bezier(0.165, 0.84, 0.44, 1));text-decoration:none}
+.ds-btn:focus-visible{outline:2px solid var(--ring,var(--primary,oklch(0.45 0.15 264)));outline-offset:2px}
+.ds-btn:disabled{background:var(--muted,oklch(0.94 0 0));color:var(--foreground,oklch(0.2 0 0));border-color:var(--border,oklch(0.85 0 0));opacity:1;cursor:not-allowed}
+.ds-btn-primary{background:var(--primary,oklch(0.45 0.15 264));color:var(--primary-foreground,oklch(1 0 0));box-shadow:var(--shadow-sm,var(--shadow-xs,none))}
+.ds-btn-secondary{background:var(--secondary,oklch(0.96 0 0));color:var(--secondary-foreground,oklch(0.25 0 0));box-shadow:var(--shadow-xs,none)}
+.ds-btn-outline{background:transparent;color:var(--foreground,oklch(0.2 0 0));border-color:var(--border,oklch(0.85 0 0))}
+.ds-btn-ghost{background:transparent;color:var(--foreground,oklch(0.2 0 0))}
+.ds .ds-btn[aria-pressed="true"],.ds .ds-btn[aria-pressed="true"]:hover{background:var(--primary,oklch(0.45 0.15 264));color:var(--primary-foreground,oklch(1 0 0));border-color:var(--primary,oklch(0.45 0.15 264));opacity:1}
+.ds-btn-sm{padding:.4rem .7rem;font-size:.8125rem}
+.ds-btn-lg{padding:.75rem 1.4rem;font-size:1rem}
+
+/* Form fields */
+.ds-label{display:block;font-size:.8125rem;font-weight:500;margin-bottom:.4rem;color:var(--foreground,oklch(0.2 0 0))}
+.ds-input,.ds-textarea,.ds-select{width:100%;font:inherit;font-size:.875rem;padding:.55rem .75rem;border-radius:var(--radius-lg,var(--radius,0.5rem));border:1px solid var(--border,oklch(0.85 0 0));background:var(--input,var(--background,oklch(1 0 0)));color:var(--foreground,oklch(0.2 0 0));box-shadow:var(--shadow-inset,var(--shadow-2xs,none));transition:border-color var(--transition-duration-fast,150ms) var(--ease-out,cubic-bezier(0.165, 0.84, 0.44, 1)),box-shadow var(--transition-duration-fast,150ms) var(--ease-out,cubic-bezier(0.165, 0.84, 0.44, 1))}
+.ds-input::placeholder,.ds-textarea::placeholder{color:var(--muted-foreground,oklch(0.6 0 0))}
+.ds-input:focus,.ds-textarea:focus,.ds-select:focus{outline:none;border-color:var(--ring,var(--primary,oklch(0.45 0.15 264)));box-shadow:var(--shadow-inset,0 0 0 0 transparent),0 0 0 2px color-mix(in oklab,var(--ring,var(--primary,oklch(0.45 0.15 264))) 35%,transparent)}
+.ds-textarea{min-height:5rem;resize:vertical}
+
+/* Card */
+.ds-card{display:flex;flex-direction:column;background:var(--card,var(--background,oklch(1 0 0)));color:var(--card-foreground,var(--foreground,oklch(0.2 0 0)));border:1px solid var(--border,oklch(0.9 0 0));border-radius:var(--radius-xl,calc(var(--radius,0.5rem) + 4px));box-shadow:var(--shadow-glass,var(--shadow-md,var(--shadow-sm,none)));overflow:hidden}
+.ds-card-header{padding:1.1rem 1.25rem .5rem}
+.ds-card-body{padding:.5rem 1.25rem 1.1rem}
+.ds-card-footer{margin-top:auto;padding:.9rem 1.25rem;border-top:1px solid var(--border,oklch(0.92 0 0));display:flex;gap:.5rem;align-items:center}
+.ds-card-title{font-size:1.05rem;margin:0 0 .25rem}
+.ds-card-desc{font-size:.875rem;color:var(--muted-foreground,oklch(0.55 0 0));margin:0}
+
+/* Badge */
+.ds-badge{display:inline-flex;align-items:center;font-size:.6875rem;font-weight:600;padding:.15rem .55rem;border-radius:999px;background:var(--secondary,oklch(0.96 0 0));color:var(--secondary-foreground,oklch(0.25 0 0));line-height:1.4}
+.ds-badge-primary{background:var(--primary,oklch(0.45 0.15 264));color:var(--primary-foreground,oklch(1 0 0))}
+.ds-badge-outline{background:transparent;border:1px solid var(--border,oklch(0.85 0 0));color:var(--foreground,oklch(0.2 0 0))}
+.ds-badge-safe{background:var(--pop-green,oklch(0.92 0.06 150));color:var(--pop-green-foreground,oklch(0.42 0.11 152))}
+.ds-badge-warn{background:var(--pop-orange,oklch(0.93 0.05 40));color:var(--pop-orange-foreground,oklch(0.52 0.18 35))}
+.ds-badge-danger{background:var(--destructive,oklch(0.58 0.22 32));color:var(--destructive-foreground,oklch(0.99 0 0))}
+.ds-badge-unknown{background:var(--pop-yellow,oklch(0.95 0.06 92));color:var(--pop-yellow-foreground,oklch(0.5 0.1 75))}
+.ds-badge-verified{background:var(--pop-blue,oklch(0.92 0.045 245));color:var(--pop-blue-foreground,oklch(0.48 0.14 252))}
+
+/* Alert */
+.ds-alert{border:1px solid var(--border,oklch(0.9 0 0));border-radius:var(--radius-lg,var(--radius,0.5rem));padding:.9rem 1rem;background:var(--card,var(--background,oklch(1 0 0)));color:var(--card-foreground,var(--foreground,oklch(0.2 0 0)));font-size:.875rem}
+.ds-alert-title{font-weight:600;margin:0 0 .2rem}
+
+/* Avatar + misc */
+.ds-avatar{width:2.25rem;height:2.25rem;border-radius:999px;background:var(--muted,oklch(0.95 0 0));color:var(--muted-foreground,oklch(0.45 0 0));display:inline-flex;align-items:center;justify-content:center;font-size:.8125rem;font-weight:600}
+.ds-divider{height:1px;background:var(--border,oklch(0.9 0 0));border:0;margin:1rem 0}
+.ds-row{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center}
+.ds-field{margin-bottom:1rem}
+.ds-control-row{display:grid;grid-template-columns:minmax(8rem,14rem) auto;gap:.75rem;align-items:end;justify-content:start}
+.ds-control-row>.ds-field{margin:0}
+.ds-control-row>.ds-btn,.ds-control-row .ds-input,.ds-control-row .ds-select{min-height:2.75rem}
+.ds-container{max-width:42rem;margin:0 auto;padding:1.5rem}
+
+/* Switch */
+.ds-switch{display:inline-flex;align-items:center;gap:.6rem;font-size:.875rem;cursor:pointer}
+.ds-switch-track{width:2.25rem;height:1.25rem;border-radius:999px;background:var(--muted,oklch(0.9 0 0));position:relative;transition:background var(--transition-duration-fast,150ms) var(--ease-out,cubic-bezier(0.165, 0.84, 0.44, 1));flex:none}
+.ds-switch-track.on{background:var(--primary,oklch(0.45 0.15 264))}
+.ds-switch-thumb{position:absolute;top:2px;left:2px;width:calc(1.25rem - 4px);height:calc(1.25rem - 4px);border-radius:999px;background:var(--background,oklch(1 0 0));box-shadow:var(--shadow-sm,0 1px 2px oklch(0 0 0 / 0.2));transition:transform var(--transition-duration-fast,150ms) var(--ease-out,cubic-bezier(0.165, 0.84, 0.44, 1))}
+.ds-switch-track.on .ds-switch-thumb{transform:translateX(1rem)}
+
+/* Tabs */
+.ds-tabs{display:inline-flex;gap:.15rem;padding:.25rem;border-radius:var(--radius-lg,var(--radius,0.5rem));background:var(--muted,oklch(0.96 0 0))}
+.ds-tab{font:inherit;font-size:.8125rem;font-weight:500;padding:.4rem .8rem;border:0;border-radius:var(--radius-md,calc(var(--radius,0.5rem) - 2px));background:transparent;color:var(--muted-foreground,oklch(0.5 0 0));cursor:pointer;touch-action:manipulation}
+.ds-tab.active{background:var(--background,oklch(1 0 0));color:var(--foreground,oklch(0.2 0 0));box-shadow:var(--shadow-sm,var(--shadow-xs,none))}
+
+/* Progress */
+.ds-progress{height:.5rem;border-radius:999px;background:var(--muted,oklch(0.92 0 0));overflow:hidden}
+.ds-progress-bar{height:100%;border-radius:999px;background:var(--primary,oklch(0.45 0.15 264))}
+
+/* Table */
+.ds-table{width:100%;border-collapse:collapse;font-size:.8125rem}
+.ds-table th,.ds-table td{text-align:left;padding:.5rem .75rem;border-bottom:1px solid var(--border,oklch(0.92 0 0))}
+.ds-table th{font-weight:600;color:var(--muted-foreground,oklch(0.5 0 0));font-size:.6875rem;text-transform:uppercase;letter-spacing:.04em}
+
+/* Chip / keyboard key */
+.ds-chip{display:inline-flex;align-items:center;gap:.35rem;font:inherit;font-size:.8125rem;padding:.3rem .7rem;border-radius:999px;border:1px solid var(--border,oklch(0.88 0 0));background:var(--background,oklch(1 0 0));color:var(--foreground,oklch(0.2 0 0));cursor:pointer;touch-action:manipulation;transition:background-color var(--transition-duration-fast,150ms) var(--ease-out,cubic-bezier(0.165, 0.84, 0.44, 1)),border-color var(--transition-duration-fast,150ms) var(--ease-out,cubic-bezier(0.165, 0.84, 0.44, 1)),color var(--transition-duration-fast,150ms) var(--ease-out,cubic-bezier(0.165, 0.84, 0.44, 1))}
+.ds-chip:focus-visible{outline:2px solid var(--ring,var(--primary,oklch(0.45 0.15 264)));outline-offset:2px}
+.ds .ds-chip[aria-pressed="true"],.ds .ds-chip[aria-pressed="true"]:hover{background:var(--primary,oklch(0.45 0.15 264));color:var(--primary-foreground,oklch(1 0 0));border-color:var(--primary,oklch(0.45 0.15 264))}
+.ds-kbd{font-family:var(--font-mono,ui-monospace,monospace);font-size:.75rem;padding:.1rem .4rem;border-radius:var(--radius-sm,4px);border:1px solid var(--border,oklch(0.85 0 0));background:var(--muted,oklch(0.97 0 0));color:var(--foreground,oklch(0.2 0 0))}
+
+/* Touch canvases need finger-sized hit areas and inputs that do not trigger mobile zoom. */
+@media (pointer:coarse){
+.ds-btn,.ds-tab,.ds-chip{min-height:44px}
+.ds-input,.ds-select{min-height:44px;font-size:1rem}
+}
+@media (max-width:40rem){
+.ds-control-row{grid-template-columns:1fr}
+.ds-control-row>.ds-btn{width:100%}
+}
+
+/* Hover is a neutral fine-pointer cue, never a second selection color. */
+@media (hover:hover) and (pointer:fine){
+.ds a:hover{text-decoration:underline}
+.ds-btn:hover:not(:disabled):not([aria-pressed="true"]){opacity:.9}
+.ds-btn-ghost:hover:not(:disabled):not([aria-pressed="true"]){background:var(--accent,oklch(0.96 0 0));opacity:1}
+.ds-input:hover:not(:disabled),.ds-textarea:hover:not(:disabled),.ds-select:hover:not(:disabled){border-color:color-mix(in oklab,var(--foreground,oklch(0.2 0 0)) 20%,transparent)}
+.ds .ds-chip:hover:not([aria-pressed="true"]){background:color-mix(in oklab,var(--foreground,oklch(0.2 0 0)) 4%,var(--background,oklch(1 0 0)));color:var(--foreground,oklch(0.2 0 0));border-color:color-mix(in oklab,var(--foreground,oklch(0.2 0 0)) 28%,var(--border,oklch(0.88 0 0)))}
+}
+
+/* Selection adopts the accent, matching the real systems */
+.ds ::selection{background:var(--primary,oklch(0.45 0.15 264));color:var(--primary-foreground,oklch(1 0 0))}
+.bd-btn, .bd-view, .ds-btn { border-radius: 9999px; }
+.bd-card, .ds-card { border-radius: var(--radius-xl, calc(var(--radius, 0.5rem) + 4px)); }
+.bd-btn-primary, .bd-view, .ds-btn-primary { box-shadow: var(--shadow-primary); }
+.bd-btn-primary, .bd-view, .ds-btn-primary { background-image: linear-gradient(to bottom,var(--primary-from),var(--primary-to)); }
+.ds-card { box-shadow: var(--shadow-panel); }
+.ds-switch-track.on { box-shadow: var(--shadow-primary); }
+.ds-badge, .ds-badge-primary { border-radius: 9999px; }
+*,::before,::after,::backdrop{--tw-ring-color:currentcolor;--tw-ring-shadow:0 0 0 transparent;--tw-ring-offset-shadow:0 0 0 transparent;--tw-ring-offset-width:0px;--tw-ring-offset-color:oklch(1 0 0);--tw-ring-inset:;--tw-shadow:0 0 0 transparent;--tw-inset-shadow:0 0 0 transparent;--tw-inset-ring-shadow:0 0 0 transparent;--tw-scale-x:1;--tw-scale-y:1;--tw-scale-z:1;--tw-translate-x:0;--tw-translate-y:0;--tw-translate-z:0;--tw-rotate-x:;--tw-rotate-y:;--tw-rotate-z:;--tw-skew-x:;--tw-skew-y:;--tw-gradient-from:transparent;--tw-gradient-to:transparent;--tw-gradient-stops:;--tw-blur:;--tw-brightness:;--tw-contrast:;--tw-saturate:;--tw-content:''}
+.ds-badge { display:inline-flex; align-items:center; gap:0.25rem; border-radius:calc(infinity * 1px); padding-left:0.625rem;padding-right:0.625rem; padding-top:0.125rem;padding-bottom:0.125rem; font-family:var(--font-mono); font-size:0.6875rem; font-weight:500; letter-spacing:-0.025em; transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(0.4,0,0.2,1);transition-duration:150ms; animation-duration:0.15s;--tw-animation-duration:0.15s; background-color:var(--secondary); color:var(--secondary-foreground) }
+.ds-btn { display:inline-flex; align-items:center; justify-content:center; gap:0.5rem; white-space:nowrap; font-size:0.875rem;line-height:1.25rem; font-weight:500; line-height:1; border-radius:calc(infinity * 1px); cursor:pointer; user-select:none; transition-property:box-shadow,transform,color;transition-timing-function:cubic-bezier(0.4,0,0.2,1);transition-duration:150ms; animation-duration:0.2s;--tw-animation-duration:0.2s; transition-timing-function:cubic-bezier(0.22,1,0.36,1) }
+.ds-btn:focus-visible { outline:2px solid transparent;outline-offset:2px; --tw-ring-shadow:var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color,currentcolor);box-shadow:var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow); --tw-ring-color:color-mix(in oklab, var(--ring) 50%, transparent); --tw-ring-offset-width:2px;--tw-ring-offset-shadow:var(--tw-ring-inset,) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color); --tw-ring-offset-color:var(--background) }
+.ds-btn:disabled { pointer-events:none; opacity:0.5 }
+.ds-btn:active { --tw-scale-x:0.97;--tw-scale-y:0.97;--tw-scale-z:0.97;scale:var(--tw-scale-x) var(--tw-scale-y) }
+.ds .ds-btn-primary { background-color:var(--primary); color:var(--primary-foreground); background-image:linear-gradient(to bottom,var(--primary-from),var(--primary-to)); box-shadow:var(--shadow-primary) }
+.ds .ds-btn-primary:hover { box-shadow:var(--shadow-primary-hover) }
+.ds .ds-btn-secondary { background-color:var(--secondary); color:var(--secondary-foreground); box-shadow:var(--shadow-button) }
+.ds .ds-btn-secondary:hover { background-color:var(--accent); box-shadow:var(--shadow-button-hover) }
+.ds .ds-btn-outline { background-color:transparent; color:var(--foreground); border-width:1px; border-color:var(--border) }
+.ds .ds-btn-outline:hover { background-color:var(--accent); border-color:color-mix(in oklab, var(--foreground) 20%, transparent); color:var(--accent-foreground) }
+.ds .ds-btn-ghost { background-color:transparent; color:var(--muted-foreground) }
+.ds .ds-btn-ghost:hover { background-color:var(--accent); color:var(--accent-foreground) }
+.ds-input::file-selector-button, .ds-textarea::file-selector-button, .ds-select::file-selector-button { border-width:0; background-color:transparent; font-size:0.875rem;line-height:1.25rem; font-weight:500 }
+.ds-card { border-radius:var(--radius-xl, calc(var(--radius) + 4px)); background-color:var(--card); color:var(--card-foreground) }
+
+/* ===== Adattamenti di accessibilita' =====
+   Il bianco sull'arancione di Sienna arriva a 2,9:1, sotto il minimo di 4,5:1.
+   Il fondo resta arancione, l'etichetta passa al nero del sistema (6,6:1).
+   L'arancione come testo su bianco fa 2,9:1: link e date usano l'arancio scuro del sistema (6:1). */
+/* ===== Linea grafica pulita, ispirata alle app di foto: fondo bianco, grigi neutri,
+   nero per le azioni. Il colore resta solo alla stella dei preferiti ===== */
+:root {
+  --primary: oklch(0.2 0 0); --primary-from: oklch(0.2 0 0); --primary-to: oklch(0.2 0 0);
+  --primary-hover: oklch(0.32 0 0); --primary-hover-from: oklch(0.32 0 0); --primary-hover-to: oklch(0.32 0 0);
+  --primary-foreground: oklch(1 0 0);
+  --ring: oklch(0.2 0 0);
+  --border: oklch(0.92 0 0);
+  --muted: oklch(0.965 0 0);
+  --muted-foreground: oklch(0.48 0 0);
+  --accent: oklch(0.95 0 0);
+  --pop-orange: oklch(0.95 0 0);
+  --pop-orange-foreground: oklch(0.2 0 0);
+  --stella: oklch(0.66 0.16 65);
+  --link: oklch(0.2 0 0);
+  --radius: 1rem;
+}
+.ds a:not(.ds-btn) { color: var(--link); text-decoration: underline; text-underline-offset: 2px; }
+
+body.ds{color:var(--foreground,oklch(0.2 0 0));background:var(--background,oklch(1 0 0))}
+body.ds :where(h1,h2,h3,h4,h5,h6,p,strong,label,legend,li,dt,dd,small):not(.ds-supporting):not(.ds-card-desc):not(.ds-muted){color:inherit!important}
+
+/* ===== Solo disposizione ===== */
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; padding-bottom: calc(80px + env(safe-area-inset-bottom)); }
+.wrap { max-width: 40rem; margin: 0 auto; padding: 0 16px; }
+
+header.top { display: flex; align-items: center; gap: 12px; padding: 24px 0 8px; }
+header.top { gap: 16px; padding-top: 16px; }
+header.top img { width: 80px; height: auto; flex: none; }
+header.top .ds-section-title { margin-bottom: 4px; }
+
+.filtri { position: sticky; top: 0; z-index: 5; background: var(--background); padding: 12px 0; border-bottom: 1px solid var(--border); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chips .ds-chip { white-space: nowrap; }
+/* sul telefono "Quando" sta su una riga che scorre, cosi' la card e i pulsanti entrano nello schermo */
+@media (max-width: 47.99rem) {
+  #quando { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: 0 -16px; padding: 0 16px; }
+  #quando::-webkit-scrollbar { display: none; }
+  #quando .ds-chip { flex: none; }
+}
+.riga-filtri { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 12px; }
+.riga-filtri .ds-label { margin-bottom: 4px; color: var(--muted-foreground); }
+
+.ds .giorno { font-size: 1rem; font-weight: 600; margin: 24px 0 8px; }
+.ds .giorno:first-child { margin-top: 16px; }
+.ds-btn svg { width: 20px; height: 20px; flex: none; }
+.lista { display: flex; flex-direction: column; gap: 8px; }
+.evento { flex-direction: row; align-items: flex-start; gap: 12px; padding: 12px; cursor: pointer; }
+.evento:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+.data { flex: none; width: 52px; padding: 8px 0; border-radius: var(--radius-lg); background: var(--pop-orange); color: var(--pop-orange-foreground); display: flex; flex-direction: column; align-items: center; }
+.data b { font-size: 1.5rem; line-height: 1; font-weight: 700; letter-spacing: -.02em; }
+.data b { line-height: 1.1; }
+.data span { font-size: .75rem; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
+.corpo { flex: 1; min-width: 0; }
+.ds .titolo { font-weight: 600; line-height: 1.35; margin: 0 0 4px; overflow-wrap: anywhere; }
+.corpo .ds-supporting { margin-bottom: 8px; }
+.stella { flex: none; width: 44px; height: 44px; padding: 0; margin: -4px -4px 0 0; }
+.stella svg { width: 22px; height: 22px; }
+.stella[aria-pressed="true"] { color: var(--stella); }
+
+/* mazzo di card: una alla volta, a destra si salva, a sinistra si passa */
+.riga-modo { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; }
+.ds .ds-tab[aria-pressed="true"] { background: var(--background); color: var(--foreground); box-shadow: var(--shadow-sm); }
+.mazzo-zona { max-width: 24rem; margin: 12px auto 0; }
+.mazzo { position: relative; height: max(300px, calc(100svh - 556px)); max-height: 640px; }
+#elenco { max-width: 40rem; }
+.carta { position: absolute; inset: 0; cursor: grab; touch-action: pinch-zoom; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; transform-origin: 50% 100%; box-shadow: var(--shadow-md); }
+.carta:focus-visible { outline: 3px solid var(--ring); outline-offset: 3px; }
+.carta.dietro { transform: translateY(10px) scale(.96); pointer-events: none; box-shadow: none; }
+.carta.trascina { cursor: grabbing; }
+.carta .figura { position: relative; flex: 1; min-height: 0; overflow: hidden; background: oklch(0.18 0 0); }
+.carta .sfondo { position: absolute; inset: -24px; background-size: cover; background-position: center; filter: blur(28px) brightness(.8); }
+.carta .locandina { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; pointer-events: none; -webkit-user-drag: none; }
+/* senza immagine: il titolo su un colore scuro e smorzato, sempre lo stesso per lo stesso evento */
+.carta.senza-img .figura { background: var(--colore-vuota, oklch(0.42 0.07 230)); }
+.carta.senza-img .locandina, .carta.senza-img .sfondo { display: none; }
+.carta .vuota { display: none; position: absolute; inset: 0; place-items: center; padding: 32px 24px; color: oklch(0.99 0 0); }
+.carta.senza-img .vuota { display: grid; }
+.carta .vuota-titolo { font-size: 1.75rem; font-weight: 700; line-height: 1.15; letter-spacing: -.015em; text-align: center; text-wrap: balance; overflow-wrap: anywhere; display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical; overflow: hidden; }
+.carta .segnata { position: absolute; top: 12px; right: 12px; width: 36px; height: 36px; display: grid; place-items: center; border-radius: 50%; background: oklch(1 0 0 / .94); color: var(--stella); box-shadow: var(--shadow-sm); }
+.carta .segnata svg { width: 20px; height: 20px; }
+.carta .info { flex: none; padding: 12px 16px 16px; }
+.carta .quando { display: block; margin-bottom: 4px; font-size: .8125rem; font-weight: 600; }
+.ds .carta h2 { font-size: 1.125rem; line-height: 1.3; letter-spacing: -.01em; margin: 0 0 2px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; }
+.ds .carta .dove { margin: 0; }
+/* la stella che compare col doppio tocco */
+.scoppio { position: absolute; width: 96px; height: 96px; margin: -48px 0 0 -48px; color: var(--stella); pointer-events: none; filter: drop-shadow(0 4px 16px oklch(0 0 0 / .35)); animation: scoppio 900ms var(--ease-out) forwards; }
+.scoppio svg { width: 100%; height: 100%; }
+@keyframes scoppio { 0% { transform: scale(0); opacity: 0; } 15% { transform: scale(1.2); opacity: 1; } 30% { transform: scale(.94); } 45% { transform: scale(1); } 78% { transform: scale(1); opacity: 1; } 100% { transform: scale(.9) translateY(-24px); opacity: 0; } }
+.comandi { display: grid; grid-template-columns: 1fr auto 1fr; gap: 12px; align-items: center; margin-top: 16px; }
+.comandi .ds-btn-lg { width: 100%; }
+#salva { width: 52px; height: 52px; padding: 0; }
+#salva svg { width: 26px; height: 26px; }
+#salva[aria-pressed="true"], #salva[aria-pressed="true"]:hover { background: var(--background); color: var(--stella); border-color: var(--border); }
+.riga-posizione { display: flex; flex-direction: column; align-items: center; gap: 2px; margin-top: 12px; text-align: center; }
+.suggerimento { font-size: .8125rem; }
+.fine { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; text-align: center; padding: 24px; border: 1px dashed var(--border); border-radius: var(--radius-xl); }
+.fine b { font-size: 1.125rem; }
+.fine .ds-row { justify-content: center; margin-top: 8px; }
+@media (prefers-reduced-motion: reduce) { .carta { transition: none !important; } .scoppio { animation: svanisce 700ms linear forwards; } @keyframes svanisce { 0%, 70% { opacity: 1; } 100% { opacity: 0; } } .aperto .foglio { animation: none !important; } }
+
+.calendario > summary { width: 100%; list-style: none; }
+.calendario > summary::-webkit-details-marker { display: none; }
+.calendario[open] > summary { border-color: var(--ring); }
+.calendario .scelte { display: grid; gap: 8px; margin-top: 8px; padding-left: 24px; }
+
+.vista-segnala { padding-top: 24px; }
+.vista-segnala > .ds-section-title { margin-bottom: 16px; }
+.tipo-segnala { margin-bottom: 16px; }
+.errore { display: block; margin-top: 4px; font-size: .8125rem; color: var(--destructive); }
+.ds-input[aria-invalid="true"] { border-color: var(--destructive); }
+.nota-segnala { margin-top: 12px; }
+.nota-segnala a { overflow-wrap: anywhere; }
+@supports (field-sizing: content) { .ds-textarea { field-sizing: content; max-height: 12lh; } }
+.fine .segnala-link { margin-top: 8px; font-size: .875rem; }
+
+.d-figura { margin: 0 0 16px; }
+.d-figura img { display: block; width: 100%; max-height: 40vh; object-fit: contain; border-radius: var(--radius-lg); background: var(--muted); }
+.d-figura figcaption { margin-top: 4px; font-size: .8125rem; }
+
+.vuoto { text-align: center; padding: 40px 12px; }
+.vuoto b { display: block; font-size: 1.05rem; margin-bottom: 4px; }
+.piede { margin: 32px 0 16px; font-size: .8125rem; }
+
+.ds-alert { margin: 16px 0; }
+.ds-alert .ds-badge { margin-right: 6px; vertical-align: 1px; }
+.vista-profilo .ds-card { margin-bottom: 16px; }
+.vista-profilo .ds-card-body { padding-top: 4px; }
+.interruttore { display: flex; justify-content: space-between; align-items: center; gap: 16px; width: 100%; padding: 12px 0; border-top: 1px solid var(--border); font-size: .9375rem; }
+.interruttore input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.interruttore input:focus-visible + .ds-switch-track { outline: 2px solid var(--ring); outline-offset: 2px; }
+.passi { padding-left: 20px; margin: 0; }
+.passi li { margin-bottom: 8px; }
+.pieno { width: 100%; }
+
+nav.basso { position: fixed; left: 0; right: 0; bottom: 0; z-index: 10; background: var(--background); border-top: 1px solid var(--border); padding-bottom: env(safe-area-inset-bottom); }
+nav.basso .wrap { display: flex; gap: 4px; padding-top: 8px; padding-bottom: 8px; }
+nav.basso button { flex: 1; flex-direction: column; gap: 4px; padding: 4px 0; min-height: 52px; border-radius: var(--radius-lg); font-size: .75rem; color: var(--muted-foreground); }
+nav.basso svg { width: 24px; height: 24px; }
+nav.basso .ds-btn[aria-current="page"], nav.basso .ds-btn[aria-current="page"]:hover { background: var(--pop-orange); color: var(--pop-orange-foreground); font-weight: 600; }
+.conta { margin-left: 4px; font-size: .6875rem; padding: 0 .4rem; }
+
+.velo { position: fixed; inset: 0; background: oklch(0 0 0 / .4); z-index: 20; display: none; }
+.foglio { position: fixed; left: 0; right: 0; bottom: 0; z-index: 21; background: var(--card); border-radius: 20px 20px 0 0; box-shadow: var(--shadow-xl); max-height: 88vh; overflow-y: auto; overscroll-behavior: contain; padding: 8px 0 calc(24px + env(safe-area-inset-bottom)); display: none; }
+.maniglia { width: 40px; height: 4px; border-radius: 4px; background: var(--border); margin: 4px auto 16px; }
+.aperto .velo, .aperto .foglio { display: block; }
+.aperto .foglio { animation: sale var(--transition-duration-slow) var(--ease-out); }
+@keyframes sale { from { transform: translateY(100%); } }
+@keyframes entra { from { transform: translateX(100%); } }
+.foglio .grande { font-size: 1.375rem; line-height: 1.25; letter-spacing: -.01em; margin-bottom: 12px; overflow-wrap: anywhere; }
+.dettagli { list-style: none; padding: 0; margin: 0 0 20px; }
+.dettagli li { display: flex; align-items: center; gap: 10px; padding: 4px 0; }
+.dettagli svg { width: 20px; height: 20px; flex: none; color: var(--muted-foreground); }
+.azioni { display: flex; flex-direction: column; gap: 8px; }
+.azioni .ds-btn { width: 100%; white-space: normal; text-align: center; line-height: 1.3; }
+.insieme { border-top: 1px solid var(--border); margin-top: 20px; padding-top: 20px; }
+.insieme h3 { display: flex; align-items: center; gap: 8px; font-size: 1rem; margin: 0; }
+details > summary { list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 44px; cursor: pointer; }
+details > summary::-webkit-details-marker { display: none; }
+details > summary:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; border-radius: var(--radius-md); }
+details > summary > svg { width: 20px; height: 20px; flex: none; color: var(--muted-foreground); }
+details[open] > summary > svg { transform: rotate(180deg); }
+.insieme[open] > summary { margin-bottom: 12px; }
+.come > summary .ds-card-title { margin: 0; }
+.come > summary.ds-card-header { padding-bottom: 1.1rem; }
+.come[open] > summary.ds-card-header { padding-bottom: .5rem; }
+.interessati { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; font-size: .9375rem; }
+.facce { display: flex; }
+.facce .ds-avatar { width: 28px; height: 28px; font-size: .75rem; border: 2px solid var(--card); margin-left: -8px; }
+.facce .ds-avatar:first-child { margin-left: 0; }
+.chiudi { margin-top: 16px; }
+
+.toast { position: fixed; left: 16px; right: 16px; bottom: calc(92px + env(safe-area-inset-bottom)); z-index: 30; max-width: 480px; margin: 0 auto; background: var(--foreground); color: var(--background); border-radius: var(--radius-lg); padding: 12px 14px; font-size: .9375rem; box-shadow: var(--shadow-lg); opacity: 0; transform: translateY(8px); transition: opacity var(--transition-duration-base) var(--ease-out), transform var(--transition-duration-base) var(--ease-out); pointer-events: none; }
+.toast.su { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .toast { transition: none; } }
+[hidden] { display: none !important; }
+
+@media (min-width: 48rem) {
+  .wrap { padding: 0 var(--layout-inset); }
+  .foglio { left: auto; top: 0; width: 26rem; max-height: none; border-radius: 0; }
+  .maniglia { display: none; }
+  .aperto .foglio { animation-name: entra; }
+}
+@media (hover: hover) and (pointer: fine) {
+  .evento:hover { box-shadow: var(--shadow-md); }
+}
+
+/* ===== Brand APPennino sul pezzo (grafica/design-system, ottobre 2026) =====
+   Token del brand, poi i ruoli del kit puntati su di loro: tutti i componenti
+   prendono colori, caratteri e forme del brand. Niente ombre, solo filetti. */
+:root {
+  --surface:#ffffff; --surface-2:#f2f2ef; --line:#e0e0dc; --line-strong:#7d7d77;
+  --ink:#000000; --ink-muted:#5c5c57; --action:var(--ink); --on-action:#ffffff;
+  --segnale:#ffc400; --on-segnale:#000000; --focus-ring:#000000; --errore:#b42318;
+  --copertina-terracotta:#a3472c; --copertina-verde-acqua:#1d6a62; --copertina-prugna:#6b3552;
+  --copertina-blu-petrolio:#1f5466; --copertina-verde-bosco:#2f5b3b; --copertina-ocra:#86560f;
+  --copertina-grafite:#4a4a45; --on-copertina:#ffffff;
+  --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px; --space-6:24px; --space-8:32px; --space-12:48px;
+  --radius-sm:8px; --radius-md:14px; --radius-lg:22px; --radius-pill:999px;
+  --font-display: Outfit, "Avenir Next", "Century Gothic", sans-serif;
+  --font-body: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", Verdana, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface:#121211; --surface-2:#1f1f1d; --line:#34342f; --line-strong:#75756f;
+    --ink:#f4f4f0; --ink-muted:#a8a8a1; --on-action:#121211;
+    --segnale:#ffcf33; --focus-ring:#ffcf33; --errore:#ff8a7a;
+  }
+}
+:root {
+  --background: var(--surface); --foreground: var(--ink);
+  --card: var(--surface); --card-foreground: var(--ink);
+  --popover: var(--surface); --popover-foreground: var(--ink);
+  --primary: var(--action); --primary-from: var(--action); --primary-to: var(--action);
+  --primary-hover: color-mix(in oklab, var(--action) 82%, var(--surface));
+  --primary-hover-from: var(--primary-hover); --primary-hover-to: var(--primary-hover);
+  --primary-foreground: var(--on-action);
+  --secondary: var(--surface-2); --secondary-foreground: var(--ink);
+  --muted: var(--surface-2); --muted-foreground: var(--ink-muted);
+  --accent: var(--surface-2); --accent-foreground: var(--ink);
+  --pop-orange: var(--surface-2); --pop-orange-foreground: var(--ink);
+  --border: var(--line); --input: var(--surface); --ring: var(--focus-ring);
+  --destructive: var(--errore); --stella: var(--segnale); --link: var(--ink);
+  --font-sans: var(--font-body); --font-mono: var(--font-body);
+  --shadow-xs: none; --shadow-sm: none; --shadow-md: none; --shadow-lg: none; --shadow-xl: none;
+  --shadow-primary: none; --shadow-primary-hover: none; --shadow-button: none; --shadow-button-hover: none;
+  --shadow-inset: none; --shadow-glass: none;
+}
+
+/* caratteri: Atkinson per leggere, Outfit per nome, titoli ed etichette */
+body.ds { font-family: var(--font-body); font-size: 17px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+.ds h1, .ds h2, .ds h3, .ds .ds-section-title, .ds .ds-card-title, .ds .titolo, .ds .giorno,
+.ds-btn, .ds-chip, .ds-tab, .ds-label, .ds .ds-badge, nav.basso button, .fine b, .vuoto b, .data b {
+  font-family: var(--font-display);
+}
+.ds .ds-supporting { font-size: 15px; line-height: 22px; color: var(--ink-muted); }
+.ds h1, .ds h2, .ds h3, .ds .ds-section-title { font-weight: 700; letter-spacing: -.01em; }
+
+/* forme: bottoni radius-md, card radius-lg, chip a pillola, campi radius-sm; tocchi da 48px */
+.ds-btn { font-size: 16px; font-weight: 600; line-height: 20px; border-radius: var(--radius-md); min-height: var(--space-12); border-width: 2px; }
+.ds .ds-btn-primary, .ds .ds-btn-primary:hover { background: var(--action); background-image: none; color: var(--on-action); box-shadow: none; }
+.ds .ds-btn-outline { border-color: var(--line-strong); }
+.ds .ds-btn-ghost { text-decoration: none; }
+.ds-chip { font-size: 16px; font-weight: 600; min-height: 40px; padding: 10px var(--space-4); border: 0; background: var(--surface-2); }
+.ds .ds-chip[aria-pressed="true"], .ds .ds-chip[aria-pressed="true"]:hover { background: var(--action); color: var(--on-action); }
+.ds-tabs { border-radius: var(--radius-md); background: var(--surface-2); }
+.ds-tab { font-size: 15px; font-weight: 600; border-radius: 10px; min-height: 40px; }
+.ds .ds-tab[aria-pressed="true"] { background: var(--surface); color: var(--ink); box-shadow: none; outline: 1px solid var(--line); }
+.ds-input, .ds-textarea, .ds-select { border-radius: var(--radius-sm); border: 1px solid var(--line-strong); font-size: 17px; min-height: var(--space-12); background: var(--surface); }
+.ds-label { font-size: 15px; font-weight: 600; }
+.ds-card { border-radius: var(--radius-lg); border: 1px solid var(--line); box-shadow: none; }
+.ds-alert { border: 0; background: var(--surface-2); border-radius: var(--radius-sm); font-size: 15px; line-height: 22px; }
+.ds .ds-badge { font-size: 13px; font-weight: 600; letter-spacing: 0; }
+.ds-switch-track.on { box-shadow: none; }
+
+/* focus da tastiera: un anello solo, pieno, staccato di 2px */
+.ds-btn:focus-visible, .ds-chip:focus-visible, .ds-tab:focus-visible, .ds a:focus-visible,
+.evento:focus-visible, details > summary:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; box-shadow: none; }
+.ds-input:focus, .ds-textarea:focus, .ds-select:focus { border-color: var(--focus-ring); box-shadow: none; outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+
+/* icone del set del brand: tratto da 2px che prende il colore del testo */
+.ic { width: 24px; height: 24px; flex: none; }
+.ds-btn .ic { width: 24px; height: 24px; }
+.dettagli .ic { width: 20px; height: 20px; color: var(--ink-muted); }
+.stella-svg path { fill: none; stroke: currentColor; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.stella-svg.piena path { fill: var(--segnale); stroke: var(--on-segnale); }
+
+/* intestazione: lockup orizzontale */
+header.top { padding: var(--space-6) 0 var(--space-2); gap: var(--space-4); align-items: center; }
+.lockup { display: inline-flex; align-items: center; color: var(--ink); margin: 0; }
+.lockup .logo { flex: none; display: block; width: 152px; height: auto; }
+/* i periodi stanno sempre su una riga: se lo spazio non basta, la riga scorre di lato */
+#quando { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+#quando::-webkit-scrollbar { display: none; }
+#quando .ds-chip { flex: none; }
+@media (min-width: 48rem) { main.wrap, nav.basso .wrap { max-width: 46rem; } #quando { gap: 6px; } #quando .ds-chip { padding: 10px 14px; } }
+
+/* "Scegli un giorno": il campo data sta sempre, invisibile, sotto la chip, cosi' il calendario si apre li'.
+   Dove il browser non sa aprirlo da solo, il campo compare al posto della chip */
+.box-giorno { position: relative; display: inline-flex; flex: none; }
+.giorno-nascosto { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; padding: 0 var(--space-3); border: 0; opacity: 0; pointer-events: none; font: inherit; }
+.box-giorno.aperta .giorno-nascosto { opacity: 1; pointer-events: auto; background: var(--surface); color: var(--ink); border: 2px solid var(--focus-ring); border-radius: var(--radius-pill); }
+
+/* "Dove" e "Tipo" alti come le chip dei periodi */
+.riga-filtri .ds-select { min-height: 40px; height: 40px; padding-top: 0; padding-bottom: 0; font-size: 16px; }
+/* la card e i suoi comandi larghi quanto il resto dei contenuti */
+.mazzo-zona { max-width: none; margin: var(--space-3) 0 0; }
+
+/* nel logo dell'intestazione il segnaposto e' giallo, come nel simbolo-segnale (scelta di Tiziana, 31 ottobre) */
+.lockup .segnaposto { fill: var(--segnale); }
+/* il logo e' un link alla sezione Eventi */
+.marchio { margin: 0; }
+.ds a.lockup, .ds a.lockup:hover { color: var(--ink); text-decoration: none; border-radius: var(--radius-sm); }
+
+/* la riga descrittiva accanto al logo, staccata da un filetto */
+.intestazione { display: flex; align-items: center; gap: var(--space-4); }
+header.top .ds-supporting { margin: 0; padding-left: var(--space-4); border-left: 1px solid var(--line); max-width: 22rem; text-wrap: balance; }
+/* sul telefono lo spazio accanto al logo e' poco: lockup e riga un po' piu' piccoli */
+@media (max-width: 26rem) {
+  .intestazione { gap: var(--space-3); }
+  .lockup .logo { width: 120px; }
+  header.top .ds-supporting { padding-left: var(--space-3); font-size: 14px; line-height: 19px; }
+}
+
+/* filtri e lista */
+.filtri { border-bottom-color: var(--line); }
+.data { border-radius: var(--radius-md); background: var(--surface-2); color: var(--ink); }
+.data span { text-transform: none; letter-spacing: 0; font-size: 13px; }
+.ds .titolo { font-family: var(--font-display); font-weight: 700; font-size: 18px; line-height: 24px; }
+.ds .giorno { font-size: 18px; font-weight: 700; }
+.evento { border-radius: var(--radius-lg); }
+.tipo { display: inline-flex; align-items: center; gap: var(--space-2); font-size: 15px; line-height: 22px; color: var(--ink-muted); }
+.pallino { width: 10px; height: 10px; border-radius: 50%; flex: none; background: var(--colore-tipo, var(--copertina-grafite)); }
+.stella[aria-pressed="true"] { color: var(--ink); }
+.stella { width: var(--space-12); height: var(--space-12); }
+.stella .ic { width: 26px; height: 26px; }
+
+/* card: filetto al posto dell'ombra; locandina intera su surface-2, senza filtri */
+.carta, .carta.dietro { box-shadow: none; border: 1px solid var(--line); border-radius: var(--radius-lg); }
+.carta .figura { background: var(--surface-2); }
+.carta .sfondo { display: none; }
+.carta .info { padding: var(--space-3) var(--space-4) var(--space-4); display: flex; flex-direction: column; gap: var(--space-1); }
+.carta .meta { display: flex; align-items: center; gap: var(--space-3); margin: 0; min-width: 0; }
+.carta .meta .tipo { flex: none; }
+.carta .fonte { font-size: 15px; line-height: 22px; color: var(--ink-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.ds .carta h2 { font-family: var(--font-display); font-size: 22px; line-height: 26px; font-weight: 700; margin: 0; -webkit-line-clamp: 2; }
+.ds .carta .dove { font-size: 17px; line-height: 24px; color: var(--ink); margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.carta .quando { display: inline; font-family: var(--font-body); font-size: 17px; line-height: 24px; font-weight: 700; margin: 0; }
+/* senza locandina: copertina nel colore del tipo, tipo e titolo in basso a sinistra */
+.carta.senza-img .figura { background: var(--colore-tipo, var(--copertina-grafite)); }
+.carta .vuota { place-items: end start; padding: var(--space-6) var(--space-4); color: var(--on-copertina); }
+.carta.senza-img .vuota { display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-start; }
+.carta .vuota-tipo { font-family: var(--font-body); font-size: 15px; line-height: 22px; font-weight: 700; margin-bottom: var(--space-2); }
+/* sul telefono la copertina e' bassa: tre righe al massimo, mai una riga tagliata a meta' */
+.carta .vuota-titolo { font-family: var(--font-display); font-size: 28px; line-height: 32px; font-weight: 800; letter-spacing: -.01em; text-align: left; -webkit-line-clamp: 3; max-height: 96px; }
+.carta .vuota { padding: var(--space-4); }
+@media (min-height: 900px) { .carta .vuota-titolo { font-size: 34px; line-height: 36px; -webkit-line-clamp: 4; max-height: 144px; } .carta .vuota { padding: var(--space-6) var(--space-4); } }
+.carta .segnata { width: 40px; height: 40px; background: var(--surface); box-shadow: none; color: var(--ink); }
+.carta .segnata .ic { width: 24px; height: 24px; }
+.scoppio { color: var(--ink); filter: none; }
+.scoppio .stella-svg path { stroke-width: 1.2; }
+#salva { width: var(--space-12); height: var(--space-12); border-radius: 50%; }
+#salva .ic { width: 26px; height: 26px; }
+#salva[aria-pressed="true"], #salva[aria-pressed="true"]:hover { background: var(--surface); color: var(--ink); border-color: var(--line-strong); }
+.comandi .ds-btn-lg { min-height: var(--space-12); }
+.fine { border: 1px dashed var(--line-strong); border-radius: var(--radius-lg); }
+
+/* barra in basso: icona con la sua parola; la sezione attiva su surface-2 */
+nav.basso { border-top-color: var(--line); }
+nav.basso button { font-size: 13px; font-weight: 600; min-height: 56px; color: var(--ink-muted); border-radius: var(--radius-md); }
+nav.basso .ds-btn[aria-current="page"], nav.basso .ds-btn[aria-current="page"]:hover { background: var(--surface-2); color: var(--ink); }
+nav.basso [aria-current="page"] .ic-eventi .punto { fill: var(--segnale); stroke: var(--on-segnale); stroke-width: 1; }
+.conta { background: var(--segnale); color: var(--on-segnale); }
+
+/* dettaglio, avvisi e toast */
+.foglio { border-radius: var(--radius-lg) var(--radius-lg) 0 0; box-shadow: none; border-top: 1px solid var(--line); }
+.foglio .grande { font-family: var(--font-display); font-size: 26px; line-height: 30px; font-weight: 700; }
+.dettagli li { font-size: 17px; line-height: 24px; }
+.dettagli li:first-child { font-weight: 700; }
+.d-figura img { border-radius: var(--radius-md); background: var(--surface-2); }
+.avviso { display: flex; gap: var(--space-3); align-items: flex-start; background: var(--surface-2); border-radius: var(--radius-sm); padding: var(--space-3) var(--space-4); font-size: 15px; line-height: 22px; margin: 0 0 var(--space-4); }
+.avviso .ic { width: 20px; height: 20px; margin-top: 1px; }
+.toast { background: var(--ink); color: var(--surface); border-radius: var(--radius-md); box-shadow: none; font-size: 15px; }
+details > summary > .ic { width: 20px; height: 20px; color: var(--ink-muted); transform: rotate(90deg); }
+details[open] > summary > .ic { transform: rotate(-90deg); }
+.insieme { border-top-color: var(--line); }
+.insieme .interessati { color: var(--ink-muted); font-size: 15px; }
+.intro-segnala { margin: calc(-1 * var(--space-2)) 0 var(--space-4); }
+.intro-profilo { margin: 0 0 var(--space-4); }
+@media (min-width: 48rem) { .foglio { border-radius: 0; border-top: 0; border-left: 1px solid var(--line); } }
+/* il rimbalzo della stella e' l'unico movimento oltre allo scorrimento; con "riduci movimento" si toglie */
+@media (prefers-reduced-motion: reduce) { .scoppio { animation: none; opacity: 0; } }
+</style>
+</head>
+<body class="ds">
+<!-- icone del brand (grafica/design-system/icone/sprite.svg), richiamate con <use href="#i-nome"> -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+<symbol id="i-eventi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1.8 19.5l5-6.2 2.4 2.6L12 10.2l2.8 5.2 2.4-2.6 5 6.7"/><path d="M12 8.2c-1.3-1.4-2.6-2.6-2.6-4a2.6 2.6 0 0 1 5.2 0c0 1.4-1.3 2.6-2.6 4z" fill="currentColor" stroke-width="1"/></symbol>
+<symbol id="i-stella" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z"/></symbol>
+<symbol id="i-stella-piena" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z" fill="currentColor"/></symbol>
+<symbol id="i-calendario" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+<symbol id="i-calendario-aggiungi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 10h17M8 3v4M16 3v4M12 12.8v5M9.5 15.3h5"/></symbol>
+<symbol id="i-luogo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21.5C9 18 5.5 14.2 5.5 9.5a6.5 6.5 0 0 1 13 0c0 4.7-3.5 8.5-6.5 12z"/><circle cx="12" cy="9.5" r="2.3"/></symbol>
+<symbol id="i-luogo-pieno" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21.5C9 18 5.5 14.2 5.5 9.5a6.5 6.5 0 0 1 13 0c0 4.7-3.5 8.5-6.5 12zM12 7.2a2.3 2.3 0 1 0 0 4.6a2.3 2.3 0 1 0 0-4.6z" fill="currentColor" fill-rule="evenodd"/></symbol>
+<symbol id="i-orario" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></symbol>
+<symbol id="i-fonte" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-8.5 8.5M18 14v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4"/></symbol>
+<symbol id="i-segnala" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2.5"/><path d="M12 8.5v7M8.5 12h7"/></symbol>
+<symbol id="i-filtri" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h8M17 7h3M4 17h3M12 17h8"/><circle cx="14.5" cy="7" r="2.5"/><circle cx="9.5" cy="17" r="2.5"/></symbol>
+<symbol id="i-condividi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v11M7.5 7.5L12 3l4.5 4.5M5 12v6.5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V12"/></symbol>
+<symbol id="i-profilo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8.5" r="3.8"/><path d="M4.5 20.5c1.3-3.8 4-5.8 7.5-5.8s6.2 2 7.5 5.8"/></symbol>
+<symbol id="i-compagnia" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="8.5" r="3.2"/><path d="M2.8 19.5c1-3.3 3-5 5.7-5s4.7 1.7 5.7 5"/><circle cx="16.5" cy="9.5" r="2.6"/><path d="M15.6 14.6c2.6-.2 4.6 1.4 5.6 4.9"/></symbol>
+<symbol id="i-passaggio" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 11l1.6-4.3A2.5 2.5 0 0 1 9 5h6a2.5 2.5 0 0 1 2.4 1.7L19 11"/><rect x="3" y="11" width="18" height="6.5" rx="2.5"/><path d="M6.5 17.5v2M17.5 17.5v2M6.8 14.2h1.4M15.8 14.2h1.4"/></symbol>
+<symbol id="i-messaggio" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v8a2.5 2.5 0 0 1-2.5 2.5H11l-4.5 3.5V17A2.5 2.5 0 0 1 4 14.5z"/></symbol>
+<symbol id="i-telefono" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3.5h2.6l1.6 4.2-2.1 1.5a11 11 0 0 0 5.7 5.7l1.5-2.1 4.2 1.6V17a2.5 2.5 0 0 1-2.5 2.5A15 15 0 0 1 4.5 6 2.5 2.5 0 0 1 7 3.5z"/></symbol>
+<symbol id="i-info" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5.5M12 7.6v.1"/></symbol>
+<symbol id="i-chiudi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+<symbol id="i-indietro" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></symbol>
+<symbol id="i-avanti" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></symbol>
+<symbol id="i-cat-feste" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 4Q12 8.5 21.5 4"/><path d="M4.0 4.7L6.1 13.9L8.2 5.9M9.9 6.1L12.0 14.8L14.1 6.1M15.8 5.9L17.9 13.9L20.0 4.7"/></symbol>
+<symbol id="i-cat-bambini" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="9" rx="5.5" ry="6.3"/><path d="M11 15.3h2l-1 1.4zM12 16.7c-1.6 1.4 1.6 2.6 0 4.3"/></symbol>
+<symbol id="i-cat-musica" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7.5" cy="17.5" r="2.5"/><circle cx="17" cy="15.5" r="2.5"/><path d="M10 17.5V6.5l9.5-2.5v11.5M10 10l9.5-2.5"/></symbol>
+<symbol id="i-cat-libri" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.5C10 5 7 4.4 3.5 4.8v13.4c3.5-.4 6.5.2 8.5 1.6 2-1.4 5-2 8.5-1.6V4.8C17 4.4 14 5 12 6.5zM12 6.5v13.3"/></symbol>
+<symbol id="i-cat-natura" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l-5.5 7h3l-4.5 6.5h14L14.5 10h3zM12 16.5V21"/></symbol>
+<symbol id="i-cat-sport" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.9c3.2 3.2 3.2 9 0 12.2M18.4 5.9c-3.2 3.2-3.2 9 0 12.2"/></symbol>
+<symbol id="i-cat-altro" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5.5" cy="12" r="1.6" fill="currentColor"/><circle cx="12" cy="12" r="1.6" fill="currentColor"/><circle cx="18.5" cy="12" r="1.6" fill="currentColor"/></symbol>
+</svg>
+
+<main class="wrap">
+  <header class="top">
+    <div class="intestazione">
+      <!-- logo orizzontale definitivo (grafica/logo/, 31 ottobre): il marchio dice "APP sul pezzo", il nome scritto resta APPennino sul pezzo -->
+      <h1 class="marchio"><a class="lockup" href="./" id="vai-eventi"><svg class="logo" viewBox="38 38 556 192" role="img" aria-label="APPennino sul pezzo"><g transform="translate(32.83 33.86) scale(2.0474928961748633)"><path d="M8 90 L34 58 L46 71 L60 42 L74 68 L86 55 L112 90" fill="none" stroke="currentColor" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/><path d="M60 35 C55 28 48 23 48 15 A12 12 0 0 1 72 15 C72 23 65 28 60 35 Z M60 10.5 A4.5 4.5 0 1 0 60 19.5 A4.5 4.5 0 1 0 60 10.5 Z" class="segnaposto" fill="#ffc400" fill-rule="evenodd"/></g><path d="M308.8366972677596 139.39999999999998 347.37169726775954 40.13999999999997H371.59169726775957L409.74169726775955 139.39999999999998H383.56169726775954L354.8266972677595 56.02999999999997H363.85669726775956L334.5266972677596 139.39999999999998ZM332.28669726775956 122.07499999999997V102.19499999999996H387.06169726775954V122.07499999999997ZM439.87669726775954 103.90999999999997V85.28999999999996H459.54669726775955Q463.20591692093876 85.28999999999996 466.2239082504185 83.7918939393939Q469.24189957989825 82.29378787878785 471.0617984238289 79.32016666666664Q472.88169726775953 76.34654545454543 472.88169726775953 72.02499999999998Q472.88169726775953 67.70345454545452 471.0617984238289 64.7298333333333Q469.24189957989825 61.75621212121209 466.2239082504185 60.258106060606025Q463.20591692093876 58.75999999999996 459.54669726775955 58.75999999999996H439.87669726775954V40.13999999999997H463.85169726775956Q473.40669726775957 40.13999999999997 481.07169726775953 43.97249999999997Q488.73669726775955 47.804999999999964 493.2166972677595 54.92067073170728Q497.69669726775953 62.0363414634146 497.69669726775953 72.01817073170729Q497.69669726775953 81.89499999999998 493.2166972677595 89.06999999999998Q488.73669726775955 96.24499999999998 481.07169726775953 100.07749999999997Q473.40669726775957 103.90999999999997 463.85169726775956 103.90999999999997ZM420.10169726775956 139.39999999999998V40.13999999999997H445.12669726775954V139.39999999999998ZM529.4766972677596 103.90999999999997V85.28999999999996H549.1466972677596Q552.8059169209388 85.28999999999996 555.8239082504185 83.7918939393939Q558.8418995798983 82.29378787878785 560.6617984238289 79.32016666666664Q562.4816972677596 76.34654545454543 562.4816972677596 72.02499999999998Q562.4816972677596 67.70345454545452 560.6617984238289 64.7298333333333Q558.8418995798983 61.75621212121209 555.8239082504185 60.258106060606025Q552.8059169209388 58.75999999999996 549.1466972677596 58.75999999999996H529.4766972677596V40.13999999999997H553.4516972677595Q563.0066972677596 40.13999999999997 570.6716972677596 43.97249999999997Q578.3366972677595 47.804999999999964 582.8166972677595 54.92067073170728Q587.2966972677596 62.0363414634146 587.2966972677596 72.01817073170729Q587.2966972677596 81.89499999999998 582.8166972677595 89.06999999999998Q578.3366972677595 96.24499999999998 570.6716972677596 100.07749999999997Q563.0066972677596 103.90999999999997 553.4516972677595 103.90999999999997ZM509.7016972677596 139.39999999999998V40.13999999999997H534.7266972677596V139.39999999999998Z" fill="currentColor"/><path d="M324.99293726775954 213.72639999999998Q322.1257372677596 213.72639999999998 319.47357726775954 212.97375999999997Q316.82141726775956 212.22111999999998 314.59933726775955 210.82335999999998Q312.37725726775955 209.42559999999997 310.72861726775955 207.41855999999999L315.74621726775956 202.40095999999997Q317.53821726775953 204.47967999999997 319.8678172677595 205.51903999999996Q322.19741726775953 206.55839999999998 325.1362972677596 206.55839999999998Q327.78845726775955 206.55839999999998 329.15037726775955 205.76991999999996Q330.51229726775955 204.98143999999996 330.51229726775955 203.47615999999996Q330.51229726775955 201.89919999999998 329.2220572677595 201.03903999999997Q327.9318172677595 200.17887999999996 325.8889372677595 199.56959999999998Q323.84605726775953 198.96031999999997 321.5881372677595 198.31519999999998Q319.33021726775956 197.67007999999998 317.28733726775954 196.55903999999998Q315.24445726775957 195.44799999999998 313.95421726775953 193.51263999999998Q312.66397726775955 191.57727999999997 312.66397726775955 188.49503999999996Q312.66397726775955 185.19775999999996 314.2050972677596 182.83231999999998Q315.74621726775956 180.46687999999997 318.5775772677596 179.17663999999996Q321.40893726775954 177.88639999999998 325.35133726775956 177.88639999999998Q329.50877726775957 177.88639999999998 332.69853726775955 179.35583999999997Q335.8882972677595 180.82527999999996 338.0386972677596 183.76415999999998L333.02109726775956 188.78175999999996Q331.51581726775953 186.91807999999997 329.5804572677595 185.98623999999998Q327.6450972677595 185.0544 325.1362972677596 185.0544Q322.77085726775954 185.0544 321.48061726775956 185.77119999999996Q320.1903772677596 186.48799999999997 320.1903772677596 187.84991999999997Q320.1903772677596 189.28351999999998 321.48061726775956 190.07199999999997Q322.77085726775954 190.86047999999997 324.8137372677595 191.43391999999997Q326.85661726775953 192.00735999999998 329.11453726775954 192.68831999999998Q331.37245726775956 193.36927999999997 333.4153372677596 194.55199999999996Q335.45821726775955 195.73471999999998 336.7484572677596 197.70592Q338.0386972677596 199.67711999999997 338.0386972677596 202.83103999999997Q338.0386972677596 207.84864 334.5263772677596 210.78751999999997Q331.01405726775954 213.72639999999998 324.99293726775954 213.72639999999998ZM358.6825372677596 213.72639999999998Q354.3384198576876 213.72639999999998 350.9194385627236 211.79103999999998Q347.50045726775954 209.85567999999998 345.60093726775955 206.46191427207634Q343.70141726775955 203.06814854415273 343.70141726775955 198.59285307875894V178.60319999999996H351.5862172677596V198.24352Q351.5862172677596 200.75231999999997 352.4105372677596 202.50847999999996Q353.2348572677596 204.26463999999999 354.8476572677596 205.19647999999998Q356.4604572677596 206.12831999999997 358.7060186470699 206.12831999999997Q362.12317726775956 206.12831999999997 363.95101726775954 204.08543999999998Q365.7788572677596 202.04255999999998 365.7788572677596 198.24352V178.60319999999996H373.66365726775956V198.60191999999998Q373.66365726775956 203.11775999999998 371.76413726775957 206.52255999999997Q369.86461726775957 209.92735999999996 366.48585928214806 211.82687999999996Q363.10710129653654 213.72639999999998 358.6825372677596 213.72639999999998ZM381.62013726775956 213.00959999999998V161.39999999999998H389.50493726775954V213.00959999999998ZM431.00765726775955 213.72639999999998Q427.06525726775953 213.72639999999998 423.9830172677596 212.04191999999998Q420.90077726775957 210.35743999999997 419.1446172677596 207.41855999999996Q417.3884572677596 204.47967999999997 417.3884572677596 200.75231999999997V190.86047999999997Q417.3884572677596 187.13311999999996 419.1804572677596 184.19423999999998Q420.9724572677596 181.25535999999997 424.0546972677596 179.57088Q427.13693726775955 177.88639999999998 431.00765726775955 177.88639999999998Q435.66685726775955 177.88639999999998 439.4300572677596 180.28767999999997Q443.1932572677596 182.68895999999998 445.3794972677596 186.73888Q447.5657372677596 190.78879999999998 447.5657372677596 195.87807999999998Q447.5657372677596 200.89567999999997 445.3794972677596 204.94559999999996Q443.1932572677596 208.99551999999997 439.4300572677596 211.36095999999998Q435.66685726775955 213.72639999999998 431.00765726775955 213.72639999999998ZM412.58589726775955 227.3456V178.60319999999996H420.47069726775953V187.84991999999997L419.10877726775954 196.23647999999997L420.47069726775953 204.55136V227.3456ZM429.7174172677596 206.27167999999998Q432.58461726775954 206.27167999999998 434.77085726775954 204.94559999999996Q436.95709726775954 203.61951999999997 438.21149726775957 201.25408Q439.46589726775954 198.88863999999998 439.46589726775954 195.80639999999997Q439.46589726775954 192.72415999999998 438.21149726775957 190.35871999999998Q436.95709726775954 187.99327999999997 434.77085726775954 186.66719999999998Q432.58461726775954 185.34112 429.7174172677596 185.34112Q426.85021726775955 185.34112 424.62813726775954 186.66719999999998Q422.40605726775954 187.99327999999997 421.18749726775957 190.35871999999998Q419.96893726775954 192.72415999999998 419.96893726775954 195.80639999999997Q419.96893726775954 198.88863999999998 421.18749726775957 201.25408Q422.40605726775954 203.61951999999997 424.62813726775954 204.94559999999996Q426.85021726775955 206.27167999999998 429.7174172677596 206.27167999999998ZM470.1449372677596 213.72639999999998Q464.9839772677596 213.72639999999998 460.8623772677596 211.39679999999998Q456.7407772677596 209.06719999999999 454.3394972677596 204.98143999999996Q451.93821726775957 200.89567999999997 451.93821726775957 195.80639999999997Q451.93821726775957 190.71711999999997 454.3036572677596 186.66719999999998Q456.6690972677596 182.61727999999997 460.71901726775957 180.25183999999996Q464.76893726775955 177.88639999999998 469.71485726775956 177.88639999999998Q474.5174172677596 177.88639999999998 478.20893726775955 180.10848Q481.9004572677596 182.33055999999996 484.0150172677596 186.20127999999997Q486.1295772677596 190.07199999999997 486.1295772677596 195.01791999999998Q486.1295772677596 195.87807999999998 486.0220572677596 196.77407999999997Q485.91453726775956 197.67007999999998 485.69949726775957 198.74527999999998H457.4575772677596V192.29407999999998H481.6137372677596L478.6748572677596 194.87455999999997Q478.53149726775956 191.72063999999997 477.45629726775957 189.57023999999996Q476.38109726775957 187.41983999999997 474.40989726775956 186.27295999999996Q472.4386972677596 185.12607999999997 469.5714972677596 185.12607999999997Q466.5609372677596 185.12607999999997 464.3388572677596 186.41631999999998Q462.1167772677596 187.70655999999997 460.8982172677596 190.03615999999997Q459.6796572677596 192.36575999999997 459.6796572677596 195.59135999999998Q459.6796572677596 198.81695999999997 460.9698972677596 201.25408Q462.2601372677596 203.69119999999998 464.6255772677596 205.01727999999997Q466.99101726775956 206.34336 470.0732572677596 206.34336Q472.72541726775955 206.34336 474.98333726775957 205.41152Q477.2412572677596 204.47967999999997 478.81821726775956 202.68767999999997L483.8358172677596 207.77695999999997Q481.3270172677596 210.71584 477.74301726775957 212.22111999999998Q474.15901726775957 213.72639999999998 470.1449372677596 213.72639999999998ZM489.8569372677595 208.70879999999997 509.0671772677596 182.90399999999997H518.3138972677596L499.10365726775956 208.70879999999997ZM489.8569372677595 213.00959999999998V208.70879999999997L497.0249372677595 205.84159999999997H517.8838172677596V213.00959999999998ZM491.14717726775956 185.77119999999996V178.60319999999996H518.3138972677596V182.90399999999997L511.14589726775955 185.77119999999996ZM522.1846172677596 208.70879999999997 541.3948572677596 182.90399999999997H550.6415772677595L531.4313372677595 208.70879999999997ZM522.1846172677596 213.00959999999998V208.70879999999997L529.3526172677596 205.84159999999997H550.2114972677596V213.00959999999998ZM523.4748572677595 185.77119999999996V178.60319999999996H550.6415772677595V182.90399999999997L543.4735772677595 185.77119999999996ZM572.8623772677596 213.72639999999998Q567.8447772677596 213.72639999999998 563.7590172677596 211.32511999999997Q559.6732572677596 208.92383999999998 557.2719772677597 204.83808Q554.8706972677596 200.75231999999997 554.8706972677596 195.73471999999998Q554.8706972677596 190.71711999999997 557.2719772677597 186.70304Q559.6732572677596 182.68895999999998 563.7590172677596 180.28767999999997Q567.8447772677596 177.88639999999998 572.8623772677596 177.88639999999998Q577.9516572677596 177.88639999999998 582.0374172677596 180.25183999999996Q586.1231772677596 182.61727999999997 588.5244572677595 186.66719999999998Q590.9257372677596 190.71711999999997 590.9257372677596 195.73471999999998Q590.9257372677596 200.75231999999997 588.5244572677595 204.83808Q586.1231772677596 208.92383999999998 582.0374172677596 211.32511999999997Q577.9516572677596 213.72639999999998 572.8623772677596 213.72639999999998ZM572.8623772677596 206.12831999999997Q575.8012572677596 206.12831999999997 578.0591772677597 204.80223999999998Q580.3170972677597 203.47615999999996 581.5714972677597 201.11071999999996Q582.8258972677596 198.74527999999998 582.8258972677596 195.73471999999998Q582.8258972677596 192.72415999999998 581.5356572677597 190.43039999999996Q580.2454172677596 188.13663999999997 578.0233372677596 186.81055999999995Q575.8012572677596 185.48447999999996 572.8623772677596 185.48447999999996Q569.9951772677597 185.48447999999996 567.7372572677597 186.81055999999995Q565.4793372677597 188.13663999999997 564.2249372677596 190.43039999999996Q562.9705372677596 192.72415999999998 562.9705372677596 195.73471999999998Q562.9705372677596 198.74527999999998 564.2249372677596 201.11071999999996Q565.4793372677597 203.47615999999996 567.7372572677597 204.80223999999998Q569.9951772677597 206.12831999999997 572.8623772677596 206.12831999999997Z" fill="currentColor"/></svg></a></h1>
+      <p class="ds-supporting">Gli eventi dell'Appennino bolognese, tutti in un posto solo.</p>
+    </div>
+  </header>
+
+  <!-- EVENTI -->
+  <section id="vista-eventi">
+    <div class="filtri">
+      <div class="chips" id="quando" role="group" aria-label="Quando">
+        <button class="ds-chip" data-q="tutti" aria-pressed="true">Tutti</button>
+        <button class="ds-chip" data-q="weekend" aria-pressed="false">Questo weekend</button>
+        <button class="ds-chip" data-q="7" aria-pressed="false">Prossimi 7 giorni</button>
+        <button class="ds-chip" data-q="30" aria-pressed="false">Prossimi 30 giorni</button>
+        <!-- il campo data sta sotto la chip, invisibile: il calendario del browser si apre li' -->
+        <span class="box-giorno" id="box-giorno"><button class="ds-chip" data-q="giorno" id="chip-giorno" aria-pressed="false">Scegli un giorno</button><input class="giorno-nascosto" type="date" id="giorno" tabindex="-1" aria-label="Giorno"></span>
+      </div>
+      <div class="riga-filtri">
+        <div><label class="ds-label" for="comune">Dove</label>
+          <select class="ds-select" id="comune"><option value="">Ovunque</option></select></div>
+        <div><label class="ds-label" for="categoria">Tipo</label>
+          <select class="ds-select" id="categoria"><option value="">Tutti i tipi</option></select></div>
+      </div>
+    </div>
+    <div class="riga-modo">
+      <div class="ds-tabs" role="group" aria-label="Come vedere gli eventi">
+        <button type="button" class="ds-tab" data-modo="card" aria-pressed="true">Card</button>
+        <button type="button" class="ds-tab" data-modo="lista" aria-pressed="false">Lista</button>
+      </div>
+      <span class="ds-supporting" id="conteggio" aria-live="polite"></span>
+    </div>
+    <div id="elenco" hidden></div>
+    <div class="mazzo-zona" id="mazzo-zona">
+      <div class="mazzo" id="mazzo"></div>
+      <div id="comandi">
+        <div class="comandi">
+          <button class="ds-btn ds-btn-outline ds-btn-lg" id="indietro">Indietro</button>
+          <button class="ds-btn ds-btn-outline" id="salva" aria-pressed="false" aria-label="Salva"><svg class="ic stella-svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z"/></svg></button>
+          <button class="ds-btn ds-btn-primary ds-btn-lg" id="avanti">Avanti</button>
+        </div>
+        <div class="riga-posizione">
+          <span class="ds-supporting" id="posizione" aria-live="polite"></span>
+          <span class="ds-supporting suggerimento" id="suggerimento"></span>
+        </div>
+      </div>
+    </div>
+    <p class="piede ds-supporting" id="piede"></p>
+  </section>
+
+  <!-- PREFERITI -->
+  <section id="vista-preferiti" hidden>
+    <h2 class="ds-section-title" style="margin-top:24px">I tuoi salvati</h2>
+    <div id="elenco-preferiti"></div>
+    <p class="piede ds-supporting">Restano solo su questo telefono o computer.</p>
+  </section>
+
+  <!-- SEGNALA: niente server, il modulo prepara un'email verso la casella del progetto -->
+  <section id="vista-segnala" class="vista-segnala" hidden>
+    <h2 class="ds-section-title">Segnala un evento o una fonte</h2>
+    <p class="ds-supporting intro-segnala">Hai visto una locandina che qui non c'è? Mandacela, con il link a dove l'hai trovata.</p>
+    <form id="form-segnala" novalidate>
+      <div class="ds-row tipo-segnala" role="group" aria-label="Cosa vuoi segnalare">
+        <button type="button" class="ds-chip" data-tipo="evento" aria-pressed="true">Un evento</button>
+        <button type="button" class="ds-chip" data-tipo="fonte" aria-pressed="false">Una fonte</button>
+      </div>
+      <div class="ds-field">
+        <label class="ds-label" for="s-nome" id="s-nome-label">Nome dell'evento</label>
+        <input class="ds-input" id="s-nome" type="text" autocomplete="off" required aria-describedby="s-nome-errore" placeholder="Castagnata di Bargi…">
+        <span class="errore" id="s-nome-errore" role="alert" hidden>Scrivi almeno il nome.</span>
+      </div>
+      <div class="ds-field solo-evento">
+        <label class="ds-label" for="s-quando">Quando e dove</label>
+        <input class="ds-input" id="s-quando" type="text" autocomplete="off" placeholder="Domenica 8 novembre, Bargi…">
+      </div>
+      <div class="ds-field solo-fonte" hidden>
+        <label class="ds-label" for="s-tipo-fonte">Che tipo di fonte</label>
+        <select class="ds-select" id="s-tipo-fonte">
+          <option>Sito web</option><option>Newsletter</option><option>Pagina social</option><option>Altro</option>
+        </select>
+      </div>
+      <div class="ds-field">
+        <label class="ds-label" for="s-link">Link, se c'è</label>
+        <input class="ds-input" id="s-link" type="url" inputmode="url" autocomplete="off" spellcheck="false" placeholder="https://…">
+      </div>
+      <div class="ds-field">
+        <label class="ds-label" for="s-note">Altro da sapere</label>
+        <textarea class="ds-textarea" id="s-note" spellcheck="true"></textarea>
+      </div>
+      <button type="submit" class="ds-btn ds-btn-primary ds-btn-lg pieno">Prepara l'email</button>
+      <p class="ds-supporting nota-segnala">Si apre la tua posta con il messaggio pronto: se vuoi, allega una foto della locandina. Oppure scrivi a <a href="mailto:appenninosulpezzo+segnalazioni@gmail.com">appenninosulpezzo+segnalazioni@gmail.com</a>.</p>
+    </form>
+  </section>
+
+  <!-- PROFILO (esempio) -->
+  <section id="vista-profilo" class="vista-profilo" hidden>
+    <div class="ds-alert"><span class="ds-badge ds-badge-warn">Esempio</span>
+      Questa sezione mostra come potrebbe funzionare la versione completa. Qui non viene salvato né inviato niente.</div>
+    <p class="ds-supporting intro-profilo">Ti farebbe piacere andare agli eventi con qualcuno? Dicci se cerchi compagnia, un passaggio, o se un posto in auto lo puoi offrire tu.</p>
+
+    <div class="ds-card">
+      <div class="ds-card-header"><h2 class="ds-card-title">Il tuo profilo</h2></div>
+      <div class="ds-card-body">
+        <div class="ds-field"><label class="ds-label" for="nome">Nome visibile agli altri, solo dopo che entrambi accettate</label>
+          <input class="ds-input" id="nome" type="text" value="Marta B."></div>
+        <div class="ds-field"><label class="ds-label" for="partenza">Da dove parti di solito</label>
+          <select class="ds-select" id="partenza"></select></div>
+        <label class="interruttore"><span>Ho l'auto e a volte posso offrire un passaggio</span>
+          <input type="checkbox" role="switch" checked><span class="ds-switch-track"><span class="ds-switch-thumb"></span></span></label>
+        <label class="interruttore"><span>Mi farebbe piacere trovare compagnia per andare agli eventi</span>
+          <input type="checkbox" role="switch" checked><span class="ds-switch-track"><span class="ds-switch-thumb"></span></span></label>
+        <label class="interruttore"><span>Avvisami quando c'è un nuovo evento nel mio comune</span>
+          <input type="checkbox" role="switch"><span class="ds-switch-track"><span class="ds-switch-thumb"></span></span></label>
+        <button class="ds-btn ds-btn-primary ds-btn-lg pieno" style="margin-top:12px" data-esempio>Salva</button>
+      </div>
+    </div>
+
+    <details class="ds-card come">
+      <summary class="ds-card-header"><h2 class="ds-card-title">Come funzionerebbe "Vai insieme"</h2><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-avanti"/></svg></summary>
+      <div class="ds-card-body">
+        <ol class="passi">
+          <li>Su un evento dici che ti interessa e se cerchi compagnia o un passaggio, oppure se lo offri.</li>
+          <li>Se qualcuno della tua zona ha fatto lo stesso, ricevete entrambi un avviso.</li>
+          <li>Restate anonimi finché tutti e due non accettate di mettervi in contatto.</li>
+          <li>Si può sempre rifiutare, bloccare o segnalare. Solo per maggiorenni.</li>
+        </ol>
+      </div>
+    </details>
+  </section>
+</main>
+
+<nav class="basso" aria-label="Sezioni">
+  <div class="wrap">
+    <button class="ds-btn ds-btn-ghost" data-vista="eventi" aria-current="page">
+      <svg class="ic ic-eventi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M1.8 19.5l5-6.2 2.4 2.6L12 10.2l2.8 5.2 2.4-2.6 5 6.7"/><path class="punto" d="M12 8.2c-1.3-1.4-2.6-2.6-2.6-4a2.6 2.6 0 0 1 5.2 0c0 1.4-1.3 2.6-2.6 4z" fill="currentColor" stroke-width="1"/></svg>
+      Eventi</button>
+    <button class="ds-btn ds-btn-ghost" data-vista="preferiti">
+      <svg class="ic" aria-hidden="true" focusable="false"><use href="#i-stella"/></svg>
+      <span>Salvati<span class="ds-badge ds-badge-warn conta" id="conta-preferiti" hidden></span></span></button>
+    <button class="ds-btn ds-btn-ghost" data-vista="segnala">
+      <svg class="ic" aria-hidden="true" focusable="false"><use href="#i-segnala"/></svg>
+      Segnala</button>
+    <button class="ds-btn ds-btn-ghost" data-vista="profilo">
+      <svg class="ic" aria-hidden="true" focusable="false"><use href="#i-profilo"/></svg>
+      Profilo</button>
+  </div>
+</nav>
+
+<div id="dettaglio">
+  <div class="velo" data-chiudi></div>
+  <div class="foglio" role="dialog" aria-modal="true" aria-labelledby="d-titolo" tabindex="-1">
+    <div class="wrap">
+      <div class="maniglia"></div>
+      <figure class="d-figura" id="d-figura">
+        <img id="d-img" alt="" referrerpolicy="no-referrer">
+        <figcaption class="ds-supporting" id="d-credito"></figcaption>
+      </figure>
+      <h2 class="grande" id="d-titolo"></h2>
+      <ul class="dettagli" id="d-info"></ul>
+      <p class="avviso"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-info"/></svg><span>Raccolto in automatico: prima di partire controlla data e ora sulla fonte.</span></p>
+      <div class="azioni">
+        <a class="ds-btn ds-btn-primary ds-btn-lg" id="d-link" target="_blank" rel="noopener"></a>
+        <button class="ds-btn ds-btn-outline ds-btn-lg" id="d-stella"></button>
+        <details class="calendario" id="d-calendario">
+          <summary class="ds-btn ds-btn-outline ds-btn-lg">Aggiungi al calendario</summary>
+          <div class="scelte">
+            <a class="ds-btn ds-btn-outline ds-btn-lg" id="cal-google" target="_blank" rel="noopener">Google Calendar</a>
+            <a class="ds-btn ds-btn-outline ds-btn-lg" id="cal-apple" download="evento.ics">Apple Calendar o altro</a>
+          </div>
+        </details>
+      </div>
+
+      <details class="insieme">
+        <summary><h3>Vai insieme <span class="ds-badge ds-badge-warn">Esempio</span></h3><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-avanti"/></svg></summary>
+        <p class="interessati"><span id="d-quanti"></span></p>
+        <div class="azioni">
+          <button class="ds-btn ds-btn-outline ds-btn-lg" data-esempio>Cerco compagnia</button>
+          <button class="ds-btn ds-btn-outline ds-btn-lg" data-esempio>Cerco un passaggio</button>
+          <button class="ds-btn ds-btn-outline ds-btn-lg" data-esempio>Offro un passaggio</button>
+        </div>
+      </details>
+      <button class="ds-btn ds-btn-ghost ds-btn-lg pieno chiudi" data-chiudi>Chiudi</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status"></div>
+
+<!-- dati: gli stessi della webapp, aggiornati dalla sentinella -->
+<script src="eventi.js"></script>
+<script>
+(function () {
+  "use strict";
+  var DATI = window.DATI_EVENTI || { aggiornato: "", eventi: [] };
+  var MESI = ["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"];
+  var GIORNI = ["domenica","lunedì","martedì","mercoledì","giovedì","venerdì","sabato"];
+  var CHIAVE = "appennino-preferiti";
+  function icona(nome) { return '<svg class="ic" aria-hidden="true" focusable="false"><use href="#i-' + nome + '"/></svg>'; }
+  var STELLA = '<path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z"/></svg>';
+  var ICONE = {
+    stella: '<svg class="ic stella-svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">' + STELLA,
+    stellaPiena: '<svg class="ic stella-svg piena" viewBox="0 0 24 24" aria-hidden="true" focusable="false">' + STELLA,
+    calendario: icona("calendario"), ora: icona("orario"), luogo: icona("luogo")
+  };
+  // ogni tipo di evento ha il suo colore di copertina e la sua icona (grafica/design-system)
+  var TIPI = {
+    "Feste e sagre": ["terracotta", "cat-feste"], "Bambini e famiglie": ["verde-acqua", "cat-bambini"],
+    "Musica e spettacoli": ["prugna", "cat-musica"], "Libri e cultura": ["blu-petrolio", "cat-libri"],
+    "Natura ed escursioni": ["verde-bosco", "cat-natura"], "Sport": ["ocra", "cat-sport"], "Altro": ["grafite", "cat-altro"]
+  };
+  function tipoDi(e) { return TIPI[e.categoria] || TIPI.Altro; }
+  function coloreTipo(e) { return "var(--copertina-" + tipoDi(e)[0] + ")"; }
+  function etichettaTipo(e) {
+    var s = document.createElement("span"), d = document.createElement("span");
+    s.className = "tipo"; d.className = "pallino"; d.style.setProperty("--colore-tipo", coloreTipo(e));
+    s.append(d, e.categoria); return s;
+  }
+
+  function giornoLocale(iso) { var p = iso.split("-"); return new Date(+p[0], +p[1] - 1, +p[2]); }
+  var oggi = new Date(); oggi.setHours(0, 0, 0, 0);
+  function piuGiorni(d, n) { var x = new Date(d); x.setDate(x.getDate() + n); return x; }
+  function lungo(d) { return GIORNI[d.getDay()] + " " + d.getDate() + " " + MESI[d.getMonth()]; }
+  function maiuscola(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
+
+  // solo eventi non ancora finiti; gli eventi di piu' giorni contano da oggi.
+  // Con giorni precisi (il cinema: 23, 24, 25 ottobre e 1 novembre) valgono solo quelli
+  var eventi = DATI.eventi.map(function (e) {
+    var inizio = giornoLocale(e.inizio), fine = giornoLocale(e.fine);
+    if ((e.giorni || []).length) {
+      var giorni = e.giorni.map(function (g) { return { d: giornoLocale(g.data), orari: g.orari || "" }; })
+        .filter(function (g) { return g.d >= oggi; }).sort(function (a, b) { return a.d - b.d; });
+      if (!giorni.length) return null;
+      return Object.assign({}, e, { dInizio: giorni[0].d, dFine: giorni[giorni.length - 1].d, dMostra: giorni[0].d, giorniD: giorni });
+    }
+    return Object.assign({}, e, { dInizio: inizio, dFine: fine, dMostra: inizio < oggi ? oggi : inizio, giorniD: [] });
+  }).filter(function (e) { return e && e.dFine >= oggi; })
+    .sort(function (a, b) { return a.dMostra - b.dMostra || a.titolo.localeCompare(b.titolo); });
+
+  function stessoGiorno(a, b) { return a.getTime() === b.getTime(); }
+  function cadeIl(e, d) {
+    return e.giorniD.length ? e.giorniD.some(function (g) { return stessoGiorno(g.d, d); }) : e.dInizio <= d && e.dFine >= d;
+  }
+  function inIntervallo(e, da, fino) {
+    return e.giorniD.length ? e.giorniD.some(function (g) { return g.d >= da && g.d <= fino; }) : e.dInizio <= fino && e.dFine >= da;
+  }
+  function giornoScelto() { return filtro.quando === "giorno" && filtro.giorno ? giornoLocale(filtro.giorno) : null; }
+  // "13, 20 e 27 nov", "24, 25 ott e 1 nov"
+  function giorniBrevi(e) {
+    var mesi = [];
+    e.giorniD.forEach(function (g) {
+      var m = MESI[g.d.getMonth()].slice(0, 3), u = mesi[mesi.length - 1];
+      if (u && u.m === m) u.n.push(g.d.getDate()); else mesi.push({ m: m, n: [g.d.getDate()] });
+    });
+    var parti = mesi.map(function (p) {
+      return p.n.length > 1 ? p.n.slice(0, -1).join(", ") + " e " + p.n[p.n.length - 1] + " " + p.m : p.n[0] + " " + p.m;
+    });
+    return parti.join(", ");
+  }
+  function orariDi(e, d) {
+    var g = e.giorniD.filter(function (x) { return stessoGiorno(x.d, d); })[0];
+    return g ? g.orari : "";
+  }
+  function orariComuni(e) {
+    var o = e.giorniD.map(function (g) { return g.orari; });
+    return o.every(function (x) { return x === o[0]; }) ? o[0] : "";
+  }
+  // la parte "quando" sotto il titolo, senza il giorno (che sta nel riquadro della data o nell'intestazione)
+  function quandoAggiunto(e) {
+    if (!e.giorniD.length) {
+      var p = [];
+      if (e.ora) p.push("ore " + e.ora);
+      if (e.fine !== e.inizio) p.push("fino al " + e.dFine.getDate() + " " + MESI[e.dFine.getMonth()]);
+      return p;
+    }
+    var sc = giornoScelto();
+    if (sc) return orariDi(e, sc) ? ["ore " + orariDi(e, sc)] : [];
+    if (e.giorniD.length === 1) return e.giorniD[0].orari ? ["ore " + e.giorniD[0].orari] : [];
+    return [giorniBrevi(e)].concat(orariComuni(e) ? ["ore " + orariComuni(e)] : []);
+  }
+
+  // preferiti: solo su questo dispositivo
+  var preferiti = [];
+  try { preferiti = JSON.parse(localStorage.getItem(CHIAVE) || "[]"); } catch (e) {}
+  function salvaPreferiti() { try { localStorage.setItem(CHIAVE, JSON.stringify(preferiti)); } catch (e) {} }
+  function ePreferito(id) { return preferiti.indexOf(id) >= 0; }
+  function cambiaPreferito(id) {
+    var i = preferiti.indexOf(id);
+    if (i >= 0) { preferiti.splice(i, 1); avviso("Tolto dai salvati"); }
+    else { preferiti.push(id); avviso("Salvato"); }
+    salvaPreferiti(); disegna();
+  }
+
+  var filtro = { quando: "tutti", comune: "", categoria: "" };
+  function riempi(sel, valori) {
+    valori.forEach(function (v) { var o = document.createElement("option"); o.value = o.textContent = v; sel.appendChild(o); });
+  }
+  function unici(campo) {
+    return eventi.map(function (e) { return e[campo]; })
+      .filter(function (v, i, a) { return v && a.indexOf(v) === i; })
+      .sort(function (a, b) { return a === "Tutta la montagna" ? 1 : b === "Tutta la montagna" ? -1 : a.localeCompare(b); });
+  }
+  // "Dove": le localita' raggruppate sotto il loro comune (Riola sotto Vergato), ordinate per nome
+  (function () {
+    var sel = document.getElementById("comune"), gruppi = {};
+    eventi.forEach(function (e) {
+      var c = e.comune_amministrativo || e.comune;
+      if (e.comune === "Tutta la montagna") c = "Tutta la montagna";
+      (gruppi[c] = gruppi[c] || []).indexOf(e.comune) < 0 && gruppi[c].push(e.comune);
+    });
+    Object.keys(gruppi).sort(function (a, b) {
+      return a === "Tutta la montagna" ? 1 : b === "Tutta la montagna" ? -1 : a.localeCompare(b);
+    }).forEach(function (c) {
+      var g = document.createElement("optgroup"); g.label = c;
+      riempi(g, gruppi[c].sort(function (a, b) { return a === c ? -1 : b === c ? 1 : a.localeCompare(b); }));
+      sel.appendChild(g);
+    });
+  })();
+  riempi(document.getElementById("categoria"), unici("categoria"));
+
+  function nelPeriodo(e) {
+    if (filtro.quando === "tutti") return true;
+    if (filtro.quando === "giorno") {
+      // un evento di piu' giorni vale in tutti i giorni in cui e' in corso
+      if (!filtro.giorno) return true;
+      return cadeIl(e, giornoLocale(filtro.giorno));
+    }
+    if (filtro.quando === "weekend") {
+      // il prossimo sabato e domenica, o quello che ne resta se e' gia' weekend
+      var g = oggi.getDay(); // domenica = 0
+      var da = g === 0 || g === 6 ? oggi : piuGiorni(oggi, 6 - g);
+      var fino = g === 0 ? oggi : piuGiorni(da, 1);
+      return inIntervallo(e, da, fino);
+    }
+    return inIntervallo(e, oggi, piuGiorni(oggi, +filtro.quando));
+  }
+  function filtrati() {
+    return eventi.filter(function (e) {
+      return nelPeriodo(e) && (!filtro.comune || e.comune === filtro.comune) &&
+        (!filtro.categoria || e.categoria === filtro.categoria);
+    });
+  }
+
+  function scheda(e) {
+    var b = document.createElement("div");
+    b.className = "ds-card evento"; b.tabIndex = 0; b.setAttribute("role", "button");
+    var data = document.createElement("div"); data.className = "data";
+    data.innerHTML = "<b></b><span></span>";
+    data.firstChild.textContent = e.dMostra.getDate();
+    data.lastChild.textContent = MESI[e.dMostra.getMonth()].slice(0, 3);
+    var corpo = document.createElement("div"); corpo.className = "corpo";
+    var t = document.createElement("p"); t.className = "titolo"; t.textContent = e.titolo;
+    var m = document.createElement("p"); m.className = "ds-supporting";
+    m.textContent = [e.comune].concat(quandoAggiunto(e)).join(" · ");
+    corpo.append(t, m, etichettaTipo(e));
+    var s = document.createElement("button"); s.className = "ds-btn ds-btn-ghost stella";
+    var pref = ePreferito(e.id);
+    s.innerHTML = pref ? ICONE.stellaPiena : ICONE.stella;
+    s.setAttribute("aria-pressed", pref); s.setAttribute("aria-label", pref ? "Togli dai salvati" : "Salva");
+    s.addEventListener("click", function (ev) { ev.stopPropagation(); cambiaPreferito(e.id); });
+    b.append(data, corpo, s);
+    b.addEventListener("click", function () { apri(e, b); });
+    b.addEventListener("keydown", function (ev) { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); apri(e, b); } });
+    return b;
+  }
+
+  function elencoPerGiorno(contenitore, lista) {
+    contenitore.textContent = "";
+    var ultimo = "", gruppo = null;
+    lista.forEach(function (e) {
+      var g = e.dMostra.getTime() === oggi.getTime() ? "Oggi" :
+              e.dMostra.getTime() === piuGiorni(oggi, 1).getTime() ? "Domani" : maiuscola(lungo(e.dMostra));
+      if (g !== ultimo) {
+        var h = document.createElement("h2"); h.className = "giorno"; h.textContent = g;
+        gruppo = document.createElement("div"); gruppo.className = "lista";
+        contenitore.append(h, gruppo); ultimo = g;
+      }
+      gruppo.appendChild(scheda(e));
+    });
+  }
+
+  function vuoto(contenitore, titolo, testo) {
+    contenitore.innerHTML = '<div class="vuoto"><b></b><span class="ds-supporting"></span></div>';
+    contenitore.querySelector("b").textContent = titolo;
+    contenitore.querySelector("span").textContent = testo;
+  }
+
+  // ---- mazzo di card ----
+  var mazzo = [], pos = 0, inVolo = false;
+  var elMazzo = document.getElementById("mazzo");
+  var riduci = window.matchMedia("(prefers-reduced-motion: reduce)");
+  var GIORNI_CORTI = ["dom", "lun", "mar", "mer", "gio", "ven", "sab"];
+
+  function nomeGiorno(d) {
+    return stessoGiorno(d, oggi) ? "Oggi" : stessoGiorno(d, piuGiorni(oggi, 1)) ? "Domani" :
+      maiuscola(GIORNI_CORTI[d.getDay()]) + " " + d.getDate() + " " + MESI[d.getMonth()].slice(0, 3);
+  }
+  function quandoBreve(e) {
+    if (e.giorniD.length) {
+      var sc = giornoScelto();
+      if (sc) return nomeGiorno(sc) + (orariDi(e, sc) ? " · ore " + orariDi(e, sc) : "");
+      if (e.giorniD.length === 1) return nomeGiorno(e.giorniD[0].d) + (e.giorniD[0].orari ? " · ore " + e.giorniD[0].orari : "");
+      return maiuscola(giorniBrevi(e)) + (orariComuni(e) ? " · ore " + orariComuni(e) : "");
+    }
+    var t = nomeGiorno(e.dMostra);
+    if (e.fine !== e.inizio) t += ", fino al " + e.dFine.getDate() + " " + MESI[e.dFine.getMonth()].slice(0, 3);
+    if (e.ora) t += " · ore " + e.ora;
+    return t;
+  }
+
+  function carta(e, dietro) {
+    var c = document.createElement("article");
+    c.className = "ds-card carta" + (dietro ? " dietro" : "") + (e.immagine ? "" : " senza-img");
+    if (!dietro) { c.tabIndex = 0; c.setAttribute("aria-roledescription", "card"); c.setAttribute("aria-label", e.titolo + ", " + quandoBreve(e) + ", " + e.comune); }
+    else c.setAttribute("aria-hidden", "true");
+    c.innerHTML = '<div class="figura"><div class="sfondo"></div><img class="locandina" alt="" referrerpolicy="no-referrer" draggable="false">' +
+      '<div class="vuota" aria-hidden="true"><span class="vuota-tipo"></span><span class="vuota-titolo"></span></div><span class="segnata" hidden>' + ICONE.stellaPiena + '</span></div>' +
+      '<div class="info"><p class="meta"></p><h2></h2><p class="dove"><span class="quando"></span></p></div>';
+    // la copertina e' pronta anche se l'immagine c'e' ma non si carica
+    c.querySelector(".vuota-tipo").textContent = e.categoria;
+    c.querySelector(".vuota-titolo").textContent = e.titolo;
+    c.style.setProperty("--colore-tipo", coloreTipo(e));
+    // tre righe sole, perche' sul telefono la locandina ha bisogno di spazio: tipo e fonte, titolo, quando e dove
+    var fonte = document.createElement("span"); fonte.className = "fonte"; fonte.textContent = "Fonte: " + e.fonte;
+    c.querySelector(".meta").append(etichettaTipo(e), fonte);
+    if (e.immagine) {
+      var img = c.querySelector(".locandina");
+      img.src = e.immagine;
+      img.addEventListener("error", function () { c.classList.add("senza-img"); });
+      c.querySelector(".sfondo").style.backgroundImage = "url(" + JSON.stringify(e.immagine) + ")";
+    }
+    c.querySelector(".quando").textContent = quandoBreve(e);
+    c.querySelector("h2").textContent = e.titolo;
+    c.querySelector(".dove").append(" · " + e.comune);
+    c.querySelector(".segnata").hidden = !ePreferito(e.id);
+    return c;
+  }
+
+  function preparaMazzo() { mazzo = filtrati(); pos = 0; disegnaMazzo(); disegnaLista(); }
+
+  // ---- vista a lista, con gli stessi filtri; la scelta resta su questo dispositivo
+  var CHIAVE_MODO = "appennino-modo", modo = "card";
+  try { modo = localStorage.getItem(CHIAVE_MODO) === "lista" ? "lista" : "card"; } catch (e) {}
+  function disegnaLista() {
+    var lista = filtrati(), el = document.getElementById("elenco");
+    if (filtro.quando === "giorno" && filtro.giorno) {
+      // con un giorno scelto, gli eventi in corso stanno sotto quel giorno e non sotto "Oggi"
+      var scelto = giornoLocale(filtro.giorno);
+      lista = lista.map(function (e) { return Object.assign({}, e, { dMostra: scelto }); });
+    }
+    document.getElementById("conteggio").textContent = lista.length === 1 ? "1 evento" : lista.length + " eventi";
+    if (lista.length) elencoPerGiorno(el, lista);
+    else if (filtro.quando === "giorno" && filtro.giorno) vuoto(el, "In questo giorno non abbiamo trovato niente", "Prova un altro giorno, o scegli Tutti.");
+    else vuoto(el, "Con questi filtri non abbiamo trovato niente", eventi.length ? "Prova con i prossimi 30 giorni o allarga la zona." : "In questo momento l'elenco è vuoto.");
+  }
+  function mostraModo(m) {
+    modo = m;
+    try { localStorage.setItem(CHIAVE_MODO, m); } catch (e) {}
+    document.querySelectorAll(".riga-modo .ds-tab").forEach(function (b) { b.setAttribute("aria-pressed", b.dataset.modo === m); });
+    document.getElementById("elenco").hidden = m !== "lista";
+    document.getElementById("mazzo-zona").hidden = m !== "card";
+  }
+  document.querySelectorAll(".riga-modo .ds-tab").forEach(function (b) {
+    b.addEventListener("click", function () { mostraModo(b.dataset.modo); });
+  });
+
+  function disegnaMazzo() {
+    elMazzo.textContent = "";
+    var finito = pos >= mazzo.length;
+    document.getElementById("comandi").hidden = finito;
+    document.getElementById("indietro").disabled = pos === 0;
+    document.getElementById("posizione").textContent = finito ? "" : (pos + 1) + " di " + mazzo.length;
+    aggiornaSalva();
+    if (finito) {
+      var f = document.createElement("div"); f.className = "fine";
+      if (!mazzo.length) {
+        f.innerHTML = "<b></b><span class='ds-supporting'></span>";
+        f.querySelector("b").textContent = "Con questi filtri non abbiamo trovato niente";
+        f.querySelector("span").textContent = eventi.length ? "Prova con i prossimi 30 giorni o allarga la zona." : "In questo momento l'elenco è vuoto.";
+      } else {
+        f.innerHTML = "<b>Li hai visti tutti</b><span class='ds-supporting'></span>" +
+          "<div class='ds-row'><button class='ds-btn ds-btn-outline ds-btn-lg' id='ricomincia'>Ricomincia</button>" +
+          "<button class='ds-btn ds-btn-primary ds-btn-lg' id='vai-preferiti'>Vedi i salvati</button></div>" +
+          "<button class='ds-btn ds-btn-ghost segnala-link' id='vai-segnala'>Manca un evento? Segnalalo</button>";
+        var n = mazzo.filter(function (e) { return ePreferito(e.id); }).length;
+        f.querySelector("span").textContent = n === 1 ? "Ne hai salvato 1." : n ? "Ne hai salvati " + n + "." : "Non ne hai salvato nessuno.";
+        f.querySelector("#ricomincia").addEventListener("click", function () { pos = 0; disegnaMazzo(); focusCarta(); });
+        f.querySelector("#vai-preferiti").addEventListener("click", function () { document.querySelector("nav.basso [data-vista=preferiti]").click(); });
+        f.querySelector("#vai-segnala").addEventListener("click", function () { document.querySelector("nav.basso [data-vista=segnala]").click(); });
+      }
+      elMazzo.appendChild(f);
+      return;
+    }
+    if (mazzo[pos + 1]) elMazzo.appendChild(carta(mazzo[pos + 1], true));
+    var c = carta(mazzo[pos], false);
+    elMazzo.appendChild(c);
+    trascinabile(c, mazzo[pos]);
+  }
+  function focusCarta() { var c = elMazzo.querySelector(".carta:not(.dietro)"); if (c) c.focus({ preventScroll: true }); }
+
+  // gesti: a sinistra il prossimo, a destra il precedente, in su i dettagli, doppio tocco salva
+  function aggiornaSalva() {
+    var e = mazzo[pos], b = document.getElementById("salva");
+    if (!e) return;
+    var p = ePreferito(e.id);
+    b.setAttribute("aria-pressed", p);
+    b.setAttribute("aria-label", p ? "Togli dai salvati" : "Salva");
+    b.innerHTML = p ? ICONE.stellaPiena : ICONE.stella;
+    var s = elMazzo.querySelector(".carta:not(.dietro) .segnata");
+    if (s) s.hidden = !p;
+  }
+  // dir: 1 avanti (la card esce a sinistra), -1 indietro (esce a destra)
+  function vai(dir) {
+    var c = elMazzo.querySelector(".carta:not(.dietro)"), dest = pos + dir;
+    if (inVolo) return;
+    if (dest < 0 || dest > mazzo.length || (!c && dir > 0)) { if (c) torna(c); return; }
+    var dopo = function () { inVolo = false; pos = dest; disegnaMazzo(); focusCarta(); };
+    if (riduci.matches || !c) return dopo();
+    inVolo = true;
+    c.style.transition = "transform var(--transition-duration-slow) var(--ease-out), opacity var(--transition-duration-slow) var(--ease-out)";
+    c.style.transform = "translateX(" + (-dir * (window.innerWidth + 200)) + "px) rotate(" + (-dir * 20) + "deg)";
+    c.style.opacity = "0";
+    var dietro = elMazzo.querySelector(".carta.dietro");
+    if (dietro && dir > 0) { dietro.style.transition = "transform var(--transition-duration-slow) var(--ease-out)"; dietro.style.transform = "none"; }
+    setTimeout(dopo, c._x ? 220 : 280);
+  }
+  function torna(c) {
+    c._x = 0;
+    c.style.transition = "transform var(--transition-duration-base) var(--ease-out)";
+    c.style.transform = "";
+  }
+  // la stella grande dove si e' toccato, come conferma del doppio tocco
+  function scoppio(c, x, y) {
+    var f = c.querySelector(".figura"), r = f.getBoundingClientRect(), s = document.createElement("span");
+    s.className = "scoppio"; s.innerHTML = ICONE.stellaPiena;
+    s.style.left = Math.min(Math.max(x - r.left, 56), r.width - 56) + "px";
+    s.style.top = Math.min(Math.max(y - r.top, 56), r.height - 56) + "px";
+    f.appendChild(s);
+    setTimeout(function () { s.remove(); }, 950);
+  }
+  // il doppio tocco salva sempre e non toglie mai: per togliere c'e' la stella
+  function salvaQui(c, x, y) {
+    var e = mazzo[pos];
+    if (!e) return;
+    scoppio(c, x, y);
+    if (!ePreferito(e.id)) cambiaPreferito(e.id); else avviso("È già tra i salvati");
+  }
+  // un tocco apre i dettagli, due tocchi veloci salvano
+  var ultimoTocco = null, timerTocco = null;
+  function tocco(ev, c, e) {
+    var t = ev.timeStamp;
+    if (ultimoTocco && t - ultimoTocco.t < 300 && Math.hypot(ev.clientX - ultimoTocco.x, ev.clientY - ultimoTocco.y) < 40) {
+      clearTimeout(timerTocco); ultimoTocco = null;
+      salvaQui(c, ev.clientX, ev.clientY);
+      return;
+    }
+    ultimoTocco = { t: t, x: ev.clientX, y: ev.clientY };
+    timerTocco = setTimeout(function () { ultimoTocco = null; apri(e, c); }, 300);
+  }
+  // oltre la prima card il movimento si smorza, per far sentire il bordo
+  function smorza(v) { return Math.sign(v) * Math.sqrt(Math.abs(v)) * 4; }
+
+  function trascinabile(c, e) {
+    var g = null;
+    function muovi(x, y, anima) {
+      c._x = x;
+      c.style.transition = anima ? "transform var(--transition-duration-base) var(--ease-out)" : "none";
+      c.style.transform = x || y ? "translate(" + x + "px, " + y + "px) rotate(" + (x / 20) + "deg)" : "";
+    }
+    c.addEventListener("pointerdown", function (ev) {
+      if (inVolo || (ev.pointerType === "mouse" && ev.button !== 0)) return;
+      g = { x0: ev.clientX, y0: ev.clientY, asse: null, dx: 0, dy: 0, id: ev.pointerId, campioni: [[ev.clientX, ev.clientY, ev.timeStamp]] };
+    });
+    c.addEventListener("pointermove", function (ev) {
+      if (!g || ev.pointerId !== g.id) return;
+      g.dx = ev.clientX - g.x0; g.dy = ev.clientY - g.y0;
+      if (!g.asse && Math.hypot(g.dx, g.dy) > 8) {
+        g.asse = Math.abs(g.dx) > Math.abs(g.dy) ? "x" : "y";
+        try { c.setPointerCapture(g.id); } catch (err) {}
+        c.classList.add("trascina");
+        clearTimeout(timerTocco); ultimoTocco = null;
+      }
+      g.campioni.push([ev.clientX, ev.clientY, ev.timeStamp]); if (g.campioni.length > 5) g.campioni.shift();
+      if (g.asse === "x") muovi(pos === 0 && g.dx > 0 ? smorza(g.dx) : g.dx, 0, false);
+      else if (g.asse === "y") muovi(0, g.dy < 0 ? g.dy * .4 : smorza(g.dy), false);
+    });
+    c.addEventListener("pointerup", function (ev) {
+      if (!g || ev.pointerId !== g.id) return;
+      var s = g; g = null;
+      c.classList.remove("trascina");
+      if (!s.asse) { tocco(ev, c, e); return; }
+      // dove arriverebbe la card se continuasse: un colpo veloce basta anche se corto
+      var a = s.campioni[0], b = s.campioni[s.campioni.length - 1], dt = (b[2] - a[2]) || 1;
+      if (s.asse === "x") {
+        var arrivo = s.dx + (b[0] - a[0]) / dt * 200, soglia = Math.min(120, c.offsetWidth * .3);
+        if (arrivo < -soglia) vai(1);
+        else if (arrivo > soglia && pos > 0) vai(-1);
+        else muovi(0, 0, true);
+      } else {
+        var su = s.dy + (b[1] - a[1]) / dt * 200;
+        muovi(0, 0, true);
+        if (su < -70) apri(e, c);
+      }
+    });
+    c.addEventListener("pointercancel", function () { g = null; c.classList.remove("trascina"); muovi(0, 0, true); });
+    c.addEventListener("keydown", function (ev) {
+      if (ev.key === "ArrowRight") { ev.preventDefault(); vai(1); }
+      else if (ev.key === "ArrowLeft") { ev.preventDefault(); vai(-1); }
+      else if (ev.key === "ArrowUp" || ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); apri(e, c); }
+    });
+  }
+
+  document.getElementById("avanti").addEventListener("click", function () { vai(1); });
+  document.getElementById("indietro").addEventListener("click", function () { vai(-1); });
+  document.getElementById("salva").addEventListener("click", function () { var e = mazzo[pos]; if (e) cambiaPreferito(e.id); });
+  // il suggerimento cambia tra telefono e computer
+  document.getElementById("suggerimento").textContent = window.matchMedia("(pointer: coarse)").matches ?
+    "Doppio tocco per salvare." :
+    "Doppio clic per salvare, frecce per scorrere.";
+
+  function disegna() {
+    var pref = eventi.filter(function (e) { return ePreferito(e.id); });
+    var ep = document.getElementById("elenco-preferiti");
+    if (pref.length) elencoPerGiorno(ep, pref);
+    else vuoto(ep, "Ancora niente di salvato", "Fai doppio tocco su una card, o tocca la stella: l'evento lo ritrovi qui.");
+    var c = document.getElementById("conta-preferiti");
+    c.hidden = !pref.length; c.textContent = pref.length;
+    if (eventi.length) disegnaLista();   // le stelle della lista seguono i preferiti
+    aggiornaSalva();
+  }
+
+  // piede: aggiornamento e fonti
+  (function () {
+    var fonti = unici("fonte").join(", ");
+    var agg = DATI.aggiornato ? giornoLocale(DATI.aggiornato.slice(0, 10)) : null;
+    document.getElementById("piede").textContent =
+      (agg ? "Aggiornato " + lungo(agg) + " alle " + DATI.aggiornato.slice(11) + ". " : "") +
+      (fonti ? "Fonti: " + fonti + ". " : "") +
+      "Li raccogliamo in automatico ogni mattina: prima di partire controlla data e ora sulla fonte.";
+  })();
+
+  // dettaglio
+  var aperto = null, origine = null;
+  function hash(s) { var h = 0; for (var i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0; return Math.abs(h); }
+  function riga(icona, testo) {
+    var li = document.createElement("li"), b = document.createElement("span");
+    li.innerHTML = icona; b.textContent = testo; li.append(b); return li;
+  }
+  function apri(e, da) {
+    aperto = e; origine = da || null;
+    document.getElementById("d-titolo").textContent = e.titolo;
+    var info = document.getElementById("d-info"); info.textContent = "";
+    if (e.giorniD.length) {
+      // un giorno per riga, con i suoi orari: il cinema non e' aperto tutti i giorni
+      e.giorniD.slice(0, 8).forEach(function (g) {
+        info.append(riga(ICONE.calendario, maiuscola(lungo(g.d)) + (g.orari ? ", ore " + g.orari : "")));
+      });
+      if (e.giorniD.length > 8) info.append(riga(ICONE.calendario, "e altri " + (e.giorniD.length - 8) + " giorni"));
+    } else {
+      var quando = e.fine !== e.inizio ? "Da " + lungo(e.dInizio) + " a " + lungo(e.dFine) : maiuscola(lungo(e.dInizio));
+      info.append(riga(ICONE.calendario, quando));
+      if (e.ora) info.append(riga(ICONE.ora, "Ore " + e.ora));
+    }
+    // "Biblioteca comunale, Porretta Terme (comune di Alto Reno Terme)"
+    var giaDetto = e.luogo && e.luogo.toLowerCase().indexOf(e.comune.toLowerCase()) >= 0;   // "Biblioteca di Vergato"
+    var dove = giaDetto ? e.luogo : [e.luogo, e.comune].filter(Boolean).join(", ");
+    if (e.comune_amministrativo && e.comune_amministrativo !== e.comune && e.comune !== "Tutta la montagna")
+      dove += " (comune di " + e.comune_amministrativo + ")";
+    info.append(riga(ICONE.luogo, dove), riga(icona(tipoDi(e)[1]), e.categoria));
+    var l = document.getElementById("d-link"); l.href = e.link; l.textContent = "Leggi i dettagli su " + e.fonte;
+    var fig = document.getElementById("d-figura"), di = document.getElementById("d-img");
+    fig.hidden = !e.immagine;
+    if (e.immagine) { di.src = e.immagine; di.alt = "Locandina: " + e.titolo; document.getElementById("d-credito").textContent = "Fonte: " + e.fonte; }
+    aggiornaStellaDettaglio();
+    preparaCalendario(e);
+    // numero di esempio, sempre uguale per lo stesso evento
+    var n = hash(e.id) % 4 + 1;
+    document.getElementById("d-quanti").textContent =
+      (n === 1 ? "Una persona della zona ci va anche lei." : n + " persone della zona ci vanno anche loro.");
+    document.getElementById("dettaglio").classList.add("aperto");
+    document.querySelector(".foglio").focus();
+  }
+  function aggiornaStellaDettaglio() {
+    if (aperto) document.getElementById("d-stella").textContent = ePreferito(aperto.id) ? "Togli dai salvati" : "Salva";
+  }
+  function chiudi() {
+    if (!aperto) return;
+    document.getElementById("dettaglio").classList.remove("aperto"); aperto = null;
+    if (origine && document.body.contains(origine)) origine.focus();
+  }
+  document.querySelectorAll("[data-chiudi]").forEach(function (b) { b.addEventListener("click", chiudi); });
+  document.addEventListener("keydown", function (ev) { if (ev.key === "Escape") chiudi(); });
+  document.getElementById("d-stella").addEventListener("click", function () { cambiaPreferito(aperto.id); aggiornaStellaDettaglio(); });
+
+  // calendario: Google con un link precompilato, Apple (e gli altri) con un file .ics.
+  // Con l'ora e un giorno solo l'evento dura 2 ore, perche' la fonte non dice quando finisce;
+  // altrimenti e' un evento di giornata intera.
+  var due = function (n) { return String(n).padStart(2, "0"); };
+  function giornoCompatto(d) { return d.getFullYear() + due(d.getMonth() + 1) + due(d.getDate()); }
+  function orarioCompatto(d) { return giornoCompatto(d) + "T" + due(d.getHours()) + due(d.getMinutes()) + "00"; }
+  function aOra(giorno, ora) {
+    var p = ora.split(/[:.]/), da = new Date(giorno); da.setHours(+p[0], +p[1] || 0, 0, 0);
+    return { oraria: true, da: orarioCompatto(da), a: orarioCompatto(new Date(da.getTime() + 2 * 3600 * 1000)) };
+  }
+  // uno o piu' intervalli: con giorni precisi uno per giorno (al primo orario), altrimenti uno solo
+  function intervalli(e) {
+    if (e.giorniD.length) return e.giorniD.map(function (g) {
+      var primo = (g.orari.match(/\d{1,2}[.:]\d{2}/) || [""])[0];
+      return primo ? aOra(g.d, primo) : { oraria: false, da: giornoCompatto(g.d), a: giornoCompatto(piuGiorni(g.d, 1)) };
+    });
+    if (e.ora && e.fine === e.inizio) return [aOra(e.dInizio, e.ora)];
+    return [{ oraria: false, da: giornoCompatto(e.dInizio), a: giornoCompatto(piuGiorni(e.dFine, 1)) }];
+  }
+  // per Google uno solo: il giorno scelto nel filtro se l'evento c'e', altrimenti il prossimo
+  function intervallo(e) {
+    var tutti = intervalli(e), sc = giornoScelto();
+    if (sc && e.giorniD.length) {
+      var i = e.giorniD.map(function (g) { return g.d.getTime(); }).indexOf(sc.getTime());
+      if (i >= 0) return tutti[i];
+    }
+    return tutti[0];
+  }
+  function descrizione(e) { return "Dettagli su " + e.fonte + ": " + e.link + "\n\nDa APPennino sul pezzo. Controlla sempre la fonte prima di partire."; }
+  function linkGoogle(e) {
+    var t = intervallo(e);
+    return "https://calendar.google.com/calendar/render?action=TEMPLATE" +
+      "&text=" + encodeURIComponent(e.titolo) + "&dates=" + t.da + "/" + t.a +
+      (t.oraria ? "&ctz=Europe/Rome" : "") +
+      "&location=" + encodeURIComponent(e.comune) + "&details=" + encodeURIComponent(descrizione(e));
+  }
+  function fileIcs(e) {
+    var esc = function (s) { return s.replace(/\\/g, "\\\\").replace(/[,;]/g, "\\$&").replace(/\n/g, "\\n"); };
+    var adesso = new Date().toISOString().replace(/[-:]/g, "").slice(0, 15) + "Z";
+    var righe = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//APPennino sul pezzo//IT"];
+    // con giorni precisi, un appuntamento per ogni giorno nello stesso file
+    intervalli(e).forEach(function (t, i) {
+      righe.push("BEGIN:VEVENT", "UID:" + e.id + "-" + i + "@appennino", "DTSTAMP:" + adesso);
+      if (t.oraria) righe.push("DTSTART;TZID=Europe/Rome:" + t.da, "DTEND;TZID=Europe/Rome:" + t.a);
+      else righe.push("DTSTART;VALUE=DATE:" + t.da, "DTEND;VALUE=DATE:" + t.a);
+      righe.push("SUMMARY:" + esc(e.titolo), "LOCATION:" + esc(e.comune), "URL:" + e.link,
+        "DESCRIPTION:" + esc(descrizione(e)), "END:VEVENT");
+    });
+    righe.push("END:VCALENDAR");
+    // un data: URL e non un blob, perche' su iPhone Safari apre direttamente "Aggiungi al calendario"
+    return "data:text/calendar;charset=utf-8," + encodeURIComponent(righe.join("\r\n"));
+  }
+  function preparaCalendario(e) {
+    document.getElementById("d-calendario").open = false;
+    document.getElementById("cal-google").href = linkGoogle(e);
+    var a = document.getElementById("cal-apple");
+    a.href = fileIcs(e); a.download = e.titolo.replace(/[^\w\- àèéìòù]/gi, "").trim().slice(0, 40) + ".ics";
+  }
+
+  // segnalazioni
+  var SEGNALAZIONI = "appenninosulpezzo+segnalazioni@gmail.com", tipoSegnala = "evento";
+  function mostraTipo(t) {
+    tipoSegnala = t;
+    document.querySelectorAll(".tipo-segnala .ds-chip").forEach(function (c) { c.setAttribute("aria-pressed", c.dataset.tipo === t); });
+    document.querySelectorAll(".solo-evento").forEach(function (x) { x.hidden = t !== "evento"; });
+    document.querySelectorAll(".solo-fonte").forEach(function (x) { x.hidden = t !== "fonte"; });
+    document.getElementById("s-nome-label").textContent = t === "evento" ? "Nome dell'evento" : "Nome della fonte";
+    document.getElementById("s-nome").placeholder = t === "evento" ? "Castagnata di Bargi…" : "Pro Loco di Camugnano…";
+  }
+  document.querySelectorAll(".tipo-segnala .ds-chip").forEach(function (c) {
+    c.addEventListener("click", function () { mostraTipo(c.dataset.tipo); });
+  });
+  document.getElementById("form-segnala").addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    var v = function (id) { return document.getElementById(id).value.trim(); };
+    var nome = document.getElementById("s-nome"), errore = document.getElementById("s-nome-errore");
+    var manca = !v("s-nome");
+    nome.setAttribute("aria-invalid", manca); errore.hidden = !manca;
+    if (manca) { nome.focus(); return; }
+    var righe = [tipoSegnala === "evento" ? "Evento: " + v("s-nome") : "Fonte: " + v("s-nome") + " (" + v("s-tipo-fonte") + ")"];
+    if (tipoSegnala === "evento" && v("s-quando")) righe.push("Quando e dove: " + v("s-quando"));
+    if (v("s-link")) righe.push("Link: " + v("s-link"));
+    if (v("s-note")) righe.push("", v("s-note"));
+    righe.push("", "(Inviato dal modulo Segnala di APPennino sul pezzo)");
+    var oggetto = (tipoSegnala === "evento" ? "Segnalazione evento: " : "Segnalazione fonte: ") + v("s-nome");
+    location.href = "mailto:" + SEGNALAZIONI + "?subject=" + encodeURIComponent(oggetto) + "&body=" + encodeURIComponent(righe.join("\n"));
+  });
+  document.getElementById("s-note").addEventListener("keydown", function (ev) {
+    if (ev.key === "Enter" && (ev.metaKey || ev.ctrlKey)) document.getElementById("form-segnala").requestSubmit();
+  });
+
+  // pulsanti di esempio
+  document.querySelectorAll("[data-esempio]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      avviso("Questa è solo un'anteprima: nella versione completa qui partirebbe la richiesta. Per ora non viene salvato niente.");
+    });
+  });
+
+  // interruttori del profilo: il kit colora la traccia con la classe "on"
+  document.querySelectorAll(".interruttore input").forEach(function (i) {
+    var traccia = i.nextElementSibling;
+    function segna() { traccia.classList.toggle("on", i.checked); }
+    i.addEventListener("change", segna); segna();
+  });
+
+  var timer;
+  function avviso(testo) {
+    var t = document.getElementById("toast"); t.textContent = testo; t.classList.add("su");
+    clearTimeout(timer); timer = setTimeout(function () { t.classList.remove("su"); }, testo.length > 40 ? 4200 : 1800);
+  }
+
+  // filtri
+  var chipGiorno = document.getElementById("chip-giorno"), inputGiorno = document.getElementById("giorno");
+  var boxGiorno = document.getElementById("box-giorno");
+  inputGiorno.min = piuGiorniIso(oggi);
+  function piuGiorniIso(d) { return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); }
+  function etichettaGiorno() {
+    if (!filtro.giorno) { chipGiorno.textContent = "Scegli un giorno"; chipGiorno.removeAttribute("aria-label"); return; }
+    var d = giornoLocale(filtro.giorno);
+    chipGiorno.textContent = maiuscola(GIORNI_CORTI[d.getDay()]) + " " + d.getDate() + " " + MESI[d.getMonth()].slice(0, 3);
+    chipGiorno.setAttribute("aria-label", "Giorno scelto: " + lungo(d) + ". Cambia giorno");
+  }
+  document.querySelectorAll("#quando .ds-chip").forEach(function (c) {
+    c.addEventListener("click", function () {
+      filtro.quando = c.dataset.q;
+      document.querySelectorAll("#quando .ds-chip").forEach(function (x) { x.setAttribute("aria-pressed", x === c); });
+      if (c === chipGiorno) {
+        // il calendario si apre sotto il campo, che sta gia' sotto la chip
+        try { inputGiorno.showPicker(); }
+        catch (e) { boxGiorno.classList.add("aperta"); inputGiorno.tabIndex = 0; inputGiorno.focus(); }
+      } else {
+        boxGiorno.classList.remove("aperta"); inputGiorno.tabIndex = -1;
+        filtro.giorno = ""; inputGiorno.value = ""; etichettaGiorno();
+      }
+      preparaMazzo();
+    });
+  });
+  inputGiorno.addEventListener("change", function () {
+    boxGiorno.classList.remove("aperta"); inputGiorno.tabIndex = -1;
+    filtro.giorno = inputGiorno.value; etichettaGiorno(); preparaMazzo();
+  });
+  document.getElementById("comune").addEventListener("change", function (ev) { filtro.comune = ev.target.value; preparaMazzo(); });
+  document.getElementById("categoria").addEventListener("change", function (ev) { filtro.categoria = ev.target.value; preparaMazzo(); });
+
+  // sezioni
+  document.querySelectorAll("nav.basso button").forEach(function (b) {
+    b.addEventListener("click", function () {
+      ["eventi", "preferiti", "segnala", "profilo"].forEach(function (v) {
+        document.getElementById("vista-" + v).hidden = v !== b.dataset.vista;
+      });
+      document.querySelectorAll("nav.basso button").forEach(function (x) {
+        if (x === b) x.setAttribute("aria-current", "page"); else x.removeAttribute("aria-current");
+      });
+      window.scrollTo(0, 0);
+    });
+  });
+  // il logo riporta agli eventi, senza ricaricare la pagina (senza JavaScript il link la ricarica)
+  document.getElementById("vai-eventi").addEventListener("click", function (ev) {
+    ev.preventDefault(); chiudi();
+    document.querySelector("nav.basso [data-vista=eventi]").click();
+  });
+
+  // comuni nel profilo di esempio
+  var partenza = document.getElementById("partenza");
+  ["Camugnano", "Castel d'Aiano", "Castel di Casio", "Castiglione dei Pepoli", "Gaggio Montano", "Grizzana Morandi",
+   "Lizzano in Belvedere", "Marzabotto", "Monzuno", "San Benedetto Val di Sambro", "Vergato", "Alto Reno Terme",
+   "Monghidoro", "Loiano", "Monterenzio", "Pianoro", "Sasso Marconi"].forEach(function (c) {
+    var o = document.createElement("option"); o.textContent = c; partenza.appendChild(o);
+  });
+
+  disegna();
+  preparaMazzo();
+  mostraModo(modo);
+})();
+</script>
+</body>
+</html>
