@@ -775,7 +775,7 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
 /* foto della locandina: l'input vero resta nascosto, lo apre il bottone */
 .foto-input { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
 .foto-segnala .ds-btn .ic { margin-right: var(--space-2); }
-.ds .foto-aiuto { margin: var(--space-2) 0 0; text-align: center; }
+.foto-galleria { margin-top: var(--space-2); }
 .foto-anteprima { display: block; width: 100%; max-height: 18rem; object-fit: contain; background: var(--surface-2); border-radius: var(--radius-md); margin-bottom: var(--space-4); }
 #foto-pronta .ds-btn + .ds-btn { margin-top: var(--space-2); }
 .foto-ok { display: flex; gap: var(--space-3); align-items: flex-start; margin: 0 0 var(--space-4); padding: var(--space-4); background: var(--surface-2); border-radius: var(--radius-md); color: var(--ink); }
@@ -887,10 +887,12 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
     <p class="ds-supporting intro-segnala">Hai visto una locandina che qui non c'è? Fotografala e mandacela.</p>
 
     <div class="foto-segnala" id="foto-segnala">
+      <!-- capture apre subito la fotocamera; senza, molti Android aprono solo la galleria -->
+      <input class="foto-input" type="file" id="foto-camera" accept="image/*" capture="environment" tabindex="-1" aria-hidden="true">
       <input class="foto-input" type="file" id="foto-file" accept="image/*" tabindex="-1" aria-hidden="true">
       <div id="foto-scegli">
         <button type="button" class="ds-btn ds-btn-primary ds-btn-lg pieno" id="foto-apri"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-fotocamera"/></svg>Fotografa la locandina</button>
-        <p class="ds-supporting foto-aiuto">Puoi anche sceglierne una già scattata.</p>
+        <button type="button" class="ds-btn ds-btn-ghost ds-btn-lg pieno foto-galleria" id="foto-galleria">Scegli una foto già scattata</button>
       </div>
       <div id="foto-pronta" hidden>
         <img class="foto-anteprima" id="foto-anteprima" alt="La foto che stai per mandare">
@@ -1687,7 +1689,8 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
   var FOTO_SCRIPT = "";
   var fotoPronta = null;
   (function () {
-    var file = document.getElementById("foto-file"), $ = function (id) { return document.getElementById(id); };
+    var $ = function (id) { return document.getElementById(id); };
+    var camera = $("foto-camera"), galleria = $("foto-file"), file = camera;   // file: l'ultimo usato
     function stato(s) {
       $("foto-scegli").hidden = s !== "scegli"; $("foto-pronta").hidden = s !== "pronta"; $("foto-grazie").hidden = s !== "grazie";
       // con la foto in mano si fa una cosa sola: il modulo alternativo torna quando si ricomincia
@@ -1709,10 +1712,13 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
         img.src = url;
       });
     }
-    $("foto-apri").addEventListener("click", function () { file.click(); });
-    $("foto-cambia").addEventListener("click", function () { file.click(); });
-    $("foto-altra").addEventListener("click", function () { file.value = ""; stato("scegli"); file.click(); });
-    file.addEventListener("change", function () {
+    $("foto-apri").addEventListener("click", function () { camera.click(); });
+    $("foto-galleria").addEventListener("click", function () { galleria.click(); });
+    // torna alla scelta tra fotocamera e galleria
+    $("foto-cambia").addEventListener("click", function () { camera.value = galleria.value = ""; fotoPronta = null; errore(""); stato("scegli"); $("foto-apri").focus(); });
+    $("foto-altra").addEventListener("click", function () { camera.value = galleria.value = ""; stato("scegli"); });
+    [camera, galleria].forEach(function (inp) { inp.addEventListener("change", function () { file = inp; scelta(); }); });
+    function scelta() {
       var f = file.files && file.files[0];
       if (!f) return;
       errore("");
@@ -1722,7 +1728,7 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
         stato("pronta");
         $("foto-invia").focus();
       }, function () { stato("pronta"); fotoPronta = null; errore("Questo file non sembra una foto. Prova con un'altra."); });
-    });
+    }
     function base64(b) {
       return new Promise(function (ok) { var r = new FileReader(); r.onload = function () { ok(String(r.result).split(",")[1]); }; r.readAsDataURL(b); });
     }
