@@ -461,7 +461,7 @@ header.top .ds-section-title { margin-bottom: 4px; }
 .riga-modo { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; }
 .ds .ds-tab[aria-pressed="true"] { background: var(--background); color: var(--foreground); box-shadow: var(--shadow-sm); }
 .mazzo-zona { max-width: 24rem; margin: 12px auto 0; }
-.mazzo { position: relative; height: max(300px, calc(100svh - 556px)); max-height: 640px; }
+.mazzo { position: relative; height: max(240px, calc(100svh - 590px)); max-height: 640px; }
 #elenco { max-width: 40rem; }
 .carta { position: absolute; inset: 0; cursor: grab; touch-action: pinch-zoom; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; transform-origin: 50% 100%; box-shadow: var(--shadow-md); }
 .carta:focus-visible { outline: 3px solid var(--ring); outline-offset: 3px; }
@@ -568,6 +568,13 @@ details[open] > summary > svg { transform: rotate(180deg); }
 .facce .ds-avatar { width: 28px; height: 28px; font-size: .75rem; border: 2px solid var(--card); margin-left: -8px; }
 .facce .ds-avatar:first-child { margin-left: 0; }
 .chiudi { margin-top: 16px; }
+/* la X resta in alto a destra anche quando la scheda scorre; alta zero, cosi' non sposta il contenuto */
+.x-box { position: sticky; top: 0; height: 0; z-index: 2; display: flex; justify-content: flex-end; padding-right: 12px; }
+.x-chiudi { display: grid; place-items: center; width: 44px; height: 44px; margin-top: 4px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+.x-chiudi:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+/* mentre si trascina verso il basso la scheda segue il dito, senza animazione */
+.foglio.trascina { transition: none; }
+.foglio.rientra { transition: transform var(--transition-duration-base) var(--ease-out); }
 
 .toast { position: fixed; left: 16px; right: 16px; bottom: calc(92px + env(safe-area-inset-bottom)); z-index: 30; max-width: 480px; margin: 0 auto; background: var(--foreground); color: var(--background); border-radius: var(--radius-lg); padding: 12px 14px; font-size: .9375rem; box-shadow: var(--shadow-lg); opacity: 0; transform: translateY(8px); transition: opacity var(--transition-duration-base) var(--ease-out), transform var(--transition-duration-base) var(--ease-out); pointer-events: none; }
 .toast.su { opacity: 1; transform: none; }
@@ -957,6 +964,7 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
 <div id="dettaglio">
   <div class="velo" data-chiudi></div>
   <div class="foglio" role="dialog" aria-modal="true" aria-labelledby="d-titolo" tabindex="-1">
+    <div class="x-box"><button class="x-chiudi" type="button" data-chiudi aria-label="Chiudi"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-chiudi"/></svg></button></div>
     <div class="wrap">
       <div class="maniglia"></div>
       <figure class="d-figura" id="d-figura">
@@ -1266,7 +1274,24 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
     document.querySelectorAll(".riga-modo .ds-tab").forEach(function (b) { b.setAttribute("aria-pressed", b.dataset.modo === m); });
     document.getElementById("elenco").hidden = m !== "lista";
     document.getElementById("mazzo-zona").hidden = m !== "card";
+    if (m === "card") misuraMazzo();
   }
+
+  // la card prende lo spazio che resta sullo schermo, cosi' Indietro, stella e Avanti restano
+  // sopra la barra in basso. Si misura all'apertura e quando cambia la larghezza, non quando il
+  // browser del telefono nasconde la barra dell'indirizzo, che farebbe saltare la card mentre si scorre
+  var largaMisurata = 0;
+  function misuraMazzo() {
+    var mz = document.getElementById("mazzo"), cm = document.querySelector(".comandi"), nav = document.querySelector("nav.basso");
+    if (!mz.offsetParent) return;
+    var alto = mz.getBoundingClientRect().top + window.scrollY;
+    var sotto = cm.getBoundingClientRect().bottom - mz.getBoundingClientRect().bottom;
+    var h = window.innerHeight - alto - sotto - nav.offsetHeight - 12;
+    mz.style.height = Math.round(Math.min(640, Math.max(240, h))) + "px";
+    largaMisurata = window.innerWidth;
+  }
+  window.addEventListener("resize", function () { if (window.innerWidth !== largaMisurata) misuraMazzo(); });
+  if (document.fonts) document.fonts.ready.then(misuraMazzo);
   document.querySelectorAll(".riga-modo .ds-tab").forEach(function (b) {
     b.addEventListener("click", function () { mostraModo(b.dataset.modo); });
   });
@@ -1492,11 +1517,42 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
   }
   function chiudi() {
     if (!aperto) return;
+    var f = document.querySelector(".foglio"); f.style.transform = ""; f.classList.remove("trascina", "rientra");
     document.getElementById("dettaglio").classList.remove("aperto"); aperto = null;
     if (origine && document.body.contains(origine)) origine.focus();
   }
   document.querySelectorAll("[data-chiudi]").forEach(function (b) { b.addEventListener("click", chiudi); });
   document.addEventListener("keydown", function (ev) { if (ev.key === "Escape") chiudi(); });
+
+  // sul telefono la scheda si chiude trascinandola verso il basso, ma solo quando e' gia' in cima:
+  // altrimenti il dito serve a scorrere il contenuto. Oltre 110px (o con un gesto rapido) si chiude,
+  // sotto torna su.
+  (function () {
+    var f = document.querySelector(".foglio"), telefono = matchMedia("(max-width: 47.99rem)");
+    var y0 = null, dy = 0, t0 = 0;
+    f.addEventListener("touchstart", function (ev) {
+      if (!telefono.matches || ev.touches.length !== 1 || f.scrollTop > 0) { y0 = null; return; }
+      y0 = ev.touches[0].clientY; dy = 0; t0 = Date.now();
+      f.classList.remove("rientra");
+    }, { passive: true });
+    f.addEventListener("touchmove", function (ev) {
+      if (y0 === null) return;
+      dy = ev.touches[0].clientY - y0;
+      if (dy <= 0 || f.scrollTop > 0) { if (dy < 0) y0 = null; f.style.transform = ""; return; }
+      ev.preventDefault();
+      f.classList.add("trascina");
+      f.style.transform = "translateY(" + dy + "px)";
+    }, { passive: false });
+    function fine() {
+      if (y0 === null) return;
+      y0 = null; f.classList.remove("trascina");
+      var rapido = dy > 40 && dy / Math.max(1, Date.now() - t0) > 0.6;
+      if (dy > 110 || rapido) { chiudi(); return; }
+      if (dy > 0) { f.classList.add("rientra"); f.style.transform = ""; }
+    }
+    f.addEventListener("touchend", fine);
+    f.addEventListener("touchcancel", fine);
+  })();
   document.getElementById("d-stella").addEventListener("click", function () { cambiaPreferito(aperto.id); aggiornaStellaDettaglio(); });
 
   // calendario: Google con un link precompilato, Apple (e gli altri) con un file .ics.
