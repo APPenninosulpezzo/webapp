@@ -1,5 +1,5 @@
 window.DATI_EVENTI = {
- "aggiornato": "2026-10-31 08:13",
+ "aggiornato": "2026-10-31 11:24",
  "eventi": [
   {
    "id": "a5bf8615b3c5b5a5",
@@ -21,7 +21,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://www.comune.casteldaiano.bo.it/myportal/C_C075/api/content/download?id=6ae47ef69d738d009921ce02"
+   "immagine": "img/969856021291e84b.jpg"
   },
   {
    "id": "8d3561c47ec97f09",
@@ -60,7 +60,7 @@ window.DATI_EVENTI = {
      "orari": "15:30, 17:10, 18:40"
     }
    ],
-   "immagine": "https://lavocedellappennino.it/wp-content/uploads/2026/10/cinema-lagaro-ottobre1.jpg"
+   "immagine": "img/84023e4557c65609.jpg"
   },
   {
    "id": "ff7b0dd88f672814",
@@ -86,7 +86,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://d2fg1aan4gy9m1.cloudfront.net/ert/images/3354/conversions/Sasso-Marconi-%28BO%29%2C-Tartufi-e-funghi%2C-ph.-Tartufesta-via-Facebook%2C-CC-BY_NC_SA-3.0-webp.webp"
+   "immagine": "img/67592a09bed5057d.jpg"
   },
   {
    "id": "83aad7cf3fa991d2",
@@ -108,7 +108,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://issec.bo.it/wp-content/uploads/2026/10/Silla-Halloween-Party-2026.jpg"
+   "immagine": "img/f1d23f527ae7d1df.jpg"
   },
   {
    "id": "5afbb6a91eca38da",
@@ -130,7 +130,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://www.comune.casteldaiano.bo.it/myportal/C_C075/api/content/download?id=6ad8771d72812c009a293101"
+   "immagine": "img/04e91b158b2d44b9.jpg"
   },
   {
    "id": "2ce213b01bbf8398",
@@ -156,7 +156,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://issec.bo.it/wp-content/uploads/2026/10/Galloween-Night-2026.png"
+   "immagine": "img/81a1ef30b4e53731.jpg"
   },
   {
    "id": "72003c5e54c0dc32",
@@ -178,7 +178,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://issec.bo.it/wp-content/uploads/2026/10/Festa-di-Halloween-a-Baragazza-2026.png"
+   "immagine": "img/d65445a9e83f1d89.jpg"
   },
   {
    "id": "6ba07b6a6113bf53",
@@ -204,7 +204,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://issec.bo.it/wp-content/uploads/2026/10/Halloween-in-Piazza-a-Marzabotto-2026.jpg"
+   "immagine": "img/624eef97f5a83715.jpg"
   },
   {
    "id": "af8882d6daf6e67b",
@@ -226,7 +226,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://bibliotechemontagnabolognese.it/wp-content/uploads/2026/10/30-ottobre-Pavana-683x1024.jpg"
+   "immagine": "img/386aafd6b0f58800.jpg"
   },
   {
    "id": "6ecedec5ee62556e",
@@ -252,7 +252,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://bibliotechemontagnabolognese.it/wp-content/uploads/2026/10/HALLOWEEN-bambini.jpg"
+   "immagine": "img/05ffc40ce486bbc8.jpg"
   },
   {
    "id": "4e135bc9250d4c95",
@@ -274,7 +274,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://issec.bo.it/wp-content/uploads/2026/10/musica-in-biblioteca-vergato-ottobre-2026.png"
+   "immagine": "img/e4cfaf16d5dab49d.jpg"
   },
   {
    "id": "2c66c0d7a1e7be33",
@@ -296,7 +296,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://scontent.cdninstagram.com/v/t39.30808-6/854578251_2058421771757453_979403568154832359_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=K1mBdmFPCqoQ7kNvwHWu9ye&_nc_oc=AdpuiN8gEQVoKi9AwhVK5VJm-FR-0zVYuktSHsKCUcMlJFvSvlS1cn7SzkFdadmzHls&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=HoCypj9Yg44SwnpoOeMu_w&oh=00_AQN6FU2qI7pX06zLTStuSdkbIWpuYw_Ug4TX2fdTbNNZsg&oe=6AE634A3"
+   "immagine": "img/ae102309f837cc27.jpg"
   },
   {
    "id": "40e384b6c0901212",
@@ -318,7 +318,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://issec.bo.it/wp-content/uploads/2026/10/Monzuno-Halloween-Party-2026.png"
+   "immagine": "img/03694058b4dcd8ba.jpg"
   },
   {
    "id": "0a2bb9e19872f076",
@@ -362,7 +362,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://issec.bo.it/wp-content/uploads/2026/10/Halloween-nella-Valle-dei-Mostri-a-Silla-2026.jpg"
+   "immagine": "img/fee2d5456533b55b.jpg"
   },
   {
    "id": "7d04beb672fb3180",
@@ -384,7 +384,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://issec.bo.it/wp-content/uploads/2026/10/Mica-Proiezione-a-Marzabotto-novembre-2026.jpg"
+   "immagine": "img/106fc0d193edd1be.jpg"
   },
   {
    "id": "f1c46336d4ce3a35",
@@ -410,7 +410,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://www.cittametropolitana.bo.it/sagrefeste/Immagini/Home/tartufesta.jpg"
+   "immagine": "img/341d68ad1159296e.jpg"
   },
   {
    "id": "d08a35ab42ec69ad",
@@ -432,7 +432,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://bibliotechemontagnabolognese.it/wp-content/uploads/2026/10/STRACCI-quarta-stagione-724x1024.jpg"
+   "immagine": "img/25d62f1263b171b3.jpg"
   },
   {
    "id": "e9386e6622d70c5d",
@@ -454,7 +454,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://www.comune.marzabotto.bo.it/myportal/C_B689/api/content/download?id=6ac61766970761009985dc0a"
+   "immagine": "img/c4394c01f4450887.jpg"
   },
   {
    "id": "e7a4fe280d55f557",
@@ -498,7 +498,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://bibliotechemontagnabolognese.it/wp-content/uploads/2026/10/laboratorio-Kamishibai-Vergato-724x1024.jpg"
+   "immagine": "img/906499d3292e3068.jpg"
   },
   {
    "id": "caa5ff9325c9afdc",
@@ -520,7 +520,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://issec.bo.it/wp-content/uploads/2026/10/Le-guerre-di-Walter-Castiglione-dei-Pepoli-7-novembre.png"
+   "immagine": "img/94bd1cfb50ef1688.jpg"
   },
   {
    "id": "613fd097d0834ab8",
@@ -567,6 +567,28 @@ window.DATI_EVENTI = {
    "immagine": ""
   },
   {
+   "id": "386e021a69acf952",
+   "titolo": "Festa contadina del Ringraziamento",
+   "inizio": "2026-11-08",
+   "fine": "2026-11-08",
+   "ora": "",
+   "comune": "Vergato",
+   "comune_amministrativo": "Vergato",
+   "localita": "Vergato",
+   "luogo": "Vergato (BO)",
+   "categoria": "Feste e sagre",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-del-ringraziamento-a-vergato-8-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-del-ringraziamento-a-vergato-8-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/e4e80dc99e1a21f6.jpg"
+  },
+  {
    "id": "37e5019bb44054e8",
    "titolo": "Festa d'autunno con castagne e mercatini",
    "inizio": "2026-11-08",
@@ -583,14 +605,32 @@ window.DATI_EVENTI = {
     {
      "fonte": "Comune di Castel d'Aiano",
      "link": "https://www.comune.casteldaiano.bo.it/vivere-il-comune/eventi/eventi-sociali/festa-autunno-2026"
-    },
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/cb68063b56d98bae.jpg"
+  },
+  {
+   "id": "cb6165ef9137baf4",
+   "titolo": "Festa d'autunno con mercatino e camminata",
+   "inizio": "2026-11-08",
+   "fine": "2026-11-08",
+   "ora": "09:00",
+   "comune": "Villa d'Aiano",
+   "comune_amministrativo": "Castel d'Aiano",
+   "localita": "Villa d'Aiano",
+   "luogo": "Villa d'Aiano, Castel d'Aiano (BO)",
+   "categoria": "Feste e sagre",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-dautunno-a-villa-daiano-8-novembre-2026/",
+   "fonti": [
     {
      "fonte": "IsSEC",
      "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-dautunno-a-villa-daiano-8-novembre-2026/"
     }
    ],
    "giorni": [],
-   "immagine": "https://www.comune.casteldaiano.bo.it/myportal/C_C075/api/content/download?id=6ac4ce39f218ff0099fbfa2c"
+   "immagine": "img/913474b10dd46fb4.jpg"
   },
   {
    "id": "ac6c440060a5fde7",
@@ -617,14 +657,10 @@ window.DATI_EVENTI = {
     {
      "fonte": "Pro Loco Di Vergato",
      "link": "https://www.instagram.com/p/Dd9Lkv1kdZx/"
-    },
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-del-ringraziamento-a-vergato-8-novembre-2026/"
     }
    ],
    "giorni": [],
-   "immagine": "https://issec.bo.it/wp-content/uploads/2026/10/Festa-del-Ringraziamento-vergato-2026.jpg"
+   "immagine": "img/1405c74e699999eb.jpg"
   },
   {
    "id": "92c58ce14863b889",
@@ -646,7 +682,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://issec.bo.it/wp-content/uploads/2026/10/TartuFesta-2026-Campolo.jpg"
+   "immagine": "img/59264b4362f1d885.jpg"
   },
   {
    "id": "abe779b4b91b1e2d",
@@ -672,7 +708,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://issec.bo.it/wp-content/uploads/2026/10/TartuFesta-a-Camugnano-novembre-2026.png"
+   "immagine": "img/c06a33d40e62e5be.jpg"
   },
   {
    "id": "38f3e69902b0ccc6",
@@ -694,7 +730,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://issec.bo.it/wp-content/uploads/2026/10/Festa-di-San-Martino-a-Rocca-Corneta-novembre-2026.png"
+   "immagine": "img/7fdda3f2decbfd88.jpg"
   },
   {
    "id": "18609cbf06098791",
@@ -716,7 +752,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://issec.bo.it/wp-content/uploads/2026/10/Giornata-del-Parmigiano-Reggiano-8-novembre-2026.png"
+   "immagine": "img/f14bd0bed666df90.jpg"
   },
   {
    "id": "7747335828895544",
@@ -738,7 +774,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://issec.bo.it/wp-content/uploads/2026/10/Pietracolora-San-Martino-2026.png"
+   "immagine": "img/3a983ca9bb66ad79.jpg"
   },
   {
    "id": "bf0e8dabeb619636",
@@ -760,7 +796,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://issec.bo.it/wp-content/uploads/2026/10/Un-Gramsci-mai-visto-8-novembre-2026.jpg"
+   "immagine": "img/6ef6d414bf69a43b.jpg"
   },
   {
    "id": "87eb81ec3d410212",
@@ -795,7 +831,7 @@ window.DATI_EVENTI = {
      "orari": "18:00"
     }
    ],
-   "immagine": "https://bibliotechemontagnabolognese.it/wp-content/uploads/2026/10/giringiallo-autunno-26-724x1024.jpg"
+   "immagine": "img/721c9d8ffed6382a.jpg"
   },
   {
    "id": "6a79bc4e2771147c",
@@ -856,7 +892,7 @@ window.DATI_EVENTI = {
      "orari": "17:00"
     }
    ],
-   "immagine": "https://bibliotechemontagnabolognese.it/wp-content/uploads/2026/10/lab-fumetto-jacopo-724x1024.png"
+   "immagine": "img/38db908df3cc23cd.jpg"
   },
   {
    "id": "80f78b92eadfdf15",
@@ -878,7 +914,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://bibliotechemontagnabolognese.it/wp-content/uploads/2026/10/nati-per-leggere-nov-2026.jpg"
+   "immagine": "img/2295257c0de82090.jpg"
   },
   {
    "id": "8a6582921a02d78e",
@@ -900,7 +936,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://bibliotechemontagnabolognese.it/wp-content/uploads/2026/10/Fiabe-che-camminano-2.png"
+   "immagine": "img/a95cd2b7a204a966.jpg"
   },
   {
    "id": "2d6754ade6e45f88",
@@ -922,7 +958,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://www.comune.marzabotto.bo.it/myportal/C_B689/api/content/download?id=6ac60cbcd1a5b0009a510c0f"
+   "immagine": "img/aee12ca11d5db60d.jpg"
   },
   {
    "id": "a26aabebe53dcb2e",
@@ -965,7 +1001,7 @@ window.DATI_EVENTI = {
      "orari": "18:00"
     }
    ],
-   "immagine": "https://bibliotechemontagnabolognese.it/wp-content/uploads/2026/10/Tatriz-autunno-26-inverno-27-724x1024.jpg"
+   "immagine": "img/72c50016839700f3.jpg"
   },
   {
    "id": "1b9248ac6b743f87",
@@ -987,7 +1023,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://www.comune.sanbenedettovaldisambro.bo.it/myportal/C_G566/api/content/download?id=6abe1274f218ff0099f8a616"
+   "immagine": "img/0b05f8422d4cdf37.jpg"
   },
   {
    "id": "413395f48db05053",
@@ -1009,7 +1045,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://www.comune.marzabotto.bo.it/myportal/C_B689/api/content/download?id=6ac60b93d1a5b0009a510b25"
+   "immagine": "img/80e3f0cb12673a38.jpg"
   },
   {
    "id": "71ec437e6a985afb",
@@ -1031,7 +1067,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://www.comune.marzabotto.bo.it/myportal/C_B689/api/content/download?id=6ac61925970761009985ddcb"
+   "immagine": "img/01a643c3d6b3f06f.jpg"
   },
   {
    "id": "377de534e0f202a1",
@@ -1053,7 +1089,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://issec.bo.it/wp-content/uploads/2026/10/Ti-suono-una-storia-Marzabotto-28-novembre-2026.jpg"
+   "immagine": "img/2364becf48546865.jpg"
   },
   {
    "id": "fa8fabe13ece473f",
@@ -1075,7 +1111,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://scontent.cdninstagram.com/v/t51.82787-15/864824743_17990678103074770_7654669431437125309_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=9oACY6LLeQkQ7kNvwEz-lix&_nc_oc=Adp5syuKuO11epeIEY34hwd72Fm-uu2TFlJt03zFx78s9QqgA3Y2QvHr2hm0nuH9dyM&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=Cuh0z7hwEbS0nsiJs1UNgw&oh=00_AQNxxlP471EghEA-7qxFSNNLL6GqW2mfQ70ZGdetG0f_Hg&oe=6AE60CD1"
+   "immagine": "img/da2dea7ba3133f55.jpg"
   },
   {
    "id": "4eba1e28dd74b50c",
@@ -1097,7 +1133,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://scontent.cdninstagram.com/v/t51.82787-15/864824743_17990678103074770_7654669431437125309_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=9oACY6LLeQkQ7kNvwEz-lix&_nc_oc=Adp5syuKuO11epeIEY34hwd72Fm-uu2TFlJt03zFx78s9QqgA3Y2QvHr2hm0nuH9dyM&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=Cuh0z7hwEbS0nsiJs1UNgw&oh=00_AQNxxlP471EghEA-7qxFSNNLL6GqW2mfQ70ZGdetG0f_Hg&oe=6AE60CD1"
+   "immagine": "img/da2dea7ba3133f55.jpg"
   },
   {
    "id": "7f0d4f7508dcaca0",
@@ -1119,7 +1155,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://scontent.cdninstagram.com/v/t51.82787-15/864824743_17990678103074770_7654669431437125309_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=9oACY6LLeQkQ7kNvwEz-lix&_nc_oc=Adp5syuKuO11epeIEY34hwd72Fm-uu2TFlJt03zFx78s9QqgA3Y2QvHr2hm0nuH9dyM&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=Cuh0z7hwEbS0nsiJs1UNgw&oh=00_AQNxxlP471EghEA-7qxFSNNLL6GqW2mfQ70ZGdetG0f_Hg&oe=6AE60CD1"
+   "immagine": "img/da2dea7ba3133f55.jpg"
   },
   {
    "id": "d4b58cb39020b008",
@@ -1141,7 +1177,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://www.comune.marzabotto.bo.it/myportal/C_B689/api/content/download?id=6ac6198ff218ff0099fcd446"
+   "immagine": "img/513e829f0188d696.jpg"
   },
   {
    "id": "3ab7a0b7bc583e9d",
@@ -1167,7 +1203,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://scontent.cdninstagram.com/v/t51.82787-15/864824743_17990678103074770_7654669431437125309_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=9oACY6LLeQkQ7kNvwEz-lix&_nc_oc=Adp5syuKuO11epeIEY34hwd72Fm-uu2TFlJt03zFx78s9QqgA3Y2QvHr2hm0nuH9dyM&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=Cuh0z7hwEbS0nsiJs1UNgw&oh=00_AQNxxlP471EghEA-7qxFSNNLL6GqW2mfQ70ZGdetG0f_Hg&oe=6AE60CD1"
+   "immagine": "img/cc371975ee5c4604.jpg"
   },
   {
    "id": "17028c6659dd2013",
@@ -1189,7 +1225,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://scontent.cdninstagram.com/v/t51.82787-15/864824743_17990678103074770_7654669431437125309_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=9oACY6LLeQkQ7kNvwEz-lix&_nc_oc=Adp5syuKuO11epeIEY34hwd72Fm-uu2TFlJt03zFx78s9QqgA3Y2QvHr2hm0nuH9dyM&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=Cuh0z7hwEbS0nsiJs1UNgw&oh=00_AQNxxlP471EghEA-7qxFSNNLL6GqW2mfQ70ZGdetG0f_Hg&oe=6AE60CD1"
+   "immagine": "img/da2dea7ba3133f55.jpg"
   },
   {
    "id": "320a8e032a6515c2",
@@ -1211,7 +1247,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://www.comune.marzabotto.bo.it/myportal/C_B689/api/content/download?id=6ac60de6970761009985ca90"
+   "immagine": "img/eff61801a1da99c7.jpg"
   },
   {
    "id": "6c38bd2310ff26bd",
@@ -1233,7 +1269,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://www.comune.marzabotto.bo.it/myportal/C_B689/api/content/download?id=6ac60eebf218ff0099fcc434"
+   "immagine": "img/0a0e20ef13358bef.jpg"
   },
   {
    "id": "f6a4ba4a5b674bb1",
@@ -1255,7 +1291,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://scontent.cdninstagram.com/v/t39.30808-6/828366619_1505490248294898_7214655442379773637_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=-UI_iggqgYgQ7kNvwG2A4K5&_nc_oc=AdpnV9aD3xApzYyln_zY9vo1nan0HH-7PTcPvNhUeV74MopoUGjTwWwuZSSNwgrM0Tg&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=eNk2zkU-H0XVbuwgNBt87w&oh=00_AQO7L43X4pR6tYiYo3fT3bvqpEDEiFTIxwnGpuoEYwgIpA&oe=6AE61E5C"
+   "immagine": "img/8b04e73cfd9f7a0a.jpg"
   },
   {
    "id": "1d06baf8ad8bcc03",
@@ -1277,7 +1313,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://scontent.cdninstagram.com/v/t39.30808-6/828366619_1505490248294898_7214655442379773637_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=-UI_iggqgYgQ7kNvwG2A4K5&_nc_oc=AdpnV9aD3xApzYyln_zY9vo1nan0HH-7PTcPvNhUeV74MopoUGjTwWwuZSSNwgrM0Tg&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=eNk2zkU-H0XVbuwgNBt87w&oh=00_AQO7L43X4pR6tYiYo3fT3bvqpEDEiFTIxwnGpuoEYwgIpA&oe=6AE61E5C"
+   "immagine": "img/8b04e73cfd9f7a0a.jpg"
   },
   {
    "id": "f676f67c791a7ddb",
@@ -1299,7 +1335,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "https://scontent.cdninstagram.com/v/t39.30808-6/828366619_1505490248294898_7214655442379773637_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=-UI_iggqgYgQ7kNvwG2A4K5&_nc_oc=AdpnV9aD3xApzYyln_zY9vo1nan0HH-7PTcPvNhUeV74MopoUGjTwWwuZSSNwgrM0Tg&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=eNk2zkU-H0XVbuwgNBt87w&oh=00_AQO7L43X4pR6tYiYo3fT3bvqpEDEiFTIxwnGpuoEYwgIpA&oe=6AE61E5C"
+   "immagine": "img/8b04e73cfd9f7a0a.jpg"
   }
  ]
 };
