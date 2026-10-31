@@ -771,7 +771,16 @@ details > summary > .ic { width: 20px; height: 20px; color: var(--ink-muted); tr
 details[open] > summary > .ic { transform: rotate(-90deg); }
 .insieme { border-top-color: var(--line); }
 .insieme .interessati { color: var(--ink-muted); font-size: 15px; }
-.intro-segnala { margin: calc(-1 * var(--space-2)) 0 var(--space-4); }
+.ds .intro-segnala { margin: calc(-1 * var(--space-2)) 0 var(--space-4); }
+/* foto della locandina: l'input vero resta nascosto, lo apre il bottone */
+.foto-input { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+.foto-segnala .ds-btn .ic { margin-right: var(--space-2); }
+.ds .foto-aiuto { margin: var(--space-2) 0 0; text-align: center; }
+.foto-anteprima { display: block; width: 100%; max-height: 18rem; object-fit: contain; background: var(--surface-2); border-radius: var(--radius-md); margin-bottom: var(--space-4); }
+#foto-pronta .ds-btn + .ds-btn { margin-top: var(--space-2); }
+.foto-ok { display: flex; gap: var(--space-3); align-items: flex-start; margin: 0 0 var(--space-4); padding: var(--space-4); background: var(--surface-2); border-radius: var(--radius-md); color: var(--ink); }
+.foto-ok .ic { flex: none; }
+.ds .oppure { font-family: var(--font-display); font-size: 18px; line-height: 24px; font-weight: 700; margin: var(--space-8) 0 var(--space-4); padding-top: var(--space-6); border-top: 1px solid var(--line); }
 .intro-profilo { margin: 0 0 var(--space-4); }
 @media (min-width: 48rem) { .foglio { border-radius: 0; border-top: 0; border-left: 1px solid var(--line); } }
 /* il rimbalzo della stella e' l'unico movimento oltre allo scorrimento; con "riduci movimento" si toglie */
@@ -790,7 +799,8 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
 <symbol id="i-luogo-pieno" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21.5C9 18 5.5 14.2 5.5 9.5a6.5 6.5 0 0 1 13 0c0 4.7-3.5 8.5-6.5 12zM12 7.2a2.3 2.3 0 1 0 0 4.6a2.3 2.3 0 1 0 0-4.6z" fill="currentColor" fill-rule="evenodd"/></symbol>
 <symbol id="i-orario" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></symbol>
 <symbol id="i-fonte" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-8.5 8.5M18 14v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4"/></symbol>
-<symbol id="i-segnala" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2.5"/><path d="M12 8.5v7M8.5 12h7"/></symbol>
+<symbol id="i-fotocamera" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l1.5-2.5h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="13" r="3.5"/></symbol>
+<symbol id="i-segnala"viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2.5"/><path d="M12 8.5v7M8.5 12h7"/></symbol>
 <symbol id="i-filtri" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h8M17 7h3M4 17h3M12 17h8"/><circle cx="14.5" cy="7" r="2.5"/><circle cx="9.5" cy="17" r="2.5"/></symbol>
 <symbol id="i-condividi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v11M7.5 7.5L12 3l4.5 4.5M5 12v6.5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V12"/></symbol>
 <symbol id="i-profilo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8.5" r="3.8"/><path d="M4.5 20.5c1.3-3.8 4-5.8 7.5-5.8s6.2 2 7.5 5.8"/></symbol>
@@ -870,10 +880,36 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
     <p class="piede ds-supporting">Restano solo su questo telefono o computer.</p>
   </section>
 
-  <!-- SEGNALA: niente server, il modulo prepara un'email verso la casella del progetto -->
+  <!-- SEGNALA: la foto della locandina va a uno script Google della casella del progetto (segnalazioni-foto/),
+       che la manda per email a +segnalazioni; il modulo prepara un'email -->
   <section id="vista-segnala" class="vista-segnala" hidden>
     <h2 class="ds-section-title">Segnala un evento o una fonte</h2>
-    <p class="ds-supporting intro-segnala">Hai visto una locandina che qui non c'è? Mandacela, con il link a dove l'hai trovata.</p>
+    <p class="ds-supporting intro-segnala">Hai visto una locandina che qui non c'è? Fotografala e mandacela.</p>
+
+    <div class="foto-segnala" id="foto-segnala">
+      <input class="foto-input" type="file" id="foto-file" accept="image/*" tabindex="-1" aria-hidden="true">
+      <div id="foto-scegli">
+        <button type="button" class="ds-btn ds-btn-primary ds-btn-lg pieno" id="foto-apri"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-fotocamera"/></svg>Fotografa la locandina</button>
+        <p class="ds-supporting foto-aiuto">Puoi anche sceglierne una già scattata.</p>
+      </div>
+      <div id="foto-pronta" hidden>
+        <img class="foto-anteprima" id="foto-anteprima" alt="La foto che stai per mandare">
+        <div class="ds-field">
+          <label class="ds-label" for="foto-nota">Una nota, se vuoi</label>
+          <input class="ds-input" id="foto-nota" type="text" autocomplete="off" maxlength="300" placeholder="Vista al bar di Castiglione…">
+        </div>
+        <button type="button" class="ds-btn ds-btn-primary ds-btn-lg pieno" id="foto-invia">Manda la foto</button>
+        <button type="button" class="ds-btn ds-btn-ghost ds-btn-lg pieno" id="foto-cambia">Scegli un'altra foto</button>
+        <p class="errore" id="foto-errore" role="alert" hidden></p>
+      </div>
+      <div id="foto-grazie" hidden>
+        <p class="foto-ok" role="status"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-info"/></svg><span>Ricevuta, grazie. Se l'evento è nella zona lo aggiungiamo nei prossimi giorni.</span></p>
+        <button type="button" class="ds-btn ds-btn-outline ds-btn-lg pieno" id="foto-altra">Manda un'altra foto</button>
+      </div>
+    </div>
+
+    <div id="segnala-modulo">
+    <h3 class="oppure">Oppure scrivi tu i dettagli</h3>
     <form id="form-segnala" novalidate>
       <div class="ds-row tipo-segnala" role="group" aria-label="Cosa vuoi segnalare">
         <button type="button" class="ds-chip" data-tipo="evento" aria-pressed="true">Un evento</button>
@@ -902,9 +938,10 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
         <label class="ds-label" for="s-note">Altro da sapere</label>
         <textarea class="ds-textarea" id="s-note" spellcheck="true"></textarea>
       </div>
-      <button type="submit" class="ds-btn ds-btn-primary ds-btn-lg pieno">Prepara l'email</button>
-      <p class="ds-supporting nota-segnala">Si apre la tua posta con il messaggio pronto: se vuoi, allega una foto della locandina. Oppure scrivi a <a href="mailto:appenninosulpezzo+segnalazioni@gmail.com">appenninosulpezzo+segnalazioni@gmail.com</a>.</p>
+      <button type="submit" class="ds-btn ds-btn-outline ds-btn-lg pieno">Prepara l'email</button>
+      <p class="ds-supporting nota-segnala">Si apre la tua posta con il messaggio pronto. Oppure scrivi a <a href="mailto:appenninosulpezzo+segnalazioni@gmail.com">appenninosulpezzo+segnalazioni@gmail.com</a>.</p>
     </form>
+    </div>
   </section>
 
   <!-- PROFILO (esempio) -->
@@ -1644,6 +1681,83 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
     var oggetto = (tipoSegnala === "evento" ? "Segnalazione evento: " : "Segnalazione fonte: ") + v("s-nome");
     location.href = "mailto:" + SEGNALAZIONI + "?subject=" + encodeURIComponent(oggetto) + "&body=" + encodeURIComponent(righe.join("\n"));
   });
+  // foto della locandina. La foto si riduce sul telefono (lato lungo 1600px, JPEG) e va allo script
+  // Google della casella del progetto, che la manda per email a +segnalazioni. Finche' l'indirizzo
+  // dello script non c'e', si apre la condivisione del telefono (WhatsApp, Gmail...) con la foto
+  var FOTO_SCRIPT = "";
+  var fotoPronta = null;
+  (function () {
+    var file = document.getElementById("foto-file"), $ = function (id) { return document.getElementById(id); };
+    function stato(s) {
+      $("foto-scegli").hidden = s !== "scegli"; $("foto-pronta").hidden = s !== "pronta"; $("foto-grazie").hidden = s !== "grazie";
+      // con la foto in mano si fa una cosa sola: il modulo alternativo torna quando si ricomincia
+      $("segnala-modulo").hidden = s === "pronta";
+    }
+    function errore(testo) { $("foto-errore").textContent = testo; $("foto-errore").hidden = !testo; }
+    function riduci(f) {
+      return new Promise(function (ok, ko) {
+        var img = new Image(), url = URL.createObjectURL(f);
+        img.onload = function () {
+          var k = Math.min(1, 1600 / Math.max(img.naturalWidth, img.naturalHeight));
+          var c = document.createElement("canvas");
+          c.width = Math.round(img.naturalWidth * k); c.height = Math.round(img.naturalHeight * k);
+          c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
+          URL.revokeObjectURL(url);
+          c.toBlob(function (b) { b ? ok(b) : ko(); }, "image/jpeg", 0.85);
+        };
+        img.onerror = function () { URL.revokeObjectURL(url); ko(); };
+        img.src = url;
+      });
+    }
+    $("foto-apri").addEventListener("click", function () { file.click(); });
+    $("foto-cambia").addEventListener("click", function () { file.click(); });
+    $("foto-altra").addEventListener("click", function () { file.value = ""; stato("scegli"); file.click(); });
+    file.addEventListener("change", function () {
+      var f = file.files && file.files[0];
+      if (!f) return;
+      errore("");
+      riduci(f).then(function (b) {
+        fotoPronta = b;
+        $("foto-anteprima").src = URL.createObjectURL(b);
+        stato("pronta");
+        $("foto-invia").focus();
+      }, function () { stato("pronta"); fotoPronta = null; errore("Questo file non sembra una foto. Prova con un'altra."); });
+    });
+    function base64(b) {
+      return new Promise(function (ok) { var r = new FileReader(); r.onload = function () { ok(String(r.result).split(",")[1]); }; r.readAsDataURL(b); });
+    }
+    $("foto-invia").addEventListener("click", function () {
+      if (!fotoPronta) { file.click(); return; }
+      var nota = $("foto-nota").value.trim(), bott = $("foto-invia");
+      errore("");
+      if (!FOTO_SCRIPT) {
+        // ripiego senza script: la condivisione del telefono, con l'indirizzo nel testo
+        var f = new File([fotoPronta], "locandina.jpg", { type: "image/jpeg" });
+        var testo = "Segnalazione per APPennino sul pezzo (" + SEGNALAZIONI + ")" + (nota ? ": " + nota : "");
+        if (navigator.canShare && navigator.canShare({ files: [f] })) {
+          navigator.share({ files: [f], text: testo }).then(function () { stato("grazie"); }, function () {});
+        } else {
+          errore("Da questo browser non si riesce a mandarla: scrivi a " + SEGNALAZIONI + " allegando la foto.");
+        }
+        return;
+      }
+      bott.disabled = true; bott.textContent = "Invio in corso…";
+      var controllo = new AbortController(), tempo = setTimeout(function () { controllo.abort(); }, 45000);
+      base64(fotoPronta).then(function (dati) {
+        // testo semplice, senza intestazioni: cosi' il browser non fa la richiesta preliminare che lo script Google non gestisce
+        return fetch(FOTO_SCRIPT, { method: "POST", body: JSON.stringify({ foto: dati, nota: nota }), signal: controllo.signal });
+      }).then(function (r) { return r.json(); }).then(function (r) {
+        if (!r.ok) throw new Error(r.errore || "");
+        $("foto-nota").value = ""; fotoPronta = null; file.value = "";
+        stato("grazie");
+      }).catch(function () {
+        errore(navigator.onLine === false ? "Sei offline: riprova quando torna la connessione." : "Non siamo riusciti a mandarla. Riprova tra poco, oppure scrivi a " + SEGNALAZIONI + ".");
+      }).finally(function () {
+        clearTimeout(tempo); bott.disabled = false; bott.textContent = "Manda la foto";
+      });
+    });
+  })();
+
   document.getElementById("s-note").addEventListener("keydown", function (ev) {
     if (ev.key === "Enter" && (ev.metaKey || ev.ctrlKey)) document.getElementById("form-segnala").requestSubmit();
   });
