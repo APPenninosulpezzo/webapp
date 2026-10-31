@@ -1502,6 +1502,8 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
     var l = document.getElementById("d-link"); l.href = e.link; l.textContent = "Leggi i dettagli su " + e.fonte;
     var fig = document.getElementById("d-figura"), di = document.getElementById("d-img");
     fig.hidden = !e.immagine;
+    // se l'immagine non arriva (indirizzo scaduto, sito irraggiungibile) la scheda resta senza, mai l'icona rotta
+    di.onerror = function () { fig.hidden = true; };
     if (e.immagine) { di.src = e.immagine; di.alt = "Locandina: " + e.titolo; document.getElementById("d-credito").textContent = "Fonte: " + e.fonte; }
     aggiornaStellaDettaglio();
     preparaCalendario(e);
