@@ -1,5 +1,5 @@
 window.DATI_EVENTI = {
- "aggiornato": "2026-10-31 11:24",
+ "aggiornato": "2026-11-02 06:03",
  "eventi": [
   {
    "id": "a5bf8615b3c5b5a5",
@@ -22,395 +22,6 @@ window.DATI_EVENTI = {
    ],
    "giorni": [],
    "immagine": "img/969856021291e84b.jpg"
-  },
-  {
-   "id": "8d3561c47ec97f09",
-   "titolo": "Programmazione film al cinema Mattei",
-   "inizio": "2026-10-23",
-   "fine": "2026-11-01",
-   "ora": "",
-   "comune": "Lagaro",
-   "comune_amministrativo": "Castiglione dei Pepoli",
-   "localita": "Lagaro",
-   "luogo": "Cinema Mattei, Lagaro",
-   "categoria": "Musica e spettacoli",
-   "fonte": "La Voce dell'Appennino",
-   "link": "https://lavocedellappennino.it/news/lagaro-di-castiglione-dei-pepoli-programmazione-cinema-mattei-dal-23-ottobre-al-1-novembre-vedi-locandina-in-allegato/",
-   "fonti": [
-    {
-     "fonte": "La Voce dell'Appennino",
-     "link": "https://lavocedellappennino.it/news/lagaro-di-castiglione-dei-pepoli-programmazione-cinema-mattei-dal-23-ottobre-al-1-novembre-vedi-locandina-in-allegato/"
-    }
-   ],
-   "giorni": [
-    {
-     "data": "2026-10-23",
-     "orari": "21:15"
-    },
-    {
-     "data": "2026-10-24",
-     "orari": "16:30, 18:10, 21:15"
-    },
-    {
-     "data": "2026-10-25",
-     "orari": "15:00, 16:40, 18:20, 21:15"
-    },
-    {
-     "data": "2026-11-01",
-     "orari": "15:30, 17:10, 18:40"
-    }
-   ],
-   "immagine": "img/84023e4557c65609.jpg"
-  },
-  {
-   "id": "ff7b0dd88f672814",
-   "titolo": "Festa del tartufo bianco a Sasso Marconi",
-   "inizio": "2026-10-31",
-   "fine": "2026-11-01",
-   "ora": "",
-   "comune": "Sasso Marconi",
-   "comune_amministrativo": "Sasso Marconi",
-   "localita": "Sasso Marconi",
-   "luogo": "Piazza dei Martiri",
-   "categoria": "Feste e sagre",
-   "fonte": "Emilia-Romagna Turismo",
-   "link": "https://emiliaromagnaturismo.it/it/eventi/tartufesta-sasso-marconi",
-   "fonti": [
-    {
-     "fonte": "Emilia-Romagna Turismo",
-     "link": "https://emiliaromagnaturismo.it/it/eventi/tartufesta-sasso-marconi"
-    },
-    {
-     "fonte": "Emilia-Romagna Turismo",
-     "link": "https://emiliaromagnaturismo.it/it/eventi/appennino-bolognese-tartufesta"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/67592a09bed5057d.jpg"
-  },
-  {
-   "id": "83aad7cf3fa991d2",
-   "titolo": "Festa di Halloween con dj set",
-   "inizio": "2026-10-31",
-   "fine": "2026-10-31",
-   "ora": "22:00",
-   "comune": "Silla",
-   "comune_amministrativo": "Gaggio Montano",
-   "localita": "Silla",
-   "luogo": "Polisportiva Silla, Silla (BO)",
-   "categoria": "Musica e spettacoli",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/halloween-party-a-silla-31-ottobre-2026/",
-   "fonti": [
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/halloween-party-a-silla-31-ottobre-2026/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/f1d23f527ae7d1df.jpg"
-  },
-  {
-   "id": "5afbb6a91eca38da",
-   "titolo": "Festa di Halloween con dolcetto o scherzetto",
-   "inizio": "2026-10-31",
-   "fine": "2026-10-31",
-   "ora": "18:00",
-   "comune": "Castel d'Aiano",
-   "comune_amministrativo": "Castel d'Aiano",
-   "localita": "Castel d'Aiano",
-   "luogo": "Sala civica, Via Val d'Aneva 2, Castel d'Aiano",
-   "categoria": "Bambini e famiglie",
-   "fonte": "Comune di Castel d'Aiano",
-   "link": "https://www.comune.casteldaiano.bo.it/vivere-il-comune/eventi/eventi-sociali/halloween-party",
-   "fonti": [
-    {
-     "fonte": "Comune di Castel d'Aiano",
-     "link": "https://www.comune.casteldaiano.bo.it/vivere-il-comune/eventi/eventi-sociali/halloween-party"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/04e91b158b2d44b9.jpg"
-  },
-  {
-   "id": "2ce213b01bbf8398",
-   "titolo": "Festa in maschera horror con musica dal vivo",
-   "inizio": "2026-10-31",
-   "fine": "2026-10-31",
-   "ora": "19:30",
-   "comune": "Lizzano in Belvedere",
-   "comune_amministrativo": "Lizzano in Belvedere",
-   "localita": "Lizzano in Belvedere",
-   "luogo": "Cock's Bistrot, Lizzano in Belvedere (BO)",
-   "categoria": "Feste e sagre",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/galloween-party-2026/",
-   "fonti": [
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/galloween-party-2026/"
-    },
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/frankie-e-le-creature-dimenticate-31-ottobre-2026/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/81a1ef30b4e53731.jpg"
-  },
-  {
-   "id": "72003c5e54c0dc32",
-   "titolo": "Halloween con dolcetto o scherzetto in paese",
-   "inizio": "2026-10-31",
-   "fine": "2026-10-31",
-   "ora": "",
-   "comune": "Baragazza",
-   "comune_amministrativo": "Castiglione dei Pepoli",
-   "localita": "Baragazza",
-   "luogo": "Piazza di Baragazza - Castiglione dei Pepoli (BO)",
-   "categoria": "Bambini e famiglie",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-di-halloween-a-baragazza-31-ottobre-2026/",
-   "fonti": [
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-di-halloween-a-baragazza-31-ottobre-2026/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/d65445a9e83f1d89.jpg"
-  },
-  {
-   "id": "6ba07b6a6113bf53",
-   "titolo": "Halloween in piazza con street food",
-   "inizio": "2026-10-31",
-   "fine": "2026-10-31",
-   "ora": "",
-   "comune": "Marzabotto",
-   "comune_amministrativo": "Marzabotto",
-   "localita": "Marzabotto",
-   "luogo": "Piazza Martiri delle Fosse Ardeatine, Marzabotto (BO)",
-   "categoria": "Feste e sagre",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/halloween-in-piazza-a-marzabotto-31-ottobre-2026/",
-   "fonti": [
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/halloween-in-piazza-a-marzabotto-31-ottobre-2026/"
-    },
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/halloween-con-i-riverbero-a-lama-di-reno-31-ottobre-2026/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/624eef97f5a83715.jpg"
-  },
-  {
-   "id": "af8882d6daf6e67b",
-   "titolo": "Lettura del fantasmino e trucca bimbi",
-   "inizio": "2026-10-31",
-   "fine": "2026-10-31",
-   "ora": "10:30",
-   "comune": "Porretta Terme",
-   "comune_amministrativo": "Alto Reno Terme",
-   "localita": "Porretta Terme",
-   "luogo": "Biblioteca comunale di Porretta Terme",
-   "categoria": "Bambini e famiglie",
-   "fonte": "Biblioteche della montagna bolognese",
-   "link": "https://bibliotechemontagnabolognese.it/il-fantasmino-spaventino-e-i-suoi-amici/",
-   "fonti": [
-    {
-     "fonte": "Biblioteche della montagna bolognese",
-     "link": "https://bibliotechemontagnabolognese.it/il-fantasmino-spaventino-e-i-suoi-amici/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/386aafd6b0f58800.jpg"
-  },
-  {
-   "id": "6ecedec5ee62556e",
-   "titolo": "Letture e laboratorio di Halloween per bambini",
-   "inizio": "2026-10-31",
-   "fine": "2026-10-31",
-   "ora": "17:00",
-   "comune": "San Benedetto Val di Sambro",
-   "comune_amministrativo": "San Benedetto Val di Sambro",
-   "localita": "San Benedetto Val di Sambro",
-   "luogo": "Biblioteca comunale Gastone Stefanini, San Benedetto Val di Sambro",
-   "categoria": "Bambini e famiglie",
-   "fonte": "Biblioteche della montagna bolognese",
-   "link": "https://bibliotechemontagnabolognese.it/letture-da-brividoooo-in-biblioteca-e-un-laboratorio-mostruoso/",
-   "fonti": [
-    {
-     "fonte": "Biblioteche della montagna bolognese",
-     "link": "https://bibliotechemontagnabolognese.it/letture-da-brividoooo-in-biblioteca-e-un-laboratorio-mostruoso/"
-    },
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/letture-da-brivido-a-san-benedetto-31-ottobre-2026/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/05ffc40ce486bbc8.jpg"
-  },
-  {
-   "id": "4e135bc9250d4c95",
-   "titolo": "Letture e musica per bambini in biblioteca",
-   "inizio": "2026-10-31",
-   "fine": "2026-10-31",
-   "ora": "",
-   "comune": "Vergato",
-   "comune_amministrativo": "Vergato",
-   "localita": "Vergato",
-   "luogo": "Biblioteca comunale di Vergato - Vergato (BO)",
-   "categoria": "Bambini e famiglie",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/musica-in-biblioteca-a-vergato-31-ottobre-2026/",
-   "fonti": [
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/musica-in-biblioteca-a-vergato-31-ottobre-2026/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/e4cfaf16d5dab49d.jpg"
-  },
-  {
-   "id": "2c66c0d7a1e7be33",
-   "titolo": "Pomeriggio di Halloween in piscina termale",
-   "inizio": "2026-10-31",
-   "fine": "2026-10-31",
-   "ora": "16:00",
-   "comune": "Porretta Terme",
-   "comune_amministrativo": "Alto Reno Terme",
-   "localita": "Porretta Terme",
-   "luogo": "Terme di Porretta",
-   "categoria": "Bambini e famiglie",
-   "fonte": "Terme di Porretta",
-   "link": "https://www.instagram.com/p/Deq6gi9lVAn/",
-   "fonti": [
-    {
-     "fonte": "Terme di Porretta",
-     "link": "https://www.instagram.com/p/Deq6gi9lVAn/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/ae102309f837cc27.jpg"
-  },
-  {
-   "id": "40e384b6c0901212",
-   "titolo": "Serata Halloween con paella e dj set",
-   "inizio": "2026-10-31",
-   "fine": "2026-10-31",
-   "ora": "",
-   "comune": "Monzuno",
-   "comune_amministrativo": "Monzuno",
-   "localita": "Monzuno",
-   "luogo": "Tensostruttura riscaldata, Piazza del Comune - Monzuno (BO)",
-   "categoria": "Feste e sagre",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/monzuno-halloween-party-31-ottobre-2026/",
-   "fonti": [
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/monzuno-halloween-party-31-ottobre-2026/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/03694058b4dcd8ba.jpg"
-  },
-  {
-   "id": "0a2bb9e19872f076",
-   "titolo": "Cittadinanza onoraria a Fiorella Belpoggi in consiglio",
-   "inizio": "2026-11-01",
-   "fine": "2026-11-01",
-   "ora": "11:00",
-   "comune": "Grizzana",
-   "comune_amministrativo": "Grizzana Morandi",
-   "localita": "Grizzana",
-   "luogo": "",
-   "categoria": "Altro",
-   "fonte": "Comune di Grizzana Morandi",
-   "link": "https://www.comune.grizzanamorandi.bo.it/novita/notizie/convocazione-consiglio-comunale-1-novembre-2026",
-   "fonti": [
-    {
-     "fonte": "Comune di Grizzana Morandi",
-     "link": "https://www.comune.grizzanamorandi.bo.it/novita/notizie/convocazione-consiglio-comunale-1-novembre-2026"
-    }
-   ],
-   "giorni": [],
-   "immagine": ""
-  },
-  {
-   "id": "5cbebe87c1f903a5",
-   "titolo": "Halloween con tunnel dell'orrore a Silla",
-   "inizio": "2026-11-01",
-   "fine": "2026-11-01",
-   "ora": "",
-   "comune": "Silla",
-   "comune_amministrativo": "Gaggio Montano",
-   "localita": "Silla",
-   "luogo": "Polisportiva Silla, Silla (BO)",
-   "categoria": "Feste e sagre",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/halloween-nella-valle-dei-mostri-a-silla-1-novembre-2026/",
-   "fonti": [
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/halloween-nella-valle-dei-mostri-a-silla-1-novembre-2026/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/fee2d5456533b55b.jpg"
-  },
-  {
-   "id": "7d04beb672fb3180",
-   "titolo": "Proiezione gratuita del film Mica",
-   "inizio": "2026-11-01",
-   "fine": "2026-11-01",
-   "ora": "",
-   "comune": "Marzabotto",
-   "comune_amministrativo": "Marzabotto",
-   "localita": "Marzabotto",
-   "luogo": "Teatro Comunale, Via G. Matteotti 1, Marzabotto (BO)",
-   "categoria": "Musica e spettacoli",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/mica-proiezione-a-marzabotto-1-novembre-2026/",
-   "fonti": [
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/mica-proiezione-a-marzabotto-1-novembre-2026/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/106fc0d193edd1be.jpg"
-  },
-  {
-   "id": "f1c46336d4ce3a35",
-   "titolo": "Tartufesta a Monghidoro",
-   "inizio": "2026-11-01",
-   "fine": "2026-11-01",
-   "ora": "",
-   "comune": "Monghidoro",
-   "comune_amministrativo": "Monghidoro",
-   "localita": "Monghidoro",
-   "luogo": "",
-   "categoria": "Feste e sagre",
-   "fonte": "cittametropolitana.bo.it",
-   "link": "https://cittametropolitana.bo.it/tartufesta/Engine/RAServePG.php/P/25231TAR0303/T/Monghidoro-1-novembre",
-   "fonti": [
-    {
-     "fonte": "cittametropolitana.bo.it",
-     "link": "https://cittametropolitana.bo.it/tartufesta/Engine/RAServePG.php/P/25231TAR0303/T/Monghidoro-1-novembre"
-    },
-    {
-     "fonte": "Emilia-Romagna Turismo",
-     "link": "https://emiliaromagnaturismo.it/it/eventi/appennino-bolognese-tartufesta"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/341d68ad1159296e.jpg"
   },
   {
    "id": "d08a35ab42ec69ad",
@@ -567,28 +178,6 @@ window.DATI_EVENTI = {
    "immagine": ""
   },
   {
-   "id": "386e021a69acf952",
-   "titolo": "Festa contadina del Ringraziamento",
-   "inizio": "2026-11-08",
-   "fine": "2026-11-08",
-   "ora": "",
-   "comune": "Vergato",
-   "comune_amministrativo": "Vergato",
-   "localita": "Vergato",
-   "luogo": "Vergato (BO)",
-   "categoria": "Feste e sagre",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-del-ringraziamento-a-vergato-8-novembre-2026/",
-   "fonti": [
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-del-ringraziamento-a-vergato-8-novembre-2026/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/e4e80dc99e1a21f6.jpg"
-  },
-  {
    "id": "37e5019bb44054e8",
    "titolo": "Festa d'autunno con castagne e mercatini",
    "inizio": "2026-11-08",
@@ -605,32 +194,14 @@ window.DATI_EVENTI = {
     {
      "fonte": "Comune di Castel d'Aiano",
      "link": "https://www.comune.casteldaiano.bo.it/vivere-il-comune/eventi/eventi-sociali/festa-autunno-2026"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/cb68063b56d98bae.jpg"
-  },
-  {
-   "id": "cb6165ef9137baf4",
-   "titolo": "Festa d'autunno con mercatino e camminata",
-   "inizio": "2026-11-08",
-   "fine": "2026-11-08",
-   "ora": "09:00",
-   "comune": "Villa d'Aiano",
-   "comune_amministrativo": "Castel d'Aiano",
-   "localita": "Villa d'Aiano",
-   "luogo": "Villa d'Aiano, Castel d'Aiano (BO)",
-   "categoria": "Feste e sagre",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-dautunno-a-villa-daiano-8-novembre-2026/",
-   "fonti": [
+    },
     {
      "fonte": "IsSEC",
      "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-dautunno-a-villa-daiano-8-novembre-2026/"
     }
    ],
    "giorni": [],
-   "immagine": "img/913474b10dd46fb4.jpg"
+   "immagine": "img/cb68063b56d98bae.jpg"
   },
   {
    "id": "ac6c440060a5fde7",
@@ -657,10 +228,14 @@ window.DATI_EVENTI = {
     {
      "fonte": "Pro Loco Di Vergato",
      "link": "https://www.instagram.com/p/Dd9Lkv1kdZx/"
+    },
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-del-ringraziamento-a-vergato-8-novembre-2026/"
     }
    ],
    "giorni": [],
-   "immagine": "img/1405c74e699999eb.jpg"
+   "immagine": "img/e4e80dc99e1a21f6.jpg"
   },
   {
    "id": "92c58ce14863b889",
