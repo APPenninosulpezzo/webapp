@@ -571,6 +571,8 @@ details[open] > summary > svg { transform: rotate(180deg); }
 /* la X resta in alto a destra anche quando la scheda scorre; alta zero, cosi' non sposta il contenuto */
 .x-box { position: sticky; top: 0; height: 0; z-index: 2; display: flex; justify-content: flex-end; padding-right: 12px; }
 .x-chiudi { display: grid; place-items: center; width: 44px; height: 44px; margin-top: 4px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+/* il titolo lascia libero l'angolo della X: senza immagine sta proprio li' sotto */
+.foglio .grande { padding-right: 48px; }
 .x-chiudi:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
 /* mentre si trascina verso il basso la scheda segue il dito, senza animazione */
 .foglio.trascina { transition: none; }
@@ -774,7 +776,7 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
 .ds .intro-segnala { margin: calc(-1 * var(--space-2)) 0 var(--space-4); }
 /* foto della locandina: l'input vero resta nascosto, lo apre il bottone */
 .foto-input { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
-.foto-segnala .ds-btn .ic { margin-right: var(--space-2); }
+.foto-segnala .ds-btn .ic, #d-condividi .ic { margin-right: var(--space-2); }
 .foto-galleria { margin-top: var(--space-2); }
 .foto-anteprima { display: block; width: 100%; max-height: 18rem; object-fit: contain; background: var(--surface-2); border-radius: var(--radius-md); margin-bottom: var(--space-4); }
 #foto-pronta .ds-btn + .ds-btn { margin-top: var(--space-2); }
@@ -1016,6 +1018,7 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
       <div class="azioni">
         <a class="ds-btn ds-btn-primary ds-btn-lg" id="d-link" target="_blank" rel="noopener"></a>
         <button class="ds-btn ds-btn-outline ds-btn-lg" id="d-stella"></button>
+        <button class="ds-btn ds-btn-outline ds-btn-lg" id="d-condividi"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-condividi"/></svg>Condividi</button>
         <details class="calendario" id="d-calendario">
           <summary class="ds-btn ds-btn-outline ds-btn-lg">Aggiungi al calendario</summary>
           <div class="scelte">
@@ -1596,6 +1599,23 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
   })();
   document.getElementById("d-stella").addEventListener("click", function () { cambiaPreferito(aperto.id); aggiornaStellaDettaglio(); });
 
+  // condividi: un link che apre la scheda di quell'evento (#evento=id). Sul telefono si apre la
+  // condivisione di sistema (WhatsApp, Telegram, email...), altrimenti il link si copia
+  var SITO = /^https?:/.test(location.protocol) ? location.origin + location.pathname : "https://appenninosulpezzo.github.io/webapp/";
+  function linkEvento(e) { return SITO + "#evento=" + e.id; }
+  document.getElementById("d-condividi").addEventListener("click", function () {
+    var e = aperto, url = linkEvento(e);
+    var quando = maiuscola(lungo(e.dMostra)) + (e.ora && !e.giorniD.length ? ", ore " + e.ora : "");
+    var testo = e.titolo + "\n" + quando + " · " + e.comune;
+    if (navigator.share) {
+      navigator.share({ title: e.titolo, text: testo, url: url }).catch(function () {});   // annullata: niente da dire
+      return;
+    }
+    var copia = navigator.clipboard ? navigator.clipboard.writeText(testo + "\n" + url) : Promise.reject();
+    copia.then(function () { avviso("Link copiato: incollalo dove vuoi."); },
+               function () { window.prompt("Copia il link dell'evento:", url); });
+  });
+
   // calendario: Google con un link precompilato, Apple (e gli altri) con un file .ics.
   // Con l'ora e un giorno solo l'evento dura 2 ore, perche' la fonte non dice quando finisce;
   // altrimenti e' un evento di giornata intera.
@@ -1850,6 +1870,18 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
   disegna();
   preparaMazzo();
   mostraModo(modo);
+
+  // arrivati da un link condiviso: si apre la scheda dell'evento, poi il link torna quello della pagina
+  function daLink() {
+    var m = location.hash.match(/^#evento=([0-9a-f]+)$/);
+    if (!m) return;
+    history.replaceState(null, "", location.pathname + location.search);
+    var e = eventi.find(function (x) { return x.id === m[1]; });
+    if (e) apri(e);
+    else avviso("Questo evento è già passato o non è più in elenco. Ecco gli altri.");
+  }
+  daLink();
+  window.addEventListener("hashchange", daLink);
 })();
 </script>
 </body>
