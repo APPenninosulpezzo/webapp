@@ -1,5 +1,5 @@
 window.DATI_EVENTI = {
- "aggiornato": "2026-11-02 06:03",
+ "aggiornato": "2026-11-02 08:12",
  "eventi": [
   {
    "id": "a5bf8615b3c5b5a5",
