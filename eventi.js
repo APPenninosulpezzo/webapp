@@ -1,5 +1,5 @@
 window.DATI_EVENTI = {
- "aggiornato": "2026-11-02 08:12",
+ "aggiornato": "2026-11-03 08:12",
  "eventi": [
   {
    "id": "a5bf8615b3c5b5a5",
@@ -22,28 +22,6 @@ window.DATI_EVENTI = {
    ],
    "giorni": [],
    "immagine": "img/969856021291e84b.jpg"
-  },
-  {
-   "id": "d08a35ab42ec69ad",
-   "titolo": "Gruppo di scrittura Stracci, quarta stagione",
-   "inizio": "2026-11-02",
-   "fine": "2026-11-02",
-   "ora": "18:30",
-   "comune": "Vergato",
-   "comune_amministrativo": "Vergato",
-   "localita": "Vergato",
-   "luogo": "Biblioteca Comunale \"P. Guidotti\", Vergato",
-   "categoria": "Libri e cultura",
-   "fonte": "Biblioteche della montagna bolognese",
-   "link": "https://bibliotechemontagnabolognese.it/stracci-gruppo-di-scrittura-2/",
-   "fonti": [
-    {
-     "fonte": "Biblioteche della montagna bolognese",
-     "link": "https://bibliotechemontagnabolognese.it/stracci-gruppo-di-scrittura-2/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/25d62f1263b171b3.jpg"
   },
   {
    "id": "e9386e6622d70c5d",
@@ -128,10 +106,36 @@ window.DATI_EVENTI = {
     {
      "fonte": "IsSEC",
      "link": "https://issec.bo.it/vivere-il-comune/eventi/le-guerre-di-walter-a-castiglione-dei-pepoli-7-novembre/"
+    },
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/colori-dautunno-ai-lavaccioni-7-novembre-2026/"
     }
    ],
    "giorni": [],
    "immagine": "img/94bd1cfb50ef1688.jpg"
+  },
+  {
+   "id": "258ff64aa62a8190",
+   "titolo": "Passeggiata di San Martino con castagne",
+   "inizio": "2026-11-07",
+   "fine": "2026-11-07",
+   "ora": "",
+   "comune": "Sibano",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Sibano",
+   "luogo": "Sibano, Marzabotto",
+   "categoria": "Feste e sagre",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-di-san-martino-a-sibano-7-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-di-san-martino-a-sibano-7-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/b5aa9c16eb7d54d9.jpg"
   },
   {
    "id": "613fd097d0834ab8",
@@ -280,6 +284,10 @@ window.DATI_EVENTI = {
     {
      "fonte": "IsSEC",
      "link": "https://issec.bo.it/vivere-il-comune/eventi/magia-dautunno-a-camugnano-8-novembre-2026/"
+    },
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/agroarcheotrekking-a-bargi-8-novembre-2026/"
     }
    ],
    "giorni": [],
@@ -328,6 +336,28 @@ window.DATI_EVENTI = {
    ],
    "giorni": [],
    "immagine": "img/f14bd0bed666df90.jpg"
+  },
+  {
+   "id": "3ec773b93b9fe5f0",
+   "titolo": "Pomeriggio di ballo liscio e latino americano",
+   "inizio": "2026-11-08",
+   "fine": "2026-11-08",
+   "ora": "",
+   "comune": "Castiglione dei Pepoli",
+   "comune_amministrativo": "Castiglione dei Pepoli",
+   "localita": "Castiglione dei Pepoli",
+   "luogo": "Palazzetto dello Sport, Castiglione dei Pepoli",
+   "categoria": "Musica e spettacoli",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/pratica-di-ballo-a-castiglione-dei-pepoli-8-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/pratica-di-ballo-a-castiglione-dei-pepoli-8-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/36b1ac2be7d6550b.jpg"
   },
   {
    "id": "7747335828895544",
@@ -470,6 +500,28 @@ window.DATI_EVENTI = {
    "immagine": "img/38db908df3cc23cd.jpg"
   },
   {
+   "id": "5311eddb1ad53ba3",
+   "titolo": "Inaugurazione del nuovo spazio culturale della biblioteca",
+   "inizio": "2026-11-14",
+   "fine": "2026-11-14",
+   "ora": "16:00",
+   "comune": "Vergato",
+   "comune_amministrativo": "Vergato",
+   "localita": "Vergato",
+   "luogo": "Biblioteca di Vergato",
+   "categoria": "Libri e cultura",
+   "fonte": "Biblioteche della montagna bolognese",
+   "link": "https://bibliotechemontagnabolognese.it/inaugurazione-spazio-culturale/",
+   "fonti": [
+    {
+     "fonte": "Biblioteche della montagna bolognese",
+     "link": "https://bibliotechemontagnabolognese.it/inaugurazione-spazio-culturale/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/67c32866ab96ad0e.jpg"
+  },
+  {
    "id": "80f78b92eadfdf15",
    "titolo": "Letture Nati per Leggere per piccoli",
    "inizio": "2026-11-14",
@@ -534,6 +586,28 @@ window.DATI_EVENTI = {
    ],
    "giorni": [],
    "immagine": "img/aee12ca11d5db60d.jpg"
+  },
+  {
+   "id": "5a0b662551fff957",
+   "titolo": "Festa di San Martino in piazza",
+   "inizio": "2026-11-15",
+   "fine": "2026-11-15",
+   "ora": "12:00",
+   "comune": "Gaggio Montano",
+   "comune_amministrativo": "Gaggio Montano",
+   "localita": "Gaggio Montano",
+   "luogo": "Piazza Arnaldo Brasa, Gaggio Montano",
+   "categoria": "Feste e sagre",
+   "fonte": "Comune di Gaggio Montano",
+   "link": "https://www.comune.gaggio-montano.bo.it/vivere-il-comune/eventi/eventi-sociali/festa-di-san-martino",
+   "fonti": [
+    {
+     "fonte": "Comune di Gaggio Montano",
+     "link": "https://www.comune.gaggio-montano.bo.it/vivere-il-comune/eventi/eventi-sociali/festa-di-san-martino"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/2ddd24b1f55e5b45.jpg"
   },
   {
    "id": "a26aabebe53dcb2e",
