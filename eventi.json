@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-04 08:12",
+ "aggiornato": "2026-11-05 08:13",
  "eventi": [
   {
    "id": "a5bf8615b3c5b5a5",
@@ -199,6 +199,28 @@
    "immagine": "img/906499d3292e3068.jpg"
   },
   {
+   "id": "1d905bc20d5a00ca",
+   "titolo": "Incontro partecipativo per il parco del Residence",
+   "inizio": "2026-11-07",
+   "fine": "2026-11-07",
+   "ora": "11:00",
+   "comune": "San Benedetto Val di Sambro",
+   "comune_amministrativo": "San Benedetto Val di Sambro",
+   "localita": "",
+   "luogo": "Discoteca Rendez vous",
+   "categoria": "Altro",
+   "fonte": "Comune di San Benedetto Val di Sambro",
+   "link": "https://www.comune.sanbenedettovaldisambro.bo.it/novita/notizie/il-parco-che-vogliamo",
+   "fonti": [
+    {
+     "fonte": "Comune di San Benedetto Val di Sambro",
+     "link": "https://www.comune.sanbenedettovaldisambro.bo.it/novita/notizie/il-parco-che-vogliamo"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/bcb64af236b953f6.jpg"
+  },
+  {
    "id": "32c170d9ddd684f8",
    "titolo": "Laboratorio partecipativo Movimenti in Appennino",
    "inizio": "2026-11-07",
@@ -347,28 +369,6 @@
    "immagine": ""
   },
   {
-   "id": "386e021a69acf952",
-   "titolo": "Festa contadina del Ringraziamento",
-   "inizio": "2026-11-08",
-   "fine": "2026-11-08",
-   "ora": "",
-   "comune": "Vergato",
-   "comune_amministrativo": "Vergato",
-   "localita": "Vergato",
-   "luogo": "Vergato (BO)",
-   "categoria": "Feste e sagre",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-del-ringraziamento-a-vergato-8-novembre-2026/",
-   "fonti": [
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-del-ringraziamento-a-vergato-8-novembre-2026/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/e4e80dc99e1a21f6.jpg"
-  },
-  {
    "id": "37e5019bb44054e8",
    "titolo": "Festa d'autunno con castagne e mercatini",
    "inizio": "2026-11-08",
@@ -385,32 +385,14 @@
     {
      "fonte": "Comune di Castel d'Aiano",
      "link": "https://www.comune.casteldaiano.bo.it/vivere-il-comune/eventi/eventi-sociali/festa-autunno-2026"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/cb68063b56d98bae.jpg"
-  },
-  {
-   "id": "cb6165ef9137baf4",
-   "titolo": "Festa d'autunno con mercatino e camminata",
-   "inizio": "2026-11-08",
-   "fine": "2026-11-08",
-   "ora": "09:00",
-   "comune": "Villa d'Aiano",
-   "comune_amministrativo": "Castel d'Aiano",
-   "localita": "Villa d'Aiano",
-   "luogo": "Villa d'Aiano, Castel d'Aiano (BO)",
-   "categoria": "Feste e sagre",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-dautunno-a-villa-daiano-8-novembre-2026/",
-   "fonti": [
+    },
     {
      "fonte": "IsSEC",
      "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-dautunno-a-villa-daiano-8-novembre-2026/"
     }
    ],
    "giorni": [],
-   "immagine": "img/913474b10dd46fb4.jpg"
+   "immagine": "img/cb68063b56d98bae.jpg"
   },
   {
    "id": "ac6c440060a5fde7",
@@ -437,10 +419,14 @@
     {
      "fonte": "Pro Loco Di Vergato",
      "link": "https://www.instagram.com/p/Dd9Lkv1kdZx/"
+    },
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-del-ringraziamento-a-vergato-8-novembre-2026/"
     }
    ],
    "giorni": [],
-   "immagine": "https://scontent.cdninstagram.com/v/t39.30808-6/861887546_1526173249559931_7326262657257590330_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=tadsuBFTZfsQ7kNvwGXdfp2&_nc_oc=AdqEg_-WPCA36elDfcy0B6k7e0EO1YEm8WtBZB_OPfWB30FVHsVzEJml-V1nf-U32qs&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=eNk2zkU-H0XVbuwgNBt87w&oh=00_AQOBt79O4ZN0g8jvsmXpBBpg3j1xJ0byjHHkoQQA6Y6E9A&oe=6AE62703"
+   "immagine": "img/e4e80dc99e1a21f6.jpg"
   },
   {
    "id": "92c58ce14863b889",
@@ -580,11 +566,41 @@
     },
     {
      "fonte": "Comune di Loiano",
+     "link": "https://www.comune.loiano.bologna.it/it-it/vivere-il-comune/eventi/8-novembre-2026-mercatino-kili-di-libri-132942-1-ae2c20864a78d5efe3de50d52e0b1fc5"
+    },
+    {
+     "fonte": "Comune di Loiano",
      "link": "https://www.comune.loiano.bologna.it/it-it/vivere-il-comune/eventi/celebrazioni-del-giorno-dell-unita-nazionale-e-giornata-delle-forze-armate-2026-132523-1-0c312c20a85cd68d7b17d5c1a2d2b09c"
     }
    ],
    "giorni": [],
    "immagine": "img/006d743c8bbd0385.jpg"
+  },
+  {
+   "id": "aa46e033c345c9c1",
+   "titolo": "Presentazione dei lavori alla torre",
+   "inizio": "2026-11-08",
+   "fine": "2026-11-08",
+   "ora": "15:30",
+   "comune": "Pietracolora",
+   "comune_amministrativo": "Gaggio Montano",
+   "localita": "Pietracolora",
+   "luogo": "Torre di Pietracolora, Via del Castello, Pietracolora, Gaggio Montano (BO)",
+   "categoria": "Altro",
+   "fonte": "Comune di Gaggio Montano",
+   "link": "https://www.comune.gaggio-montano.bo.it/vivere-il-comune/eventi/evento-culturale/torre-di-pietracolora",
+   "fonti": [
+    {
+     "fonte": "Comune di Gaggio Montano",
+     "link": "https://www.comune.gaggio-montano.bo.it/vivere-il-comune/eventi/evento-culturale/torre-di-pietracolora"
+    },
+    {
+     "fonte": "Comune di Gaggio Montano",
+     "link": "https://www.comune.gaggio-montano.bo.it/vivere-il-comune/eventi/eventi-sociali/4-novembre"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/68c5599c8e4809c5.jpg"
   },
   {
    "id": "7747335828895544",
@@ -633,6 +649,28 @@
    ],
    "giorni": [],
    "immagine": "img/6ef6d414bf69a43b.jpg"
+  },
+  {
+   "id": "5f14a25fc7551246",
+   "titolo": "Corso gratuito di disegno e pittura",
+   "inizio": "2026-11-09",
+   "fine": "2027-03-29",
+   "ora": "",
+   "comune": "Marzabotto",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Marzabotto",
+   "luogo": "Sala Polivalente, via Aldo Moro 2, Marzabotto (BO)",
+   "categoria": "Libri e cultura",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/corso-gratuito-di-disegno-e-pittura-a-marzabotto-ogni-lunedi-fino-a-marzo-2027/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/corso-gratuito-di-disegno-e-pittura-a-marzabotto-ogni-lunedi-fino-a-marzo-2027/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/44510c9608c064c8.jpg"
   },
   {
    "id": "87eb81ec3d410212",
@@ -694,6 +732,50 @@
    ],
    "giorni": [],
    "immagine": ""
+  },
+  {
+   "id": "9631df13b6511b3b",
+   "titolo": "Cena di San Martino della Pro Loco",
+   "inizio": "2026-11-11",
+   "fine": "2026-11-11",
+   "ora": "20:00",
+   "comune": "Lagaro",
+   "comune_amministrativo": "Castiglione dei Pepoli",
+   "localita": "Lagaro",
+   "luogo": "Sede Pro Loco, ex scuole medie, Lagaro (BO)",
+   "categoria": "Feste e sagre",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-di-san-martino-a-lagaro-11-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-di-san-martino-a-lagaro-11-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/15472567e7f0e4d9.jpg"
+  },
+  {
+   "id": "dc6bb6ea0a3bbf9d",
+   "titolo": "Laboratorio di lanterne per San Martino",
+   "inizio": "2026-11-11",
+   "fine": "2026-11-11",
+   "ora": "16:30",
+   "comune": "Marzabotto",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Marzabotto",
+   "luogo": "Biblioteca Comunale e Chiesa di Canovella, Marzabotto (BO)",
+   "categoria": "Bambini e famiglie",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/san-martino-a-marzabotto-laboratorio-di-lanterne-11-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/san-martino-a-marzabotto-laboratorio-di-lanterne-11-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/2bf4c70f0ff1b0d6.jpg"
   },
   {
    "id": "28f22527bb260c08",
@@ -759,6 +841,50 @@
     }
    ],
    "immagine": "img/38db908df3cc23cd.jpg"
+  },
+  {
+   "id": "faafbc6c4ba51c9b",
+   "titolo": "Presentazione della ciclopedonale del Brasimone",
+   "inizio": "2026-11-13",
+   "fine": "2026-11-13",
+   "ora": "",
+   "comune": "Camugnano",
+   "comune_amministrativo": "Camugnano",
+   "localita": "Camugnano",
+   "luogo": "Sala del Parco, Camugnano (BO)",
+   "categoria": "Altro",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/pista-ciclopedonale-del-brasimone-presentazione-a-camugnano/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/pista-ciclopedonale-del-brasimone-presentazione-a-camugnano/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/67d4ce6eda92a533.jpg"
+  },
+  {
+   "id": "0ead9ec4e6c4695d",
+   "titolo": "Due giornate di sapori autunnali",
+   "inizio": "2026-11-14",
+   "fine": "2026-11-15",
+   "ora": "10:00",
+   "comune": "Qualto",
+   "comune_amministrativo": "San Benedetto Val di Sambro",
+   "localita": "Qualto",
+   "luogo": "Qualto, San Benedetto Val di Sambro (BO)",
+   "categoria": "Feste e sagre",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/sapori-dautunno-a-qualto-14-e-15-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/sapori-dautunno-a-qualto-14-e-15-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/c60672f1438bdce2.jpg"
   },
   {
    "id": "5311eddb1ad53ba3",
