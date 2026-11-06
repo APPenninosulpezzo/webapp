@@ -1,5 +1,5 @@
 window.DATI_EVENTI = {
- "aggiornato": "2026-11-05 08:13",
+ "aggiornato": "2026-11-06 08:13",
  "eventi": [
   {
    "id": "a5bf8615b3c5b5a5",
@@ -10,7 +10,7 @@ window.DATI_EVENTI = {
    "comune": "Castel d'Aiano",
    "comune_amministrativo": "Castel d'Aiano",
    "localita": "Castel d'Aiano",
-   "luogo": "Biblioteca multimediale di Castel d'Aiano, Via Carlo Lenzi 18",
+   "luogo": "Biblioteca Multimediale di Castel d'Aiano, via Carlo Lenzi 18",
    "categoria": "Libri e cultura",
    "fonte": "Comune di Castel d'Aiano",
    "link": "https://www.comune.casteldaiano.bo.it/vivere-il-comune/eventi/evento-culturale/il-mio-appennino",
@@ -32,7 +32,7 @@ window.DATI_EVENTI = {
    "comune": "Loiano",
    "comune_amministrativo": "Loiano",
    "localita": "Loiano",
-   "luogo": "Biblioteca Comunale, Via Roma 55",
+   "luogo": "Biblioteca Comunale di Loiano, via Roma 55",
    "categoria": "Libri e cultura",
    "fonte": "Comune di Loiano",
    "link": "https://www.comune.loiano.bologna.it/it-it/vivere-il-comune/eventi/biblioteca-comunale-corso-gratuito-rivolto-a-studenti-delle-scuole-superiori-per-imparare-ad-132520-1-81538515bbf0e255c597134cb0d8576a",
@@ -89,72 +89,6 @@ window.DATI_EVENTI = {
    "immagine": "img/66481c73bd5b3563.jpg"
   },
   {
-   "id": "01dd7294c741c9b2",
-   "titolo": "Concerti e incontri di novembre a Cellulosa",
-   "inizio": "2026-11-05",
-   "fine": "2026-11-28",
-   "ora": "",
-   "comune": "Lama di Reno",
-   "comune_amministrativo": "Marzabotto",
-   "localita": "Lama di Reno",
-   "luogo": "Cellulosa, Via Lama di Reno 30, Lama di Reno, Marzabotto",
-   "categoria": "Musica e spettacoli",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/",
-   "fonti": [
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/7de4652da6aa8a13.jpg"
-  },
-  {
-   "id": "e7388530a919ece4",
-   "titolo": "Conferenza sulla comunità energetica solare",
-   "inizio": "2026-11-05",
-   "fine": "2026-11-05",
-   "ora": "20:30",
-   "comune": "Quinzano",
-   "comune_amministrativo": "Loiano",
-   "localita": "Quinzano",
-   "luogo": "Centro Sociale Quinzano 2000, Piazza della Pace 1, Quinzano, Loiano",
-   "categoria": "Libri e cultura",
-   "fonte": "Comune di Loiano",
-   "link": "https://www.comune.loiano.bologna.it/it-it/vivere-il-comune/eventi/05-11-2026-conferenza-costruire-la-comunita-energetica-solare-132672-1-7d5d642de22ae7fd0a9614c5b9b786a9",
-   "fonti": [
-    {
-     "fonte": "Comune di Loiano",
-     "link": "https://www.comune.loiano.bologna.it/it-it/vivere-il-comune/eventi/05-11-2026-conferenza-costruire-la-comunita-energetica-solare-132672-1-7d5d642de22ae7fd0a9614c5b9b786a9"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/e48905db4a2997a7.jpg"
-  },
-  {
-   "id": "e9386e6622d70c5d",
-   "titolo": "Letture Nati per Leggere a colazione, novembre",
-   "inizio": "2026-11-05",
-   "fine": "2026-11-05",
-   "ora": "10:00",
-   "comune": "Marzabotto",
-   "comune_amministrativo": "Marzabotto",
-   "localita": "Marzabotto",
-   "luogo": "Casa della Cultura e della Memoria, Via Aldo Moro 2",
-   "categoria": "Bambini e famiglie",
-   "fonte": "Comune di Marzabotto",
-   "link": "https://www.comune.marzabotto.bo.it/vivere-il-comune/eventi/evento-culturale/libri-a-colazione-novembre",
-   "fonti": [
-    {
-     "fonte": "Comune di Marzabotto",
-     "link": "https://www.comune.marzabotto.bo.it/vivere-il-comune/eventi/evento-culturale/libri-a-colazione-novembre"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/c4394c01f4450887.jpg"
-  },
-  {
    "id": "e7a4fe280d55f557",
    "titolo": "Convegno su casa, cura e fragilità",
    "inizio": "2026-11-06",
@@ -197,6 +131,72 @@ window.DATI_EVENTI = {
    ],
    "giorni": [],
    "immagine": "img/906499d3292e3068.jpg"
+  },
+  {
+   "id": "4ff709bc5d84085a",
+   "titolo": "Tributo ai Creedence con Swamp Man",
+   "inizio": "2026-11-06",
+   "fine": "2026-11-06",
+   "ora": "",
+   "comune": "Lama di Reno",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Lama di Reno",
+   "luogo": "Cellulosa, Via Lama di Reno 30, Lama di Reno, Marzabotto",
+   "categoria": "Musica e spettacoli",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/7de4652da6aa8a13.jpg"
+  },
+  {
+   "id": "4bcceb5bf62f8e63",
+   "titolo": "Cena di Santa Cecilia della banda",
+   "inizio": "2026-11-07",
+   "fine": "2026-11-07",
+   "ora": "",
+   "comune": "Roncobilaccio",
+   "comune_amministrativo": "Castiglione dei Pepoli",
+   "localita": "Roncobilaccio",
+   "luogo": "Centro Civico di Roncobilaccio, Castiglione dei Pepoli",
+   "categoria": "Feste e sagre",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/cena-di-santa-cecilia-a-roncobilaccio-7-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/cena-di-santa-cecilia-a-roncobilaccio-7-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/8e192d1beeb31a9f.jpg"
+  },
+  {
+   "id": "3b5c9062c5062704",
+   "titolo": "Escursione autunnale CAI ai Lavaccioni",
+   "inizio": "2026-11-07",
+   "fine": "2026-11-07",
+   "ora": "",
+   "comune": "Tutta la montagna",
+   "comune_amministrativo": "Non chiaro",
+   "localita": "Lavaccioni",
+   "luogo": "Barbamozza, zona Brasimone",
+   "categoria": "Natura ed escursioni",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/colori-dautunno-ai-lavaccioni-7-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/colori-dautunno-ai-lavaccioni-7-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/26ad7866ebb90dd9.jpg"
   },
   {
    "id": "1d905bc20d5a00ca",
@@ -267,14 +267,6 @@ window.DATI_EVENTI = {
     {
      "fonte": "IsSEC",
      "link": "https://issec.bo.it/vivere-il-comune/eventi/le-guerre-di-walter-a-castiglione-dei-pepoli-7-novembre/"
-    },
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/cena-di-santa-cecilia-a-roncobilaccio-7-novembre-2026/"
-    },
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/colori-dautunno-ai-lavaccioni-7-novembre-2026/"
     }
    ],
    "giorni": [],
@@ -303,6 +295,28 @@ window.DATI_EVENTI = {
    "immagine": "img/b5aa9c16eb7d54d9.jpg"
   },
   {
+   "id": "804f97a80f410476",
+   "titolo": "Serata dedicata a Gianmaria Testa",
+   "inizio": "2026-11-07",
+   "fine": "2026-11-07",
+   "ora": "",
+   "comune": "Lama di Reno",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Lama di Reno",
+   "luogo": "Cellulosa, Via Lama di Reno 30, Lama di Reno, Marzabotto",
+   "categoria": "Musica e spettacoli",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/7de4652da6aa8a13.jpg"
+  },
+  {
    "id": "2754e46278f7e2d2",
    "titolo": "Visita al telescopio e spettacolo al planetario",
    "inizio": "2026-11-07",
@@ -323,6 +337,50 @@ window.DATI_EVENTI = {
    ],
    "giorni": [],
    "immagine": "img/68c8dd6cd896c917.jpg"
+  },
+  {
+   "id": "aa46e033c345c9c1",
+   "titolo": "Celebrazione dell'Unità Nazionale e Forze Armate",
+   "inizio": "2026-11-08",
+   "fine": "2026-11-08",
+   "ora": "09:15",
+   "comune": "Gaggio Montano",
+   "comune_amministrativo": "Gaggio Montano",
+   "localita": "Gaggio Montano",
+   "luogo": "Piazza Municipale, Gaggio Montano",
+   "categoria": "Altro",
+   "fonte": "Comune di Gaggio Montano",
+   "link": "https://www.comune.gaggio-montano.bo.it/vivere-il-comune/eventi/eventi-sociali/4-novembre",
+   "fonti": [
+    {
+     "fonte": "Comune di Gaggio Montano",
+     "link": "https://www.comune.gaggio-montano.bo.it/vivere-il-comune/eventi/eventi-sociali/4-novembre"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/d416cb94b70ceb1b.jpg"
+  },
+  {
+   "id": "819836bc980b9504",
+   "titolo": "Cerimonia per la giornata delle Forze Armate",
+   "inizio": "2026-11-08",
+   "fine": "2026-11-08",
+   "ora": "",
+   "comune": "Gaggio Montano",
+   "comune_amministrativo": "Gaggio Montano",
+   "localita": "",
+   "luogo": "Pietracolora, Santa Maria Villiana e Gaggio Montano",
+   "categoria": "Altro",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/celebrazioni-del-4-novembre-2026-a-gaggio-montano/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/celebrazioni-del-4-novembre-2026-a-gaggio-montano/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/5b12b17d7130c2f4.jpg"
   },
   {
    "id": "613fd097d0834ab8",
@@ -369,6 +427,72 @@ window.DATI_EVENTI = {
    "immagine": ""
   },
   {
+   "id": "08e0e82406800c51",
+   "titolo": "Commemorazione dell'Unità nazionale con la banda",
+   "inizio": "2026-11-08",
+   "fine": "2026-11-08",
+   "ora": "11:00",
+   "comune": "Loiano",
+   "comune_amministrativo": "Loiano",
+   "localita": "Loiano",
+   "luogo": "Monumento ai Caduti, Piazza IV Novembre (di fronte al Municipio), Loiano",
+   "categoria": "Altro",
+   "fonte": "Comune di Loiano",
+   "link": "https://www.comune.loiano.bologna.it/it-it/vivere-il-comune/eventi/celebrazioni-del-giorno-dell-unita-nazionale-e-giornata-delle-forze-armate-2026-132523-1-0c312c20a85cd68d7b17d5c1a2d2b09c",
+   "fonti": [
+    {
+     "fonte": "Comune di Loiano",
+     "link": "https://www.comune.loiano.bologna.it/it-it/vivere-il-comune/eventi/celebrazioni-del-giorno-dell-unita-nazionale-e-giornata-delle-forze-armate-2026-132523-1-0c312c20a85cd68d7b17d5c1a2d2b09c"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/b214d53886182f66.jpg"
+  },
+  {
+   "id": "abe779b4b91b1e2d",
+   "titolo": "Escursione nel castagneto per bimbi piccoli",
+   "inizio": "2026-11-08",
+   "fine": "2026-11-08",
+   "ora": "",
+   "comune": "Camugnano",
+   "comune_amministrativo": "Camugnano",
+   "localita": "Camugnano",
+   "luogo": "",
+   "categoria": "Bambini e famiglie",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/magia-dautunno-a-camugnano-8-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/magia-dautunno-a-camugnano-8-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/c54995a0423984e8.jpg"
+  },
+  {
+   "id": "386e021a69acf952",
+   "titolo": "Festa contadina del Ringraziamento",
+   "inizio": "2026-11-08",
+   "fine": "2026-11-08",
+   "ora": "",
+   "comune": "Vergato",
+   "comune_amministrativo": "Vergato",
+   "localita": "Vergato",
+   "luogo": "Vergato (BO)",
+   "categoria": "Feste e sagre",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-del-ringraziamento-a-vergato-8-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-del-ringraziamento-a-vergato-8-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/e4e80dc99e1a21f6.jpg"
+  },
+  {
    "id": "37e5019bb44054e8",
    "titolo": "Festa d'autunno con castagne e mercatini",
    "inizio": "2026-11-08",
@@ -385,14 +509,32 @@ window.DATI_EVENTI = {
     {
      "fonte": "Comune di Castel d'Aiano",
      "link": "https://www.comune.casteldaiano.bo.it/vivere-il-comune/eventi/eventi-sociali/festa-autunno-2026"
-    },
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/cb68063b56d98bae.jpg"
+  },
+  {
+   "id": "cb6165ef9137baf4",
+   "titolo": "Festa d'autunno con mercatino e camminata",
+   "inizio": "2026-11-08",
+   "fine": "2026-11-08",
+   "ora": "09:00",
+   "comune": "Villa d'Aiano",
+   "comune_amministrativo": "Castel d'Aiano",
+   "localita": "Villa d'Aiano",
+   "luogo": "Villa d'Aiano, Castel d'Aiano (BO)",
+   "categoria": "Feste e sagre",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-dautunno-a-villa-daiano-8-novembre-2026/",
+   "fonti": [
     {
      "fonte": "IsSEC",
      "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-dautunno-a-villa-daiano-8-novembre-2026/"
     }
    ],
    "giorni": [],
-   "immagine": "img/cb68063b56d98bae.jpg"
+   "immagine": "img/913474b10dd46fb4.jpg"
   },
   {
    "id": "ac6c440060a5fde7",
@@ -419,14 +561,10 @@ window.DATI_EVENTI = {
     {
      "fonte": "Pro Loco Di Vergato",
      "link": "https://www.instagram.com/p/Dd9Lkv1kdZx/"
-    },
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-del-ringraziamento-a-vergato-8-novembre-2026/"
     }
    ],
    "giorni": [],
-   "immagine": "img/e4e80dc99e1a21f6.jpg"
+   "immagine": "https://scontent.cdninstagram.com/v/t39.30808-6/861887546_1526173249559931_7326262657257590330_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=tadsuBFTZfsQ7kNvwGXdfp2&_nc_oc=AdqEg_-WPCA36elDfcy0B6k7e0EO1YEm8WtBZB_OPfWB30FVHsVzEJml-V1nf-U32qs&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=eNk2zkU-H0XVbuwgNBt87w&oh=00_AQOBt79O4ZN0g8jvsmXpBBpg3j1xJ0byjHHkoQQA6Y6E9A&oe=6AE62703"
   },
   {
    "id": "92c58ce14863b889",
@@ -451,7 +589,7 @@ window.DATI_EVENTI = {
    "immagine": "img/59264b4362f1d885.jpg"
   },
   {
-   "id": "abe779b4b91b1e2d",
+   "id": "235f0dc85a462c9c",
    "titolo": "Festa del tartufo e dei sapori montani",
    "inizio": "2026-11-08",
    "fine": "2026-11-08",
@@ -467,14 +605,6 @@ window.DATI_EVENTI = {
     {
      "fonte": "IsSEC",
      "link": "https://issec.bo.it/vivere-il-comune/eventi/tartufesta-a-camugnano-8-novembre-2026/"
-    },
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/magia-dautunno-a-camugnano-8-novembre-2026/"
-    },
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/agroarcheotrekking-a-bargi-8-novembre-2026/"
     }
    ],
    "giorni": [],
@@ -525,6 +655,28 @@ window.DATI_EVENTI = {
    "immagine": "img/f14bd0bed666df90.jpg"
   },
   {
+   "id": "99d4844aade31407",
+   "titolo": "Mercatino di libri usati a peso",
+   "inizio": "2026-11-08",
+   "fine": "2026-11-08",
+   "ora": "",
+   "comune": "Loiano",
+   "comune_amministrativo": "Loiano",
+   "localita": "Loiano",
+   "luogo": "Loggia del Palazzo Comunale, Piazza Dante Alighieri, Loiano",
+   "categoria": "Libri e cultura",
+   "fonte": "Comune di Loiano",
+   "link": "https://www.comune.loiano.bologna.it/it-it/vivere-il-comune/eventi/8-novembre-2026-mercatino-kili-di-libri-132942-1-ae2c20864a78d5efe3de50d52e0b1fc5",
+   "fonti": [
+    {
+     "fonte": "Comune di Loiano",
+     "link": "https://www.comune.loiano.bologna.it/it-it/vivere-il-comune/eventi/8-novembre-2026-mercatino-kili-di-libri-132942-1-ae2c20864a78d5efe3de50d52e0b1fc5"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/9c2540887153ed8c.jpg"
+  },
+  {
    "id": "3ec773b93b9fe5f0",
    "titolo": "Pomeriggio di ballo liscio e latino americano",
    "inizio": "2026-11-08",
@@ -563,21 +715,13 @@ window.DATI_EVENTI = {
     {
      "fonte": "Comune di Loiano",
      "link": "https://www.comune.loiano.bologna.it/it-it/vivere-il-comune/eventi/08-11-2026-pranzo-di-beneficenza-in-favore-dell-istituto-ramazzini-132681-1-336f3b1506e6ddaaf19603b5fe9bf3de"
-    },
-    {
-     "fonte": "Comune di Loiano",
-     "link": "https://www.comune.loiano.bologna.it/it-it/vivere-il-comune/eventi/8-novembre-2026-mercatino-kili-di-libri-132942-1-ae2c20864a78d5efe3de50d52e0b1fc5"
-    },
-    {
-     "fonte": "Comune di Loiano",
-     "link": "https://www.comune.loiano.bologna.it/it-it/vivere-il-comune/eventi/celebrazioni-del-giorno-dell-unita-nazionale-e-giornata-delle-forze-armate-2026-132523-1-0c312c20a85cd68d7b17d5c1a2d2b09c"
     }
    ],
    "giorni": [],
    "immagine": "img/006d743c8bbd0385.jpg"
   },
   {
-   "id": "aa46e033c345c9c1",
+   "id": "69668f5bb1e47202",
    "titolo": "Presentazione dei lavori alla torre",
    "inizio": "2026-11-08",
    "fine": "2026-11-08",
@@ -593,10 +737,6 @@ window.DATI_EVENTI = {
     {
      "fonte": "Comune di Gaggio Montano",
      "link": "https://www.comune.gaggio-montano.bo.it/vivere-il-comune/eventi/evento-culturale/torre-di-pietracolora"
-    },
-    {
-     "fonte": "Comune di Gaggio Montano",
-     "link": "https://www.comune.gaggio-montano.bo.it/vivere-il-comune/eventi/eventi-sociali/4-novembre"
     }
    ],
    "giorni": [],
@@ -619,10 +759,6 @@ window.DATI_EVENTI = {
     {
      "fonte": "IsSEC",
      "link": "https://issec.bo.it/vivere-il-comune/eventi/san-martino-in-piazza-a-pietracolora-8-novembre-2026/"
-    },
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/celebrazioni-del-4-novembre-2026-a-gaggio-montano/"
     }
    ],
    "giorni": [],
@@ -651,11 +787,33 @@ window.DATI_EVENTI = {
    "immagine": "img/6ef6d414bf69a43b.jpg"
   },
   {
+   "id": "fb1b3cf6d18c6e68",
+   "titolo": "Visita guidata a Palazzo Comelli e meridiane",
+   "inizio": "2026-11-08",
+   "fine": "2026-11-08",
+   "ora": "",
+   "comune": "Bargi",
+   "comune_amministrativo": "Camugnano",
+   "localita": "Bargi",
+   "luogo": "Pro Loco di Bargi, Camugnano",
+   "categoria": "Natura ed escursioni",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/agroarcheotrekking-a-bargi-8-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/agroarcheotrekking-a-bargi-8-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/f96e5aa3bdac9563.jpg"
+  },
+  {
    "id": "5f14a25fc7551246",
    "titolo": "Corso gratuito di disegno e pittura",
    "inizio": "2026-11-09",
    "fine": "2027-03-29",
-   "ora": "",
+   "ora": "16:45",
    "comune": "Marzabotto",
    "comune_amministrativo": "Marzabotto",
    "localita": "Marzabotto",
@@ -778,6 +936,28 @@ window.DATI_EVENTI = {
    "immagine": "img/2bf4c70f0ff1b0d6.jpg"
   },
   {
+   "id": "a41bfc3f51af60e8",
+   "titolo": "Raidho con castagne e vino novello",
+   "inizio": "2026-11-11",
+   "fine": "2026-11-11",
+   "ora": "",
+   "comune": "Lama di Reno",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Lama di Reno",
+   "luogo": "Cellulosa, Via Lama di Reno 30, Lama di Reno, Marzabotto (BO)",
+   "categoria": "Musica e spettacoli",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/7de4652da6aa8a13.jpg"
+  },
+  {
    "id": "28f22527bb260c08",
    "titolo": "Incontro pubblico sul percorso Movimenti in Appennino",
    "inizio": "2026-11-12",
@@ -806,6 +986,50 @@ window.DATI_EVENTI = {
    ],
    "giorni": [],
    "immagine": ""
+  },
+  {
+   "id": "66d569e19fa68715",
+   "titolo": "Serata karaoke con Big Ray",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-12",
+   "ora": "",
+   "comune": "Lama di Reno",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Lama di Reno",
+   "luogo": "Cellulosa, Via Lama di Reno 30, Lama di Reno, Marzabotto (BO)",
+   "categoria": "Musica e spettacoli",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/7de4652da6aa8a13.jpg"
+  },
+  {
+   "id": "f7817113f9a71917",
+   "titolo": "Concerto della Groove City Band",
+   "inizio": "2026-11-13",
+   "fine": "2026-11-13",
+   "ora": "",
+   "comune": "Lama di Reno",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Lama di Reno",
+   "luogo": "Cellulosa, Via Lama di Reno 30, Lama di Reno, Marzabotto (BO)",
+   "categoria": "Musica e spettacoli",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/7de4652da6aa8a13.jpg"
   },
   {
    "id": "7b79b591b3baea7e",
@@ -865,26 +1089,26 @@ window.DATI_EVENTI = {
    "immagine": "img/67d4ce6eda92a533.jpg"
   },
   {
-   "id": "0ead9ec4e6c4695d",
-   "titolo": "Due giornate di sapori autunnali",
+   "id": "ac063006c3f018b5",
+   "titolo": "Concerto dei Recover a Cellulosa",
    "inizio": "2026-11-14",
-   "fine": "2026-11-15",
-   "ora": "10:00",
-   "comune": "Qualto",
-   "comune_amministrativo": "San Benedetto Val di Sambro",
-   "localita": "Qualto",
-   "luogo": "Qualto, San Benedetto Val di Sambro (BO)",
-   "categoria": "Feste e sagre",
+   "fine": "2026-11-14",
+   "ora": "",
+   "comune": "Lama di Reno",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Lama di Reno",
+   "luogo": "Cellulosa, Via Lama di Reno 30, Lama di Reno, Marzabotto (BO)",
+   "categoria": "Musica e spettacoli",
    "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/sapori-dautunno-a-qualto-14-e-15-novembre-2026/",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/",
    "fonti": [
     {
      "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/sapori-dautunno-a-qualto-14-e-15-novembre-2026/"
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/"
     }
    ],
    "giorni": [],
-   "immagine": "img/c60672f1438bdce2.jpg"
+   "immagine": "img/7de4652da6aa8a13.jpg"
   },
   {
    "id": "5311eddb1ad53ba3",
@@ -963,7 +1187,7 @@ window.DATI_EVENTI = {
   },
   {
    "id": "8a6582921a02d78e",
-   "titolo": "Mostra itinerante del BolognaRagazzi Award",
+   "titolo": "Mostra Fiabe che camminano in biblioteca",
    "inizio": "2026-11-14",
    "fine": "2026-11-21",
    "ora": "",
@@ -971,7 +1195,7 @@ window.DATI_EVENTI = {
    "comune_amministrativo": "Marzabotto",
    "localita": "Marzabotto",
    "luogo": "Biblioteca comunale di Marzabotto",
-   "categoria": "Libri e cultura",
+   "categoria": "Bambini e famiglie",
    "fonte": "Biblioteche della montagna bolognese",
    "link": "https://bibliotechemontagnabolognese.it/fiabe-che-camminano-2/",
    "fonti": [
@@ -982,6 +1206,28 @@ window.DATI_EVENTI = {
    ],
    "giorni": [],
    "immagine": "img/a95cd2b7a204a966.jpg"
+  },
+  {
+   "id": "0ead9ec4e6c4695d",
+   "titolo": "Sapori d'autunno nel borgo di Qualto",
+   "inizio": "2026-11-14",
+   "fine": "2026-11-15",
+   "ora": "10:00",
+   "comune": "Qualto",
+   "comune_amministrativo": "San Benedetto Val di Sambro",
+   "localita": "Qualto",
+   "luogo": "Qualto, San Benedetto Val di Sambro (BO)",
+   "categoria": "Feste e sagre",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/sapori-dautunno-a-qualto-14-e-15-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/sapori-dautunno-a-qualto-14-e-15-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/c60672f1438bdce2.jpg"
   },
   {
    "id": "2d6754ade6e45f88",
@@ -1071,6 +1317,116 @@ window.DATI_EVENTI = {
    "immagine": "img/72c50016839700f3.jpg"
   },
   {
+   "id": "afbda8874a614dc5",
+   "titolo": "Compleanno di Cellulosa con omaggio a Guccini",
+   "inizio": "2026-11-18",
+   "fine": "2026-11-18",
+   "ora": "",
+   "comune": "Lama di Reno",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Lama di Reno",
+   "luogo": "Cellulosa, Via Lama di Reno 30, Lama di Reno, Marzabotto (BO)",
+   "categoria": "Musica e spettacoli",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/7de4652da6aa8a13.jpg"
+  },
+  {
+   "id": "0141035757cc77e4",
+   "titolo": "Cena con Paolo Piacentini",
+   "inizio": "2026-11-19",
+   "fine": "2026-11-19",
+   "ora": "",
+   "comune": "Lama di Reno",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Lama di Reno",
+   "luogo": "Cellulosa, Via Lama di Reno 30, Lama di Reno, Marzabotto (BO)",
+   "categoria": "Libri e cultura",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/7de4652da6aa8a13.jpg"
+  },
+  {
+   "id": "02df4768b260e446",
+   "titolo": "Rock progressivo con Sezione Frenante",
+   "inizio": "2026-11-20",
+   "fine": "2026-11-20",
+   "ora": "",
+   "comune": "Lama di Reno",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Lama di Reno",
+   "luogo": "Cellulosa, Via Lama di Reno 30, Lama di Reno - Marzabotto (BO)",
+   "categoria": "Musica e spettacoli",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/7de4652da6aa8a13.jpg"
+  },
+  {
+   "id": "1b9248ac6b743f87",
+   "titolo": "Aperibook in biblioteca a San Benedetto",
+   "inizio": "2026-11-21",
+   "fine": "2027-05-15",
+   "ora": "17:00",
+   "comune": "San Benedetto Val di Sambro",
+   "comune_amministrativo": "San Benedetto Val di Sambro",
+   "localita": "San Benedetto Val di Sambro",
+   "luogo": "Biblioteca Comunale Gastone Stefanini, via Roma 4, San Benedetto Val di Sambro",
+   "categoria": "Libri e cultura",
+   "fonte": "Comune di San Benedetto Val di Sambro",
+   "link": "https://www.comune.sanbenedettovaldisambro.bo.it/vivere-il-comune/eventi/evento-culturale/aperibook-stagione-202627",
+   "fonti": [
+    {
+     "fonte": "Comune di San Benedetto Val di Sambro",
+     "link": "https://www.comune.sanbenedettovaldisambro.bo.it/vivere-il-comune/eventi/evento-culturale/aperibook-stagione-202627"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/0b05f8422d4cdf37.jpg"
+  },
+  {
+   "id": "4c96033b1e32e50b",
+   "titolo": "Concerto del Blue Avenue Trio",
+   "inizio": "2026-11-21",
+   "fine": "2026-11-21",
+   "ora": "",
+   "comune": "Lama di Reno",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Lama di Reno",
+   "luogo": "Cellulosa, Via Lama di Reno 30, Lama di Reno - Marzabotto (BO)",
+   "categoria": "Musica e spettacoli",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/7de4652da6aa8a13.jpg"
+  },
+  {
    "id": "3396f6719852c153",
    "titolo": "Giochi da tavolo in biblioteca a Porretta",
    "inizio": "2026-11-21",
@@ -1091,28 +1447,6 @@ window.DATI_EVENTI = {
    ],
    "giorni": [],
    "immagine": "img/f8ef82164739d384.jpg"
-  },
-  {
-   "id": "1b9248ac6b743f87",
-   "titolo": "Rassegna Aperibook in biblioteca: libri e autori",
-   "inizio": "2026-11-21",
-   "fine": "2027-05-15",
-   "ora": "17:00",
-   "comune": "San Benedetto Val di Sambro",
-   "comune_amministrativo": "San Benedetto Val di Sambro",
-   "localita": "San Benedetto Val di Sambro",
-   "luogo": "Biblioteca Comunale \"Gastone Stefanini\", via Roma 4, San Benedetto Val di Sambro",
-   "categoria": "Libri e cultura",
-   "fonte": "Comune di San Benedetto Val di Sambro",
-   "link": "https://www.comune.sanbenedettovaldisambro.bo.it/vivere-il-comune/eventi/evento-culturale/aperibook-stagione-202627",
-   "fonti": [
-    {
-     "fonte": "Comune di San Benedetto Val di Sambro",
-     "link": "https://www.comune.sanbenedettovaldisambro.bo.it/vivere-il-comune/eventi/evento-culturale/aperibook-stagione-202627"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/0b05f8422d4cdf37.jpg"
   },
   {
    "id": "029bd00bf26dab05",
@@ -1181,6 +1515,72 @@ window.DATI_EVENTI = {
    "immagine": "img/01a643c3d6b3f06f.jpg"
   },
   {
+   "id": "f187a6cbadb437e7",
+   "titolo": "Presentazione del libro Requiem per Casablanca",
+   "inizio": "2026-11-25",
+   "fine": "2026-11-25",
+   "ora": "",
+   "comune": "Lama di Reno",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Lama di Reno",
+   "luogo": "Cellulosa, Via Lama di Reno 30, Lama di Reno - Marzabotto (BO)",
+   "categoria": "Libri e cultura",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/7de4652da6aa8a13.jpg"
+  },
+  {
+   "id": "56956755e0c4592d",
+   "titolo": "Massimo Carlotto in dialogo con Marco Tamarri",
+   "inizio": "2026-11-26",
+   "fine": "2026-11-26",
+   "ora": "",
+   "comune": "Lama di Reno",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Lama di Reno",
+   "luogo": "Cellulosa, Via Lama di Reno 30, Lama di Reno - Marzabotto (BO)",
+   "categoria": "Libri e cultura",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/7de4652da6aa8a13.jpg"
+  },
+  {
+   "id": "6ea4b267d1e5a165",
+   "titolo": "Serata Rock Arena con i Feedback Rock",
+   "inizio": "2026-11-27",
+   "fine": "2026-11-27",
+   "ora": "",
+   "comune": "Lama di Reno",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Lama di Reno",
+   "luogo": "Cellulosa, Via Lama di Reno 30, Lama di Reno - Marzabotto (BO)",
+   "categoria": "Musica e spettacoli",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/7de4652da6aa8a13.jpg"
+  },
+  {
    "id": "377de534e0f202a1",
    "titolo": "Laboratorio musicale per bimbi in biblioteca",
    "inizio": "2026-11-28",
@@ -1245,6 +1645,28 @@ window.DATI_EVENTI = {
    ],
    "giorni": [],
    "immagine": "img/da2dea7ba3133f55.jpg"
+  },
+  {
+   "id": "221c50f3d7983e24",
+   "titolo": "Swing e avanspettacolo con Tomatio",
+   "inizio": "2026-11-28",
+   "fine": "2026-11-28",
+   "ora": "",
+   "comune": "Lama di Reno",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Lama di Reno",
+   "luogo": "Cellulosa, Via Lama di Reno 30, Lama di Reno - Marzabotto (BO)",
+   "categoria": "Musica e spettacoli",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/7de4652da6aa8a13.jpg"
   },
   {
    "id": "7f0d4f7508dcaca0",
