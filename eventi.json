@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-06 08:13",
+ "aggiornato": "2026-11-07 08:18",
  "eventi": [
   {
    "id": "a5bf8615b3c5b5a5",
@@ -87,72 +87,6 @@
     }
    ],
    "immagine": "img/66481c73bd5b3563.jpg"
-  },
-  {
-   "id": "e7a4fe280d55f557",
-   "titolo": "Convegno su casa, cura e fragilità",
-   "inizio": "2026-11-06",
-   "fine": "2026-11-06",
-   "ora": "09:30",
-   "comune": "Vergato",
-   "comune_amministrativo": "Vergato",
-   "localita": "Vergato",
-   "luogo": "Centro Sociale Franco Nanni",
-   "categoria": "Libri e cultura",
-   "fonte": "Comune di Vergato",
-   "link": "https://www.comune.vergato.bo.it/novita/notizie/abitare-la-comunita-abitare-la-cura-tecnologie-e-assistenza-in-rete-per-affrontare-la-fragilita",
-   "fonti": [
-    {
-     "fonte": "Comune di Vergato",
-     "link": "https://www.comune.vergato.bo.it/novita/notizie/abitare-la-comunita-abitare-la-cura-tecnologie-e-assistenza-in-rete-per-affrontare-la-fragilita"
-    }
-   ],
-   "giorni": [],
-   "immagine": ""
-  },
-  {
-   "id": "ead3d4fb46e8281b",
-   "titolo": "Laboratorio per costruire un kamishibai",
-   "inizio": "2026-11-06",
-   "fine": "2026-11-06",
-   "ora": "17:00",
-   "comune": "Vergato",
-   "comune_amministrativo": "Vergato",
-   "localita": "Vergato",
-   "luogo": "Biblioteca di Vergato",
-   "categoria": "Bambini e famiglie",
-   "fonte": "Biblioteche della montagna bolognese",
-   "link": "https://bibliotechemontagnabolognese.it/costruiamo-un-kamishibai-3/",
-   "fonti": [
-    {
-     "fonte": "Biblioteche della montagna bolognese",
-     "link": "https://bibliotechemontagnabolognese.it/costruiamo-un-kamishibai-3/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/906499d3292e3068.jpg"
-  },
-  {
-   "id": "4ff709bc5d84085a",
-   "titolo": "Tributo ai Creedence con Swamp Man",
-   "inizio": "2026-11-06",
-   "fine": "2026-11-06",
-   "ora": "",
-   "comune": "Lama di Reno",
-   "comune_amministrativo": "Marzabotto",
-   "localita": "Lama di Reno",
-   "luogo": "Cellulosa, Via Lama di Reno 30, Lama di Reno, Marzabotto",
-   "categoria": "Musica e spettacoli",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/",
-   "fonti": [
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/7de4652da6aa8a13.jpg"
   },
   {
    "id": "4bcceb5bf62f8e63",
@@ -355,32 +289,14 @@
     {
      "fonte": "Comune di Gaggio Montano",
      "link": "https://www.comune.gaggio-montano.bo.it/vivere-il-comune/eventi/eventi-sociali/4-novembre"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/d416cb94b70ceb1b.jpg"
-  },
-  {
-   "id": "819836bc980b9504",
-   "titolo": "Cerimonia per la giornata delle Forze Armate",
-   "inizio": "2026-11-08",
-   "fine": "2026-11-08",
-   "ora": "",
-   "comune": "Gaggio Montano",
-   "comune_amministrativo": "Gaggio Montano",
-   "localita": "",
-   "luogo": "Pietracolora, Santa Maria Villiana e Gaggio Montano",
-   "categoria": "Altro",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/celebrazioni-del-4-novembre-2026-a-gaggio-montano/",
-   "fonti": [
+    },
     {
      "fonte": "IsSEC",
      "link": "https://issec.bo.it/vivere-il-comune/eventi/celebrazioni-del-4-novembre-2026-a-gaggio-montano/"
     }
    ],
    "giorni": [],
-   "immagine": "img/5b12b17d7130c2f4.jpg"
+   "immagine": "img/d416cb94b70ceb1b.jpg"
   },
   {
    "id": "613fd097d0834ab8",
@@ -471,28 +387,6 @@
    "immagine": "img/c54995a0423984e8.jpg"
   },
   {
-   "id": "386e021a69acf952",
-   "titolo": "Festa contadina del Ringraziamento",
-   "inizio": "2026-11-08",
-   "fine": "2026-11-08",
-   "ora": "",
-   "comune": "Vergato",
-   "comune_amministrativo": "Vergato",
-   "localita": "Vergato",
-   "luogo": "Vergato (BO)",
-   "categoria": "Feste e sagre",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-del-ringraziamento-a-vergato-8-novembre-2026/",
-   "fonti": [
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-del-ringraziamento-a-vergato-8-novembre-2026/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/e4e80dc99e1a21f6.jpg"
-  },
-  {
    "id": "37e5019bb44054e8",
    "titolo": "Festa d'autunno con castagne e mercatini",
    "inizio": "2026-11-08",
@@ -509,32 +403,14 @@
     {
      "fonte": "Comune di Castel d'Aiano",
      "link": "https://www.comune.casteldaiano.bo.it/vivere-il-comune/eventi/eventi-sociali/festa-autunno-2026"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/cb68063b56d98bae.jpg"
-  },
-  {
-   "id": "cb6165ef9137baf4",
-   "titolo": "Festa d'autunno con mercatino e camminata",
-   "inizio": "2026-11-08",
-   "fine": "2026-11-08",
-   "ora": "09:00",
-   "comune": "Villa d'Aiano",
-   "comune_amministrativo": "Castel d'Aiano",
-   "localita": "Villa d'Aiano",
-   "luogo": "Villa d'Aiano, Castel d'Aiano (BO)",
-   "categoria": "Feste e sagre",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-dautunno-a-villa-daiano-8-novembre-2026/",
-   "fonti": [
+    },
     {
      "fonte": "IsSEC",
      "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-dautunno-a-villa-daiano-8-novembre-2026/"
     }
    ],
    "giorni": [],
-   "immagine": "img/913474b10dd46fb4.jpg"
+   "immagine": "img/cb68063b56d98bae.jpg"
   },
   {
    "id": "ac6c440060a5fde7",
@@ -561,10 +437,14 @@
     {
      "fonte": "Pro Loco Di Vergato",
      "link": "https://www.instagram.com/p/Dd9Lkv1kdZx/"
+    },
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-del-ringraziamento-a-vergato-8-novembre-2026/"
     }
    ],
    "giorni": [],
-   "immagine": "https://scontent.cdninstagram.com/v/t39.30808-6/861887546_1526173249559931_7326262657257590330_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=tadsuBFTZfsQ7kNvwGXdfp2&_nc_oc=AdqEg_-WPCA36elDfcy0B6k7e0EO1YEm8WtBZB_OPfWB30FVHsVzEJml-V1nf-U32qs&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=eNk2zkU-H0XVbuwgNBt87w&oh=00_AQOBt79O4ZN0g8jvsmXpBBpg3j1xJ0byjHHkoQQA6Y6E9A&oe=6AE62703"
+   "immagine": "img/e4e80dc99e1a21f6.jpg"
   },
   {
    "id": "92c58ce14863b889",
@@ -914,6 +794,28 @@
    "immagine": "img/15472567e7f0e4d9.jpg"
   },
   {
+   "id": "e13337d5a3e2507d",
+   "titolo": "Corso gratuito di italiano al Centro sociale",
+   "inizio": "2026-11-11",
+   "fine": "2026-11-11",
+   "ora": "09:00",
+   "comune": "Vado",
+   "comune_amministrativo": "Monzuno",
+   "localita": "Vado",
+   "luogo": "Centro Sociale di Vado, via Val di Setta 38/a",
+   "categoria": "Libri e cultura",
+   "fonte": "Comune di Monzuno",
+   "link": "https://www.comune.monzuno.bo.it/novita/avvisi/corso-di-lingua-italiana-gratuito",
+   "fonti": [
+    {
+     "fonte": "Comune di Monzuno",
+     "link": "https://www.comune.monzuno.bo.it/novita/avvisi/corso-di-lingua-italiana-gratuito"
+    }
+   ],
+   "giorni": [],
+   "immagine": ""
+  },
+  {
    "id": "dc6bb6ea0a3bbf9d",
    "titolo": "Laboratorio di lanterne per San Martino",
    "inizio": "2026-11-11",
@@ -1112,25 +1014,29 @@
   },
   {
    "id": "5311eddb1ad53ba3",
-   "titolo": "Inaugurazione del nuovo spazio culturale della biblioteca",
+   "titolo": "Inaugurazione del nuovo spazio culturale in biblioteca",
    "inizio": "2026-11-14",
    "fine": "2026-11-14",
    "ora": "16:00",
    "comune": "Vergato",
    "comune_amministrativo": "Vergato",
    "localita": "Vergato",
-   "luogo": "Biblioteca di Vergato",
+   "luogo": "Biblioteca comunale di Vergato",
    "categoria": "Libri e cultura",
-   "fonte": "Biblioteche della montagna bolognese",
-   "link": "https://bibliotechemontagnabolognese.it/inaugurazione-spazio-culturale/",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/inaugurazione-spazio-culturale-biblioteca-di-vergato/",
    "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/inaugurazione-spazio-culturale-biblioteca-di-vergato/"
+    },
     {
      "fonte": "Biblioteche della montagna bolognese",
      "link": "https://bibliotechemontagnabolognese.it/inaugurazione-spazio-culturale/"
     }
    ],
    "giorni": [],
-   "immagine": "img/67c32866ab96ad0e.jpg"
+   "immagine": "img/b843aeeec324b963.jpg"
   },
   {
    "id": "0ba8f8c3a3aa7201",
@@ -1208,6 +1114,32 @@
    "immagine": "img/a95cd2b7a204a966.jpg"
   },
   {
+   "id": "dc92a3ff9e6ec80e",
+   "titolo": "Mostra sulla nascita delle biblioteche pubbliche",
+   "inizio": "2026-11-14",
+   "fine": "2026-11-20",
+   "ora": "16:30",
+   "comune": "Vergato",
+   "comune_amministrativo": "Vergato",
+   "localita": "Vergato",
+   "luogo": "Biblioteca comunale di Vergato",
+   "categoria": "Libri e cultura",
+   "fonte": "bibliotechemontagnabolognese.it",
+   "link": "https://bibliotechemontagnabolognese.it/inaugurazione-spazio-culturale/",
+   "fonti": [
+    {
+     "fonte": "bibliotechemontagnabolognese.it",
+     "link": "https://bibliotechemontagnabolognese.it/inaugurazione-spazio-culturale/"
+    },
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/inaugurazione-spazio-culturale-biblioteca-di-vergato/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/67c32866ab96ad0e.jpg"
+  },
+  {
    "id": "0ead9ec4e6c4695d",
    "titolo": "Sapori d'autunno nel borgo di Qualto",
    "inizio": "2026-11-14",
@@ -1228,6 +1160,32 @@
    ],
    "giorni": [],
    "immagine": "img/c60672f1438bdce2.jpg"
+  },
+  {
+   "id": "55513657b097ce70",
+   "titolo": "Spettacolo per bambini sul robot caduto",
+   "inizio": "2026-11-14",
+   "fine": "2026-11-14",
+   "ora": "17:00",
+   "comune": "Vergato",
+   "comune_amministrativo": "Vergato",
+   "localita": "Vergato",
+   "luogo": "Biblioteca comunale di Vergato",
+   "categoria": "Bambini e famiglie",
+   "fonte": "bibliotechemontagnabolognese.it",
+   "link": "https://bibliotechemontagnabolognese.it/inaugurazione-spazio-culturale/",
+   "fonti": [
+    {
+     "fonte": "bibliotechemontagnabolognese.it",
+     "link": "https://bibliotechemontagnabolognese.it/inaugurazione-spazio-culturale/"
+    },
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/inaugurazione-spazio-culturale-biblioteca-di-vergato/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/67c32866ab96ad0e.jpg"
   },
   {
    "id": "2d6754ade6e45f88",
@@ -1272,6 +1230,50 @@
    ],
    "giorni": [],
    "immagine": "img/2ddd24b1f55e5b45.jpg"
+  },
+  {
+   "id": "8caad870bdb36256",
+   "titolo": "Passeggiata guidata dal Faggio al Mulino della Squaglia",
+   "inizio": "2026-11-15",
+   "fine": "2026-11-15",
+   "ora": "09:15",
+   "comune": "Monteacuto delle Alpi",
+   "comune_amministrativo": "Lizzano in Belvedere",
+   "localita": "Monteacuto delle Alpi",
+   "luogo": "Parcheggio del Santuario della Madonna del Faggio, Lizzano in Belvedere (BO)",
+   "categoria": "Natura ed escursioni",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/sentieri-di-pietra-acqua-e-castagno-15-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/sentieri-di-pietra-acqua-e-castagno-15-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/802b5eced3ef94ac.jpg"
+  },
+  {
+   "id": "1f931f439d9e9090",
+   "titolo": "Corso sulla Costituzione all'Università Primo Levi",
+   "inizio": "2026-11-16",
+   "fine": "2026-12-14",
+   "ora": "14:30",
+   "comune": "Marzabotto",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Marzabotto",
+   "luogo": "Sala Polivalente Ferruccio Laffi, via Aldo Moro 2, Marzabotto (BO)",
+   "categoria": "Libri e cultura",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/corso-sulla-costituzione-italiana-a-marzabotto-dal-16-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/corso-sulla-costituzione-italiana-a-marzabotto-dal-16-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/2143d85b81b79afb.jpg"
   },
   {
    "id": "a26aabebe53dcb2e",
@@ -1340,25 +1342,51 @@
   },
   {
    "id": "0141035757cc77e4",
-   "titolo": "Cena con Paolo Piacentini",
+   "titolo": "Cena incontro con lo scrittore Paolo Piacentini",
    "inizio": "2026-11-19",
    "fine": "2026-11-19",
    "ora": "",
    "comune": "Lama di Reno",
    "comune_amministrativo": "Marzabotto",
    "localita": "Lama di Reno",
-   "luogo": "Cellulosa, Via Lama di Reno 30, Lama di Reno, Marzabotto (BO)",
+   "luogo": "Cellulosa, via Lama di Reno 30, Marzabotto (BO)",
    "categoria": "Libri e cultura",
    "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/a-cena-con-paolo-piacentini-a-lama-di-reno-19-novembre-2026/",
    "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/a-cena-con-paolo-piacentini-a-lama-di-reno-19-novembre-2026/"
+    },
     {
      "fonte": "IsSEC",
      "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/"
     }
    ],
    "giorni": [],
-   "immagine": "img/7de4652da6aa8a13.jpg"
+   "immagine": "img/fec86fef2bc41976.jpg"
+  },
+  {
+   "id": "44506b5e19c55440",
+   "titolo": "Presentazione del libro Ritorno a Gaza",
+   "inizio": "2026-11-20",
+   "fine": "2026-11-20",
+   "ora": "18:30",
+   "comune": "Marzabotto",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Marzabotto",
+   "luogo": "Biblioteca comunale",
+   "categoria": "Libri e cultura",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/marzabotto-eventi-contro-la-violenza-sulle-donne-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/marzabotto-eventi-contro-la-violenza-sulle-donne-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": ""
   },
   {
    "id": "02df4768b260e446",
@@ -1427,6 +1455,54 @@
    "immagine": "img/7de4652da6aa8a13.jpg"
   },
   {
+   "id": "77efbb0cd50fdd36",
+   "titolo": "Cortometraggio e incontro con la regista",
+   "inizio": "2026-11-21",
+   "fine": "2026-11-21",
+   "ora": "17:45",
+   "comune": "Marzabotto",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Marzabotto",
+   "luogo": "Marzabotto",
+   "categoria": "Musica e spettacoli",
+   "fonte": "spicgilbologna.it",
+   "link": "https://www.spicgilbologna.it/2026/10/27/le-tre-stanze-della-villa-il-cortometraggio-dello-spi-cgil-bologna-in-sette-appuntamenti-sul-territorio/",
+   "fonti": [
+    {
+     "fonte": "spicgilbologna.it",
+     "link": "https://www.spicgilbologna.it/2026/10/27/le-tre-stanze-della-villa-il-cortometraggio-dello-spi-cgil-bologna-in-sette-appuntamenti-sul-territorio/"
+    },
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/marzabotto-eventi-contro-la-violenza-sulle-donne-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/9ecfaeea551fbfb6.jpg"
+  },
+  {
+   "id": "df52aaf2c0b350d7",
+   "titolo": "Festa dell'Albero con libro sui grandi alberi",
+   "inizio": "2026-11-21",
+   "fine": "2026-11-21",
+   "ora": "10:00",
+   "comune": "Riola",
+   "comune_amministrativo": "Grizzana Morandi",
+   "localita": "Riola",
+   "luogo": "Rocchetta Mattei, Sala del Sottotetto, Grizzana Morandi (BO)",
+   "categoria": "Libri e cultura",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-dellalbero-alla-rocchetta-mattei-21-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-dellalbero-alla-rocchetta-mattei-21-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/3e1ccfb9db515e80.jpg"
+  },
+  {
    "id": "3396f6719852c153",
    "titolo": "Giochi da tavolo in biblioteca a Porretta",
    "inizio": "2026-11-21",
@@ -1447,6 +1523,76 @@
    ],
    "giorni": [],
    "immagine": "img/f8ef82164739d384.jpg"
+  },
+  {
+   "id": "9d5cd4ed9999c8f0",
+   "titolo": "Giornata Fantasia di donna alla Polivalente",
+   "inizio": "2026-11-21",
+   "fine": "2026-11-21",
+   "ora": "10:00",
+   "comune": "Marzabotto",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Marzabotto",
+   "luogo": "Sala Polivalente",
+   "categoria": "Altro",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/marzabotto-eventi-contro-la-violenza-sulle-donne-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/marzabotto-eventi-contro-la-violenza-sulle-donne-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": ""
+  },
+  {
+   "id": "925e030a18418422",
+   "titolo": "Gruppo di lettura SfogliaStorie in biblioteca",
+   "inizio": "2026-11-21",
+   "fine": "2026-11-21",
+   "ora": "10:30",
+   "comune": "Marzabotto",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Marzabotto",
+   "luogo": "Biblioteca comunale",
+   "categoria": "Libri e cultura",
+   "fonte": "bibliotechemontagnabolognese.it",
+   "link": "https://bibliotechemontagnabolognese.it/gruppo-di-lettura-stagione-26-27/",
+   "fonti": [
+    {
+     "fonte": "bibliotechemontagnabolognese.it",
+     "link": "https://bibliotechemontagnabolognese.it/gruppo-di-lettura-stagione-26-27/"
+    },
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/marzabotto-eventi-contro-la-violenza-sulle-donne-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/184dec698befff8e.jpg"
+  },
+  {
+   "id": "7b46481241accad5",
+   "titolo": "Spettacolo teatrale su teatro e intelligenza artificiale",
+   "inizio": "2026-11-21",
+   "fine": "2026-11-21",
+   "ora": "21:00",
+   "comune": "Castiglione dei Pepoli",
+   "comune_amministrativo": "Castiglione dei Pepoli",
+   "localita": "Castiglione dei Pepoli",
+   "luogo": "Teatro Comunale, via Aldo Moro 2, Castiglione dei Pepoli (BO)",
+   "categoria": "Musica e spettacoli",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/nuova-drammaturgia-i-a-a-castiglione-dei-pepoli-21-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/nuova-drammaturgia-i-a-a-castiglione-dei-pepoli-21-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/0307fbecf4bb1a8c.jpg"
   },
   {
    "id": "029bd00bf26dab05",
@@ -1487,6 +1633,10 @@
     {
      "fonte": "Comune di Marzabotto",
      "link": "https://www.comune.marzabotto.bo.it/vivere-il-comune/eventi/evento-culturale/ce-ancora-domani"
+    },
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/marzabotto-eventi-contro-la-violenza-sulle-donne-2026/"
     }
    ],
    "giorni": [],
@@ -1535,6 +1685,50 @@
    ],
    "giorni": [],
    "immagine": "img/7de4652da6aa8a13.jpg"
+  },
+  {
+   "id": "1d8a9ec2f08a8eed",
+   "titolo": "Spettacolo teatrale contro la violenza sulle donne",
+   "inizio": "2026-11-25",
+   "fine": "2026-11-25",
+   "ora": "20:30",
+   "comune": "Marzabotto",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Marzabotto",
+   "luogo": "Teatro Comunale",
+   "categoria": "Musica e spettacoli",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/marzabotto-eventi-contro-la-violenza-sulle-donne-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/marzabotto-eventi-contro-la-violenza-sulle-donne-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": ""
+  },
+  {
+   "id": "a06f7cdb7ca37be1",
+   "titolo": "Incontro su affettività e sessualità",
+   "inizio": "2026-11-26",
+   "fine": "2026-11-26",
+   "ora": "18:00",
+   "comune": "Marzabotto",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Marzabotto",
+   "luogo": "Sala Polivalente",
+   "categoria": "Libri e cultura",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/marzabotto-eventi-contro-la-violenza-sulle-donne-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/marzabotto-eventi-contro-la-violenza-sulle-donne-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": ""
   },
   {
    "id": "56956755e0c4592d",
