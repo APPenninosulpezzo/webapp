@@ -691,25 +691,25 @@ header.top { padding: var(--space-6) 0 var(--space-2); gap: var(--space-4); alig
 
 /* "Dove" e "Tipo" alti come le chip dei periodi */
 .riga-filtri .ds-select { min-height: 40px; height: 40px; padding-top: 0; padding-bottom: 0; font-size: 16px; }
-/* scelta multipla: pulsante come il vecchio menu, pannello largo quanto la riga, sotto i due pulsanti */
-.riga-filtri { position: relative; }
+/* "Dove" e "Tipo" a scelta multipla, con l'aspetto del menu di prima.
+   Sul telefono un <select multiple> invisibile sta sopra il pulsante: si apre il menu del sistema, con le spunte.
+   Sul computer il pulsante apre un elenco a tendina semplice, come quello del menu */
+.scelta { position: relative; }
 .scelta-btn { display: flex; align-items: center; justify-content: space-between; gap: var(--space-2); text-align: left; cursor: pointer; color: var(--ink); }
 .scelta-btn .scelta-testo { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
-.scelta-btn .ic { width: 18px; height: 18px; color: var(--ink-muted); transform: rotate(90deg); }
-.scelta-btn[aria-expanded="true"] .ic { transform: rotate(-90deg); }
-.scelta-btn.attiva { border-color: var(--ink); border-width: 2px; font-weight: 600; }
-.scelta-pannello { position: absolute; left: 0; right: 0; top: calc(100% + 8px); z-index: 6; display: flex; flex-direction: column; max-height: min(60vh, 28rem); background: var(--surface); border: 1px solid var(--line-strong); border-radius: var(--radius-md); box-shadow: var(--shadow-lg); }
+.scelta-btn .ic { width: 16px; height: 16px; color: var(--ink); transform: rotate(90deg); }
+.scelta-nativa { display: none; }
+@media (pointer: coarse) {
+  .scelta-nativa { display: block; position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; z-index: 1; font-size: 16px; cursor: pointer; }
+  .scelta-nativa:focus-visible + .scelta-btn { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+}
+.scelta-pannello { position: absolute; left: 0; top: calc(100% + 4px); z-index: 6; min-width: 100%; max-width: 20rem; max-height: min(60vh, 24rem); overflow-y: auto; overscroll-behavior: contain; padding: 4px 0; background: var(--surface); border: 1px solid var(--line-strong); border-radius: var(--radius-sm); box-shadow: var(--shadow-lg); }
 .scelta-pannello[hidden] { display: none; }
-.scelta-voci { overflow-y: auto; overscroll-behavior: contain; padding: var(--space-2) 0; }
-.scelta-gruppo { display: flex; align-items: center; min-height: 44px; margin: 0 !important; padding: 0 var(--space-4); font-size: 16px; color: var(--ink-muted); }
-.scelta-voce.sotto { padding-left: calc(var(--space-4) + 32px); }
-.scelta-voce { display: flex; align-items: center; gap: var(--space-3); min-height: 44px; padding: 0 var(--space-4); font-size: 16px; cursor: pointer; }
-.scelta-voce input { width: 20px; height: 20px; margin: 0; flex: none; accent-color: var(--ink); }
-.scelta-voce .nome { flex: 1; min-width: 0; }
-.scelta-voce .quanti { color: var(--ink-muted); font-size: 15px; font-variant-numeric: tabular-nums; }
-@media (hover: hover) and (pointer: fine) { .scelta-voce:hover { background: var(--surface-2); } }
-.scelta-voce:focus-within { background: var(--surface-2); }
-.scelta-piede { display: flex; justify-content: space-between; gap: var(--space-3); padding: var(--space-3) var(--space-4); border-top: 1px solid var(--line); }
+.scelta-gruppo { margin: 0 !important; padding: 6px 12px 2px; font-size: 16px; font-weight: 700; color: var(--ink); }
+.scelta-voce { display: flex; align-items: center; gap: 8px; padding: 4px 12px; font-size: 16px; cursor: pointer; white-space: nowrap; }
+.scelta-gruppo ~ .scelta-voce { padding-left: 24px; }
+.scelta-voce input { width: 16px; height: 16px; margin: 0; flex: none; accent-color: var(--ink); }
+.scelta-voce:hover, .scelta-voce:focus-within { background: var(--surface-2); }
 /* la card e i suoi comandi larghi quanto il resto dei contenuti */
 .mazzo-zona { max-width: none; margin: var(--space-3) 0 0; }
 
@@ -863,19 +863,14 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
         <span class="box-giorno" id="box-giorno"><button class="ds-chip" data-q="giorno" id="chip-giorno" aria-pressed="false">Scegli un giorno</button><input class="giorno-nascosto" type="date" id="giorno" tabindex="-1" aria-label="Giorno"></span>
       </div>
       <div class="riga-filtri">
-        <!-- "Dove" e "Tipo" a scelta multipla: il pulsante apre un pannello con le caselle -->
+        <!-- "Dove" e "Tipo" a scelta multipla: sul telefono il menu del sistema (select multiple invisibile sopra il pulsante),
+             sul computer un elenco a tendina con le caselle -->
         <div><span class="ds-label" id="l-comune">Dove</span>
-          <button type="button" class="ds-select scelta-btn" id="comune" data-campo="comune" aria-expanded="false" aria-controls="p-comune" aria-labelledby="l-comune t-comune"><span class="scelta-testo" id="t-comune">Ovunque</span><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-avanti"/></svg></button></div>
+          <div class="scelta"><select class="scelta-nativa" id="n-comune" data-campo="comune" multiple aria-labelledby="l-comune"></select><button type="button" class="ds-select scelta-btn" id="comune" data-campo="comune" aria-expanded="false" aria-controls="p-comune" aria-labelledby="l-comune t-comune"><span class="scelta-testo" id="t-comune">Ovunque</span><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-avanti"/></svg></button>
+            <div class="scelta-pannello" id="p-comune" role="group" aria-labelledby="l-comune" hidden></div></div></div>
         <div><span class="ds-label" id="l-categoria">Tipo</span>
-          <button type="button" class="ds-select scelta-btn" id="categoria" data-campo="categoria" aria-expanded="false" aria-controls="p-categoria" aria-labelledby="l-categoria t-categoria"><span class="scelta-testo" id="t-categoria">Tutti i tipi</span><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-avanti"/></svg></button></div>
-        <div class="scelta-pannello" id="p-comune" role="group" aria-label="Dove, puoi sceglierne più di uno" hidden>
-          <div class="scelta-voci"></div>
-          <div class="scelta-piede"><button type="button" class="ds-btn ds-btn-ghost" data-azzera>Ovunque</button><button type="button" class="ds-btn ds-btn-primary" data-fatto>Fatto</button></div>
-        </div>
-        <div class="scelta-pannello" id="p-categoria" role="group" aria-label="Tipo, puoi sceglierne più di uno" hidden>
-          <div class="scelta-voci"></div>
-          <div class="scelta-piede"><button type="button" class="ds-btn ds-btn-ghost" data-azzera>Tutti i tipi</button><button type="button" class="ds-btn ds-btn-primary" data-fatto>Fatto</button></div>
-        </div>
+          <div class="scelta"><select class="scelta-nativa" id="n-categoria" data-campo="categoria" multiple aria-labelledby="l-categoria"></select><button type="button" class="ds-select scelta-btn" id="categoria" data-campo="categoria" aria-expanded="false" aria-controls="p-categoria" aria-labelledby="l-categoria t-categoria"><span class="scelta-testo" id="t-categoria">Tutti i tipi</span><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-avanti"/></svg></button>
+            <div class="scelta-pannello" id="p-categoria" role="group" aria-labelledby="l-categoria" hidden></div></div></div>
       </div>
     </div>
     <div class="riga-modo">
@@ -1176,31 +1171,30 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
     salvaPreferiti(); disegna();
   }
 
-  // "Dove" e "Tipo" accettano piu' valori: vuoto = tutti, altrimenti basta che l'evento ne abbia uno
+  // "Dove" e "Tipo" accettano piu' valori: vuoto = tutti, altrimenti basta che l'evento ne abbia uno.
+  // Ogni voce esiste due volte, come opzione del menu del telefono e come casella del computer: restano allineate
   var filtro = { quando: "tutti", comune: [], categoria: [] };
-  function voce(pannello, campo, valore, gruppo) {
+  function voce(campo, valore, gruppoNativo, gruppoPannello) {
+    var o = document.createElement("option"); o.value = o.textContent = valore;
+    (gruppoNativo || document.getElementById("n-" + campo)).appendChild(o);
     var l = document.createElement("label"); l.className = "scelta-voce";
     var c = document.createElement("input"); c.type = "checkbox"; c.value = valore;
-    var n = document.createElement("span"); n.className = "nome"; n.textContent = valore;
-    var q = document.createElement("span"); q.className = "quanti"; q.dataset.valore = valore;
-    l.append(c, n, q);
+    l.append(c, document.createTextNode(valore));
     c.addEventListener("change", function () {
       var a = filtro[campo], i = a.indexOf(valore);
       if (c.checked && i < 0) a.push(valore); else if (!c.checked && i >= 0) a.splice(i, 1);
-      etichettaScelta(campo); preparaMazzo();
+      sceltaCambiata(campo);
     });
-    (gruppo || pannello).appendChild(l);
+    (gruppoPannello || document.getElementById("p-" + campo)).appendChild(l);
   }
   function unici(campo) {
     return eventi.map(function (e) { return e[campo]; })
       .filter(function (v, i, a) { return v && a.indexOf(v) === i; })
       .sort(function (a, b) { return a === "Tutta la montagna" ? 1 : b === "Tutta la montagna" ? -1 : a.localeCompare(b); });
   }
-  // "Dove": le localita' raggruppate sotto il loro comune (Riola sotto Vergato), ordinate per nome.
-  // Il comune sta a sinistra, le sue localita' rientrate sotto; se nessun evento e' nel comune stesso,
-  // il suo nome compare come titolo senza casella
+  // "Dove": le localita' raggruppate sotto il loro comune (Riola sotto Vergato), ordinate per nome, come prima
   (function () {
-    var voci = document.querySelector("#p-comune .scelta-voci"), gruppi = {};
+    var gruppi = {};
     eventi.forEach(function (e) {
       var c = e.comune_amministrativo || e.comune;
       if (e.comune === "Tutta la montagna") c = "Tutta la montagna";
@@ -1209,34 +1203,25 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
     Object.keys(gruppi).sort(function (a, b) {
       return a === "Tutta la montagna" ? 1 : b === "Tutta la montagna" ? -1 : a.localeCompare(b);
     }).forEach(function (c) {
-      var nomi = gruppi[c].sort(function (a, b) { return a === c ? -1 : b === c ? 1 : a.localeCompare(b); });
+      var og = document.createElement("optgroup"); og.label = c; document.getElementById("n-comune").appendChild(og);
       var g = document.createElement("div"); g.setAttribute("role", "group"); g.setAttribute("aria-label", c);
-      if (nomi[0] !== c) {
-        var t = document.createElement("p"); t.className = "scelta-gruppo"; t.textContent = c; t.setAttribute("aria-hidden", "true"); g.appendChild(t);
-      }
-      nomi.forEach(function (n) { voce(voci, "comune", n, g); if (n !== c) g.lastChild.classList.add("sotto"); });
-      voci.appendChild(g);
+      var t = document.createElement("p"); t.className = "scelta-gruppo"; t.textContent = c; t.setAttribute("aria-hidden", "true"); g.appendChild(t);
+      document.getElementById("p-comune").appendChild(g);
+      gruppi[c].sort(function (a, b) { return a === c ? -1 : b === c ? 1 : a.localeCompare(b); })
+        .forEach(function (n) { voce("comune", n, og, g); });
     });
   })();
-  unici("categoria").forEach(function (v) { voce(document.querySelector("#p-categoria .scelta-voci"), "categoria", v); });
+  unici("categoria").forEach(function (v) { voce("categoria", v); });
 
   // testo del pulsante: niente scelto, un nome, oppure quanti
   var VUOTO = { comune: "Ovunque", categoria: "Tutti i tipi" }, PLURALE = { comune: " luoghi", categoria: " tipi" };
-  function etichettaScelta(campo) {
+  function sceltaCambiata(campo) {
     var a = filtro[campo], b = document.getElementById(campo);
     b.querySelector(".scelta-testo").textContent = !a.length ? VUOTO[campo] : a.length === 1 ? a[0] : a.length + PLURALE[campo];
-    b.classList.toggle("attiva", a.length > 0);
     b.title = a.length > 1 ? a.join(", ") : "";
-  }
-  // accanto a ogni voce, quanti eventi darebbe con il periodo e l'altro filtro gia' scelti
-  function aggiornaQuanti() {
-    ["comune", "categoria"].forEach(function (campo) {
-      var altro = campo === "comune" ? "categoria" : "comune", conta = {};
-      eventi.forEach(function (e) {
-        if (nelPeriodo(e) && (!filtro[altro].length || filtro[altro].indexOf(e[altro]) >= 0)) conta[e[campo]] = (conta[e[campo]] || 0) + 1;
-      });
-      document.querySelectorAll("#p-" + campo + " .quanti").forEach(function (q) { q.textContent = conta[q.dataset.valore] || 0; });
-    });
+    document.querySelectorAll("#n-" + campo + " option").forEach(function (o) { o.selected = a.indexOf(o.value) >= 0; });
+    document.querySelectorAll("#p-" + campo + " input").forEach(function (c) { c.checked = a.indexOf(c.value) >= 0; });
+    preparaMazzo();
   }
 
   function nelPeriodo(e) {
@@ -1902,7 +1887,7 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
     boxGiorno.classList.remove("aperta"); inputGiorno.tabIndex = -1;
     filtro.giorno = inputGiorno.value; etichettaGiorno(); preparaMazzo();
   });
-  // pannelli di "Dove" e "Tipo": uno aperto alla volta, si chiudono con Fatto, Esc o toccando fuori
+  // elenchi di "Dove" e "Tipo" sul computer: uno aperto alla volta, si chiudono con Esc o cliccando fuori
   function chiudiScelta(rimettiFuoco) {
     document.querySelectorAll(".scelta-btn[aria-expanded='true']").forEach(function (b) {
       b.setAttribute("aria-expanded", "false");
@@ -1916,15 +1901,25 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
       var apri = b.getAttribute("aria-expanded") !== "true";
       chiudiScelta(false);
       if (!apri) return;
-      aggiornaQuanti(); b.setAttribute("aria-expanded", "true"); p.hidden = false;
+      b.setAttribute("aria-expanded", "true"); p.hidden = false;
       var prima = p.querySelector("input:checked") || p.querySelector("input");
       if (prima) prima.focus();
     });
-    p.querySelector("[data-fatto]").addEventListener("click", function () { chiudiScelta(true); });
-    p.querySelector("[data-azzera]").addEventListener("click", function () {
-      filtro[campo] = [];
-      p.querySelectorAll("input").forEach(function (c) { c.checked = false; });
-      etichettaScelta(campo); preparaMazzo();
+  });
+  // sul telefono comanda il menu del sistema: il pulsante sotto resta solo da vedere
+  var tocco = matchMedia("(pointer: coarse)");
+  function chiComanda() {
+    document.querySelectorAll(".scelta-btn").forEach(function (b) {
+      if (tocco.matches) { b.tabIndex = -1; b.setAttribute("aria-hidden", "true"); }
+      else { b.removeAttribute("tabindex"); b.removeAttribute("aria-hidden"); }
+    });
+  }
+  chiComanda();
+  if (tocco.addEventListener) tocco.addEventListener("change", chiComanda);
+  document.querySelectorAll(".scelta-nativa").forEach(function (s) {
+    s.addEventListener("change", function () {
+      filtro[s.dataset.campo] = Array.prototype.filter.call(s.options, function (o) { return o.selected; }).map(function (o) { return o.value; });
+      sceltaCambiata(s.dataset.campo);
     });
   });
   document.addEventListener("click", function (ev) {
