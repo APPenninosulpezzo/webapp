@@ -509,6 +509,12 @@ header.top .ds-section-title { margin-bottom: 4px; }
 .errore { display: block; margin-top: 4px; font-size: .8125rem; color: var(--destructive); }
 .ds-input[aria-invalid="true"] { border-color: var(--destructive); }
 .nota-segnala { margin-top: 12px; }
+.trappola { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.ds .chi-segnala { font-family: var(--font-display); font-size: 16px; line-height: 24px; font-weight: 700; margin: var(--space-6) 0 var(--space-1); }
+#form-segnala .interruttore { margin-top: var(--space-2); }
+.ds #form-segnala .intro-chi { margin: 0 0 var(--space-4); }
+.ds #form-segnala .nota-segnala { margin-top: 12px; }
+#s-invia { margin-top: var(--space-2); }
 .nota-segnala a { overflow-wrap: anywhere; }
 @supports (field-sizing: content) { .ds-textarea { field-sizing: content; max-height: 12lh; } }
 .fine .segnala-link { margin-top: 8px; font-size: .875rem; }
@@ -691,17 +697,20 @@ header.top { padding: var(--space-6) 0 var(--space-2); gap: var(--space-4); alig
 
 /* "Dove" e "Tipo" alti come le chip dei periodi */
 .riga-filtri .ds-select { min-height: 40px; height: 40px; padding-top: 0; padding-bottom: 0; font-size: 16px; }
-/* "Dove" e "Tipo" a scelta multipla, con l'aspetto del menu di prima.
-   Sul telefono un <select multiple> invisibile sta sopra il pulsante: si apre il menu del sistema, con le spunte.
-   Sul computer il pulsante apre un elenco a tendina semplice, come quello del menu */
+/* "Dove" e "Tipo" a scelta multipla, con l'aspetto del menu di prima: il pulsante apre un elenco a tendina
+   con le caselle. Fino al 12 novembre 2026 sul telefono c'era un <select multiple> invisibile sopra il
+   pulsante, ma su alcuni telefoni il tocco non apriva niente: ora l'elenco e' lo stesso ovunque */
 .scelta { position: relative; }
 .scelta-btn { display: flex; align-items: center; justify-content: space-between; gap: var(--space-2); text-align: left; cursor: pointer; color: var(--ink); }
 .scelta-btn .scelta-testo { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
 .scelta-btn .ic { width: 16px; height: 16px; color: var(--ink); transform: rotate(90deg); }
-.scelta-nativa { display: none; }
+/* "Tipo" sta nella colonna di destra: il suo elenco si allinea a destra, per non uscire dallo schermo */
+.riga-filtri > div:last-child .scelta-pannello { left: auto; right: 0; }
 @media (pointer: coarse) {
-  .scelta-nativa { display: block; position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; z-index: 1; font-size: 16px; cursor: pointer; }
-  .scelta-nativa:focus-visible + .scelta-btn { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+  /* righe alte almeno 44px, comode da toccare */
+  .scelta-voce { min-height: 44px; padding: 8px 14px; }
+  .scelta-gruppo ~ .scelta-voce { padding-left: 26px; }
+  .scelta-voce input { width: 20px; height: 20px; }
 }
 .scelta-pannello { position: absolute; left: 0; top: calc(100% + 4px); z-index: 6; min-width: 100%; max-width: 20rem; max-height: min(60vh, 24rem); overflow-y: auto; overscroll-behavior: contain; padding: 4px 0; background: var(--surface); border: 1px solid var(--line-strong); border-radius: var(--radius-sm); box-shadow: var(--shadow-lg); }
 .scelta-pannello[hidden] { display: none; }
@@ -863,13 +872,12 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
         <span class="box-giorno" id="box-giorno"><button class="ds-chip" data-q="giorno" id="chip-giorno" aria-pressed="false">Scegli un giorno</button><input class="giorno-nascosto" type="date" id="giorno" tabindex="-1" aria-label="Giorno"></span>
       </div>
       <div class="riga-filtri">
-        <!-- "Dove" e "Tipo" a scelta multipla: sul telefono il menu del sistema (select multiple invisibile sopra il pulsante),
-             sul computer un elenco a tendina con le caselle -->
+        <!-- "Dove" e "Tipo" a scelta multipla: un elenco a tendina con le caselle, uguale su telefono e computer -->
         <div><span class="ds-label" id="l-comune">Dove</span>
-          <div class="scelta"><select class="scelta-nativa" id="n-comune" data-campo="comune" multiple aria-labelledby="l-comune"></select><button type="button" class="ds-select scelta-btn" id="comune" data-campo="comune" aria-expanded="false" aria-controls="p-comune" aria-labelledby="l-comune t-comune"><span class="scelta-testo" id="t-comune">Ovunque</span><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-avanti"/></svg></button>
+          <div class="scelta"><button type="button" class="ds-select scelta-btn" id="comune" data-campo="comune" aria-expanded="false" aria-controls="p-comune" aria-labelledby="l-comune t-comune"><span class="scelta-testo" id="t-comune">Ovunque</span><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-avanti"/></svg></button>
             <div class="scelta-pannello" id="p-comune" role="group" aria-labelledby="l-comune" hidden></div></div></div>
         <div><span class="ds-label" id="l-categoria">Tipo</span>
-          <div class="scelta"><select class="scelta-nativa" id="n-categoria" data-campo="categoria" multiple aria-labelledby="l-categoria"></select><button type="button" class="ds-select scelta-btn" id="categoria" data-campo="categoria" aria-expanded="false" aria-controls="p-categoria" aria-labelledby="l-categoria t-categoria"><span class="scelta-testo" id="t-categoria">Tutti i tipi</span><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-avanti"/></svg></button>
+          <div class="scelta"><button type="button" class="ds-select scelta-btn" id="categoria" data-campo="categoria" aria-expanded="false" aria-controls="p-categoria" aria-labelledby="l-categoria t-categoria"><span class="scelta-testo" id="t-categoria">Tutti i tipi</span><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-avanti"/></svg></button>
             <div class="scelta-pannello" id="p-categoria" role="group" aria-labelledby="l-categoria" hidden></div></div></div>
       </div>
     </div>
@@ -942,14 +950,20 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
         <button type="button" class="ds-chip" data-tipo="evento" aria-pressed="true">Un evento</button>
         <button type="button" class="ds-chip" data-tipo="fonte" aria-pressed="false">Una fonte</button>
       </div>
+      <!-- trappola per i programmi di spam: nascosta a chi usa la pagina, anche con lettore di schermo -->
+      <div class="trappola" aria-hidden="true"><label for="s-sito">Non compilare</label><input id="s-sito" type="text" tabindex="-1" autocomplete="off"></div>
       <div class="ds-field">
         <label class="ds-label" for="s-nome" id="s-nome-label">Nome dell'evento</label>
-        <input class="ds-input" id="s-nome" type="text" autocomplete="off" required aria-describedby="s-nome-errore" placeholder="Castagnata di Bargi…">
+        <input class="ds-input" id="s-nome" type="text" autocomplete="off" required aria-describedby="s-nome-errore" maxlength="200" placeholder="Castagnata di Bargi…">
         <span class="errore" id="s-nome-errore" role="alert" hidden>Scrivi almeno il nome.</span>
       </div>
       <div class="ds-field solo-evento">
-        <label class="ds-label" for="s-quando">Quando e dove</label>
-        <input class="ds-input" id="s-quando" type="text" autocomplete="off" placeholder="Domenica 8 novembre, Bargi…">
+        <label class="ds-label" for="s-quando">Quando</label>
+        <input class="ds-input" id="s-quando" type="text" autocomplete="off" maxlength="200" placeholder="Domenica 22 novembre alle 15…">
+      </div>
+      <div class="ds-field solo-evento">
+        <label class="ds-label" for="s-dove">Dove</label>
+        <input class="ds-input" id="s-dove" type="text" autocomplete="off" maxlength="200" placeholder="Piazza della chiesa, Bargi…">
       </div>
       <div class="ds-field solo-fonte" hidden>
         <label class="ds-label" for="s-tipo-fonte">Che tipo di fonte</label>
@@ -963,11 +977,30 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
       </div>
       <div class="ds-field">
         <label class="ds-label" for="s-note">Altro da sapere</label>
-        <textarea class="ds-textarea" id="s-note" spellcheck="true"></textarea>
+        <textarea class="ds-textarea" id="s-note" spellcheck="true" maxlength="2000"></textarea>
       </div>
-      <button type="submit" class="ds-btn ds-btn-outline ds-btn-lg pieno">Prepara l'email</button>
-      <p class="ds-supporting nota-segnala">Si apre la tua posta con il messaggio pronto. Oppure scrivi a <a href="mailto:appenninosulpezzo+segnalazioni@gmail.com">appenninosulpezzo+segnalazioni@gmail.com</a>.</p>
+      <label class="interruttore solo-evento"><span>Organizzo io questo evento</span>
+        <input type="checkbox" role="switch" id="s-organizzo"><span class="ds-switch-track"><span class="ds-switch-thumb"></span></span></label>
+
+      <h4 class="chi-segnala">Se vuoi una risposta</h4>
+      <p class="ds-supporting intro-chi">Facoltativi. Li leggiamo solo noi, non compaiono nell'app.</p>
+      <div class="ds-field">
+        <label class="ds-label" for="s-chi">Il tuo nome</label>
+        <input class="ds-input" id="s-chi" type="text" autocomplete="name" maxlength="80">
+      </div>
+      <div class="ds-field">
+        <label class="ds-label" for="s-email">La tua email</label>
+        <input class="ds-input" id="s-email" type="email" inputmode="email" autocomplete="email" spellcheck="false" maxlength="120" aria-describedby="s-email-errore">
+        <span class="errore" id="s-email-errore" role="alert" hidden>Questa email non sembra completa. Controllala, oppure lascia il campo vuoto.</span>
+      </div>
+      <button type="submit" class="ds-btn ds-btn-primary ds-btn-lg pieno" id="s-invia">Manda la segnalazione</button>
+      <p class="errore" id="s-errore" role="alert" hidden></p>
+      <p class="ds-supporting nota-segnala" id="s-nota-mailto" hidden>Si apre la tua posta con il messaggio pronto. Oppure scrivi a <a href="mailto:appenninosulpezzo+segnalazioni@gmail.com">appenninosulpezzo+segnalazioni@gmail.com</a>.</p>
     </form>
+    <div id="segnala-grazie" hidden>
+      <p class="foto-ok" role="status"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-info"/></svg><span id="segnala-grazie-testo">Ricevuta, grazie. Se è un evento in zona lo aggiungiamo nei prossimi giorni.</span></p>
+      <button type="button" class="ds-btn ds-btn-outline ds-btn-lg pieno" id="segnala-altra">Segnala un'altra cosa</button>
+    </div>
     </div>
   </section>
 
@@ -1172,11 +1205,8 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
   }
 
   // "Dove" e "Tipo" accettano piu' valori: vuoto = tutti, altrimenti basta che l'evento ne abbia uno.
-  // Ogni voce esiste due volte, come opzione del menu del telefono e come casella del computer: restano allineate
   var filtro = { quando: "tutti", comune: [], categoria: [] };
-  function voce(campo, valore, gruppoNativo, gruppoPannello) {
-    var o = document.createElement("option"); o.value = o.textContent = valore;
-    (gruppoNativo || document.getElementById("n-" + campo)).appendChild(o);
+  function voce(campo, valore, gruppoPannello) {
     var l = document.createElement("label"); l.className = "scelta-voce";
     var c = document.createElement("input"); c.type = "checkbox"; c.value = valore;
     l.append(c, document.createTextNode(valore));
@@ -1203,12 +1233,11 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
     Object.keys(gruppi).sort(function (a, b) {
       return a === "Tutta la montagna" ? 1 : b === "Tutta la montagna" ? -1 : a.localeCompare(b);
     }).forEach(function (c) {
-      var og = document.createElement("optgroup"); og.label = c; document.getElementById("n-comune").appendChild(og);
       var g = document.createElement("div"); g.setAttribute("role", "group"); g.setAttribute("aria-label", c);
       var t = document.createElement("p"); t.className = "scelta-gruppo"; t.textContent = c; t.setAttribute("aria-hidden", "true"); g.appendChild(t);
       document.getElementById("p-comune").appendChild(g);
       gruppi[c].sort(function (a, b) { return a === c ? -1 : b === c ? 1 : a.localeCompare(b); })
-        .forEach(function (n) { voce("comune", n, og, g); });
+        .forEach(function (n) { voce("comune", n, g); });
     });
   })();
   unici("categoria").forEach(function (v) { voce("categoria", v); });
@@ -1219,7 +1248,6 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
     var a = filtro[campo], b = document.getElementById(campo);
     b.querySelector(".scelta-testo").textContent = !a.length ? VUOTO[campo] : a.length === 1 ? a[0] : a.length + PLURALE[campo];
     b.title = a.length > 1 ? a.join(", ") : "";
-    document.querySelectorAll("#n-" + campo + " option").forEach(function (o) { o.selected = a.indexOf(o.value) >= 0; });
     document.querySelectorAll("#p-" + campo + " input").forEach(function (c) { c.checked = a.indexOf(c.value) >= 0; });
     preparaMazzo();
   }
@@ -1590,7 +1618,9 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
     if (e.comune_amministrativo && e.comune_amministrativo !== e.comune && e.comune !== "Tutta la montagna")
       dove += " (comune di " + e.comune_amministrativo + ")";
     info.append(riga(ICONE.luogo, dove), riga(icona(tipoDi(e)[1]), e.categoria));
-    var l = document.getElementById("d-link"); l.href = e.link; l.textContent = "Leggi i dettagli su " + e.fonte;
+    // le segnalazioni senza link non hanno una pagina da aprire
+    var l = document.getElementById("d-link"); l.hidden = !e.link;
+    if (e.link) { l.href = e.link; l.textContent = "Leggi i dettagli su " + e.fonte; }
     var fig = document.getElementById("d-figura"), di = document.getElementById("d-img");
     fig.hidden = !e.immagine;
     // se l'immagine non arriva (indirizzo scaduto, sito irraggiungibile) la scheda resta senza, mai l'icona rotta
@@ -1693,7 +1723,7 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
     }
     return tutti[0];
   }
-  function descrizione(e) { return "Dettagli su " + e.fonte + ": " + e.link + "\n\nDa APPennino sul pezzo. Controlla sempre la fonte prima di partire."; }
+  function descrizione(e) { return (e.link ? "Dettagli su " + e.fonte + ": " + e.link : "Fonte: " + e.fonte) + "\n\nDa APPennino sul pezzo. Controlla sempre la fonte prima di partire."; }
   function linkGoogle(e) {
     var t = intervallo(e);
     return "https://calendar.google.com/calendar/render?action=TEMPLATE" +
@@ -1710,8 +1740,9 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
       righe.push("BEGIN:VEVENT", "UID:" + e.id + "-" + i + "@appennino", "DTSTAMP:" + adesso);
       if (t.oraria) righe.push("DTSTART;TZID=Europe/Rome:" + t.da, "DTEND;TZID=Europe/Rome:" + t.a);
       else righe.push("DTSTART;VALUE=DATE:" + t.da, "DTEND;VALUE=DATE:" + t.a);
-      righe.push("SUMMARY:" + esc(e.titolo), "LOCATION:" + esc(e.comune), "URL:" + e.link,
-        "DESCRIPTION:" + esc(descrizione(e)), "END:VEVENT");
+      righe.push("SUMMARY:" + esc(e.titolo), "LOCATION:" + esc(e.comune));
+      if (e.link) righe.push("URL:" + e.link);
+      righe.push("DESCRIPTION:" + esc(descrizione(e)), "END:VEVENT");
     });
     righe.push("END:VCALENDAR");
     // un data: URL e non un blob, perche' su iPhone Safari apre direttamente "Aggiungi al calendario"
@@ -1737,25 +1768,77 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
   document.querySelectorAll(".tipo-segnala .ds-chip").forEach(function (c) {
     c.addEventListener("click", function () { mostraTipo(c.dataset.tipo); });
   });
+  // Le segnalazioni (modulo e foto) vanno allo script Google della casella del progetto
+  // (segnalazioni-foto/), che le manda per email a +segnalazioni; l'estrazione le legge da li'.
+  // Finche' l'indirizzo dello script non c'e': il modulo apre la posta, la foto la condivisione del telefono
+  var SEGNALA_SCRIPT = "";
+  function mandaSegnalazione(dati) {
+    var controllo = new AbortController(), tempo = setTimeout(function () { controllo.abort(); }, 45000);
+    // testo semplice, senza intestazioni: cosi' il browser non fa la richiesta preliminare che lo script Google non gestisce
+    return fetch(SEGNALA_SCRIPT, { method: "POST", body: JSON.stringify(dati), signal: controllo.signal })
+      .then(function (r) { return r.json(); })
+      .then(function (r) { if (!r.ok) throw new Error(r.errore || ""); })
+      .finally(function () { clearTimeout(tempo); });
+  }
+  function erroreInvio() {
+    return navigator.onLine === false ? "Sei offline: riprova quando torna la connessione."
+      : "Non siamo riusciti a mandarla. Riprova tra poco, oppure scrivi a " + SEGNALAZIONI + ".";
+  }
+  document.getElementById("s-nota-mailto").hidden = !!SEGNALA_SCRIPT;
+  if (!SEGNALA_SCRIPT) document.getElementById("s-invia").textContent = "Prepara l'email";
   document.getElementById("form-segnala").addEventListener("submit", function (ev) {
     ev.preventDefault();
     var v = function (id) { return document.getElementById(id).value.trim(); };
-    var nome = document.getElementById("s-nome"), errore = document.getElementById("s-nome-errore");
-    var manca = !v("s-nome");
-    nome.setAttribute("aria-invalid", manca); errore.hidden = !manca;
-    if (manca) { nome.focus(); return; }
-    var righe = [tipoSegnala === "evento" ? "Evento: " + v("s-nome") : "Fonte: " + v("s-nome") + " (" + v("s-tipo-fonte") + ")"];
-    if (tipoSegnala === "evento" && v("s-quando")) righe.push("Quando e dove: " + v("s-quando"));
-    if (v("s-link")) righe.push("Link: " + v("s-link"));
-    if (v("s-note")) righe.push("", v("s-note"));
-    righe.push("", "(Inviato dal modulo Segnala di APPennino sul pezzo)");
-    var oggetto = (tipoSegnala === "evento" ? "Segnalazione evento: " : "Segnalazione fonte: ") + v("s-nome");
-    location.href = "mailto:" + SEGNALAZIONI + "?subject=" + encodeURIComponent(oggetto) + "&body=" + encodeURIComponent(righe.join("\n"));
+    var evento = tipoSegnala === "evento";
+    var nome = document.getElementById("s-nome"), errNome = document.getElementById("s-nome-errore");
+    var email = document.getElementById("s-email"), errEmail = document.getElementById("s-email-errore");
+    var mancaNome = !v("s-nome"), emailStorta = !!v("s-email") && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v("s-email"));
+    nome.setAttribute("aria-invalid", mancaNome); errNome.hidden = !mancaNome;
+    email.setAttribute("aria-invalid", emailStorta); errEmail.hidden = !emailStorta;
+    if (mancaNome) { nome.focus(); return; }
+    if (emailStorta) { email.focus(); return; }
+    var dati = {
+      tipo: tipoSegnala, cosa: v("s-nome"), quando: evento ? v("s-quando") : "", dove: evento ? v("s-dove") : "",
+      tipo_fonte: evento ? "" : v("s-tipo-fonte"), link: v("s-link"), note: v("s-note"),
+      organizzo: evento && document.getElementById("s-organizzo").checked,
+      nome: v("s-chi"), email: v("s-email"), sito: v("s-sito")
+    };
+    if (!SEGNALA_SCRIPT) {
+      var righe = [evento ? "Evento: " + dati.cosa : "Fonte: " + dati.cosa + " (" + dati.tipo_fonte + ")"];
+      if (dati.quando) righe.push("Quando: " + dati.quando);
+      if (dati.dove) righe.push("Dove: " + dati.dove);
+      if (dati.link) righe.push("Link: " + dati.link);
+      if (dati.organizzo) righe.push("Organizzo io: si");
+      if (dati.note) righe.push("", dati.note);
+      righe.push("", "(Inviato dal modulo Segnala di APPennino sul pezzo)");
+      var oggetto = (evento ? "Segnalazione evento: " : "Segnalazione fonte: ") + dati.cosa;
+      location.href = "mailto:" + SEGNALAZIONI + "?subject=" + encodeURIComponent(oggetto) + "&body=" + encodeURIComponent(righe.join("\n"));
+      return;
+    }
+    var bott = document.getElementById("s-invia"), err = document.getElementById("s-errore");
+    err.hidden = true; bott.disabled = true; bott.textContent = "Invio in corso…";
+    mandaSegnalazione(dati).then(function () {
+      document.getElementById("form-segnala").reset();
+      document.querySelectorAll("#form-segnala .interruttore input").forEach(function (i) { i.dispatchEvent(new Event("change")); });
+      document.getElementById("segnala-grazie-testo").textContent = evento
+        ? "Ricevuta, grazie. Se è un evento in zona lo aggiungiamo nei prossimi giorni."
+        : "Ricevuta, grazie. Guardiamo la fonte e, se pubblica eventi in zona, la aggiungiamo.";
+      document.getElementById("form-segnala").hidden = true;
+      document.getElementById("segnala-grazie").hidden = false;
+      document.getElementById("segnala-altra").focus();
+    }, function () {
+      err.textContent = erroreInvio(); err.hidden = false;
+    }).finally(function () {
+      bott.disabled = false; bott.textContent = "Manda la segnalazione";
+    });
   });
-  // foto della locandina. La foto si riduce sul telefono (lato lungo 1600px, JPEG) e va allo script
-  // Google della casella del progetto, che la manda per email a +segnalazioni. Finche' l'indirizzo
-  // dello script non c'e', si apre la condivisione del telefono (WhatsApp, Gmail...) con la foto
-  var FOTO_SCRIPT = "";
+  document.getElementById("segnala-altra").addEventListener("click", function () {
+    document.getElementById("segnala-grazie").hidden = true;
+    document.getElementById("form-segnala").hidden = false;
+    mostraTipo("evento");
+    document.getElementById("s-nome").focus();
+  });
+  // foto della locandina: si riduce sul telefono (lato lungo 1600px, JPEG) e va allo stesso script
   var fotoPronta = null;
   (function () {
     var $ = function (id) { return document.getElementById(id); };
@@ -1805,7 +1888,7 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
       if (!fotoPronta) { file.click(); return; }
       var nota = $("foto-nota").value.trim(), bott = $("foto-invia");
       errore("");
-      if (!FOTO_SCRIPT) {
+      if (!SEGNALA_SCRIPT) {
         // ripiego senza script: la condivisione del telefono, con l'indirizzo nel testo
         var f = new File([fotoPronta], "locandina.jpg", { type: "image/jpeg" });
         var testo = "Segnalazione per APPennino sul pezzo (" + SEGNALAZIONI + ")" + (nota ? ": " + nota : "");
@@ -1817,18 +1900,15 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
         return;
       }
       bott.disabled = true; bott.textContent = "Invio in corso…";
-      var controllo = new AbortController(), tempo = setTimeout(function () { controllo.abort(); }, 45000);
       base64(fotoPronta).then(function (dati) {
-        // testo semplice, senza intestazioni: cosi' il browser non fa la richiesta preliminare che lo script Google non gestisce
-        return fetch(FOTO_SCRIPT, { method: "POST", body: JSON.stringify({ foto: dati, nota: nota }), signal: controllo.signal });
-      }).then(function (r) { return r.json(); }).then(function (r) {
-        if (!r.ok) throw new Error(r.errore || "");
+        return mandaSegnalazione({ tipo: "evento", foto: dati, note: nota });
+      }).then(function () {
         $("foto-nota").value = ""; fotoPronta = null; file.value = "";
         stato("grazie");
       }).catch(function () {
-        errore(navigator.onLine === false ? "Sei offline: riprova quando torna la connessione." : "Non siamo riusciti a mandarla. Riprova tra poco, oppure scrivi a " + SEGNALAZIONI + ".");
+        errore(erroreInvio());
       }).finally(function () {
-        clearTimeout(tempo); bott.disabled = false; bott.textContent = "Manda la foto";
+        bott.disabled = false; bott.textContent = "Manda la foto";
       });
     });
   })();
@@ -1887,7 +1967,7 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
     boxGiorno.classList.remove("aperta"); inputGiorno.tabIndex = -1;
     filtro.giorno = inputGiorno.value; etichettaGiorno(); preparaMazzo();
   });
-  // elenchi di "Dove" e "Tipo" sul computer: uno aperto alla volta, si chiudono con Esc o cliccando fuori
+  // elenchi di "Dove" e "Tipo": uno aperto alla volta, si chiudono con Esc o toccando fuori
   function chiudiScelta(rimettiFuoco) {
     document.querySelectorAll(".scelta-btn[aria-expanded='true']").forEach(function (b) {
       b.setAttribute("aria-expanded", "false");
@@ -1903,23 +1983,8 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
       if (!apri) return;
       b.setAttribute("aria-expanded", "true"); p.hidden = false;
       var prima = p.querySelector("input:checked") || p.querySelector("input");
-      if (prima) prima.focus();
-    });
-  });
-  // sul telefono comanda il menu del sistema: il pulsante sotto resta solo da vedere
-  var tocco = matchMedia("(pointer: coarse)");
-  function chiComanda() {
-    document.querySelectorAll(".scelta-btn").forEach(function (b) {
-      if (tocco.matches) { b.tabIndex = -1; b.setAttribute("aria-hidden", "true"); }
-      else { b.removeAttribute("tabindex"); b.removeAttribute("aria-hidden"); }
-    });
-  }
-  chiComanda();
-  if (tocco.addEventListener) tocco.addEventListener("change", chiComanda);
-  document.querySelectorAll(".scelta-nativa").forEach(function (s) {
-    s.addEventListener("change", function () {
-      filtro[s.dataset.campo] = Array.prototype.filter.call(s.options, function (o) { return o.selected; }).map(function (o) { return o.value; });
-      sceltaCambiata(s.dataset.campo);
+      // sul telefono il fuoco farebbe scorrere l'elenco fino alla casella: si mette solo da tastiera
+      if (prima && !matchMedia("(pointer: coarse)").matches) prima.focus();
     });
   });
   document.addEventListener("click", function (ev) {
