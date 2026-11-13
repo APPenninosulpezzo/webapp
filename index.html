@@ -796,6 +796,8 @@ nav.basso [aria-current="page"] .ic-eventi .punto { fill: var(--segnale); stroke
 .d-figura img { border-radius: var(--radius-md); background: var(--surface-2); }
 .avviso { display: flex; gap: var(--space-3); align-items: flex-start; background: var(--surface-2); border-radius: var(--radius-sm); padding: var(--space-3) var(--space-4); font-size: 15px; line-height: 22px; margin: 0 0 var(--space-4); }
 .avviso .ic { width: 20px; height: 20px; margin-top: 1px; }
+/* evento non confermato: stesso riquadro, con il bordo che lo fa notare (niente colore nuovo, come vuole il brand) */
+.avviso.da-verificare { box-shadow: inset 3px 0 0 var(--ink); font-weight: 600; }
 .toast { background: var(--ink); color: var(--surface); border-radius: var(--radius-md); box-shadow: none; font-size: 15px; }
 details > summary > .ic { width: 20px; height: 20px; color: var(--ink-muted); transform: rotate(90deg); }
 details[open] > summary > .ic { transform: rotate(-90deg); }
@@ -1070,7 +1072,7 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
       </figure>
       <h2 class="grande" id="d-titolo"></h2>
       <ul class="dettagli" id="d-info"></ul>
-      <p class="avviso"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-info"/></svg><span>Raccolto in automatico: prima di partire controlla data e ora sulla fonte.</span></p>
+      <p class="avviso" id="d-avviso"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-info"/></svg><span id="d-avviso-testo"></span></p>
       <div class="azioni">
         <a class="ds-btn ds-btn-primary ds-btn-lg" id="d-link" target="_blank" rel="noopener"></a>
         <button class="ds-btn ds-btn-outline ds-btn-lg" id="d-stella"></button>
@@ -1355,7 +1357,8 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
     c.querySelector(".vuota-titolo").textContent = e.titolo;
     c.style.setProperty("--colore-tipo", coloreTipo(e));
     // tre righe sole, perche' sul telefono la locandina ha bisogno di spazio: tipo e fonte, titolo, quando e dove
-    var fonte = document.createElement("span"); fonte.className = "fonte"; fonte.textContent = "Fonte: " + e.fonte;
+    var fonte = document.createElement("span"); fonte.className = "fonte";
+    fonte.textContent = e.da_verificare ? "Segnalato, da verificare" : "Fonte: " + e.fonte;
     c.querySelector(".meta").append(etichettaTipo(e), fonte);
     if (e.immagine) {
       var img = c.querySelector(".locandina");
@@ -1618,6 +1621,11 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
     if (e.comune_amministrativo && e.comune_amministrativo !== e.comune && e.comune !== "Tutta la montagna")
       dove += " (comune di " + e.comune_amministrativo + ")";
     info.append(riga(ICONE.luogo, dove), riga(icona(tipoDi(e)[1]), e.categoria));
+    // un evento arrivato solo da segnalazioni, senza conferme trovate in rete, lo dice chiaramente
+    document.getElementById("d-avviso").classList.toggle("da-verificare", !!e.da_verificare);
+    document.getElementById("d-avviso-testo").textContent = e.da_verificare
+      ? "Ce l'ha segnalato una persona che usa l'app e non abbiamo trovato altre notizie in rete. Prima di andare, verifica che l'evento ci sia davvero."
+      : "Raccolto in automatico: prima di partire controlla data e ora sulla fonte.";
     // le segnalazioni senza link non hanno una pagina da aprire
     var l = document.getElementById("d-link"); l.hidden = !e.link;
     if (e.link) { l.href = e.link; l.textContent = "Leggi i dettagli su " + e.fonte; }
