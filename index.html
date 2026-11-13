@@ -1771,7 +1771,7 @@ details[open] > summary > .ic { transform: rotate(-90deg); }
   // Le segnalazioni (modulo e foto) vanno allo script Google della casella del progetto
   // (segnalazioni-foto/), che le manda per email a +segnalazioni; l'estrazione le legge da li'.
   // Finche' l'indirizzo dello script non c'e': il modulo apre la posta, la foto la condivisione del telefono
-  var SEGNALA_SCRIPT = "";
+  var SEGNALA_SCRIPT = "https://script.google.com/macros/s/AKfycbxj_mYtfiKBoq1WFzuEq9BCwzZsD75citk7u6bCTAoPhHY0S3SbE-osGv6US3VGdFpRrw/exec";
   function mandaSegnalazione(dati) {
     var controllo = new AbortController(), tempo = setTimeout(function () { controllo.abort(); }, 45000);
     // testo semplice, senza intestazioni: cosi' il browser non fa la richiesta preliminare che lo script Google non gestisce
