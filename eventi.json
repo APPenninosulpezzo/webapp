@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-10 08:15",
+ "aggiornato": "2026-11-13 07:05",
  "eventi": [
   {
    "id": "a5bf8615b3c5b5a5",
@@ -21,7 +21,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/969856021291e84b.jpg"
+   "immagine": "img/969856021291e84b.jpg",
+   "da_verificare": false
   },
   {
    "id": "45a471ffeacd32f0",
@@ -43,7 +44,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/de9f4f27cdd857aa.jpg"
+   "immagine": "img/de9f4f27cdd857aa.jpg",
+   "da_verificare": false
   },
   {
    "id": "47a36ef624c32f27",
@@ -86,7 +88,8 @@
      "orari": "10:00"
     }
    ],
-   "immagine": "img/66481c73bd5b3563.jpg"
+   "immagine": "img/66481c73bd5b3563.jpg",
+   "da_verificare": false
   },
   {
    "id": "5f14a25fc7551246",
@@ -108,7 +111,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/44510c9608c064c8.jpg"
+   "immagine": "img/44510c9608c064c8.jpg",
+   "da_verificare": false
   },
   {
    "id": "87eb81ec3d410212",
@@ -139,143 +143,8 @@
      "orari": "18:00"
     }
    ],
-   "immagine": "img/721c9d8ffed6382a.jpg"
-  },
-  {
-   "id": "7d553c6c3adeceb9",
-   "titolo": "Laboratorio di pasta fresca per caregiver",
-   "inizio": "2026-11-10",
-   "fine": "2026-11-10",
-   "ora": "",
-   "comune": "San Benedetto Val di Sambro",
-   "comune_amministrativo": "San Benedetto Val di Sambro",
-   "localita": "San Benedetto Val di Sambro",
-   "luogo": "Piazza Madonna della Neve 15, San Benedetto Val di Sambro (BO)",
-   "categoria": "Altro",
-   "fonte": "News Informa Famiglie Emilia-Romagna",
-   "link": "https://issec.bo.it/novita/prenditi-anche-cura-di-te-pastalab-a-san-benedetto-val-di-sambro-10-novembre-2026/",
-   "fonti": [
-    {
-     "fonte": "News Informa Famiglie Emilia-Romagna",
-     "link": "https://issec.bo.it/novita/prenditi-anche-cura-di-te-pastalab-a-san-benedetto-val-di-sambro-10-novembre-2026/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/3e37d5bd132e1629.jpg"
-  },
-  {
-   "id": "6a79bc4e2771147c",
-   "titolo": "Workshop digitalizzazione per l'economia di prossimità",
-   "inizio": "2026-11-10",
-   "fine": "2026-11-10",
-   "ora": "17:30",
-   "comune": "Vergato",
-   "comune_amministrativo": "Vergato",
-   "localita": "Vergato",
-   "luogo": "Sede Unione Appennino, Via E. Berlinguer 301",
-   "categoria": "Altro",
-   "fonte": "labmister.it",
-   "link": "https://labmister.it/linnovazione-in-appenino-un-tour-di-tre-incontri-sulla-digitalizzazione-dedicati-alle-imprese-del-territorio/",
-   "fonti": [
-    {
-     "fonte": "labmister.it",
-     "link": "https://labmister.it/linnovazione-in-appenino-un-tour-di-tre-incontri-sulla-digitalizzazione-dedicati-alle-imprese-del-territorio/"
-    },
-    {
-     "fonte": "Comune di Castel d'Aiano",
-     "link": "https://www.comune.casteldaiano.bo.it/novita/notizie/innovazione-in-appennino"
-    }
-   ],
-   "giorni": [],
-   "immagine": ""
-  },
-  {
-   "id": "9631df13b6511b3b",
-   "titolo": "Cena di San Martino della Pro Loco",
-   "inizio": "2026-11-11",
-   "fine": "2026-11-11",
-   "ora": "20:00",
-   "comune": "Lagaro",
-   "comune_amministrativo": "Castiglione dei Pepoli",
-   "localita": "Lagaro",
-   "luogo": "Sede Pro Loco, ex scuole medie, Lagaro (BO)",
-   "categoria": "Feste e sagre",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-di-san-martino-a-lagaro-11-novembre-2026/",
-   "fonti": [
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-di-san-martino-a-lagaro-11-novembre-2026/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/15472567e7f0e4d9.jpg"
-  },
-  {
-   "id": "e13337d5a3e2507d",
-   "titolo": "Corso gratuito di italiano al Centro sociale",
-   "inizio": "2026-11-11",
-   "fine": "2026-11-11",
-   "ora": "09:00",
-   "comune": "Vado",
-   "comune_amministrativo": "Monzuno",
-   "localita": "Vado",
-   "luogo": "Centro Sociale di Vado, via Val di Setta 38/a",
-   "categoria": "Libri e cultura",
-   "fonte": "Comune di Monzuno",
-   "link": "https://www.comune.monzuno.bo.it/novita/avvisi/corso-di-lingua-italiana-gratuito",
-   "fonti": [
-    {
-     "fonte": "Comune di Monzuno",
-     "link": "https://www.comune.monzuno.bo.it/novita/avvisi/corso-di-lingua-italiana-gratuito"
-    }
-   ],
-   "giorni": [],
-   "immagine": ""
-  },
-  {
-   "id": "dc6bb6ea0a3bbf9d",
-   "titolo": "Laboratorio di lanterne per San Martino",
-   "inizio": "2026-11-11",
-   "fine": "2026-11-11",
-   "ora": "16:30",
-   "comune": "Marzabotto",
-   "comune_amministrativo": "Marzabotto",
-   "localita": "Marzabotto",
-   "luogo": "Biblioteca Comunale e Chiesa di Canovella, Marzabotto (BO)",
-   "categoria": "Bambini e famiglie",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/san-martino-a-marzabotto-laboratorio-di-lanterne-11-novembre-2026/",
-   "fonti": [
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/san-martino-a-marzabotto-laboratorio-di-lanterne-11-novembre-2026/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/2bf4c70f0ff1b0d6.jpg"
-  },
-  {
-   "id": "43cdcffe876e1180",
-   "titolo": "Messa di San Martino con coro",
-   "inizio": "2026-11-11",
-   "fine": "2026-11-11",
-   "ora": "20:00",
-   "comune": "Rocca di Roffeno",
-   "comune_amministrativo": "Castel d'Aiano",
-   "localita": "Rocca di Roffeno",
-   "luogo": "Chiesa Parrocchiale, Rocca di Roffeno",
-   "categoria": "Feste e sagre",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/san-martino-a-rocca-di-roffeno-11-e-14-novembre-2026/",
-   "fonti": [
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/san-martino-a-rocca-di-roffeno-11-e-14-novembre-2026/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/49e20a79291a29e6.jpg"
+   "immagine": "img/721c9d8ffed6382a.jpg",
+   "da_verificare": false
   },
   {
    "id": "bb5bc83a68fc0b05",
@@ -318,29 +187,8 @@
      "orari": "10:00"
     }
    ],
-   "immagine": "https://www.informafamiglie.it/appennino-bolognese/newsletter/canale-del-centro-per-le-famiglie-appennino-bolognese/copy10_of_newsletter-n-8-febbraio-2026/musica-insieme-buferla.png"
-  },
-  {
-   "id": "a41bfc3f51af60e8",
-   "titolo": "Raidho con castagne e vino novello",
-   "inizio": "2026-11-11",
-   "fine": "2026-11-11",
-   "ora": "",
-   "comune": "Lama di Reno",
-   "comune_amministrativo": "Marzabotto",
-   "localita": "Lama di Reno",
-   "luogo": "Cellulosa, Via Lama di Reno 30, Lama di Reno, Marzabotto (BO)",
-   "categoria": "Musica e spettacoli",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/",
-   "fonti": [
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/7de4652da6aa8a13.jpg"
+   "immagine": "https://www.informafamiglie.it/appennino-bolognese/newsletter/canale-del-centro-per-le-famiglie-appennino-bolognese/copy10_of_newsletter-n-8-febbraio-2026/musica-insieme-buferla.png",
+   "da_verificare": false
   },
   {
    "id": "6dd57f64ac86bb94",
@@ -379,37 +227,8 @@
      "orari": "15:30"
     }
    ],
-   "immagine": "https://www.informafamiglie.it/appennino-bolognese/allegati/danza-in-fascia-vado-e-marza.png"
-  },
-  {
-   "id": "28f22527bb260c08",
-   "titolo": "Incontro pubblico sul percorso Movimenti in Appennino",
-   "inizio": "2026-11-12",
-   "fine": "2026-11-12",
-   "ora": "18:00",
-   "comune": "Castiglione dei Pepoli",
-   "comune_amministrativo": "Castiglione dei Pepoli",
-   "localita": "Castiglione dei Pepoli",
-   "luogo": "",
-   "categoria": "Libri e cultura",
-   "fonte": "scuolaecologiapolitica.it",
-   "link": "https://www.scuolaecologiapolitica.it/emiliana/partecipazione",
-   "fonti": [
-    {
-     "fonte": "scuolaecologiapolitica.it",
-     "link": "https://www.scuolaecologiapolitica.it/emiliana/partecipazione"
-    },
-    {
-     "fonte": "Comune di Castiglione dei Pepoli",
-     "link": "https://www.comune.castiglionedeipepoli.bo.it/vivere-il-comune/eventi/evento-culturale/movimenti-appennino-2"
-    },
-    {
-     "fonte": "Comune di Castiglione dei Pepoli",
-     "link": "https://www.comune.castiglionedeipepoli.bo.it/vivere-il-comune/eventi/evento-culturale/movimenti-appennino"
-    }
-   ],
-   "giorni": [],
-   "immagine": ""
+   "immagine": "https://www.informafamiglie.it/appennino-bolognese/allegati/danza-in-fascia-vado-e-marza.png",
+   "da_verificare": false
   },
   {
    "id": "14356ac01c23f580",
@@ -448,29 +267,8 @@
      "orari": "17:00"
     }
    ],
-   "immagine": "https://www.informafamiglie.it/appennino-bolognese/newsletter/canale-del-centro-per-le-famiglie-appennino-bolognese/copy10_of_newsletter-n-8-febbraio-2026/volantino-io-e-te.png"
-  },
-  {
-   "id": "66d569e19fa68715",
-   "titolo": "Serata karaoke con Big Ray",
-   "inizio": "2026-11-12",
-   "fine": "2026-11-12",
-   "ora": "",
-   "comune": "Lama di Reno",
-   "comune_amministrativo": "Marzabotto",
-   "localita": "Lama di Reno",
-   "luogo": "Cellulosa, Via Lama di Reno 30, Lama di Reno, Marzabotto (BO)",
-   "categoria": "Musica e spettacoli",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/",
-   "fonti": [
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/cellulosa-eventi-di-novembre-2026-a-lama-di-reno/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/7de4652da6aa8a13.jpg"
+   "immagine": "https://www.informafamiglie.it/appennino-bolognese/newsletter/canale-del-centro-per-le-famiglie-appennino-bolognese/copy10_of_newsletter-n-8-febbraio-2026/volantino-io-e-te.png",
+   "da_verificare": false
   },
   {
    "id": "f7817113f9a71917",
@@ -492,7 +290,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/7de4652da6aa8a13.jpg"
+   "immagine": "img/7de4652da6aa8a13.jpg",
+   "da_verificare": false
   },
   {
    "id": "7b79b591b3baea7e",
@@ -531,7 +330,8 @@
      "orari": "17:00"
     }
    ],
-   "immagine": "https://www.informafamiglie.it/appennino-bolognese/newsletter/canale-del-centro-per-le-famiglie-appennino-bolognese/copy10_of_newsletter-n-8-febbraio-2026/volantino-gasp-bang-slam.png"
+   "immagine": "https://www.informafamiglie.it/appennino-bolognese/newsletter/canale-del-centro-per-le-famiglie-appennino-bolognese/copy10_of_newsletter-n-8-febbraio-2026/volantino-gasp-bang-slam.png",
+   "da_verificare": false
   },
   {
    "id": "faafbc6c4ba51c9b",
@@ -553,7 +353,52 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/67d4ce6eda92a533.jpg"
+   "immagine": "img/67d4ce6eda92a533.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "1fadf61da103a6e3",
+   "titolo": "Proiezioni del film drammatico al Kursaal",
+   "inizio": "2026-11-13",
+   "fine": "2026-11-16",
+   "ora": "",
+   "comune": "Porretta Terme",
+   "comune_amministrativo": "Alto Reno Terme",
+   "localita": "Porretta Terme",
+   "luogo": "Cinema Kursaal",
+   "categoria": "Musica e spettacoli",
+   "fonte": "Ufficio Informazioni Turistiche Alto Reno Terme",
+   "link": "https://www.discoveraltorenoterme.it/",
+   "fonti": [
+    {
+     "fonte": "Ufficio Informazioni Turistiche Alto Reno Terme",
+     "link": "https://www.discoveraltorenoterme.it/"
+    },
+    {
+     "fonte": "Ufficio Informazioni Turistiche Alto Reno Terme",
+     "link": "https://www.discoveraltorenoterme.it/"
+    }
+   ],
+   "giorni": [
+    {
+     "data": "2026-11-13",
+     "orari": "21:00"
+    },
+    {
+     "data": "2026-11-14",
+     "orari": "21:00"
+    },
+    {
+     "data": "2026-11-15",
+     "orari": "17:00"
+    },
+    {
+     "data": "2026-11-16",
+     "orari": "21:00"
+    }
+   ],
+   "immagine": "",
+   "da_verificare": false
   },
   {
    "id": "c412fa60d670b29d",
@@ -572,10 +417,15 @@
     {
      "fonte": "IsSEC",
      "link": "https://issec.bo.it/vivere-il-comune/eventi/san-martino-a-rocca-di-roffeno-11-e-14-novembre-2026/"
+    },
+    {
+     "fonte": "Comune di Castel d'Aiano",
+     "link": "https://www.comune.casteldaiano.bo.it/vivere-il-comune/eventi/evento-culturale/festa-di-san-martino"
     }
    ],
    "giorni": [],
-   "immagine": "img/49e20a79291a29e6.jpg"
+   "immagine": "img/49e20a79291a29e6.jpg",
+   "da_verificare": false
   },
   {
    "id": "878dbab8c098a025",
@@ -597,7 +447,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/77c6157d53abe67e.jpg"
+   "immagine": "img/77c6157d53abe67e.jpg",
+   "da_verificare": false
   },
   {
    "id": "ac063006c3f018b5",
@@ -619,7 +470,48 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/7de4652da6aa8a13.jpg"
+   "immagine": "img/7de4652da6aa8a13.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "43f5465c541f3e23",
+   "titolo": "Festa di San Martino con caldarroste e tombola",
+   "inizio": "2026-11-14",
+   "fine": "2026-11-15",
+   "ora": "20:30",
+   "comune": "Porretta Terme",
+   "comune_amministrativo": "Alto Reno Terme",
+   "localita": "Porretta Terme",
+   "luogo": "Circolo DLF",
+   "categoria": "Feste e sagre",
+   "fonte": "Ufficio Informazioni Turistiche Alto Reno Terme",
+   "link": "https://www.discoveraltorenoterme.it/",
+   "fonti": [
+    {
+     "fonte": "Ufficio Informazioni Turistiche Alto Reno Terme",
+     "link": "https://www.discoveraltorenoterme.it/"
+    },
+    {
+     "fonte": "Ufficio Informazioni Turistiche Alto Reno Terme",
+     "link": "https://www.discoveraltorenoterme.it/"
+    },
+    {
+     "fonte": "Ufficio Informazioni Turistiche Alto Reno Terme",
+     "link": "https://www.discoveraltorenoterme.it/"
+    }
+   ],
+   "giorni": [
+    {
+     "data": "2026-11-14",
+     "orari": "17:00"
+    },
+    {
+     "data": "2026-11-15",
+     "orari": "21:00"
+    }
+   ],
+   "immagine": "",
+   "da_verificare": false
   },
   {
    "id": "708efacb90f58e0d",
@@ -641,7 +533,31 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/abb48bea49c71002.jpg"
+   "immagine": "img/abb48bea49c71002.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "53120c894b7dc5f3",
+   "titolo": "Inaugurazione del bed and bike e sede comunale",
+   "inizio": "2026-11-14",
+   "fine": "2026-11-14",
+   "ora": "11:00",
+   "comune": "Vado",
+   "comune_amministrativo": "Monzuno",
+   "localita": "Vado",
+   "luogo": "Delegazione comunale di Vado",
+   "categoria": "Altro",
+   "fonte": "La Voce dell'Appennino",
+   "link": "https://lavocedellappennino.it/news/a-vado-il-14-novembre-due-importanti-inaugurazioni-bedbike-e-riqualificazione-stabile-delegazione-comunale-di-vado/",
+   "fonti": [
+    {
+     "fonte": "La Voce dell'Appennino",
+     "link": "https://lavocedellappennino.it/news/a-vado-il-14-novembre-due-importanti-inaugurazioni-bedbike-e-riqualificazione-stabile-delegazione-comunale-di-vado/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/64bb5b5121a24b05.jpg",
+   "da_verificare": false
   },
   {
    "id": "5311eddb1ad53ba3",
@@ -666,12 +582,21 @@
      "link": "https://www.comune.vergato.bo.it/vivere-il-comune/eventi/evento-culturale/inaugurazione-spazio-culturale"
     },
     {
+     "fonte": "Comune di Vergato",
+     "link": "https://www.comune.vergato.bo.it/novita/notizie/vergato-inaugura-il-nuovo-spazio-culturale-della-biblioteca-un-ambiente-dedicato-a-incontri-laboratori-e-attivita-per-la-comunita"
+    },
+    {
      "fonte": "Biblioteche della montagna bolognese",
      "link": "https://bibliotechemontagnabolognese.it/inaugurazione-spazio-culturale/"
+    },
+    {
+     "fonte": "La Voce dell'Appennino",
+     "link": "https://lavocedellappennino.it/news/vergato-inaugura-il-nuovo-spazio-culturale-della-biblioteca-un-ambiente-dedicato-a-incontri-laboratori-e-attivita-per-la-comunita/"
     }
    ],
    "giorni": [],
-   "immagine": "img/b843aeeec324b963.jpg"
+   "immagine": "img/b843aeeec324b963.jpg",
+   "da_verificare": false
   },
   {
    "id": "c4ef84427e24f23f",
@@ -693,7 +618,8 @@
     }
    ],
    "giorni": [],
-   "immagine": ""
+   "immagine": "",
+   "da_verificare": false
   },
   {
    "id": "0ba8f8c3a3aa7201",
@@ -724,32 +650,11 @@
      "orari": "10:30"
     }
    ],
-   "immagine": "img/3a8353139a439d9e.jpg"
+   "immagine": "img/3a8353139a439d9e.jpg",
+   "da_verificare": false
   },
   {
    "id": "80f78b92eadfdf15",
-   "titolo": "Letture Nati per Leggere per piccoli",
-   "inizio": "2026-11-14",
-   "fine": "2026-11-14",
-   "ora": "10:30",
-   "comune": "San Benedetto Val di Sambro",
-   "comune_amministrativo": "San Benedetto Val di Sambro",
-   "localita": "San Benedetto Val di Sambro",
-   "luogo": "Biblioteca comunale Gastone Stefanini, San Benedetto Val di Sambro",
-   "categoria": "Bambini e famiglie",
-   "fonte": "Biblioteche della montagna bolognese",
-   "link": "https://bibliotechemontagnabolognese.it/letture-nati-per-leggere-bambini-0-6-anni-12/",
-   "fonti": [
-    {
-     "fonte": "Biblioteche della montagna bolognese",
-     "link": "https://bibliotechemontagnabolognese.it/letture-nati-per-leggere-bambini-0-6-anni-12/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/2295257c0de82090.jpg"
-  },
-  {
-   "id": "952269c776c4178f",
    "titolo": "Mattinata di letture per bambini 0-6 anni",
    "inizio": "2026-11-14",
    "fine": "2026-11-14",
@@ -765,10 +670,15 @@
     {
      "fonte": "News Informa Famiglie Emilia-Romagna",
      "link": "https://bibliotechemontagnabolognese.it/letture-nati-per-leggere-bambini-0-6-anni-12/"
+    },
+    {
+     "fonte": "Biblioteche della montagna bolognese",
+     "link": "https://bibliotechemontagnabolognese.it/letture-nati-per-leggere-bambini-0-6-anni-12/"
     }
    ],
    "giorni": [],
-   "immagine": "img/2295257c0de82090.jpg"
+   "immagine": "img/2295257c0de82090.jpg",
+   "da_verificare": false
   },
   {
    "id": "8a6582921a02d78e",
@@ -790,7 +700,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/a95cd2b7a204a966.jpg"
+   "immagine": "img/a95cd2b7a204a966.jpg",
+   "da_verificare": false
   },
   {
    "id": "dc92a3ff9e6ec80e",
@@ -813,10 +724,38 @@
     {
      "fonte": "IsSEC",
      "link": "https://issec.bo.it/vivere-il-comune/eventi/inaugurazione-spazio-culturale-biblioteca-di-vergato/"
+    },
+    {
+     "fonte": "Comune di Vergato",
+     "link": "https://www.comune.vergato.bo.it/novita/notizie/vergato-inaugura-il-nuovo-spazio-culturale-della-biblioteca-un-ambiente-dedicato-a-incontri-laboratori-e-attivita-per-la-comunita"
     }
    ],
    "giorni": [],
-   "immagine": "img/67c32866ab96ad0e.jpg"
+   "immagine": "img/67c32866ab96ad0e.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "282dd95aeccf40ec",
+   "titolo": "Mostra sulla storia delle biblioteche bolognesi",
+   "inizio": "2026-11-14",
+   "fine": "2026-11-20",
+   "ora": "",
+   "comune": "Vergato",
+   "comune_amministrativo": "Vergato",
+   "localita": "Vergato",
+   "luogo": "Biblioteca comunale, Galleria I Maggio",
+   "categoria": "Libri e cultura",
+   "fonte": "La Voce dell'Appennino",
+   "link": "https://lavocedellappennino.it/news/vergato-inaugura-il-nuovo-spazio-culturale-della-biblioteca-un-ambiente-dedicato-a-incontri-laboratori-e-attivita-per-la-comunita/",
+   "fonti": [
+    {
+     "fonte": "La Voce dell'Appennino",
+     "link": "https://lavocedellappennino.it/news/vergato-inaugura-il-nuovo-spazio-culturale-della-biblioteca-un-ambiente-dedicato-a-incontri-laboratori-e-attivita-per-la-comunita/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/99f8e43e36585c73.jpg",
+   "da_verificare": false
   },
   {
    "id": "0ead9ec4e6c4695d",
@@ -838,7 +777,31 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/c60672f1438bdce2.jpg"
+   "immagine": "img/c60672f1438bdce2.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "87f4bdc7be044652",
+   "titolo": "Sapori d'autunno tra castagne e tartufo",
+   "inizio": "2026-11-14",
+   "fine": "2026-11-15",
+   "ora": "10:00",
+   "comune": "Qualto",
+   "comune_amministrativo": "San Benedetto Val di Sambro",
+   "localita": "Qualto",
+   "luogo": "Via Fonte, Qualto (San Benedetto Val di Sambro)",
+   "categoria": "Feste e sagre",
+   "fonte": "Comune di San Benedetto Val di Sambro",
+   "link": "https://www.comune.sanbenedettovaldisambro.bo.it/vivere-il-comune/eventi/eventi-di-affare-o-commerciale/lautunno-ha-un-sapore-speciale-e-questo-fine-settimana-lo-troviamo-a-qualto",
+   "fonti": [
+    {
+     "fonte": "Comune di San Benedetto Val di Sambro",
+     "link": "https://www.comune.sanbenedettovaldisambro.bo.it/vivere-il-comune/eventi/eventi-di-affare-o-commerciale/lautunno-ha-un-sapore-speciale-e-questo-fine-settimana-lo-troviamo-a-qualto"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/405e8efdb96e8365.jpg",
+   "da_verificare": false
   },
   {
    "id": "55513657b097ce70",
@@ -861,10 +824,42 @@
     {
      "fonte": "IsSEC",
      "link": "https://issec.bo.it/vivere-il-comune/eventi/inaugurazione-spazio-culturale-biblioteca-di-vergato/"
+    },
+    {
+     "fonte": "Comune di Vergato",
+     "link": "https://www.comune.vergato.bo.it/novita/notizie/vergato-inaugura-il-nuovo-spazio-culturale-della-biblioteca-un-ambiente-dedicato-a-incontri-laboratori-e-attivita-per-la-comunita"
+    },
+    {
+     "fonte": "La Voce dell'Appennino",
+     "link": "https://lavocedellappennino.it/news/vergato-inaugura-il-nuovo-spazio-culturale-della-biblioteca-un-ambiente-dedicato-a-incontri-laboratori-e-attivita-per-la-comunita/"
     }
    ],
    "giorni": [],
-   "immagine": "img/67c32866ab96ad0e.jpg"
+   "immagine": "img/67c32866ab96ad0e.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "047d70471074593b",
+   "titolo": "Trekking nel foliage autunnale di Monte Sole",
+   "inizio": "2026-11-14",
+   "fine": "2026-11-14",
+   "ora": "09:30",
+   "comune": "Monte Sole",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Monte Sole",
+   "luogo": "Il Poggiolo - Rifugio Re-esistente",
+   "categoria": "Natura ed escursioni",
+   "fonte": "Ente Parchi, Parco Storico di Monte Sole",
+   "link": "https://enteparchi.bo.it/parco.monte.sole/iniziativa.php?id=142855",
+   "fonti": [
+    {
+     "fonte": "Ente Parchi, Parco Storico di Monte Sole",
+     "link": "https://enteparchi.bo.it/parco.monte.sole/iniziativa.php?id=142855"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/c4018ad2439a9f40.jpg",
+   "da_verificare": false
   },
   {
    "id": "2d6754ade6e45f88",
@@ -886,7 +881,39 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/aee12ca11d5db60d.jpg"
+   "immagine": "img/aee12ca11d5db60d.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "b9db9d96ce665fb1",
+   "titolo": "Escursione tra Faggio Squaglia e Monteacuto",
+   "inizio": "2026-11-15",
+   "fine": "2026-11-15",
+   "ora": "",
+   "comune": "Alto Reno Terme",
+   "comune_amministrativo": "Alto Reno Terme",
+   "localita": "",
+   "luogo": "",
+   "categoria": "Natura ed escursioni",
+   "fonte": "Ufficio Informazioni Turistiche Alto Reno Terme",
+   "link": "https://www.discoveraltorenoterme.it/",
+   "fonti": [
+    {
+     "fonte": "Ufficio Informazioni Turistiche Alto Reno Terme",
+     "link": "https://www.discoveraltorenoterme.it/"
+    },
+    {
+     "fonte": "Ufficio Informazioni Turistiche Alto Reno Terme",
+     "link": "https://www.discoveraltorenoterme.it/"
+    },
+    {
+     "fonte": "Ufficio Informazioni Turistiche Alto Reno Terme",
+     "link": "https://www.discoveraltorenoterme.it/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/9cd9b377fece8b54.jpg",
+   "da_verificare": false
   },
   {
    "id": "5a0b662551fff957",
@@ -908,7 +935,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/2ddd24b1f55e5b45.jpg"
+   "immagine": "img/2ddd24b1f55e5b45.jpg",
+   "da_verificare": false
   },
   {
    "id": "8caad870bdb36256",
@@ -930,7 +958,35 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/802b5eced3ef94ac.jpg"
+   "immagine": "img/802b5eced3ef94ac.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "26f688d07a11f47c",
+   "titolo": "Tracce animali e tramonto sul Brasimone",
+   "inizio": "2026-11-15",
+   "fine": "2026-11-15",
+   "ora": "14:00",
+   "comune": "Poranceto",
+   "comune_amministrativo": "Camugnano",
+   "localita": "Poranceto",
+   "luogo": "Museo del Bosco del Poranceto",
+   "categoria": "Natura ed escursioni",
+   "fonte": "Ente Parchi, Parco dei Laghi di Suviana e Brasimone",
+   "link": "https://enteparchi.bo.it/parco.suviana.brasimone/iniziativa.php?id=142858",
+   "fonti": [
+    {
+     "fonte": "Ente Parchi, Parco dei Laghi di Suviana e Brasimone",
+     "link": "https://enteparchi.bo.it/parco.suviana.brasimone/iniziativa.php?id=142858"
+    },
+    {
+     "fonte": "Ente Parchi Bo",
+     "link": "https://enteparchi.bo.it/parco.suviana.brasimone/iniziativa.php?id=142858"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/f3324186951a7983.jpg",
+   "da_verificare": false
   },
   {
    "id": "69f8e4dcc78472fc",
@@ -952,7 +1008,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/765ffcacb0b80956.jpg"
+   "immagine": "img/765ffcacb0b80956.jpg",
+   "da_verificare": false
   },
   {
    "id": "1f931f439d9e9090",
@@ -974,7 +1031,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/2143d85b81b79afb.jpg"
+   "immagine": "img/2143d85b81b79afb.jpg",
+   "da_verificare": false
   },
   {
    "id": "a26aabebe53dcb2e",
@@ -1017,7 +1075,8 @@
      "orari": "18:00"
     }
    ],
-   "immagine": "img/72c50016839700f3.jpg"
+   "immagine": "img/72c50016839700f3.jpg",
+   "da_verificare": false
   },
   {
    "id": "ef4f0357d6734318",
@@ -1043,7 +1102,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/8c6b0d312e1ccc1c.jpg"
+   "immagine": "img/8c6b0d312e1ccc1c.jpg",
+   "da_verificare": false
   },
   {
    "id": "afbda8874a614dc5",
@@ -1065,7 +1125,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/7de4652da6aa8a13.jpg"
+   "immagine": "img/7de4652da6aa8a13.jpg",
+   "da_verificare": false
   },
   {
    "id": "dfa4fdcb31bde942",
@@ -1104,7 +1165,31 @@
      "orari": "10:00"
     }
    ],
-   "immagine": "https://www.informafamiglie.it/appennino-bolognese/allegati/danza-in-fascia-vado-e-marza.png"
+   "immagine": "https://www.informafamiglie.it/appennino-bolognese/allegati/danza-in-fascia-vado-e-marza.png",
+   "da_verificare": false
+  },
+  {
+   "id": "c7dc3ca51daca37e",
+   "titolo": "Incontro con l'amministrazione per i cittadini di Bibulano",
+   "inizio": "2026-11-18",
+   "fine": "2026-11-18",
+   "ora": "20:30",
+   "comune": "Loiano",
+   "comune_amministrativo": "Loiano",
+   "localita": "Loiano",
+   "luogo": "Sala del Consiglio Comunale di Loiano, Via Roma 55",
+   "categoria": "Altro",
+   "fonte": "Comune di Loiano",
+   "link": "https://www.comune.loiano.bologna.it/it-it/vivere-il-comune/eventi/18-novembre-2026-incontro-per-la-frazione-di-bibulano-133108-1-f56d3a43ec284ed1c25058527327e26e",
+   "fonti": [
+    {
+     "fonte": "Comune di Loiano",
+     "link": "https://www.comune.loiano.bologna.it/it-it/vivere-il-comune/eventi/18-novembre-2026-incontro-per-la-frazione-di-bibulano-133108-1-f56d3a43ec284ed1c25058527327e26e"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/350274c1077b4a9a.jpg",
+   "da_verificare": false
   },
   {
    "id": "0141035757cc77e4",
@@ -1130,7 +1215,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/fec86fef2bc41976.jpg"
+   "immagine": "img/fec86fef2bc41976.jpg",
+   "da_verificare": false
   },
   {
    "id": "44506b5e19c55440",
@@ -1152,7 +1238,8 @@
     }
    ],
    "giorni": [],
-   "immagine": ""
+   "immagine": "",
+   "da_verificare": false
   },
   {
    "id": "02df4768b260e446",
@@ -1174,7 +1261,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/7de4652da6aa8a13.jpg"
+   "immagine": "img/7de4652da6aa8a13.jpg",
+   "da_verificare": false
   },
   {
    "id": "1b9248ac6b743f87",
@@ -1196,7 +1284,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/0b05f8422d4cdf37.jpg"
+   "immagine": "img/0b05f8422d4cdf37.jpg",
+   "da_verificare": false
   },
   {
    "id": "4c96033b1e32e50b",
@@ -1218,7 +1307,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/7de4652da6aa8a13.jpg"
+   "immagine": "img/7de4652da6aa8a13.jpg",
+   "da_verificare": false
   },
   {
    "id": "ab03e5d07a8507f0",
@@ -1240,7 +1330,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/9ecfaeea551fbfb6.jpg"
+   "immagine": "img/9ecfaeea551fbfb6.jpg",
+   "da_verificare": false
   },
   {
    "id": "77efbb0cd50fdd36",
@@ -1266,7 +1357,31 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/9ecfaeea551fbfb6.jpg"
+   "immagine": "img/9ecfaeea551fbfb6.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "7f46226faec4f769",
+   "titolo": "Escursione nel foliage tra faggete e mulini",
+   "inizio": "2026-11-21",
+   "fine": "2026-11-21",
+   "ora": "09:30",
+   "comune": "Monteacuto delle Alpi",
+   "comune_amministrativo": "Lizzano in Belvedere",
+   "localita": "Monteacuto delle Alpi",
+   "luogo": "Parcheggio basso, Monteacuto delle Alpi (Lizzano in Belvedere)",
+   "categoria": "Natura ed escursioni",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/foliage-a-monteacuto-delle-alpi-21-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/foliage-a-monteacuto-delle-alpi-21-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/fda51d074b9ca40a.jpg",
+   "da_verificare": false
   },
   {
    "id": "f6e1d4c6be0661b3",
@@ -1288,7 +1403,31 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/513fdd7967404407.jpg"
+   "immagine": "img/513fdd7967404407.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "003cb439177a1217",
+   "titolo": "Festa d'Autunno con Botteghe in Viaggio",
+   "inizio": "2026-11-21",
+   "fine": "2026-11-21",
+   "ora": "08:00",
+   "comune": "Gaggio Montano",
+   "comune_amministrativo": "Gaggio Montano",
+   "localita": "Gaggio Montano",
+   "luogo": "Gaggio Montano (BO)",
+   "categoria": "Feste e sagre",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-dautunno-a-gaggio-montano-21-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-dautunno-a-gaggio-montano-21-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/f39dd88f24c475a4.jpg",
+   "da_verificare": false
   },
   {
    "id": "df52aaf2c0b350d7",
@@ -1310,7 +1449,31 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/3e1ccfb9db515e80.jpg"
+   "immagine": "img/3e1ccfb9db515e80.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "2e6de98038e4f237",
+   "titolo": "Francesco Talarico presenta Il giovane incompiuto",
+   "inizio": "2026-11-21",
+   "fine": "2026-11-21",
+   "ora": "17:00",
+   "comune": "San Benedetto Val di Sambro",
+   "comune_amministrativo": "San Benedetto Val di Sambro",
+   "localita": "San Benedetto Val di Sambro",
+   "luogo": "Biblioteca comunale Gastone Stefanini, San Benedetto Val di Sambro (BO)",
+   "categoria": "Libri e cultura",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/aperibook-il-giovane-incompiuto-21-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/aperibook-il-giovane-incompiuto-21-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/f69f68dc24ff23d6.jpg",
+   "da_verificare": false
   },
   {
    "id": "3396f6719852c153",
@@ -1332,7 +1495,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/f8ef82164739d384.jpg"
+   "immagine": "img/f8ef82164739d384.jpg",
+   "da_verificare": false
   },
   {
    "id": "9d5cd4ed9999c8f0",
@@ -1354,7 +1518,8 @@
     }
    ],
    "giorni": [],
-   "immagine": ""
+   "immagine": "",
+   "da_verificare": false
   },
   {
    "id": "b03c88adf3228b36",
@@ -1376,7 +1541,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/a35c0c9b45a6618d.jpg"
+   "immagine": "img/a35c0c9b45a6618d.jpg",
+   "da_verificare": false
   },
   {
    "id": "925e030a18418422",
@@ -1402,7 +1568,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/184dec698befff8e.jpg"
+   "immagine": "img/184dec698befff8e.jpg",
+   "da_verificare": false
   },
   {
    "id": "476d891586ce7549",
@@ -1424,7 +1591,31 @@
     }
    ],
    "giorni": [],
-   "immagine": "https://www.informafamiglie.it/appennino-bolognese/newsletter/canale-del-centro-per-le-famiglie-appennino-bolognese/copy10_of_newsletter-n-8-febbraio-2026/volantino-ti-suono-una-storia.png"
+   "immagine": "https://www.informafamiglie.it/appennino-bolognese/newsletter/canale-del-centro-per-le-famiglie-appennino-bolognese/copy10_of_newsletter-n-8-febbraio-2026/volantino-ti-suono-una-storia.png",
+   "da_verificare": false
+  },
+  {
+   "id": "f13c359ce6f0541b",
+   "titolo": "Mercatino natalizio nel borgo di Monteacuto",
+   "inizio": "2026-11-21",
+   "fine": "2026-12-08",
+   "ora": "10:00",
+   "comune": "Monteacuto delle Alpi",
+   "comune_amministrativo": "Lizzano in Belvedere",
+   "localita": "Monteacuto delle Alpi",
+   "luogo": "Piazza della Chiesa, Monteacuto delle Alpi (Lizzano in Belvedere)",
+   "categoria": "Feste e sagre",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/mercatino-di-natale-2026-a-monteacuto-delle-alpi/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/mercatino-di-natale-2026-a-monteacuto-delle-alpi/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/37fcc6922109c536.jpg",
+   "da_verificare": false
   },
   {
    "id": "7b46481241accad5",
@@ -1446,7 +1637,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/0307fbecf4bb1a8c.jpg"
+   "immagine": "img/0307fbecf4bb1a8c.jpg",
+   "da_verificare": false
   },
   {
    "id": "029bd00bf26dab05",
@@ -1468,7 +1660,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/68c8dd6cd896c917.jpg"
+   "immagine": "img/68c8dd6cd896c917.jpg",
+   "da_verificare": false
   },
   {
    "id": "68d6891e1cbdd5b2",
@@ -1490,7 +1683,135 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/9ecfaeea551fbfb6.jpg"
+   "immagine": "img/9ecfaeea551fbfb6.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "a5dd845c7833dc05",
+   "titolo": "Escursione alla scoperta degli anfibi",
+   "inizio": "2026-11-22",
+   "fine": "2026-11-22",
+   "ora": "10:15",
+   "comune": "Monteacuto delle Alpi",
+   "comune_amministrativo": "Lizzano in Belvedere",
+   "localita": "Monteacuto delle Alpi",
+   "luogo": "Parcheggio d'ingresso di Monteacuto delle Alpi, Lizzano in Belvedere",
+   "categoria": "Natura ed escursioni",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/amici-anfibi-a-monteacuto-delle-alpi-22-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/amici-anfibi-a-monteacuto-delle-alpi-22-novembre-2026/"
+    },
+    {
+     "fonte": "Ente Parchi, Parco del Corno alle Scale",
+     "link": "https://enteparchi.bo.it/parco.corno.scale/iniziativa.php?id=142859"
+    },
+    {
+     "fonte": "Ente Parchi Bo",
+     "link": "https://enteparchi.bo.it/parco.corno.scale/iniziativa.php?id=142859"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/ab252449543ea201.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "d335cb6df7a74410",
+   "titolo": "Festa di Santa Cecilia con Botteghe in Viaggio",
+   "inizio": "2026-11-22",
+   "fine": "2026-11-22",
+   "ora": "",
+   "comune": "Castiglione dei Pepoli",
+   "comune_amministrativo": "Castiglione dei Pepoli",
+   "localita": "Castiglione dei Pepoli",
+   "luogo": "Castiglione dei Pepoli (BO)",
+   "categoria": "Feste e sagre",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-di-santa-cecilia-a-castiglione-dei-pepoli-22-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/festa-di-santa-cecilia-a-castiglione-dei-pepoli-22-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/86f1d0bc8703d947.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "3ed9a6c7c4264af7",
+   "titolo": "Giornata natalizia con mercatini e Babbo Natale",
+   "inizio": "2026-11-22",
+   "fine": "2026-11-22",
+   "ora": "11:00",
+   "comune": "Allocco",
+   "comune_amministrativo": "Monzuno",
+   "localita": "Allocco",
+   "luogo": "Riva del Setta APS, Allocco, Marzabotto",
+   "categoria": "Feste e sagre",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/riva-del-setta-christmas-ad-allocco-22-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/riva-del-setta-christmas-ad-allocco-22-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/8383c53013fa9b29.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "3e7959210ca7589e",
+   "titolo": "Passeggiata per famiglie nel bosco autunnale",
+   "inizio": "2026-11-22",
+   "fine": "2026-11-22",
+   "ora": "10:00",
+   "comune": "Poranceto",
+   "comune_amministrativo": "Camugnano",
+   "localita": "Poranceto",
+   "luogo": "Museo del Bosco del Poranceto",
+   "categoria": "Bambini e famiglie",
+   "fonte": "Ente Parchi, Parco dei Laghi di Suviana e Brasimone",
+   "link": "https://enteparchi.bo.it/parco.suviana.brasimone/iniziativa.php?id=142886",
+   "fonti": [
+    {
+     "fonte": "Ente Parchi, Parco dei Laghi di Suviana e Brasimone",
+     "link": "https://enteparchi.bo.it/parco.suviana.brasimone/iniziativa.php?id=142886"
+    },
+    {
+     "fonte": "Ente Parchi Bo",
+     "link": "https://enteparchi.bo.it/parco.suviana.brasimone/iniziativa.php?id=142886"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/acd76615385e71ca.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "5e569463ae782646",
+   "titolo": "Proiezione del film C'è ancora domani",
+   "inizio": "2026-11-22",
+   "fine": "2026-11-22",
+   "ora": "17:30",
+   "comune": "Marzabotto",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Marzabotto",
+   "luogo": "Teatro Comunale",
+   "categoria": "Musica e spettacoli",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/marzabotto-eventi-contro-la-violenza-sulle-donne-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/marzabotto-eventi-contro-la-violenza-sulle-donne-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "",
+   "da_verificare": false
   },
   {
    "id": "413395f48db05053",
@@ -1509,14 +1830,107 @@
     {
      "fonte": "Comune di Marzabotto",
      "link": "https://www.comune.marzabotto.bo.it/vivere-il-comune/eventi/evento-culturale/ce-ancora-domani"
-    },
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/marzabotto-eventi-contro-la-violenza-sulle-donne-2026/"
     }
    ],
    "giorni": [],
-   "immagine": "img/80e3f0cb12673a38.jpg"
+   "immagine": "img/80e3f0cb12673a38.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "8cf82ab34cfaee38",
+   "titolo": "Sfida culinaria a squadre con pranzo",
+   "inizio": "2026-11-22",
+   "fine": "2026-11-22",
+   "ora": "12:30",
+   "comune": "Brento",
+   "comune_amministrativo": "Monzuno",
+   "localita": "Brento",
+   "luogo": "Circolo Monte Adone, Brento, Monzuno",
+   "categoria": "Feste e sagre",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/cucina-chiacchiere-a-brento-22-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/cucina-chiacchiere-a-brento-22-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/e0243ba16476646d.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "6e527b26c3c0bd56",
+   "titolo": "Incontro di fine stagione per operatori turistici",
+   "inizio": "2026-11-24",
+   "fine": "2026-11-24",
+   "ora": "15:00",
+   "comune": "Monzuno",
+   "comune_amministrativo": "Monzuno",
+   "localita": "Monzuno",
+   "luogo": "Comune di Monzuno, Via Luigi Casaglia 4",
+   "categoria": "Altro",
+   "fonte": "Via degli Dei",
+   "link": "",
+   "fonti": [
+    {
+     "fonte": "Via degli Dei",
+     "link": ""
+    }
+   ],
+   "giorni": [],
+   "immagine": "",
+   "da_verificare": false
+  },
+  {
+   "id": "af6bad7556a5dadb",
+   "titolo": "Incontro informativo sul calabrone asiatico",
+   "inizio": "2026-11-24",
+   "fine": "2026-11-24",
+   "ora": "20:00",
+   "comune": "Castel d'Aiano",
+   "comune_amministrativo": "Castel d'Aiano",
+   "localita": "Castel d'Aiano",
+   "luogo": "Sala civica, Via Val d'Aneva 2",
+   "categoria": "Altro",
+   "fonte": "Comune di Castel d'Aiano",
+   "link": "https://www.comune.casteldaiano.bo.it/vivere-il-comune/eventi/eventi-sociali/vespa-velutina-incontro",
+   "fonti": [
+    {
+     "fonte": "Comune di Castel d'Aiano",
+     "link": "https://www.comune.casteldaiano.bo.it/vivere-il-comune/eventi/eventi-sociali/vespa-velutina-incontro"
+    },
+    {
+     "fonte": "Comune di Castel d'Aiano",
+     "link": "https://www.comune.casteldaiano.bo.it/novita/notizie/vespa-velutina"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/95063a0652c1d69e.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "e7a71897a05c09d1",
+   "titolo": "Incontro su come costruire una comunità educante",
+   "inizio": "2026-11-24",
+   "fine": "2026-11-24",
+   "ora": "17:30",
+   "comune": "Marzabotto",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Marzabotto",
+   "luogo": "Centro per le Famiglie, via Lama di Reno 30/B",
+   "categoria": "Libri e cultura",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/come-costruire-una-comunita-educante-incontri-e-laboratori-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/come-costruire-una-comunita-educante-incontri-e-laboratori-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/c0c58a102194e76b.jpg",
+   "da_verificare": false
   },
   {
    "id": "71ec437e6a985afb",
@@ -1538,7 +1952,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/01a643c3d6b3f06f.jpg"
+   "immagine": "img/01a643c3d6b3f06f.jpg",
+   "da_verificare": false
   },
   {
    "id": "d65ab024aeb160dd",
@@ -1560,7 +1975,8 @@
     }
    ],
    "giorni": [],
-   "immagine": ""
+   "immagine": "",
+   "da_verificare": false
   },
   {
    "id": "f187a6cbadb437e7",
@@ -1582,7 +1998,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/7de4652da6aa8a13.jpg"
+   "immagine": "img/7de4652da6aa8a13.jpg",
+   "da_verificare": false
   },
   {
    "id": "1d8a9ec2f08a8eed",
@@ -1604,7 +2021,8 @@
     }
    ],
    "giorni": [],
-   "immagine": ""
+   "immagine": "",
+   "da_verificare": false
   },
   {
    "id": "2e63cf2120d68831",
@@ -1626,7 +2044,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "https://www.informafamiglie.it/appennino-bolognese/newsletter/canale-del-centro-per-le-famiglie-appennino-bolognese/copy10_of_newsletter-n-8-febbraio-2026/incontro-genitori.png"
+   "immagine": "https://www.informafamiglie.it/appennino-bolognese/newsletter/canale-del-centro-per-le-famiglie-appennino-bolognese/copy10_of_newsletter-n-8-febbraio-2026/incontro-genitori.png",
+   "da_verificare": false
   },
   {
    "id": "a06f7cdb7ca37be1",
@@ -1648,7 +2067,8 @@
     }
    ],
    "giorni": [],
-   "immagine": ""
+   "immagine": "",
+   "da_verificare": false
   },
   {
    "id": "56956755e0c4592d",
@@ -1670,7 +2090,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/7de4652da6aa8a13.jpg"
+   "immagine": "img/7de4652da6aa8a13.jpg",
+   "da_verificare": false
   },
   {
    "id": "6ea4b267d1e5a165",
@@ -1692,7 +2113,54 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/7de4652da6aa8a13.jpg"
+   "immagine": "img/7de4652da6aa8a13.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "1c57349439771866",
+   "titolo": "Laboratorio di formelle in dialetto per bambini",
+   "inizio": "2026-11-28",
+   "fine": "2026-11-28",
+   "ora": "10:00",
+   "comune": "Vergato",
+   "comune_amministrativo": "Vergato",
+   "localita": "Vergato",
+   "luogo": "Biblioteca Paolo Guidotti, Galleria Primo Maggio 86/A",
+   "categoria": "Bambini e famiglie",
+   "fonte": "Comune di Vergato",
+   "link": "https://www.comune.vergato.bo.it/vivere-il-comune/eventi/evento-culturale/formelle-parlanti-bambini",
+   "fonti": [
+    {
+     "fonte": "Comune di Vergato",
+     "link": "https://www.comune.vergato.bo.it/vivere-il-comune/eventi/evento-culturale/formelle-parlanti-bambini"
+    }
+   ],
+   "giorni": [],
+   "immagine": "",
+   "da_verificare": false
+  },
+  {
+   "id": "db4e0d7b0e7cabce",
+   "titolo": "Laboratorio di musica e racconto in biblioteca",
+   "inizio": "2026-11-28",
+   "fine": "2026-11-28",
+   "ora": "10:30",
+   "comune": "Marzabotto",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Marzabotto",
+   "luogo": "Biblioteca comunale",
+   "categoria": "Bambini e famiglie",
+   "fonte": "News Informa Famiglie Emilia-Romagna",
+   "link": "https://www.informafamiglie.it/appennino-bolognese/newsletter/canale-del-centro-per-le-famiglie-appennino-bolognese/copy10_of_newsletter-n-8-febbraio-2026/volantino-ti-suono-una-storia.png",
+   "fonti": [
+    {
+     "fonte": "News Informa Famiglie Emilia-Romagna",
+     "link": "https://www.informafamiglie.it/appennino-bolognese/newsletter/canale-del-centro-per-le-famiglie-appennino-bolognese/copy10_of_newsletter-n-8-febbraio-2026/volantino-ti-suono-una-storia.png"
+    }
+   ],
+   "giorni": [],
+   "immagine": "https://www.informafamiglie.it/appennino-bolognese/newsletter/canale-del-centro-per-le-famiglie-appennino-bolognese/copy10_of_newsletter-n-8-febbraio-2026/volantino-ti-suono-una-storia.png",
+   "da_verificare": false
   },
   {
    "id": "377de534e0f202a1",
@@ -1711,14 +2179,11 @@
     {
      "fonte": "IsSEC",
      "link": "https://issec.bo.it/vivere-il-comune/eventi/ti-suono-una-storia-a-marzabotto-28-novembre-2026/"
-    },
-    {
-     "fonte": "News Informa Famiglie Emilia-Romagna",
-     "link": "https://www.informafamiglie.it/appennino-bolognese/newsletter/canale-del-centro-per-le-famiglie-appennino-bolognese/copy10_of_newsletter-n-8-febbraio-2026/volantino-ti-suono-una-storia.png"
     }
    ],
    "giorni": [],
-   "immagine": "img/2364becf48546865.jpg"
+   "immagine": "img/2364becf48546865.jpg",
+   "da_verificare": false
   },
   {
    "id": "fa8fabe13ece473f",
@@ -1740,7 +2205,31 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/da2dea7ba3133f55.jpg"
+   "immagine": "img/da2dea7ba3133f55.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "b2557f064463004b",
+   "titolo": "Spettacolo acustico dedicato a Franco Battiato",
+   "inizio": "2026-11-28",
+   "fine": "2026-11-28",
+   "ora": "21:00",
+   "comune": "Castiglione dei Pepoli",
+   "comune_amministrativo": "Castiglione dei Pepoli",
+   "localita": "Castiglione dei Pepoli",
+   "luogo": "Teatro Comunale, via Aldo Moro 2, Castiglione dei Pepoli",
+   "categoria": "Musica e spettacoli",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/battiato-in-acustico-a-castiglione-dei-pepoli-28-novembre-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/battiato-in-acustico-a-castiglione-dei-pepoli-28-novembre-2026/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/167188c12c8e23f6.jpg",
+   "da_verificare": false
   },
   {
    "id": "4eba1e28dd74b50c",
@@ -1762,7 +2251,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/da2dea7ba3133f55.jpg"
+   "immagine": "img/da2dea7ba3133f55.jpg",
+   "da_verificare": false
   },
   {
    "id": "221c50f3d7983e24",
@@ -1784,7 +2274,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/7de4652da6aa8a13.jpg"
+   "immagine": "img/7de4652da6aa8a13.jpg",
+   "da_verificare": false
   },
   {
    "id": "7f0d4f7508dcaca0",
@@ -1806,7 +2297,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/da2dea7ba3133f55.jpg"
+   "immagine": "img/da2dea7ba3133f55.jpg",
+   "da_verificare": false
   },
   {
    "id": "a4878fd17aec386a",
@@ -1828,22 +2320,77 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/b7fca33cf27d9c94.jpg"
+   "immagine": "img/b7fca33cf27d9c94.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "4a98ed2d93130586",
+   "titolo": "Escursione autunnale tra storia e natura a Monte Sole",
+   "inizio": "2026-11-29",
+   "fine": "2026-11-29",
+   "ora": "10:00",
+   "comune": "Monte Sole",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Monte Sole",
+   "luogo": "Il Poggiolo – Rifugio Re_Esistente, via San Martino 25",
+   "categoria": "Natura ed escursioni",
+   "fonte": "News Informa Famiglie Emilia-Romagna",
+   "link": "https://www.coopmadreselva.it/2026/09/27/w-il-lupo-di-monte-sole-domenica-29-novembre/",
+   "fonti": [
+    {
+     "fonte": "News Informa Famiglie Emilia-Romagna",
+     "link": "https://www.coopmadreselva.it/2026/09/27/w-il-lupo-di-monte-sole-domenica-29-novembre/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/f42971763150dfc8.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "abbd5ecec2e71888",
+   "titolo": "Escursione dedicata al lupo a Monte Sole",
+   "inizio": "2026-11-29",
+   "fine": "2026-11-29",
+   "ora": "10:00",
+   "comune": "Monte Sole",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Monte Sole",
+   "luogo": "Parco Storico Regionale di Monte Sole",
+   "categoria": "Natura ed escursioni",
+   "fonte": "Ente Parchi Bo",
+   "link": "https://enteparchi.bo.it/parco.monte.sole/iniziativa.php?id=142860",
+   "fonti": [
+    {
+     "fonte": "Ente Parchi Bo",
+     "link": "https://enteparchi.bo.it/parco.monte.sole/iniziativa.php?id=142860"
+    },
+    {
+     "fonte": "Ente Parchi, Parco Storico di Monte Sole",
+     "link": "https://enteparchi.bo.it/parco.monte.sole/iniziativa.php?id=142860"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/efa4f405eafc45c0.jpg",
+   "da_verificare": false
   },
   {
    "id": "ee48ef185672c802",
-   "titolo": "Arte e musica al MuseOntani",
+   "titolo": "Jazz con sax e pianoforte al MuseOntani",
    "inizio": "2026-11-29",
    "fine": "2027-01-24",
    "ora": "16:00",
    "comune": "Vergato",
    "comune_amministrativo": "Vergato",
    "localita": "Vergato",
-   "luogo": "Palazzo Comunale, piazza Capitani della Montagna 1",
-   "categoria": "Libri e cultura",
+   "luogo": "MuseOntani, Piazza Capitani della Montagna 1",
+   "categoria": "Musica e spettacoli",
    "fonte": "Comune di Vergato",
-   "link": "https://www.comune.vergato.bo.it/novita/notizie/rassegna-musica-x-museo",
+   "link": "https://www.comune.vergato.bo.it/vivere-il-comune/eventi/evento-culturale/musica-museo-jazz",
    "fonti": [
+    {
+     "fonte": "Comune di Vergato",
+     "link": "https://www.comune.vergato.bo.it/vivere-il-comune/eventi/evento-culturale/musica-museo-jazz"
+    },
     {
      "fonte": "Comune di Vergato",
      "link": "https://www.comune.vergato.bo.it/novita/notizie/rassegna-musica-x-museo"
@@ -1867,29 +2414,8 @@
      "orari": "16:00"
     }
    ],
-   "immagine": ""
-  },
-  {
-   "id": "4a98ed2d93130586",
-   "titolo": "Escursione autunnale tra storia e natura a Monte Sole",
-   "inizio": "2026-11-29",
-   "fine": "2026-11-29",
-   "ora": "10:00",
-   "comune": "Monte Sole",
-   "comune_amministrativo": "Marzabotto",
-   "localita": "Monte Sole",
-   "luogo": "Il Poggiolo – Rifugio Re_Esistente, via San Martino 25",
-   "categoria": "Natura ed escursioni",
-   "fonte": "News Informa Famiglie Emilia-Romagna",
-   "link": "https://www.coopmadreselva.it/2026/09/27/w-il-lupo-di-monte-sole-domenica-29-novembre/",
-   "fonti": [
-    {
-     "fonte": "News Informa Famiglie Emilia-Romagna",
-     "link": "https://www.coopmadreselva.it/2026/09/27/w-il-lupo-di-monte-sole-domenica-29-novembre/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/f42971763150dfc8.jpg"
+   "immagine": "",
+   "da_verificare": false
   },
   {
    "id": "21e9030681c74573",
@@ -1911,7 +2437,40 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/818587e6f7945c37.jpg"
+   "immagine": "img/818587e6f7945c37.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "f9caa0a859dec63a",
+   "titolo": "Laboratori per genitori al Centro Famiglie",
+   "inizio": "2026-12-01",
+   "fine": "2026-12-15",
+   "ora": "17:30",
+   "comune": "Marzabotto",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Marzabotto",
+   "luogo": "Centro per le Famiglie, via Lama di Reno 30/B",
+   "categoria": "Bambini e famiglie",
+   "fonte": "IsSEC",
+   "link": "https://issec.bo.it/vivere-il-comune/eventi/come-costruire-una-comunita-educante-incontri-e-laboratori-2026/",
+   "fonti": [
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/come-costruire-una-comunita-educante-incontri-e-laboratori-2026/"
+    }
+   ],
+   "giorni": [
+    {
+     "data": "2026-12-01",
+     "orari": "17:30"
+    },
+    {
+     "data": "2026-12-15",
+     "orari": "17:30"
+    }
+   ],
+   "immagine": "img/c0c58a102194e76b.jpg",
+   "da_verificare": false
   },
   {
    "id": "d4b58cb39020b008",
@@ -1934,10 +2493,15 @@
     {
      "fonte": "News Informa Famiglie Emilia-Romagna",
      "link": "https://bibliotechemontagnabolognese.it/libri-a-colazione/"
+    },
+    {
+     "fonte": "News Informa Famiglie Emilia-Romagna",
+     "link": "https://bibliotechemontagnabolognese.it/libri-a-colazione/"
     }
    ],
    "giorni": [],
-   "immagine": "img/513e829f0188d696.jpg"
+   "immagine": "img/513e829f0188d696.jpg",
+   "da_verificare": false
   },
   {
    "id": "3ab7a0b7bc583e9d",
@@ -1963,7 +2527,54 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/cc371975ee5c4604.jpg"
+   "immagine": "img/cc371975ee5c4604.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "076e2f27b11865a9",
+   "titolo": "Laboratorio di regia per ragazzi in biblioteca",
+   "inizio": "2026-12-05",
+   "fine": "2026-12-05",
+   "ora": "16:30",
+   "comune": "Porretta Terme",
+   "comune_amministrativo": "Alto Reno Terme",
+   "localita": "Porretta Terme",
+   "luogo": "Biblioteca di Porretta Terme",
+   "categoria": "Bambini e famiglie",
+   "fonte": "Biblioteche della montagna bolognese",
+   "link": "https://bibliotechemontagnabolognese.it/sassolini-2026-27/",
+   "fonti": [
+    {
+     "fonte": "Biblioteche della montagna bolognese",
+     "link": "https://bibliotechemontagnabolognese.it/sassolini-2026-27/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/a5b8d16586a985b6.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "37db09132a436c8e",
+   "titolo": "Escursione ad anello nelle praterie del Poranceto",
+   "inizio": "2026-12-06",
+   "fine": "2026-12-06",
+   "ora": "09:00",
+   "comune": "Mogne",
+   "comune_amministrativo": "Camugnano",
+   "localita": "Mogne",
+   "luogo": "Parcheggio all'imbocco di Via della Chiesa",
+   "categoria": "Natura ed escursioni",
+   "fonte": "Ente Parchi, Parco dei Laghi di Suviana e Brasimone",
+   "link": "https://enteparchi.bo.it/parco.suviana.brasimone/iniziativa.php?id=142861",
+   "fonti": [
+    {
+     "fonte": "Ente Parchi, Parco dei Laghi di Suviana e Brasimone",
+     "link": "https://enteparchi.bo.it/parco.suviana.brasimone/iniziativa.php?id=142861"
+    }
+   ],
+   "giorni": [],
+   "immagine": "",
+   "da_verificare": false
   },
   {
    "id": "17028c6659dd2013",
@@ -1985,7 +2596,31 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/da2dea7ba3133f55.jpg"
+   "immagine": "img/da2dea7ba3133f55.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "45ec832ff475b179",
+   "titolo": "Letture in LIS con musica dal vivo",
+   "inizio": "2026-12-12",
+   "fine": "2026-12-12",
+   "ora": "11:00",
+   "comune": "Vergato",
+   "comune_amministrativo": "Vergato",
+   "localita": "Vergato",
+   "luogo": "Biblioteca di Vergato, Galleria 1 Maggio 86/A, Vergato",
+   "categoria": "Bambini e famiglie",
+   "fonte": "Biblioteche della montagna bolognese",
+   "link": "https://bibliotechemontagnabolognese.it/storie-per-tutti/",
+   "fonti": [
+    {
+     "fonte": "Biblioteche della montagna bolognese",
+     "link": "https://bibliotechemontagnabolognese.it/storie-per-tutti/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/35d936f915eb8150.jpg",
+   "da_verificare": false
   },
   {
    "id": "f287bfc3aae37f1f",
@@ -2007,7 +2642,31 @@
     }
    ],
    "giorni": [],
-   "immagine": "https://www.informafamiglie.it/appennino-bolognese/allegati/ma-che-musica-papa.png"
+   "immagine": "https://www.informafamiglie.it/appennino-bolognese/allegati/ma-che-musica-papa.png",
+   "da_verificare": false
+  },
+  {
+   "id": "a4713ec74024c1c0",
+   "titolo": "Trekking alle vecchie cave d'argilla di Monte Sole",
+   "inizio": "2026-12-12",
+   "fine": "2026-12-12",
+   "ora": "09:30",
+   "comune": "San Martino",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "San Martino",
+   "luogo": "Cimitero di San Martino",
+   "categoria": "Natura ed escursioni",
+   "fonte": "Ente Parchi, Parco Storico di Monte Sole",
+   "link": "https://enteparchi.bo.it/parco.monte.sole/iniziativa.php?id=142862",
+   "fonti": [
+    {
+     "fonte": "Ente Parchi, Parco Storico di Monte Sole",
+     "link": "https://enteparchi.bo.it/parco.monte.sole/iniziativa.php?id=142862"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/fdd0a582f7766fec.jpg",
+   "da_verificare": false
   },
   {
    "id": "320a8e032a6515c2",
@@ -2029,7 +2688,169 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/eff61801a1da99c7.jpg"
+   "immagine": "img/eff61801a1da99c7.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "480c11e61e34d87d",
+   "titolo": "Clarinetto e pianoforte tra le opere di Ontani",
+   "inizio": "2026-12-13",
+   "fine": "2026-12-13",
+   "ora": "16:00",
+   "comune": "Vergato",
+   "comune_amministrativo": "Vergato",
+   "localita": "Vergato",
+   "luogo": "MuseOntani, Piazza Capitani della Montagna 1",
+   "categoria": "Musica e spettacoli",
+   "fonte": "Comune di Vergato",
+   "link": "https://www.comune.vergato.bo.it/vivere-il-comune/eventi/evento-culturale/musica-museo-sconfinare",
+   "fonti": [
+    {
+     "fonte": "Comune di Vergato",
+     "link": "https://www.comune.vergato.bo.it/vivere-il-comune/eventi/evento-culturale/musica-museo-sconfinare"
+    }
+   ],
+   "giorni": [],
+   "immagine": "",
+   "da_verificare": false
+  },
+  {
+   "id": "d895006b83de198c",
+   "titolo": "Escursione sulla dorsale del Monte di Stagno",
+   "inizio": "2026-12-13",
+   "fine": "2026-12-13",
+   "ora": "09:30",
+   "comune": "Brasimone",
+   "comune_amministrativo": "Camugnano",
+   "localita": "Brasimone",
+   "luogo": "Parcheggio chiesa di Santa Rita",
+   "categoria": "Natura ed escursioni",
+   "fonte": "Ente Parchi, Parco dei Laghi di Suviana e Brasimone",
+   "link": "https://enteparchi.bo.it/parco.suviana.brasimone/iniziativa.php?id=142864",
+   "fonti": [
+    {
+     "fonte": "Ente Parchi, Parco dei Laghi di Suviana e Brasimone",
+     "link": "https://enteparchi.bo.it/parco.suviana.brasimone/iniziativa.php?id=142864"
+    }
+   ],
+   "giorni": [],
+   "immagine": "",
+   "da_verificare": false
+  },
+  {
+   "id": "311473f1519846e3",
+   "titolo": "Laboratorio natalizio per bambini in biblioteca",
+   "inizio": "2026-12-13",
+   "fine": "2026-12-13",
+   "ora": "16:30",
+   "comune": "Porretta Terme",
+   "comune_amministrativo": "Alto Reno Terme",
+   "localita": "Porretta Terme",
+   "luogo": "Biblioteca di Porretta Terme",
+   "categoria": "Bambini e famiglie",
+   "fonte": "Biblioteche della montagna bolognese",
+   "link": "https://bibliotechemontagnabolognese.it/sassolini-2026-27/",
+   "fonti": [
+    {
+     "fonte": "Biblioteche della montagna bolognese",
+     "link": "https://bibliotechemontagnabolognese.it/sassolini-2026-27/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/a5b8d16586a985b6.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "b0ff475a44566db4",
+   "titolo": "Passeggiata invernale per famiglie con leggende",
+   "inizio": "2026-12-13",
+   "fine": "2026-12-13",
+   "ora": "10:00",
+   "comune": "Madonna dell'Acero",
+   "comune_amministrativo": "Lizzano in Belvedere",
+   "localita": "Madonna dell'Acero",
+   "luogo": "Santuario della Madonna dell'Acero",
+   "categoria": "Bambini e famiglie",
+   "fonte": "Ente Parchi, Parco del Corno alle Scale",
+   "link": "https://enteparchi.bo.it/parco.corno.scale/iniziativa.php?id=142887",
+   "fonti": [
+    {
+     "fonte": "Ente Parchi, Parco del Corno alle Scale",
+     "link": "https://enteparchi.bo.it/parco.corno.scale/iniziativa.php?id=142887"
+    }
+   ],
+   "giorni": [],
+   "immagine": "",
+   "da_verificare": false
+  },
+  {
+   "id": "90dc871781b26efe",
+   "titolo": "Laboratorio natalizio di musica e danza per bambini",
+   "inizio": "2026-12-19",
+   "fine": "2026-12-19",
+   "ora": "10:00",
+   "comune": "Marzabotto",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Marzabotto",
+   "luogo": "Sala Polivalente della Biblioteca di Marzabotto",
+   "categoria": "Bambini e famiglie",
+   "fonte": "News Informa Famiglie Emilia-Romagna",
+   "link": "https://www.regione.emilia-romagna.it/",
+   "fonti": [
+    {
+     "fonte": "News Informa Famiglie Emilia-Romagna",
+     "link": "https://www.regione.emilia-romagna.it/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/66792f8677c2d151.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "ee0a3828f94e54b6",
+   "titolo": "Tramonto del solstizio sul Monte Pizzo",
+   "inizio": "2026-12-20",
+   "fine": "2026-12-20",
+   "ora": "14:00",
+   "comune": "Vidiciatico",
+   "comune_amministrativo": "Lizzano in Belvedere",
+   "localita": "Vidiciatico",
+   "luogo": "Parcheggio località Budiara",
+   "categoria": "Natura ed escursioni",
+   "fonte": "Ente Parchi, Parco del Corno alle Scale",
+   "link": "https://enteparchi.bo.it/parco.corno.scale/iniziativa.php?id=142867",
+   "fonti": [
+    {
+     "fonte": "Ente Parchi, Parco del Corno alle Scale",
+     "link": "https://enteparchi.bo.it/parco.corno.scale/iniziativa.php?id=142867"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/2dbc3cafa43b5ebb.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "b68eb3322f67ee14",
+   "titolo": "Camminata invernale da Marzabotto a Pian di Venola",
+   "inizio": "2026-12-27",
+   "fine": "2026-12-27",
+   "ora": "09:00",
+   "comune": "Marzabotto",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Marzabotto",
+   "luogo": "Stazione ferroviaria di Marzabotto",
+   "categoria": "Natura ed escursioni",
+   "fonte": "Ente Parchi, Parco Storico di Monte Sole",
+   "link": "https://enteparchi.bo.it/parco.monte.sole/iniziativa.php?id=142868",
+   "fonti": [
+    {
+     "fonte": "Ente Parchi, Parco Storico di Monte Sole",
+     "link": "https://enteparchi.bo.it/parco.monte.sole/iniziativa.php?id=142868"
+    }
+   ],
+   "giorni": [],
+   "immagine": "",
+   "da_verificare": false
   },
   {
    "id": "6c38bd2310ff26bd",
@@ -2051,7 +2872,132 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/0a0e20ef13358bef.jpg"
+   "immagine": "img/0a0e20ef13358bef.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "d5255c2c137e999b",
+   "titolo": "Escursione invernale alle cascate del Dardagna",
+   "inizio": "2026-12-29",
+   "fine": "2026-12-29",
+   "ora": "09:45",
+   "comune": "Madonna dell'Acero",
+   "comune_amministrativo": "Lizzano in Belvedere",
+   "localita": "Madonna dell'Acero",
+   "luogo": "Parcheggio Centro Visita Pian d'Ivo",
+   "categoria": "Natura ed escursioni",
+   "fonte": "Ente Parchi, Parco del Corno alle Scale",
+   "link": "https://enteparchi.bo.it/parco.corno.scale/iniziativa.php?id=142869",
+   "fonti": [
+    {
+     "fonte": "Ente Parchi, Parco del Corno alle Scale",
+     "link": "https://enteparchi.bo.it/parco.corno.scale/iniziativa.php?id=142869"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/0e003eb160e0294c.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "6119e79d44f90368",
+   "titolo": "Escursione invernale nei boschi del parco",
+   "inizio": "2027-01-03",
+   "fine": "2027-01-03",
+   "ora": "09:30",
+   "comune": "Brasimone",
+   "comune_amministrativo": "Camugnano",
+   "localita": "Brasimone",
+   "luogo": "Parcheggio chiesa di Santa Rita",
+   "categoria": "Natura ed escursioni",
+   "fonte": "Ente Parchi, Parco dei Laghi di Suviana e Brasimone",
+   "link": "https://enteparchi.bo.it/parco.suviana.brasimone/iniziativa.php?id=142870",
+   "fonti": [
+    {
+     "fonte": "Ente Parchi, Parco dei Laghi di Suviana e Brasimone",
+     "link": "https://enteparchi.bo.it/parco.suviana.brasimone/iniziativa.php?id=142870"
+    }
+   ],
+   "giorni": [],
+   "immagine": "",
+   "da_verificare": false
+  },
+  {
+   "id": "1bdf3060cf9de3bc",
+   "titolo": "Escursione dell'Epifania dedicata al lupo",
+   "inizio": "2027-01-06",
+   "fine": "2027-01-06",
+   "ora": "09:45",
+   "comune": "Vidiciatico",
+   "comune_amministrativo": "Lizzano in Belvedere",
+   "localita": "Vidiciatico",
+   "luogo": "Parcheggio località Budiara",
+   "categoria": "Natura ed escursioni",
+   "fonte": "Ente Parchi, Parco del Corno alle Scale",
+   "link": "https://enteparchi.bo.it/parco.corno.scale/iniziativa.php?id=142880",
+   "fonti": [
+    {
+     "fonte": "Ente Parchi, Parco del Corno alle Scale",
+     "link": "https://enteparchi.bo.it/parco.corno.scale/iniziativa.php?id=142880"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/d5c6c03d2616a4d0.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "444fbb2061dc7f4e",
+   "titolo": "Assaggi di teatro per ragazzi",
+   "inizio": "2027-01-10",
+   "fine": "2027-01-17",
+   "ora": "16:30",
+   "comune": "Porretta Terme",
+   "comune_amministrativo": "Alto Reno Terme",
+   "localita": "Porretta Terme",
+   "luogo": "Biblioteca di Porretta Terme",
+   "categoria": "Bambini e famiglie",
+   "fonte": "Biblioteche della montagna bolognese",
+   "link": "https://bibliotechemontagnabolognese.it/sassolini-2026-27/",
+   "fonti": [
+    {
+     "fonte": "Biblioteche della montagna bolognese",
+     "link": "https://bibliotechemontagnabolognese.it/sassolini-2026-27/"
+    }
+   ],
+   "giorni": [
+    {
+     "data": "2027-01-10",
+     "orari": "16:30"
+    },
+    {
+     "data": "2027-01-17",
+     "orari": "16:30"
+    }
+   ],
+   "immagine": "img/a5b8d16586a985b6.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "4b9f3ff02087fd29",
+   "titolo": "Echi mediterranei tra musica e arte al museo",
+   "inizio": "2027-01-10",
+   "fine": "2027-01-10",
+   "ora": "16:00",
+   "comune": "Vergato",
+   "comune_amministrativo": "Vergato",
+   "localita": "Vergato",
+   "luogo": "MuseOntani, Piazza Capitani della Montagna 1",
+   "categoria": "Musica e spettacoli",
+   "fonte": "Comune di Vergato",
+   "link": "https://www.comune.vergato.bo.it/vivere-il-comune/eventi/evento-culturale/musica-museo-arte",
+   "fonti": [
+    {
+     "fonte": "Comune di Vergato",
+     "link": "https://www.comune.vergato.bo.it/vivere-il-comune/eventi/evento-culturale/musica-museo-arte"
+    }
+   ],
+   "giorni": [],
+   "immagine": "",
+   "da_verificare": false
   },
   {
    "id": "f6a4ba4a5b674bb1",
@@ -2073,7 +3019,77 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/8b04e73cfd9f7a0a.jpg"
+   "immagine": "img/8b04e73cfd9f7a0a.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "b88053b5dd351a67",
+   "titolo": "Appennino incantato per i più piccoli",
+   "inizio": "2027-01-24",
+   "fine": "2027-01-24",
+   "ora": "16:30",
+   "comune": "Porretta Terme",
+   "comune_amministrativo": "Alto Reno Terme",
+   "localita": "Porretta Terme",
+   "luogo": "Biblioteca di Porretta Terme",
+   "categoria": "Bambini e famiglie",
+   "fonte": "Biblioteche della montagna bolognese",
+   "link": "https://bibliotechemontagnabolognese.it/sassolini-2026-27/",
+   "fonti": [
+    {
+     "fonte": "Biblioteche della montagna bolognese",
+     "link": "https://bibliotechemontagnabolognese.it/sassolini-2026-27/"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/a5b8d16586a985b6.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "350572d0f0f8112b",
+   "titolo": "Cascate ghiacciate del Dardagna per famiglie",
+   "inizio": "2027-01-24",
+   "fine": "2027-01-24",
+   "ora": "10:00",
+   "comune": "Madonna dell'Acero",
+   "comune_amministrativo": "Lizzano in Belvedere",
+   "localita": "Madonna dell'Acero",
+   "luogo": "Santuario della Madonna dell'Acero",
+   "categoria": "Bambini e famiglie",
+   "fonte": "Ente Parchi, Parco del Corno alle Scale",
+   "link": "https://enteparchi.bo.it/parco.corno.scale/iniziativa.php?id=142888",
+   "fonti": [
+    {
+     "fonte": "Ente Parchi, Parco del Corno alle Scale",
+     "link": "https://enteparchi.bo.it/parco.corno.scale/iniziativa.php?id=142888"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/66b1cc6f5553a090.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "c0c9e351cc4f3e3a",
+   "titolo": "Musica e arte tra Occidente e Oriente",
+   "inizio": "2027-01-24",
+   "fine": "2027-01-24",
+   "ora": "16:00",
+   "comune": "Vergato",
+   "comune_amministrativo": "Vergato",
+   "localita": "Vergato",
+   "luogo": "MuseOntani, Piazza Capitani della Montagna 1",
+   "categoria": "Musica e spettacoli",
+   "fonte": "Comune di Vergato",
+   "link": "https://www.comune.vergato.bo.it/vivere-il-comune/eventi/evento-culturale/musica-museo-intreccio",
+   "fonti": [
+    {
+     "fonte": "Comune di Vergato",
+     "link": "https://www.comune.vergato.bo.it/vivere-il-comune/eventi/evento-culturale/musica-museo-intreccio"
+    }
+   ],
+   "giorni": [],
+   "immagine": "",
+   "da_verificare": false
   },
   {
    "id": "1d06baf8ad8bcc03",
@@ -2095,7 +3111,8 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/8b04e73cfd9f7a0a.jpg"
+   "immagine": "img/8b04e73cfd9f7a0a.jpg",
+   "da_verificare": false
   },
   {
    "id": "f676f67c791a7ddb",
@@ -2117,7 +3134,54 @@
     }
    ],
    "giorni": [],
-   "immagine": "img/8b04e73cfd9f7a0a.jpg"
+   "immagine": "img/8b04e73cfd9f7a0a.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "c0c15e45a2ad7806",
+   "titolo": "Passeggiata per famiglie alla scoperta del lupo",
+   "inizio": "2027-02-21",
+   "fine": "2027-02-21",
+   "ora": "10:00",
+   "comune": "Monte Sole",
+   "comune_amministrativo": "Marzabotto",
+   "localita": "Monte Sole",
+   "luogo": "Il Poggiolo - Rifugio Re-esistente, Via San Martino 25",
+   "categoria": "Bambini e famiglie",
+   "fonte": "Ente Parchi, Parco Storico di Monte Sole",
+   "link": "https://enteparchi.bo.it/parco.monte.sole/iniziativa.php?id=142890",
+   "fonti": [
+    {
+     "fonte": "Ente Parchi, Parco Storico di Monte Sole",
+     "link": "https://enteparchi.bo.it/parco.monte.sole/iniziativa.php?id=142890"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/644002ac3baa2320.jpg",
+   "da_verificare": false
+  },
+  {
+   "id": "5c6f4cc77b9d56d7",
+   "titolo": "Escursione famiglie alle cascate ghiacciate del Dardagna",
+   "inizio": "2027-03-14",
+   "fine": "2027-03-14",
+   "ora": "10:00",
+   "comune": "Madonna dell'Acero",
+   "comune_amministrativo": "Lizzano in Belvedere",
+   "localita": "Madonna dell'Acero",
+   "luogo": "Santuario della Madonna dell'Acero",
+   "categoria": "Natura ed escursioni",
+   "fonte": "Ente Parchi, Parco del Corno alle Scale",
+   "link": "https://enteparchi.bo.it/parco.corno.scale/iniziativa.php?id=142891",
+   "fonti": [
+    {
+     "fonte": "Ente Parchi, Parco del Corno alle Scale",
+     "link": "https://enteparchi.bo.it/parco.corno.scale/iniziativa.php?id=142891"
+    }
+   ],
+   "giorni": [],
+   "immagine": "img/66b1cc6f5553a090.jpg",
+   "da_verificare": false
   }
  ]
 }
