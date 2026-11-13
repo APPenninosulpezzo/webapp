@@ -1,5 +1,5 @@
 window.DATI_EVENTI = {
- "aggiornato": "2026-11-13 07:05",
+ "aggiornato": "2026-11-13 08:09",
  "eventi": [
   {
    "id": "a5bf8615b3c5b5a5",
@@ -774,33 +774,14 @@ window.DATI_EVENTI = {
     {
      "fonte": "IsSEC",
      "link": "https://issec.bo.it/vivere-il-comune/eventi/sapori-dautunno-a-qualto-14-e-15-novembre-2026/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/c60672f1438bdce2.jpg",
-   "da_verificare": false
-  },
-  {
-   "id": "87f4bdc7be044652",
-   "titolo": "Sapori d'autunno tra castagne e tartufo",
-   "inizio": "2026-11-14",
-   "fine": "2026-11-15",
-   "ora": "10:00",
-   "comune": "Qualto",
-   "comune_amministrativo": "San Benedetto Val di Sambro",
-   "localita": "Qualto",
-   "luogo": "Via Fonte, Qualto (San Benedetto Val di Sambro)",
-   "categoria": "Feste e sagre",
-   "fonte": "Comune di San Benedetto Val di Sambro",
-   "link": "https://www.comune.sanbenedettovaldisambro.bo.it/vivere-il-comune/eventi/eventi-di-affare-o-commerciale/lautunno-ha-un-sapore-speciale-e-questo-fine-settimana-lo-troviamo-a-qualto",
-   "fonti": [
+    },
     {
      "fonte": "Comune di San Benedetto Val di Sambro",
      "link": "https://www.comune.sanbenedettovaldisambro.bo.it/vivere-il-comune/eventi/eventi-di-affare-o-commerciale/lautunno-ha-un-sapore-speciale-e-questo-fine-settimana-lo-troviamo-a-qualto"
     }
    ],
    "giorni": [],
-   "immagine": "img/405e8efdb96e8365.jpg",
+   "immagine": "img/c60672f1438bdce2.jpg",
    "da_verificare": false
   },
   {
@@ -1361,7 +1342,7 @@ window.DATI_EVENTI = {
    "da_verificare": false
   },
   {
-   "id": "7f46226faec4f769",
+   "id": "f6e1d4c6be0661b3",
    "titolo": "Escursione nel foliage tra faggete e mulini",
    "inizio": "2026-11-21",
    "fine": "2026-11-21",
@@ -1377,33 +1358,14 @@ window.DATI_EVENTI = {
     {
      "fonte": "IsSEC",
      "link": "https://issec.bo.it/vivere-il-comune/eventi/foliage-a-monteacuto-delle-alpi-21-novembre-2026/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "img/fda51d074b9ca40a.jpg",
-   "da_verificare": false
-  },
-  {
-   "id": "f6e1d4c6be0661b3",
-   "titolo": "Escursione tra i faggi in autunno",
-   "inizio": "2026-11-21",
-   "fine": "2026-11-21",
-   "ora": "09:30",
-   "comune": "Monteacuto delle Alpi",
-   "comune_amministrativo": "Lizzano in Belvedere",
-   "localita": "Monteacuto delle Alpi",
-   "luogo": "Parcheggio basso di Monteacuto delle Alpi",
-   "categoria": "Natura ed escursioni",
-   "fonte": "eXtraBO",
-   "link": "https://extrabo.com/it/attivita/la-magia-del-foliage-tra-faggete-mulini-e-borghi-foliage-tour/",
-   "fonti": [
+    },
     {
      "fonte": "eXtraBO",
      "link": "https://extrabo.com/it/attivita/la-magia-del-foliage-tra-faggete-mulini-e-borghi-foliage-tour/"
     }
    ],
    "giorni": [],
-   "immagine": "img/513fdd7967404407.jpg",
+   "immagine": "img/fda51d074b9ca40a.jpg",
    "da_verificare": false
   },
   {
@@ -1791,29 +1753,6 @@ window.DATI_EVENTI = {
    "da_verificare": false
   },
   {
-   "id": "5e569463ae782646",
-   "titolo": "Proiezione del film C'è ancora domani",
-   "inizio": "2026-11-22",
-   "fine": "2026-11-22",
-   "ora": "17:30",
-   "comune": "Marzabotto",
-   "comune_amministrativo": "Marzabotto",
-   "localita": "Marzabotto",
-   "luogo": "Teatro Comunale",
-   "categoria": "Musica e spettacoli",
-   "fonte": "IsSEC",
-   "link": "https://issec.bo.it/vivere-il-comune/eventi/marzabotto-eventi-contro-la-violenza-sulle-donne-2026/",
-   "fonti": [
-    {
-     "fonte": "IsSEC",
-     "link": "https://issec.bo.it/vivere-il-comune/eventi/marzabotto-eventi-contro-la-violenza-sulle-donne-2026/"
-    }
-   ],
-   "giorni": [],
-   "immagine": "",
-   "da_verificare": false
-  },
-  {
    "id": "413395f48db05053",
    "titolo": "Proiezione gratuita del film di Cortellesi",
    "inizio": "2026-11-22",
@@ -1830,6 +1769,10 @@ window.DATI_EVENTI = {
     {
      "fonte": "Comune di Marzabotto",
      "link": "https://www.comune.marzabotto.bo.it/vivere-il-comune/eventi/evento-culturale/ce-ancora-domani"
+    },
+    {
+     "fonte": "IsSEC",
+     "link": "https://issec.bo.it/vivere-il-comune/eventi/marzabotto-eventi-contro-la-violenza-sulle-donne-2026/"
     }
    ],
    "giorni": [],
@@ -2140,29 +2083,6 @@ window.DATI_EVENTI = {
    "da_verificare": false
   },
   {
-   "id": "db4e0d7b0e7cabce",
-   "titolo": "Laboratorio di musica e racconto in biblioteca",
-   "inizio": "2026-11-28",
-   "fine": "2026-11-28",
-   "ora": "10:30",
-   "comune": "Marzabotto",
-   "comune_amministrativo": "Marzabotto",
-   "localita": "Marzabotto",
-   "luogo": "Biblioteca comunale",
-   "categoria": "Bambini e famiglie",
-   "fonte": "News Informa Famiglie Emilia-Romagna",
-   "link": "https://www.informafamiglie.it/appennino-bolognese/newsletter/canale-del-centro-per-le-famiglie-appennino-bolognese/copy10_of_newsletter-n-8-febbraio-2026/volantino-ti-suono-una-storia.png",
-   "fonti": [
-    {
-     "fonte": "News Informa Famiglie Emilia-Romagna",
-     "link": "https://www.informafamiglie.it/appennino-bolognese/newsletter/canale-del-centro-per-le-famiglie-appennino-bolognese/copy10_of_newsletter-n-8-febbraio-2026/volantino-ti-suono-una-storia.png"
-    }
-   ],
-   "giorni": [],
-   "immagine": "https://www.informafamiglie.it/appennino-bolognese/newsletter/canale-del-centro-per-le-famiglie-appennino-bolognese/copy10_of_newsletter-n-8-febbraio-2026/volantino-ti-suono-una-storia.png",
-   "da_verificare": false
-  },
-  {
    "id": "377de534e0f202a1",
    "titolo": "Laboratorio musicale per bimbi in biblioteca",
    "inizio": "2026-11-28",
@@ -2179,6 +2099,10 @@ window.DATI_EVENTI = {
     {
      "fonte": "IsSEC",
      "link": "https://issec.bo.it/vivere-il-comune/eventi/ti-suono-una-storia-a-marzabotto-28-novembre-2026/"
+    },
+    {
+     "fonte": "News Informa Famiglie Emilia-Romagna",
+     "link": "https://www.informafamiglie.it/appennino-bolognese/newsletter/canale-del-centro-per-le-famiglie-appennino-bolognese/copy10_of_newsletter-n-8-febbraio-2026/volantino-ti-suono-una-storia.png"
     }
    ],
    "giorni": [],
@@ -2803,7 +2727,7 @@ window.DATI_EVENTI = {
     }
    ],
    "giorni": [],
-   "immagine": "img/66792f8677c2d151.jpg",
+   "immagine": "",
    "da_verificare": false
   },
   {
